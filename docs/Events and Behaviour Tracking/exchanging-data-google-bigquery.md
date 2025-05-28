@@ -18,9 +18,9 @@ Integrating Yespo with Google BigQuery opens up a world of data-driven possibili
 
 Exporting data from Yespo to BigQuery unlocks powerful analytics and insights to guide strategic decisions. With BigQuery’s processing capabilities, brands can:
 
-- Assess campaign performance with detailed metrics,
-- Optimize multi-channel attribution,
-- Enhance segmentation and behavioral targeting.
+* Assess campaign performance with detailed metrics,
+* Optimize multi-channel attribution,
+* Enhance segmentation and behavioral targeting.
 
 These data-driven insights help brands understand customer journeys, ROI, and retention trends, providing the knowledge needed to optimize content, offers, and targeting for improved engagement and higher revenue.
 
