@@ -17,11 +17,11 @@ To add a new contact use data streaming in JSON format via Public API.
 Use the [Add Contact](https://docs.yespo.io/reference/addcontact-1) method to create the user's profile to an account or update an existing one.
 
 > 📘 Note
-> 
-> - This method doesn't generate [events](https://docs.yespo.io/docs/events-and-behaviour-tracking), so you won't use it to launch workflows.
-> - Using the specified methods, contacts with email addresses will be created as confirmed, as [imported from a file](https://docs.yespo.io/docs/file-uploading). It doesn't allow [configuring double opt-in](https://docs.yespo.io/docs/subscription-form-configuration).
-> - If you want to store some custom information about your users, create [additional fields](https://docs.yespo.io/docs/how-add-additional-contact-fields) before uploading contacts.
-> - For adding/updating bulk of contacts use the [Add Contacts](https://docs.yespo.io/reference/contactsbulkupdate-1) method. This resource allows adding/updating up to 3000 contacts with one request.
+>
+> * This method doesn't generate [events](https://docs.yespo.io/docs/events-and-behaviour-tracking), so you won't use it to launch workflows.
+> * Using the specified methods, contacts with email addresses will be created as confirmed, as [imported from a file](https://docs.yespo.io/docs/file-uploading). It doesn't allow [configuring double opt-in](https://docs.yespo.io/docs/subscription-form-configuration).
+> * If you want to store some custom information about your users, create [additional fields](https://docs.yespo.io/docs/how-add-additional-contact-fields) before uploading contacts.
+> * For adding/updating bulk of contacts use the [Add Contacts](https://docs.yespo.io/reference/contactsbulkupdate-1) method. This resource allows adding/updating up to 3000 contacts with one request.
 
 ## JSON sample of request body
 
@@ -75,9 +75,9 @@ Letters of any alphabet (unicode) and up to 3 digits are allowed.
 
 Special characters are prohibited, except:
 
-- apostrophes in the middle of a word
-- hyphens in the middle of a word or between words without spaces
-- a dot at the end of a short (up to 3 characters) word (for example, Jr.)
+* apostrophes in the middle of a word
+* hyphens in the middle of a word or between words without spaces
+* a dot at the end of a short (up to 3 characters) word (for example, Jr.)
 
 It is allowed to use 3 words of more than 3 characters and 3 words of a maximum of 3 characters. Names exclusively composed of numbers and/or special characters are prohibited.
 
