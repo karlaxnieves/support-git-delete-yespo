@@ -21,146 +21,41 @@ In email campaigns, rollover helps implement interactivity and can make the mess
 1. [Create a new email](https://docs.yespo.io/docs/compose-email) or open an existing one.
 2. Select a place for the rollover in [the email structure](https://docs.yespo.io/docs/adaptive-email-builder-review#structures): go to the [Image block](https://docs.yespo.io/docs/working-images-block) and drag it to the required place.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/83a5167b705a72ad4aa6caf903e4969ebc1a00020004b1e074cdae19750c82a1-adding-a-rollover-001.webp",
-        "Adding an image block",
-        "Adding an image block"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/83a5167b705a72ad4aa6caf903e4969ebc1a00020004b1e074cdae19750c82a1-adding-a-rollover-001.webp" />
 
 Prepare two images in PNG, JPG or GIF format. Not more than 3 MB or 4000 x 4000 px.
 
 > 📘 Important
-> 
+>
 > Both images must have the same width-to-height ratio; otherwise, the layout of the email may be broken when hovering over it.
 
 One of the two images will be displayed independently of the cursor's position, while the second will appear when user hovers the cursor over the image.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ce48aa8d77710e63a70acc288559bac50e9f096cc3f6b9ffaef0889c07f44359-adding-a-rollover-002.gif",
-        "Displaying images",
-        "Displaying images"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/ce48aa8d77710e63a70acc288559bac50e9f096cc3f6b9ffaef0889c07f44359-adding-a-rollover-002.gif" />
 
+3. Clik on the *Image* block and upload the main image, which will be displayed without hovering over and in static emails. 
 
-3. Clik on the _Image_ block and upload the main image, which will be displayed without hovering over and in static emails. 
+<Image align="center" width="80% " src="https://files.readme.io/98b5a9ff605fc77bfaeba4d0d143e1dea604e794f98695d421d4b7a500669189-adding-a-rollover-003.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/98b5a9ff605fc77bfaeba4d0d143e1dea604e794f98695d421d4b7a500669189-adding-a-rollover-003.webp",
-        "Uploading the main image",
-        "Uploading the main image"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+4. Activate the *Rollover effect* switcher.
 
-
-4. Activate the _Rollover effect_ switcher.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e7baaee5dc65ebeab6d18e9fea82073499866bdfc6bb31baecae6062b33813e2-adding-a-rollover-004.webp",
-        "Activating the rollover effect switcher",
-        "Activating the rollover effect switcher"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/e7baaee5dc65ebeab6d18e9fea82073499866bdfc6bb31baecae6062b33813e2-adding-a-rollover-004.webp" />
 
 5. Upload a second image that will be displayed on hover over. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/faa316da17302baca0c8fb23d77878251f1b69fe498051770f1a4bbba5d8d2c7-adding-a-rollover-005.webp",
-        "Uploading a second image",
-        "Uploading a second image"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/faa316da17302baca0c8fb23d77878251f1b69fe498051770f1a4bbba5d8d2c7-adding-a-rollover-005.webp" />
 
+6. Add a required link, alt text, and other settings for the *Image* block.
 
-6. Add a required link, alt text, and other settings for the _Image_ block.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ebdac142072955d2567f72ff3557f6c638eb5002d64de267ef1307c1cdbc61e0-adding-a-rollover-006.webp",
-        "Image block settings",
-        "Image block settings"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/ebdac142072955d2567f72ff3557f6c638eb5002d64de267ef1307c1cdbc61e0-adding-a-rollover-006.webp" />
 
 > 📘 Note
-> 
+>
 > The link to the image and the alternative text are the same and are set only once after uploading the second picture.
 
 The email in the mail client looks like this:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/11d8ebc02209ab380b8e1aa45a9ce9429bb55040c28da888216178c629ff5cee-adding-a-rollover-007.gif",
-        "Email in the mail client",
-        "Email in the mail client"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/11d8ebc02209ab380b8e1aa45a9ce9429bb55040c28da888216178c629ff5cee-adding-a-rollover-007.gif" />
 
 ## Rollover Features
 
