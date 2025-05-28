@@ -34,5 +34,5 @@ Even a specialist without technical skills can set up automated notification sen
 Import templates to Yespo as `HTML` code or as Stripo templates. 
 
 > 📘 The tip
-> 
+>
 > Use [account roles](https://docs.yespo.io/docs/user-management) to speed up the migration process from another platform. While you're working with your contact base, your designer can transfer email templates at the same time.
