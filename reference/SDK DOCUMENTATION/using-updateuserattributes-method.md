@@ -25,10 +25,10 @@ Sending the user ID will ensure the correct matching and up-to-dateness of the u
 
 Each SDK type has a particular way of sending user ID; see instructions below:
 
-- [iOS >](https://docs.yespo.io/reference/ios-user-information#external-user-id)
-- [Android >](https://docs.yespo.io/reference/android-user-information#external-user-id)
-- [React Native >](https://docs.yespo.io/reference/react-native-user-information#external-user-id)
-- [Flutter >](https://docs.yespo.io/reference/flutter-user-information#adding-external-user-id)
-- [Unity >](https://docs.yespo.io/reference/unity-user-information#adding-external-user-id)
-- [Cordova >](https://docs.yespo.io/reference/cordova-sdk-setup)
-- [Ionic >](https://docs.yespo.io/reference/ionic-sdk)
+* [iOS >](https://docs.yespo.io/reference/ios-user-information#external-user-id)
+* [Android >](https://docs.yespo.io/reference/android-user-information#external-user-id)
+* [React Native >](https://docs.yespo.io/reference/react-native-user-information#external-user-id)
+* [Flutter >](https://docs.yespo.io/reference/flutter-user-information#adding-external-user-id)
+* [Unity >](https://docs.yespo.io/reference/unity-user-information#adding-external-user-id)
+* [Cordova >](https://docs.yespo.io/reference/cordova-sdk-setup)
+* [Ionic >](https://docs.yespo.io/reference/ionic-sdk)
