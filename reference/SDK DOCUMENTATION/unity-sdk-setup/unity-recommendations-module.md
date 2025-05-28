@@ -18,8 +18,8 @@ The Recommendations module provides product recommendations based on user behavi
 
 ## How It Works
 
-- **GetRecommendations**: Retrieve product recommendations by providing a recommendation variant ID, a list of product IDs, a category ID, filters, and required fields.
-- **LogRecommendations**: Log events related to recommendations, such as impressions and clicks.
+* **GetRecommendations**: Retrieve product recommendations by providing a recommendation variant ID, a list of product IDs, a category ID, filters, and required fields.
+* **LogRecommendations**: Log events related to recommendations, such as impressions and clicks.
 
 ## Code Samples
 
@@ -93,5 +93,5 @@ public class LogRecommendationExample : MonoBehaviour
 
 ### Additional Tips:
 
-- Asynchronous Callbacks: Handle the callback from GetRecommendations carefully to update your UI or further process the recommendation data.
-- Logging Events: Log both impressions and clicks to analyze user interaction with recommended products.
+* Asynchronous Callbacks: Handle the callback from GetRecommendations carefully to update your UI or further process the recommendation data.
+* Logging Events: Log both impressions and clicks to analyze user interaction with recommended products.
