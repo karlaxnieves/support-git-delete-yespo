@@ -30,22 +30,7 @@ Create a [dynamic segment](https://docs.esputnik.com/docs/creating-dynamic-segme
 
 During the next session of such a user, an In-App message appears, highlighting the benefits of enabling mobile push notifications for timely updates and exclusive offers, encouraging the user to opt in for a more personalized experience.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/03753c433927bc05aebad3f8250d345cfc09bf1be1b2d53faa1e97bb95f4b610-in-app-1.webp",
-        "Push Notification Opt-In",
-        "Push Notification Opt-In"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/03753c433927bc05aebad3f8250d345cfc09bf1be1b2d53faa1e97bb95f4b610-in-app-1.webp" />
 
 ## 2. Feature Highlighting
 
@@ -59,22 +44,7 @@ Create dynamic segments with conditions specifying user segments that haven't us
 
 With contextual messaging, your app guides such users through key features, facilitating a smooth onboarding and creating a new, savvy app fan ready to spend with you.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ad12826d84dbd083d7124d268dd1c45231bc0a64e4f566a2474d13e9c47d0f3f-in-app-2.webp",
-        "Feature Highlighting",
-        "Feature Highlighting"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/ad12826d84dbd083d7124d268dd1c45231bc0a64e4f566a2474d13e9c47d0f3f-in-app-2.webp" />
 
 ## 3. Exclusive Discount
 
@@ -88,22 +58,7 @@ Create a dynamic segment with conditions that specify new consumers who haven't 
 
 As the user scrolls through the app, a targeted In-App message offers an exclusive first-purchase discount to entice them to convert.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8015c9e8f1367f77372b0343db79ccb792611cd03387ec364d1c5bc232603ff4-in-app-3.webp",
-        "Exclusive Discount",
-        "Exclusive Discount"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/8015c9e8f1367f77372b0343db79ccb792611cd03387ec364d1c5bc232603ff4-in-app-3.webp" />
 
 ## 4. Product Of The Day
 
@@ -117,22 +72,7 @@ Create a dynamic segment with conditions that specify the target audience's prod
 
 Your app delivers a “product of the day” message generated based on the user's previous screen views or purchase history, overcoming the decision challenge and increasing the likelihood of a successful purchase.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fba567844fb8c1922081bc04d9c406d1bba73184b93e1fd7d6f618f9745be867-in-app-4.webp",
-        "Product Of The Day",
-        "Product Of The Day"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/fba567844fb8c1922081bc04d9c406d1bba73184b93e1fd7d6f618f9745be867-in-app-4.webp" />
 
 ## 5. Social Sharing
 
@@ -146,22 +86,7 @@ Create a dynamic segment with conditions that specify loyal users. Add this segm
 
 A targeted In-App message introduces the referral feature and highlights rewards for inviting friends, motivating the subscriber to share their experience, and potentially increasing user acquisition.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/335b3039f7cde3239ce45769285ca12b3cabfa8d606d033ccf8e00256fe9f242-in-app-5.webp",
-        "Social Sharing",
-        "Social Sharing"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/335b3039f7cde3239ce45769285ca12b3cabfa8d606d033ccf8e00256fe9f242-in-app-5.webp" />
 
 ## 6. New Feature Announcement
 
@@ -175,22 +100,7 @@ Create a dynamic segment with conditions that specify active users who haven’t
 
 Your app delivers a notification explaining how the new feature enhances the In-App experience, ensuring ongoing engagement by keeping the offering relevant to the user's evolving needs.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cf4cca1b5b11d089419688ef18d31f84eece5835eafe1886ea257a6fad6f98b8-in-app-6.webp",
-        "New Feature Announcement",
-        "New Feature Announcement"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/cf4cca1b5b11d089419688ef18d31f84eece5835eafe1886ea257a6fad6f98b8-in-app-6.webp" />
 
 ## 7. Trial Expiration Notification
 
@@ -204,22 +114,7 @@ Create a dynamic segment with conditions that specify users who have started a t
 
 An In-App pop-up a few days before trial expiration offers easy renewal with a loyalty discount or bonus to directly influence the user's decision to continue, reducing churn and ensuring a steady revenue stream.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/aab0bb0d46e5c44c543710fd21fb6fd7abf4099a00b1c4c925c56892639e3a74-in-app-7.webp",
-        "Trial Expiration Notification",
-        "Trial Expiration Notification"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/aab0bb0d46e5c44c543710fd21fb6fd7abf4099a00b1c4c925c56892639e3a74-in-app-7.webp" />
 
 ## To Sum Up
 
@@ -230,5 +125,5 @@ We hope these In-App push notification examples will help you start creating you
 [Let's start!](https://my.yespo.io/messages-ui/#/list/in-app)
 
 > 📘 Note
-> 
+>
 > Please [visit our user guide](https://docs.yespo.io/docs/in-app) if you need more information on In-App configuration.
