@@ -8,43 +8,43 @@ metadata:
 ---
 We are constantly working to improve our SDK. Here you’ll find the change log for the iOS SDK and related details.
 
-- [iOS SDK 2.5.6 Release](#2-5-6)
-- [iOS SDK 2.5.5 Release](#2-5-5)
-- [iOS SDK 2.5.4 Release](#2-5-4)
-- [iOS SDK 2.5.3 Release](#2-5-3)
-- [iOS SDK 2.5.2 Release](#2-5-2)
-- [iOS SDK 2.5.1 Release](#2-5-1)
-- [iOS SDK 2.5.0 Release](#2-5-0)
-- [iOS SDK 2.0.23 Release](#2-0-23)
-- [iOS SDK 2.0.22 Release](#2-0-22)
-- [iOS SDK 2.0.21 Release](#2-0-21)
-- [iOS SDK 2.0.20 Release](#2-0-20)
-- [iOS SDK 2.0.19 Release](#2-0-19)
-- [iOS SDK 2.0.18 Release](#2-0-18)
-- [iOS SDK 2.0.17 Release](#2-0-17)
-- [iOS SDK 2.0.16 Release](#2-0-16)
-- [iOS SDK 2.0.15 Release](#2-0-15)
-- [iOS SDK 2.0.14 Release](#2-0-14)
-- [iOS SDK 2.0.13 Release](#2-0-13)
-- [iOS SDK 2.0.12 Release](#2-0-12)
-- [iOS SDK 2.0.11 Release](#2-0-11)
-- [iOS SDK 2.0.10 Release](#2-0-10)
-- [iOS SDK 2.0.9 Release](#2-0-9)
-- [iOS SDK 2.0.8 Release](#2-0-8)
-- [iOS SDK 2.0.7 Release](#2-0-7)
-- [iOS SDK 2.0.6 Release](#2-0-6)
-- [iOS SDK 2.0.5 Release](#2-0-5)
-- [iOS SDK 2.0.4 Release](#2-0-4)
-- [iOS SDK 2.0.3 Release](#2-0-3)
-- [iOS SDK 2.0.2 Release](#2-0-2)
-- [iOS SDK 2.0.1 Release](#2-0-1)
-- [iOS SDK 2.0.0 Release](#2-0-0)
-- [iOS SDK 1.7.4 Release](#1-7-4)
-- [iOS SDK 1.7.3 Release](#1-7-3)
-- [iOS SDK 1.7.2 Release](#1-7-2)
-- [iOS SDK 1.7.1 Release](#1-7-1)
-- [iOS SDK 1.7.0 Release](#1-7-0)
-- [iOS SDK 1.6.9 Release](#1-6-9)
+* [iOS SDK 2.5.6 Release](#2-5-6)
+* [iOS SDK 2.5.5 Release](#2-5-5)
+* [iOS SDK 2.5.4 Release](#2-5-4)
+* [iOS SDK 2.5.3 Release](#2-5-3)
+* [iOS SDK 2.5.2 Release](#2-5-2)
+* [iOS SDK 2.5.1 Release](#2-5-1)
+* [iOS SDK 2.5.0 Release](#2-5-0)
+* [iOS SDK 2.0.23 Release](#2-0-23)
+* [iOS SDK 2.0.22 Release](#2-0-22)
+* [iOS SDK 2.0.21 Release](#2-0-21)
+* [iOS SDK 2.0.20 Release](#2-0-20)
+* [iOS SDK 2.0.19 Release](#2-0-19)
+* [iOS SDK 2.0.18 Release](#2-0-18)
+* [iOS SDK 2.0.17 Release](#2-0-17)
+* [iOS SDK 2.0.16 Release](#2-0-16)
+* [iOS SDK 2.0.15 Release](#2-0-15)
+* [iOS SDK 2.0.14 Release](#2-0-14)
+* [iOS SDK 2.0.13 Release](#2-0-13)
+* [iOS SDK 2.0.12 Release](#2-0-12)
+* [iOS SDK 2.0.11 Release](#2-0-11)
+* [iOS SDK 2.0.10 Release](#2-0-10)
+* [iOS SDK 2.0.9 Release](#2-0-9)
+* [iOS SDK 2.0.8 Release](#2-0-8)
+* [iOS SDK 2.0.7 Release](#2-0-7)
+* [iOS SDK 2.0.6 Release](#2-0-6)
+* [iOS SDK 2.0.5 Release](#2-0-5)
+* [iOS SDK 2.0.4 Release](#2-0-4)
+* [iOS SDK 2.0.3 Release](#2-0-3)
+* [iOS SDK 2.0.2 Release](#2-0-2)
+* [iOS SDK 2.0.1 Release](#2-0-1)
+* [iOS SDK 2.0.0 Release](#2-0-0)
+* [iOS SDK 1.7.4 Release](#1-7-4)
+* [iOS SDK 1.7.3 Release](#1-7-3)
+* [iOS SDK 1.7.2 Release](#1-7-2)
+* [iOS SDK 1.7.1 Release](#1-7-1)
+* [iOS SDK 1.7.0 Release](#1-7-0)
+* [iOS SDK 1.6.9 Release](#1-6-9)
 
 ***
 
@@ -54,7 +54,7 @@ iOS SDK 2.5.6 Release
 
 ✔️ **Fixed**
 
-- inability to update device immediately after init of SDK
+* inability to update device immediately after init of SDK
 
 <h2 id="2-5-5">
 iOS SDK 2.5.5 Release
@@ -62,8 +62,8 @@ iOS SDK 2.5.5 Release
 
 ✔️ **Fixed**
 
-- push notifications events
-- eCommerce events logging
+* push notifications events
+* eCommerce events logging
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.5.5" target="_blank"> Read more </a>
 
@@ -75,8 +75,8 @@ iOS SDK 2.5.4 Release
 
 ✔️ **Fixed**
 
-- Push notification with GIF image
-- App backgrounded event sending when app is backgrounded
+* Push notification with GIF image
+* App backgrounded event sending when app is backgrounded
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.5.4" target="_blank"> Read more </a>
 
@@ -88,7 +88,7 @@ iOS SDK 2.5.3 Release
 
 ✔️ **Fixed**
 
-- WebKit API calls on main thread
+* WebKit API calls on main thread
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.5.3" target="_blank"> Read more </a>
 
@@ -100,7 +100,7 @@ iOS SDK 2.5.2 Release
 
 🔆 **Improved**
 
-- next day schedule of in-apps
+* next day schedule of in-apps
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.5.2" target="_blank"> Read more </a>
 
@@ -112,11 +112,11 @@ iOS SDK 2.5.1 Release
 
 :rocket: **Added**
 
-- new time format to event log
+* new time format to event log
 
 ✔️ **Fixed**
 
-- unexpected session events
+* unexpected session events
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.5.1" target="_blank"> Read more </a>
 
@@ -128,12 +128,12 @@ iOS SDK 2.5.0 Release
 
 :rocket: **Added**
 
-- new In-App messages types: Pop Up, Slide Up and Bottom bar
-- possibility of interaction with URL in In-App message
+* new In-App messages types: Pop Up, Slide Up and Bottom bar
+* possibility of interaction with URL in In-App message
 
 ✔️ **Fixed**
 
-- fixed push notifications events duplication
+* fixed push notifications events duplication
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.5.0" target="_blank"> Read more </a>
 
@@ -145,7 +145,7 @@ iOS SDK 2.0.23 Release
 
 ✔️ **Fixed**
 
-- Fixed device language retrieval
+* Fixed device language retrieval
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.23" target="_blank"> Read more </a>
 
@@ -157,7 +157,7 @@ iOS SDK 2.0.22 Release
 
 ✔️ **Fixed**
 
-- Fixed issue when event-based In-App message could appear without corresponding event
+* Fixed issue when event-based In-App message could appear without corresponding event
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.22" target="_blank"> Read more </a>
 
@@ -169,7 +169,7 @@ iOS SDK 2.0.21 Release
 
 ✔️ **Fixed**
 
-- Fixed issue when some SDK users could not compile the project due to missing import
+* Fixed issue when some SDK users could not compile the project due to missing import
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.21" target="_blank"> Read more </a>
 
@@ -181,7 +181,7 @@ iOS SDK 2.0.20 Release
 
 ✔️ **Fixed**
 
-- Fixed an issue when after changing a user, the SDK returned messages of an old user
+* Fixed an issue when after changing a user, the SDK returned messages of an old user
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.20" target="_blank"> Read more </a>
 
@@ -193,7 +193,7 @@ iOS SDK 2.0.19 Release
 
 ✔️ **Fixed**
 
-- Push notification delivered status update when app is inactive
+* Push notification delivered status update when app is inactive
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.19" target="_blank"> Read more </a>
 
@@ -205,12 +205,12 @@ iOS SDK 2.0.18 Release
 
  :rocket: **Added**
 
-- New parameter `status` for App Inbox messages
+* New parameter `status` for App Inbox messages
 
 ✔️ **Fixed**
 
-- In-App window background transparency
-- `pauseInAppMessages()` call could produce an error at the start
+* In-App window background transparency
+* `pauseInAppMessages()` call could produce an error at the start
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.18" target="_blank"> Read more </a>
 
@@ -222,7 +222,7 @@ iOS SDK 2.0.17 Release
 
 ✔️ **Fixed**
 
-- set API key during delayed initialization
+* set API key during delayed initialization
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.17" target="_blank"> Read more </a>
 
@@ -234,8 +234,8 @@ iOS SDK 2.0.16 Release
 
 ✔️ **Fixed**
 
-- In-App show
-- notification for delayed initialization
+* In-App show
+* notification for delayed initialization
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.16" target="_blank"> Read more </a>
 
@@ -247,8 +247,8 @@ iOS SDK 2.0.15 Release
 
 ✔️ **Fixed**
 
-- call APIs while delayed initialization
-- `PrivacyInfo` for using lib via cocoapods & SPM
+* call APIs while delayed initialization
+* `PrivacyInfo` for using lib via cocoapods & SPM
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.15" target="_blank"> Read more </a>
 
@@ -260,7 +260,7 @@ iOS SDK 2.0.14 Release
 
 ✔️ **Fixed**
 
-- In-Apps with delayed initialization
+* In-Apps with delayed initialization
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.14" target="_blank"> Read more </a>
 
@@ -272,11 +272,11 @@ iOS SDK 2.0.13 Release
 
 :rocket: **Added**
 
-- Get recommended with raw data
+* Get recommended with raw data
 
 🔆 **Improved**
 
-- Removed redundant `Alamofire` dependency
+* Removed redundant `Alamofire` dependency
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.13" target="_blank"> Read more </a>
 
@@ -288,11 +288,11 @@ iOS SDK 2.0.12 Release
 
 :rocket: **Added**
 
-- Load images in `NotificationServiceExtension`
+* Load images in `NotificationServiceExtension`
 
 🔆 **Improved**
 
-- Stability improves
+* Stability improves
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.12" target="_blank"> Read more </a>
 
@@ -304,11 +304,11 @@ iOS SDK 2.0.11 Release
 
 :rocket: **Added**
 
-- API call get `unreadAppInbox` messages count
+* API call get `unreadAppInbox` messages count
 
 ✔️ **Fixed**
 
-- recommendations `cetegoryId` parameter
+* recommendations `cetegoryId` parameter
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.11" target="_blank"> Read more </a>
 
@@ -320,7 +320,7 @@ iOS SDK 2.0.10 Release
 
 :rocket: **Added**
 
-- Added delayed initialisation
+* Added delayed initialisation
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.10" target="_blank"> Read more </a>
 
@@ -332,7 +332,7 @@ iOS SDK 2.0.9 Release
 
 :rocket: **Added**
 
-- Added `customData` in App Inbox message
+* Added `customData` in App Inbox message
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.9" target="_blank"> Read more </a>
 
@@ -344,7 +344,7 @@ iOS SDK 2.0.8 Release
 
 ✔️ **Fixed**
 
-- Added ability to handle openURL event only with custom data
+* Added ability to handle openURL event only with custom data
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.8" target="_blank"> Read more </a>
 
@@ -356,7 +356,7 @@ iOS SDK 2.0.7 Release
 
 🚀 **Added**
 
-- PushNotificationsPermissionAsked
+* PushNotificationsPermissionAsked
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.7" target="_blank"> Read more </a>
 
@@ -368,8 +368,8 @@ iOS SDK 2.0.6 Release
 
 🔆 **Improved**
 
-- Send notification events on startup
-- InApps improves
+* Send notification events on startup
+* InApps improves
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.6" target="_blank"> Read more </a>
 
@@ -381,7 +381,7 @@ iOS SDK 2.0.5 Release
 
 🔆 **Improved**
 
-- SessionEvents stability improves
+* SessionEvents stability improves
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.5" target="_blank"> Read more </a>
 
@@ -393,11 +393,11 @@ iOS SDK 2.0.4 Release
 
 :rocket: **Added**
 
-- AppLifecycleEvents, SessionEvents, PushSubsriptionEvents
+* AppLifecycleEvents, SessionEvents, PushSubsriptionEvents
 
 🔆 **Improved**
 
-- Stability improves
+* Stability improves
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.4" target="_blank"> Read more </a>
 
@@ -409,11 +409,11 @@ iOS SDK 2.0.3 Release</h2>
 
 :rocket: **Added**
 
-- Added InApp Messages Pause Behaviour
+* Added InApp Messages Pause Behaviour
 
 :high_brightness: **Improved**
 
-- `addLinkHandler` - now receiving custom data from push notification
+* `addLinkHandler` - now receiving custom data from push notification
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.3" target="_blank"> Read more </a>
 
@@ -425,14 +425,14 @@ iOS SDK 2.0.2 Release
 
 :rocket: **Added**
 
-- Disabled tracking ScreenView events by default
-- Only last CartUpdated event will be sent now instead of batch of outdated events
-- Added “source” parameter to linkHandler that - indicating from where the link handler was triggered
+* Disabled tracking ScreenView events by default
+* Only last CartUpdated event will be sent now instead of batch of outdated events
+* Added “source” parameter to linkHandler that - indicating from where the link handler was triggered
 
 :high_brightness: **Improved**
 
-- Update Alamofire to 5.9.0
-- InApp Stability improves
+* Update Alamofire to 5.9.0
+* InApp Stability improves
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.2" target="_blank"> Read more </a>
 
@@ -444,8 +444,8 @@ iOS SDK 2.0.1 Release
 
 :rocket: **Added**
 
-- In-App messages presentation status handler
-- Privacy manifests file
+* In-App messages presentation status handler
+* Privacy manifests file
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.1" target="_blank"> Read more </a>
 
@@ -459,7 +459,7 @@ iOS SDK 2.0.0 Release
 
 :rocket: **Added**
 
-- In-App messages
+* In-App messages
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.0.0" target="_blank"> Read more </a>
 
@@ -471,11 +471,11 @@ iOS SDK 1.7.4 Release
 
 :white_check_mark: **Fixed**
 
-- Sending device request every time the application starts
+* Sending device request every time the application starts
 
 :rocket: **Added**
 
-- Mention the SDK platform in the headers
+* Mention the SDK platform in the headers
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/1.7.4" target="_blank"> Read more </a>
 
@@ -487,7 +487,7 @@ iOS SDK 1.7.3 Release
 
 :white_check_mark: **Fixed**
 
-- E-commerce: added the ability to send an empty list of products
+* E-commerce: added the ability to send an empty list of products
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/1.7.3" target="_blank"> Read more </a>
 
@@ -499,7 +499,7 @@ iOS SDK 1.7.2 Release
 
 :high_brightness: **Improved**
 
-- InApp improves
+* InApp improves
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/1.7.2" target="_blank"> Read more </a>
 
@@ -511,8 +511,8 @@ iOS SDK 1.7.1 Release
 
 :high_brightness: **Improved**
 
-- ApiRequest optimisation
-- Refactored push attachments loading
+* ApiRequest optimisation
+* Refactored push attachments loading
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/1.7.1" target="_blank"> Read more </a>
 
@@ -524,7 +524,7 @@ iOS SDK 1.7.0 Release
 
 :high_brightness: **Improved**
 
-- Stability improves: Offline issue with device request and anonymous user.
+* Stability improves: Offline issue with device request and anonymous user.
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/1.7.0" target="_blank"> Read more </a>
 
@@ -536,7 +536,7 @@ iOS SDK 1.6.9 Release
 
 :high_brightness: **Improved**
 
-- Stability improves: Fixed background task completion.
+* Stability improves: Fixed background task completion.
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/1.6.9" target="_blank"> Read more </a>
 
