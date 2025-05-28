@@ -27,3 +27,4 @@
 - addappinboxmessage
 - getappinboxmessage
 - updatebaseappinboxmessage
+- deleteappinboxmessage
