@@ -47,6 +47,6 @@ public class AppInitializer : MonoBehaviour
 
 ### Additional Tips:
 
-- Early Initialization: Ensure that RetenoSDK.Initialize is called before any other SDK methods.
-- Custom Configuration: Customize the RetenoConfiguration to fit your app’s requirements.
-- Debug Mode: Enabling debug mode can help during development by providing detailed logs.
+* Early Initialization: Ensure that RetenoSDK.Initialize is called before any other SDK methods.
+* Custom Configuration: Customize the RetenoConfiguration to fit your app’s requirements.
+* Debug Mode: Enabling debug mode can help during development by providing detailed logs.
