@@ -17,27 +17,58 @@ You can pass and save events from your website from your backend system directly
 
 To make a request, send the following parameters in the request body to `https://yespo.io/api/v2/event`:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Description",
-    "0-0": "eventTypeKey",
-    "0-1": "Required parameter. Event type ID key. If no such event type exists with such a key, a new one is created.",
-    "1-0": "keyValue",
-    "1-1": "Optional. The key of the event, which determines its uniqueness. If you don't pass a keyValue's value in the event, it is automatically taken from the request's Params object with such a priority:  \n• contactId;  \n• externalCustomerId;  \n• email;  \n• phone;  \n• pushToken (web or mobile).  \n  \nAn event without one of these parameters or a passed keyValue value is not accepted.",
-    "2-0": "params",
-    "2-1": "List of event parameters represented as an array of \"key\" - \"value\" pairs. The parameter keys are arbitrary."
-  },
-  "cols": 2,
-  "rows": 3,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        eventTypeKey
+      </td>
+
+      <td>
+        Required parameter. Event type ID key. If no such event type exists with such a key, a new one is created.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        keyValue
+      </td>
+
+      <td>
+        Optional. The key of the event, which determines its uniqueness. If you don't pass a keyValue's value in the event, it is automatically taken from the request's Params object with such a priority:\
+        • contactId;\
+        • externalCustomerId;\
+        • email;\
+        • phone;\
+        • pushToken (web or mobile).  
+
+        An event without one of these parameters or a passed keyValue value is not accepted.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        params
+      </td>
+
+      <td>
+        List of event parameters represented as an array of "key" - "value" pairs. The parameter keys are arbitrary.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 You can pass the following events:
 
@@ -93,47 +124,142 @@ The event is sent when a contact views a specific product. Such activity can be 
 
 The request example is given below. It contains the following parameters:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "phone",
-    "0-1": "String",
-    "0-2": "Phone number in the international format. Locator to map an event to a contact.",
-    "1-0": "email",
-    "1-1": "String",
-    "1-2": "Email address. Locator to map an event to a contact.",
-    "2-0": "product",
-    "2-1": "String",
-    "2-2": "Required. Product data.",
-    "3-0": "productId",
-    "3-1": "String",
-    "3-2": "Required. Product ID.",
-    "4-0": "price",
-    "4-1": "Double",
-    "4-2": "Required. Price of a product item.",
-    "5-0": "",
-    "5-1": "",
-    "5-2": "Optional parameter.  \nProduct availability.  \nTwo possible values:  \n• 0 - out of stock  \n• 1 - in stock",
-    "6-0": "someProductProperty",
-    "6-1": "Array of strings",
-    "6-2": "Optional parameter.  \nComma separated product property values.",
-    "7-0": "currencyCode",
-    "7-1": "String",
-    "7-2": "Optional. Currency code in the ISO 4217 format. If not set, the organization's default is used."
-  },
-  "cols": 3,
-  "rows": 8,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        phone
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Phone number in the international format. Locator to map an event to a contact.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        email
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Email address. Locator to map an event to a contact.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        product
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Required. Product data.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        productId
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Required. Product ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        price
+      </td>
+
+      <td>
+        Double
+      </td>
+
+      <td>
+        Required. Price of a product item.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+        Optional parameter.\
+        Product availability.\
+        Two possible values:\
+        • 0 - out of stock\
+        • 1 - in stock
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        someProductProperty
+      </td>
+
+      <td>
+        Array of strings
+      </td>
+
+      <td>
+        Optional parameter.\
+        Comma separated product property values.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        currencyCode
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Optional. Currency code in the ISO 4217 format. If not set, the organization's default is used.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 **Example:**
 
@@ -204,59 +330,194 @@ The event is sent when a contact changes products in the cart. The full list of 
 
 The request example is given below. It contains the following parameters:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "phone",
-    "0-1": "String",
-    "0-2": "Phone number in the international format. Locator to map an event to a contact.",
-    "1-0": "email",
-    "1-1": "String",
-    "1-2": "Email address. Locator to map an event to a contact.",
-    "2-0": "products",
-    "2-1": "Array of strings",
-    "2-2": "Required parameter if the cart is not empty.",
-    "3-0": "productId",
-    "3-1": "String",
-    "3-2": "Required. Product ID.",
-    "4-0": "quantity",
-    "4-1": "Double",
-    "4-2": "Required. Quantity of items in the cart.",
-    "5-0": "price",
-    "5-1": "Double",
-    "5-2": "Required. Price of an item.",
-    "6-0": "name",
-    "6-1": "String",
-    "6-2": "Optional. Product name.",
-    "7-0": "category",
-    "7-1": "String",
-    "7-2": "Optional. Product category.",
-    "8-0": "discount",
-    "8-1": "String",
-    "8-2": "Optional. Discount applied to a single item.",
-    "9-0": "someProductProperty",
-    "9-1": "Array of strings",
-    "9-2": "Optional. Comma separated product property values.",
-    "10-0": "currencyCode",
-    "10-1": "String",
-    "10-2": "Optional. Currency code in the ISO 4217 format. If not set, the organization's default is used.",
-    "11-0": "recycleStateId",
-    "11-1": "String",
-    "11-2": "Required. A unique ID connecting the cart events and purchases.  \nGenerated as a set of random numbers and Latin letters."
-  },
-  "cols": 3,
-  "rows": 12,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        phone
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Phone number in the international format. Locator to map an event to a contact.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        email
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Email address. Locator to map an event to a contact.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        products
+      </td>
+
+      <td>
+        Array of strings
+      </td>
+
+      <td>
+        Required parameter if the cart is not empty.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        productId
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Required. Product ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        quantity
+      </td>
+
+      <td>
+        Double
+      </td>
+
+      <td>
+        Required. Quantity of items in the cart.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        price
+      </td>
+
+      <td>
+        Double
+      </td>
+
+      <td>
+        Required. Price of an item.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        name
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Optional. Product name.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        category
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Optional. Product category.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        discount
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Optional. Discount applied to a single item.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        someProductProperty
+      </td>
+
+      <td>
+        Array of strings
+      </td>
+
+      <td>
+        Optional. Comma separated product property values.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        currencyCode
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Optional. Currency code in the ISO 4217 format. If not set, the organization's default is used.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        recycleStateId
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Required. A unique ID connecting the cart events and purchases.\
+        Generated as a set of random numbers and Latin letters.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 **Example:** 
 
@@ -298,7 +559,7 @@ The request example is given below. It contains the following parameters:
 | Parameter      | Type   | Description                                                                     |
 | :------------- | :----- | :------------------------------------------------------------------------------ |
 | phone          | String | Phone number in the international format. Locator to map an event to a contact. |
-| recomVariantId | String | Required. The recommendation variant in the r{recomId}v{variantId} format.      |
+| recomVariantId | String | Required. The recommendation variant in the r\{recomId}v\{variantId} format.    |
 | products       | String | Required. Contains the product list in the JSON format.                         |
 | productId      | String | Required. Product ID.                                                           |
 
@@ -394,32 +655,69 @@ This event is used for triggers. Send it when the search returns no results. In 
 
 The request example is given below. It contains the following parameters:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "phone",
-    "0-1": "String",
-    "0-2": "Phone number in the international format. Locator to map an event to a contact.",
-    "1-0": "search",
-    "1-1": "String",
-    "1-2": "Required. A value entered in the search box.",
-    "2-0": "isFound",
-    "2-1": "Int",
-    "2-2": "Optional.  \nIf a search returns no results, then the value is 0. If a search returns some results, the value is 1.  \nThe default value is 0."
-  },
-  "cols": 3,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        phone
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Phone number in the international format. Locator to map an event to a contact.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        search
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Required. A value entered in the search box.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        isFound
+      </td>
+
+      <td>
+        Int
+      </td>
+
+      <td>
+        Optional.\
+        If a search returns no results, then the value is 0. If a search returns some results, the value is 1.\
+        The default value is 0.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 **Example:** 
 
