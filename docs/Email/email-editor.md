@@ -16,7 +16,7 @@ next:
 We recommend you get acquainted with our template editor [in this review](https://docs.yespo.io/docs/adaptive-email-builder-review).
 
 > 📘 Important
-> 
+>
 > Before sending your first email campaign, you need to set up DNS records. See our [DNS Record Change](https://docs.yespo.io/docs/dns-record-change) guide for more details.
 
 Also, learn more about its main features and elements.
@@ -38,7 +38,7 @@ Instructions on working with some editor’s elements:
 | [Gmail Promotions Annotation](https://docs.yespo.io/docs/how-create-gmail-promotions-annotations-emails) | Use our Gmail annotations generator to provide recipients with your offer’s preview: logo, dates, amount of discount, and banner.                              |
 | [Image](https://docs.yespo.io/docs/working-images-block)                                                 | This element allows you to upload an image or select it from the built-in bank. You can resize pictures, use filters, implement the Rollover effect, and more. |
 | [Social Media Buttons](https://docs.yespo.io/docs/adaptive-email-builder-review#social-networks)         | Insert this ready-made block into any template and edit as needed without code knowledge.                                                                      |
-| [Table](https://docs.yespo.io/docs/how-add-table-emails)                                                 | You can add a table to your email in two ways: using a structure or the _Text_ block.                                                                          |
+| [Table](https://docs.yespo.io/docs/how-add-table-emails)                                                 | You can add a table to your email in two ways: using a structure or the *Text* block.                                                                          |
 | [Anchor Link](https://docs.yespo.io/docs/how-add-anchor-links-email)                                     | An anchor link is a link that leads the reader to a specific place in the email.                                                                               |
 | [Background](https://docs.yespo.io/docs/adaptive-email-builder-review)                                   | Apply colors or images as a background to different email components.                                                                                          |
 | [Custom Fonts](https://docs.yespo.io/docs/how-add-custom-font)                                           | Add custom fonts from Google Fonts or other sources to your Yespo account.                                                                                     |
