@@ -8,19 +8,19 @@ metadata:
 ---
 We are constantly working to improve our SDK. Here you’ll find the change log for the Flutter SDK and related details.
 
-- [Flutter 1.7.5 Release](#1-7-5)
-- [Flutter 1.7.3 Release](#1-7-3)
-- [Flutter 1.7.1 Release](#1-7-1)
-- [Flutter 1.7.0 Release](#1-7-0)
-- [Flutter 1.5.3 Release](#1-5-3)
-- [Flutter 1.5.2 Release](#1-5-2)
-- [Flutter 1.5.1 Release](#1-5-1)
-- [Flutter 1.4.2 Release](#1-4-2)
-- [Flutter 1.4.1 Release](#1-4-1)
-- [Flutter 1.4.0 Release](#1-4-0)
-- [Flutter 1.3.2 Release](#1-3-2)
-- [Flutter 1.3.1 Release](#1-3-1)
-- [Flutter 1.3.0 Release](#1-3-0)
+* [Flutter 1.7.5 Release](#1-7-5)
+* [Flutter 1.7.3 Release](#1-7-3)
+* [Flutter 1.7.1 Release](#1-7-1)
+* [Flutter 1.7.0 Release](#1-7-0)
+* [Flutter 1.5.3 Release](#1-5-3)
+* [Flutter 1.5.2 Release](#1-5-2)
+* [Flutter 1.5.1 Release](#1-5-1)
+* [Flutter 1.4.2 Release](#1-4-2)
+* [Flutter 1.4.1 Release](#1-4-1)
+* [Flutter 1.4.0 Release](#1-4-0)
+* [Flutter 1.3.2 Release](#1-3-2)
+* [Flutter 1.3.1 Release](#1-3-1)
+* [Flutter 1.3.0 Release](#1-3-0)
 
 ***
 
@@ -30,12 +30,12 @@ Flutter 1.7.5 Release
 
 :rocket:**Added**
 
-- Ecommerce Activity Tracking `Reteno().logEcommerceEvent()`
+* Ecommerce Activity Tracking `Reteno().logEcommerceEvent()`
 
 :high_brightness: **Improved**
 
-- Bump Android SDK to 2.6.2
-- Bump iOS SDK to 2.5.4
+* Bump Android SDK to 2.6.2
+* Bump iOS SDK to 2.5.4
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v.1.7.5" target="_blank"> Read more </a>
 
@@ -47,9 +47,9 @@ Flutter 1.7.3 Release
 
 :high_brightness: **Improved**
 
-- Bump Android SDK to 2.5.1
-- Bump iOS SDK to 2.5.0
-- AppInbox add `customData` property. Fix `createdDate` on iOS
+* Bump Android SDK to 2.5.1
+* Bump iOS SDK to 2.5.0
+* AppInbox add `customData` property. Fix `createdDate` on iOS
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v.1.7.3" target="_blank"> Read more </a>
 
@@ -61,7 +61,7 @@ Flutter 1.7.1 Release
 
  :rocket:**Added**
 
-- `Reteno.onUserNotificationAction` for listening on mobile push notifications actions
+* `Reteno.onUserNotificationAction` for listening on mobile push notifications actions
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v.1.7.1" target="_blank"> Read more </a>
 
@@ -73,10 +73,10 @@ Flutter 1.7.0 Release
 
 :high_brightness: **Improved**
 
-- Bump Android SDK to 2.0.12
-- Bump iOS SDK to 2.0.11
-- Update `initWith` method signature for Reteno initialization (Android only)
-  - add device ID provider parameter
+* Bump Android SDK to 2.0.12
+* Bump iOS SDK to 2.0.11
+* Update `initWith` method signature for Reteno initialization (Android only)
+  * add device ID provider parameter
 
 ```
  await Reteno.initWith(
@@ -87,7 +87,7 @@ Flutter 1.7.0 Release
  );
 ```
 
-- Add `Reteno.appInbox` to get App Inbox messages
+* Add `Reteno.appInbox` to get App Inbox messages
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v.1.7.0" target="_blank"> Read more </a>
 
@@ -99,9 +99,9 @@ Flutter 1.5.3 Release
 
 :high_brightness: **Improved**
 
-- Support AGP 8
-- Bump Android SDK to 2.0.10
-- Bump iOS SDK to 2.0.9
+* Support AGP 8
+* Bump Android SDK to 2.0.10
+* Bump iOS SDK to 2.0.9
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v1.5.3" target="_blank"> Read more </a>
 
@@ -113,13 +113,13 @@ Flutter 1.5.2 Release
 
 :high_brightness: **Improved**
 
-- Bumped Android SDK to 2.0.7
-- Bumped iOS SDK to 2.0.6
+* Bumped Android SDK to 2.0.7
+* Bumped iOS SDK to 2.0.6
 
 :rocket: **Added**
 
-- Added `Reteno.getrecommendations` to get recommendations
-- Added `Reteno.logRecommendationsEvent` to log recommendation events
+* Added `Reteno.getrecommendations` to get recommendations
+* Added `Reteno.logRecommendationsEvent` to log recommendation events
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v.1.5.2" target="_blank"> Read more </a>
 
@@ -131,13 +131,13 @@ Flutter 1.5.1 Release
 
 :high_brightness: **Improved**
 
-- Bumped Android SDK to 2.0.2
-- Bumped iOS SDK to 2.0.2
+* Bumped Android SDK to 2.0.2
+* Bumped iOS SDK to 2.0.2
 
 :rocket: **Added**
 
-- Added `Reteno.onInAppMessageStatusChanged` to get in-app message status changed events
-- Added `Reteno.pauseInAppMessages` to pause or resume in-app messages
+* Added `Reteno.onInAppMessageStatusChanged` to get in-app message status changed events
+* Added `Reteno.pauseInAppMessages` to pause or resume in-app messages
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v1.5.1" target="_blank"> Read more </a>
 
@@ -161,7 +161,7 @@ Flutter 1.4.1 Release
 
 :rocket: **Added**
 
-- Added support for new Android SDK version with new `updatePushPermissionStatus` function
+* Added support for new Android SDK version with new `updatePushPermissionStatus` function
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v1.4.1" target="_blank"> Read more </a>
 
@@ -173,8 +173,8 @@ Flutter 1.4.0 Release
 
 :high_brightness: **Improved**
 
-- Bump Android SDK to 1.7.0
-- Bump iOS SDK to 1.7.1
+* Bump Android SDK to 1.7.0
+* Bump iOS SDK to 1.7.1
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v1.4.0" target="_blank"> Read more </a>
 
@@ -186,7 +186,7 @@ Flutter 1.3.2 Release
 
 :white_check_mark: **Fixed**
 
-- Fixed method channels initialization not properly working in pair with Firebase messaging plugin
+* Fixed method channels initialization not properly working in pair with Firebase messaging plugin
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v1.3.2" target="_blank"> Read more </a>
 
@@ -198,11 +198,11 @@ Flutter 1.3.1 Release
 
 :high_brightness: **Improved**
 
-- Updated handling of config changes in Android plugin
+* Updated handling of config changes in Android plugin
 
 :white_check_mark: **Fixed**
 
-- Fixed plugin not working when adding FirebaseMessaging.onBackgroundMessage handler due to spawning background isolate
+* Fixed plugin not working when adding FirebaseMessaging.onBackgroundMessage handler due to spawning background isolate
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v1.3.1" target="_blank"> Read more </a>
 
@@ -214,7 +214,7 @@ Flutter 1.3.0 Release
 
 :rocket: **Added**
 
-- Added Reteno.onRetenoNotificationClicked to get push data on clicked events
+* Added Reteno.onRetenoNotificationClicked to get push data on clicked events
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-flutter/releases/tag/v1.3.0" target="_blank"> Read more </a>
 
