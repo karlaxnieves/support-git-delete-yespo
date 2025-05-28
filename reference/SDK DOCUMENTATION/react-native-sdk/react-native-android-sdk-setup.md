@@ -46,11 +46,51 @@ dependencies {
 }
 ```
 
-| <div style="width:250px">**Library**</div> | **Description**                                                       |
-| ------------------------------------------ | --------------------------------------------------------------------- |
-| com.reteno:fcm                             | FCM enables push notifications through SDK and all core functionality |
-| firebase:firebase-messaging                | Firebase cloud messaging                                              |
-| firebase:firebase-messaging-ktx            | Firebase cloud messaging Kotlin extensions                            |
+<Table>
+  <thead>
+    <tr>
+      <th>
+        <div style="width:250px">**Library**</div>
+      </th>
+
+      <th>
+        **Description**
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        com.reteno:fcm
+      </td>
+
+      <td>
+        FCM enables push notifications through SDK and all core functionality
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        firebase:firebase-messaging
+      </td>
+
+      <td>
+        Firebase cloud messaging
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        firebase:firebase-messaging-ktx
+      </td>
+
+      <td>
+        Firebase cloud messaging Kotlin extensions
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ## Setting up SDK
 
@@ -66,7 +106,7 @@ android.enableJetifier=true
 ### Step 2: Add `com.reteno:fcm` and firebase dependencies in build.gradle
 
 > 📘 Note
-> 
+>
 > Java 1.8 compiler is required. In app level `build.gradle`:
 
 ```groovy
@@ -80,9 +120,9 @@ android {
 
 ### Step 3: Edit your MainApplication class and provider API Access-Key at SDK initialization.
 
-> 📘 
-> 
-> To setup SDK you need an SDK_ACCESS_KEY, visit [Managing Mobile SDK Access Keys](https://docs.yespo.io/reference/managing-mobile-sdk-access-keys) to get it.
+> 📘
+>
+> To setup SDK you need an SDK\_ACCESS\_KEY, visit [Managing Mobile SDK Access Keys](https://docs.yespo.io/reference/managing-mobile-sdk-access-keys) to get it.
 
 Below is sample code you can add to your application class which gets you started with `RetenoSDK`.
 
@@ -171,85 +211,25 @@ class MainApplication : Application(), ReactApplication, RetenoReactNativeApplic
 
 ### Step 4: Set up your Firebase application for Firebase Cloud Messaging:
 
-- Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en)).
+* Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en)).
 
-- Add the above file to your root `app/` folder.
+* Add the above file to your root `app/` folder.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/aac2153-google-services-json.png",
-        "google-services-json.png",
-        "Firebase"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/aac2153-google-services-json.png" />
 
+* Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/), click the gear icon next to Overview.
 
-- Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/), click the gear icon next to Overview.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5ee0068-FirebaseConsole.png",
-        "FirebaseConsole.png",
-        "FCM Server Key"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/5ee0068-FirebaseConsole.png" />
 
 Click Project Settings → Cloud Messaging → Manage Service Accounts. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6706069-CloudConsole1.png",
-        "CloudConsole1.png",
-        "Cloud Messaging"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/6706069-CloudConsole1.png" />
 
 Go to Service accounts to download FirebaseAdminSdk account's json key.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fd47a55-CloudConsole2.png",
-        "CloudConsole2.png",
-        "FirebaseAdminSdk"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/fd47a55-CloudConsole2.png" />
 
-
-- Follow this manual to [set up Reteno admin panel](https://docs.yespo.io/docs/connect-your-mobile-app#for-all-devices) with your Firebase key.
+* Follow this manual to [set up Reteno admin panel](https://docs.yespo.io/docs/connect-your-mobile-app#for-all-devices) with your Firebase key.
 
 Now you are ready to run your app and send a marketing push notification to your application.
 
@@ -257,22 +237,7 @@ Run your app on a physical Android device to make sure it builds correctly.
 
 If you get an error like below:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/db1f8873da48293ddc74def3e82a968e2d5b553612245666fb64033c4dd47863-deshugaring_error.jpg",
-        "",
-        "Error"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/db1f8873da48293ddc74def3e82a968e2d5b553612245666fb64033c4dd47863-deshugaring_error.jpg" />
 
 You can fix it by adding `coreLibraryDesugaring` to your `android/app/build.gradle`:
 
@@ -292,22 +257,7 @@ dependencies {
 
 If you get an error like below:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7aee2dce2104eed53307cc0d20b1a947c3bbe52f481ab607bda98d78eed296d2-cxx_error.png",
-        "",
-        "Error"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/7aee2dce2104eed53307cc0d20b1a947c3bbe52f481ab607bda98d78eed296d2-cxx_error.png" />
 
 It can be fixed by updating react native version in your project to 0.75.4 or higher.
 
@@ -315,7 +265,7 @@ It can be fixed by updating react native version in your project to 0.75.4 or hi
 
 If you already use Firebase for Remote notifications and would like to use Reteno as well, you need to Create a custom Messaging Service Class:
 
-In your project folder, create a new Java Class file. You can choose any name for it, we'll use `CustomMessagingService.java` for the convenience.  
+In your project folder, create a new Java Class file. You can choose any name for it, we'll use `CustomMessagingService.java` for the convenience.\
 And put those contents in this Class. Basically, we override the `MessagingService` that is provided by firebase, by a custom one, that's extended from `RetenoFirebaseMessagingService`.
 
 ```java
@@ -397,7 +347,7 @@ So your `AndroidManifest.xml` will look something like this:
 </manifest>
 ```
 
-**Optional.** You may add your default icon and color for all Reteno notifications via AndroidManifest.xml. @drawable/ic_notification is the icon to be displayed, and @color/red_dark is the color of the icon. The only thing is that since Android 12, Material You has appeared - the user can change the color scheme of the entire device as they wants. Therefore, the color of the icon may differ on the latest android devices.
+**Optional.** You may add your default icon and color for all Reteno notifications via AndroidManifest.xml. @drawable/ic\_notification is the icon to be displayed, and @color/red\_dark is the color of the icon. The only thing is that since Android 12, Material You has appeared - the user can change the color scheme of the entire device as they wants. Therefore, the color of the icon may differ on the latest android devices.
 
 ```xml
 <meta-data
@@ -409,5 +359,5 @@ So your `AndroidManifest.xml` will look something like this:
 ```
 
 > 📘 Note
-> 
+>
 > [Android Debug Mode](https://docs.yespo.io/reference/android-debug-mode) enables you to ensure that all events and user properties are logged correctly.
