@@ -16,11 +16,11 @@ next:
 Personalize the user experience and increase retention by adding product and service recommendations to your app.
 
 > 📘 Note
-> 
+>
 > Before starting to configure recommendations:
-> 
-> - set up  [tracking for mobile apps](https://docs.yespo.io/docs/streaming-events-firebase) to collect users’ online behavior data
-> - [upload a product feed](https://docs.yespo.io/docs/importing-product-feed) to provide data about your product range
+>
+> * set up  [tracking for mobile apps](https://docs.yespo.io/docs/streaming-events-firebase) to collect users’ online behavior data
+> * [upload a product feed](https://docs.yespo.io/docs/importing-product-feed) to provide data about your product range
 
 ## Setting Up Recommendations for Mobile Apps
 
