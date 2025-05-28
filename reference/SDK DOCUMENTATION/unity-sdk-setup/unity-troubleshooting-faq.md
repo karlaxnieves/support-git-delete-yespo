@@ -20,27 +20,27 @@ This section provides solutions to common issues encountered when integrating th
 
 ### 1. Firebase Configuration Not Found
 
-**Issue**: `GoogleService-Info.plist` or `google-services.json` not found.  
+**Issue**: `GoogleService-Info.plist` or `google-services.json` not found.\
 **Solution**:
 
-- Ensure the file is located in the root directory of your Unity project.
-- Verify the filenames and placement are correct.
+* Ensure the file is located in the root directory of your Unity project.
+* Verify the filenames and placement are correct.
 
 ### 2. Push Permission Denied
 
-**Issue**: User denied push notification permissions.  
+**Issue**: User denied push notification permissions.\
 **Solution**:
 
-- Check the device’s permission settings.
-- Confirm that you are correctly invoking `RequestPushPermission` and handling the callbacks.
+* Check the device’s permission settings.
+* Confirm that you are correctly invoking `RequestPushPermission` and handling the callbacks.
 
 ### 3. SDK Not Initializing
 
-**Issue**: Reteno SDK does not initialize on app launch.  
+**Issue**: Reteno SDK does not initialize on app launch.\
 **Solution**:
 
-- Verify that `RetenoSDK.Initialize("your_access_key")` is called at the beginning of your app’s lifecycle.
-- Ensure that the provided Access Key is valid.
+* Verify that `RetenoSDK.Initialize("your_access_key")` is called at the beginning of your app’s lifecycle.
+* Ensure that the provided Access Key is valid.
 
 ## Additional Questions
 
