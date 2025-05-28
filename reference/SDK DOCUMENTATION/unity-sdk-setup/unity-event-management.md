@@ -18,8 +18,8 @@ The Event Management module tracks custom events and screen views, enabling you 
 
 ## How It Works
 
-- **LogEvent**: Send custom events to the backend.
-- **LogScreenView**: Track which screens users visit.
+* **LogEvent**: Send custom events to the backend.
+* **LogScreenView**: Track which screens users visit.
 
 ## Code Sample
 
@@ -53,5 +53,5 @@ public class EventExample : MonoBehaviour
 
 ### Additional Tips:
 
-- Parameter Use: Use parameters to pass extra details about events.
-- Event Types: Create different event types for various user actions for better segmentation and analysis.
+* Parameter Use: Use parameters to pass extra details about events.
+* Event Types: Create different event types for various user actions for better segmentation and analysis.
