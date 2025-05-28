@@ -16,8 +16,8 @@ Web Push reports provide information about the results of your campaigns, includ
 
 Let’s consider the features of bulk reports. You can also check out
 
-- [additional options for trigger reports](https://docs.yespo.io/docs/triggered-campaign-report);
-- [general reports’ capabilities](https://docs.yespo.io/docs/campaigns-analytics).
+* [additional options for trigger reports](https://docs.yespo.io/docs/triggered-campaign-report);
+* [general reports’ capabilities](https://docs.yespo.io/docs/campaigns-analytics).
 
 Conventionally, the report consists of 4 parts:
 
@@ -26,22 +26,7 @@ Conventionally, the report consists of 4 parts:
 3. Revenue.
 4. Detailed statistics.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/81fb4cbf73d7e15c61c47091ea480e4953e85aa2e42c5606100da8120d4b9a7a-reports-1.webp",
-        "Web Push report",
-        "Web Push report"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/81fb4cbf73d7e15c61c47091ea480e4953e85aa2e42c5606100da8120d4b9a7a-reports-1.webp" />
 
 ## 1. General Information
 
@@ -57,112 +42,37 @@ The first part of the report contains the following data:
 8. The segment of contacts to whom the message was sent, segment ID, and the date of its last editing.
 9. [Tags](https://docs.yespo.io/docs/how-add-tags) for search and filtering of messages.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1604476af033b98192ee025f7d07f044b0f66ede5c0c2ca781a8e23591b17dfa-reports-2.webp",
-        "General information",
-        "General information"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/1604476af033b98192ee025f7d07f044b0f66ede5c0c2ca781a8e23591b17dfa-reports-2.webp" />
 
 ## 2. Performance Indicators
 
 Yespo automatically tracks push campaign performance metrics, including opens, clicks, errors, and more. All statistics are collected in the form of a table.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/309fefd059bfcfb45fd6251e037c6c7e846cd84a0f27a5bae42deb12b3296ffa-reports-3.webp",
-        "Performance indicators",
-        "Performance indicators"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/309fefd059bfcfb45fd6251e037c6c7e846cd84a0f27a5bae42deb12b3296ffa-reports-3.webp" />
 
 Green marks on the scale show the conditional indicators of a successful campaign, and red marks are negative indicators' conditional norm.
 
 Clicking on any report item opens a window for viewing the contacts list.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c9f7035ab4ba931fec8dc11f826f44d00a16f79e445689718d6edbe8071d5d7d-reports-4.webp",
-        "Contacts from reports",
-        "Contacts from reports"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c9f7035ab4ba931fec8dc11f826f44d00a16f79e445689718d6edbe8071d5d7d-reports-4.webp" />
 
 Above the general statistics are the following tabs:
 
-- **Extra campaigns.** Allows you to configure the automatic sending of messages based on the activity or inactivity of users regarding this campaign. More — [at the link](https://docs.yespo.io/docs/how-send-extra-campaign).
-- **More.** Allows you to delete the report.
+* **Extra campaigns.** Allows you to configure the automatic sending of messages based on the activity or inactivity of users regarding this campaign. More — [at the link](https://docs.yespo.io/docs/how-send-extra-campaign).
+* **More.** Allows you to delete the report.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9ede0361f4fa859dc50414ff743b486f18ced4f2bbaa0f4287ca7b7aad17b887-reports-5.webp",
-        "Actions with reports",
-        "Actions with reports"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/9ede0361f4fa859dc50414ff743b486f18ced4f2bbaa0f4287ca7b7aad17b887-reports-5.webp" />
 
 ## 3. Revenue
 
 If you set up integration with a CRM system that records order data, you can evaluate the financial results of the campaign.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a5cf2ffde2d3d5fea0fa290a1dc6223441f647519ada225c442dfc0c88e7c7ab-reports-6.webp",
-        "Revenue",
-        "Revenue"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/a5cf2ffde2d3d5fea0fa290a1dc6223441f647519ada225c442dfc0c88e7c7ab-reports-6.webp" />
 
 [Learn more about revenue display settings >](https://docs.yespo.io/docs/how-set-revenue-campaign)
 
 > 📘 Note
-> 
+>
 > Linking purchases to Web Push campaigns has some issues. Almost 95% of contacts have only tokens, whereas orders are placed by phone number or email. In the statistics of purchases, there will be only those with a push token associated with an email or phone number. Because of this, revenue results for Web Push are not often used.
 
 ## 4. Detailed Statistics
@@ -175,66 +85,21 @@ Let's consider each tab separately.
 
 See how users of different platforms and operating systems reacted to the campaign.  
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f6aae7dad34ac26227d2128566abe1fd80edd28a8f38e8bc8526acab2def7b14-platforms-os.webp",
-        "Platforms and OS",
-        "Platforms and OS"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/f6aae7dad34ac26227d2128566abe1fd80edd28a8f38e8bc8526acab2def7b14-platforms-os.webp" />
 
-
-The _Other_ category includes statistics on eReader, TV, Game Console, etc.
+The *Other* category includes statistics on eReader, TV, Game Console, etc.
 
 ### Browsers
 
 See how users of different browsers reacted to the campaign.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/baeb5d2a84377c97110082a213af7cd0053c507dd186ca4fd7d5c8000f3872c3-browsers.webp",
-        "Browsers",
-        "Browsers"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/baeb5d2a84377c97110082a213af7cd0053c507dd186ca4fd7d5c8000f3872c3-browsers.webp" />
 
 ### Device Languages
 
 Campaign statistics by language versions of recipient devices.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b4a3535477aa0af9a56f156621b92eef685e3c040aa61987f8fd454d68b97877-reports-9.webp",
-        "Device Languages",
-        "Device Languages"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/b4a3535477aa0af9a56f156621b92eef685e3c040aa61987f8fd454d68b97877-reports-9.webp" />
 
 ### Multilanguage (optional)
 
@@ -244,20 +109,6 @@ Reports on multilingual campaigns are described [in a special article](https://d
 
 ### Adding Details
 
-You can filter tabs’ data using the _Add details_ option.
+You can filter tabs’ data using the *Add details* option.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bd91e86ced9ac684f3d0600b3b904767ee0dbe3c1e71c6c73b69dd847c44098e-details.webp",
-        "Add details",
-        "Add details"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/bd91e86ced9ac684f3d0600b3b904767ee0dbe3c1e71c6c73b69dd847c44098e-details.webp" />
