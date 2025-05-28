@@ -131,7 +131,7 @@ useEffect(() => {
 
 ## Marking Messages as Opened
 
-You can mark messages as opened in your React Native application using the `markAsOpened` function. This function takes an array of message IDs (but only one message id on Android ex. ['id']) as input and returns a promise that resolves to an object containing the status of the operation.
+You can mark messages as opened in your React Native application using the `markAsOpened` function. This function takes an array of message IDs (but only one message id on Android ex. \['id']) as input and returns a promise that resolves to an object containing the status of the operation.
 
 ```ts
 import { markAsOpened } from "reteno-react-native-sdk";
