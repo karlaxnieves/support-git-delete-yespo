@@ -8,14 +8,14 @@ metadata:
 ---
 We are constantly working to improve our SDK. Here you’ll find the change log for the Unity SDK and related details.
 
-- [Unity SDK 1.0.11 Release](#1-0-11)
-- [Unity SDK 1.0.10 Release](#1-0-10)
-- [Unity SDK 1.0.9 Release](#1-0-9)
-- [Unity SDK 1.0.8 Release](#1-0-8)
-- [Unity SDK 1.0.7 Release](#1-0-7)
-- [Unity SDK 1.0.6 Release](#1-0-6)
-- [Unity SDK 1.0.5 Release](#1-0-5)
-- [Unity SDK 1.0.3 Release](#1-0-3)
+* [Unity SDK 1.0.11 Release](#1-0-11)
+* [Unity SDK 1.0.10 Release](#1-0-10)
+* [Unity SDK 1.0.9 Release](#1-0-9)
+* [Unity SDK 1.0.8 Release](#1-0-8)
+* [Unity SDK 1.0.7 Release](#1-0-7)
+* [Unity SDK 1.0.6 Release](#1-0-6)
+* [Unity SDK 1.0.5 Release](#1-0-5)
+* [Unity SDK 1.0.3 Release](#1-0-3)
 
 ***
 
@@ -25,20 +25,20 @@ Unity SDK 1.0.11 Release
 
 **Android:**
 
-- Bumb version 2.0.16 => 2.0.20
-- Add Recommendation
-- Code improvement's
+* Bumb version 2.0.16 => 2.0.20
+* Add Recommendation
+* Code improvement's
 
 **iOS:**
 
-- Add Recommendation
-- Bumb version 2.0.18 => 2.0.21
-- Fix issue when notification token doesn't send to Reteno
+* Add Recommendation
+* Bumb version 2.0.18 => 2.0.21
+* Fix issue when notification token doesn't send to Reteno
 
 **Core:**
 
-- Add Recommendation
-- Code improvement's
+* Add Recommendation
+* Code improvement's
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-unity/releases/tag/1.0.11" target="_blank"> Read more </a>
 
@@ -50,20 +50,20 @@ Unity SDK 1.0.10 Release
 
 **Android:**
 
-- Bumb version 2.0.15 => 2.0.16  
+* Bumb version 2.0.15 => 2.0.16  
 
 **iOS:**
 
-- Bumb version 2.0.16 => 2.0.18
-- Add allow sending notifications using both Firebase and SDK (ability to select from Unity which push token provider the SDK will work with)
+* Bumb version 2.0.16 => 2.0.18
+* Add allow sending notifications using both Firebase and SDK (ability to select from Unity which push token provider the SDK will work with)
 
 **Core:**
 
-- Add a configuration option to select a token provider for push notifications.
+* Add a configuration option to select a token provider for push notifications.
 
 **Example:**
 
-- An example of choosing a push notification provider has been added.
+* An example of choosing a push notification provider has been added.
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-unity/releases/tag/1.0.10" target="_blank"> Read more </a>
 
@@ -75,24 +75,24 @@ Unity SDK 1.0.9 Release
 
 **Android:**
 
-- Fix get custom Data `InAppMessages`
-- Fix get custom Data `PushNotification`
-- Add _Intialization_ config  
+* Fix get custom Data `InAppMessages`
+* Fix get custom Data `PushNotification`
+* Add *Intialization* config  
 
 **iOS:**
 
-- Bumb version 2.0.14 => 2.0.16
-- Add _Intialization_ config
+* Bumb version 2.0.14 => 2.0.16
+* Add *Intialization* config
 
 **Core:**
 
-- Add _Initialization_ config
-- Update summary
+* Add *Initialization* config
+* Update summary
 
 **Example:**
 
-- Add Example for _Initialization_ config
-- Fix `UserView` send attributes
+* Add Example for *Initialization* config
+* Fix `UserView` send attributes
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-unity/releases/tag/1.0.9" target="_blank"> Read more </a>
 
@@ -120,14 +120,14 @@ Unity SDK 1.0.7 Release
 
 :rocket: **Added**
 
-- Added In-App messages for Android
-- Added In-App messages for iOS
+* Added In-App messages for Android
+* Added In-App messages for iOS
 
 :high_brightness:**Improved**
 
-- Updated Android native version to 2.0.15
-- Updated iOS native version to 2.0.14
-- Code improvements
+* Updated Android native version to 2.0.15
+* Updated iOS native version to 2.0.14
+* Code improvements
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-unity/releases/tag/1.0.7" target="_blank"> Read more </a>
 
@@ -139,19 +139,19 @@ Unity SDK 1.0.6 Release
 
 :rocket: **Added**
 
-- Added Delayed initialization
-- Added `PermissionListenerDelegate` for iOS
-- Added Custom Data Push Listener for iOS
+* Added Delayed initialization
+* Added `PermissionListenerDelegate` for iOS
+* Added Custom Data Push Listener for iOS
 
 :high_brightness:**Improved**
 
-- Updated Initialization Firebase for iOS
-- Updated Android native version to 2.0.13
-- Updated iOS native version to 2.0.12
+* Updated Initialization Firebase for iOS
+* Updated Android native version to 2.0.13
+* Updated iOS native version to 2.0.12
 
 ✔️ **Fixed**
 
-- Fixed click push when app was closed
+* Fixed click push when app was closed
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-unity/releases/tag/1.0.6" target="_blank"> Read more </a>
 
@@ -163,18 +163,18 @@ Unity SDK 1.0.5 Release
 
 :rocket: **Added**
 
-- RetenoSDK.Platform Core Initialisation code improvements
-- Update native version iOS to 2.0.9
-- Update native version Android to 2.0.10
-- Update User Module in iOS, add new parameters.
+* RetenoSDK.Platform Core Initialisation code improvements
+* Update native version iOS to 2.0.9
+* Update native version Android to 2.0.10
+* Update User Module in iOS, add new parameters.
 
 ✔️ **Fixed**
 
-- Auto-referenced Reteno iOS fix
-- Firebase init iOS fix
-- Send event iOS crash fix
-- Send event Android crash fix
-- Send user parameters Android crash fix
+* Auto-referenced Reteno iOS fix
+* Firebase init iOS fix
+* Send event iOS crash fix
+* Send event Android crash fix
+* Send user parameters Android crash fix
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-unity/releases/tag/1.0.5" target="_blank"> Read more </a>
 
@@ -186,8 +186,8 @@ Unity SDK 1.0.3 Release
 
 :rocket: **Added**
 
-- Release iOS Reteno plugin in Unity
-- Update Anonymous attributes in UserManager
+* Release iOS Reteno plugin in Unity
+* Update Anonymous attributes in UserManager
 
 <a rel="nofollow" href="https://github.com/reteno-com/reteno-unity/releases/tag/1.0.3" target="_blank"> Read more </a>
 
