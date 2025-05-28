@@ -24,31 +24,16 @@ Let's move on to specific tasks.
 ## Set Up Your Account
 
 > 🛡️ Enable MFA
-> 
+>
 > [Set up multi-factor authentication](https://docs.yespo.io/docs/how-set-multi-factor-authentication-mfa) to provide an additional security layer to your account.
 
 > 🔏 Set different account access levels
-> 
+>
 > [Distribute access rights among users](https://docs.yespo.io/docs/user-management) in your organization, such as admin, marketer, designer, or auditor.
 
 ## Add Contact Data
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9dff2224e8c593204b1be16b702a2ebabca6b7c4282ee50455cf5c13fcc8d5cf-frame-613-4x.webp",
-        "",
-        "Contacts"
-      ],
-      "align": "right",
-      "sizing": "15% "
-    }
-  ]
-}
-[/block]
-
+<Image align="right" width="15% " src="https://files.readme.io/9dff2224e8c593204b1be16b702a2ebabca6b7c4282ee50455cf5c13fcc8d5cf-frame-613-4x.webp" />
 
 ### Import existing contacts
 
@@ -62,22 +47,7 @@ Before importing an email database, check its validity and security — because 
 
 > ▶️ [Import contacts](https://my.yespo.io/contacts-ui/?_gl=1*jterzm*_gcl_au*MTc4NjY1Mjc4MS4xNzQyNDUyNTU2*_ga*MTg3NTc0MjA3LjE2OTUwNDg2MDk.*_ga_FKJZYQ2SLW*MTc0NDcyNDc5Mi43NzguMS4xNzQ0NzI0ODM3LjE1LjAuMA..#/contacts-import/history)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/0799cea6f00b7fdd8539bd8d5a164e1aab50e2f9da8b2a7c8b9afcfb06f252c5-3.webp",
-        "",
-        "Email"
-      ],
-      "align": "right",
-      "sizing": "35% "
-    }
-  ]
-}
-[/block]
-
+<Image align="right" width="35% " src="https://files.readme.io/0799cea6f00b7fdd8539bd8d5a164e1aab50e2f9da8b2a7c8b9afcfb06f252c5-3.webp" />
 
 ## Set Up Email Channel
 
@@ -98,19 +68,19 @@ You can also contact our support team to order a new template or adapt an existi
 ## Automate Processes
 
 > 🗒️ Build segments
-> 
+>
 > Prepare [static and dynamic segments](https://docs.yespo.io/docs/segmentation) for behavioral targeting campaigns.
 
 > 📨 Create workflows
-> 
+>
 > Map out [your customer journey](https://docs.yespo.io/docs/introduction-to-workflows) to attract subscribers and move them through your sales funnel efficiently.
 
 > 👀 Track events
-> 
+>
 > Use [events](https://docs.yespo.io/docs/events-and-behaviour-tracking) to trigger automated messaging, segmentation, personalization, and business process analytics.
 
 > 🛒 Set up the transfer of order data
-> 
+>
 > [Order tracking](https://docs.yespo.io/docs/orders-1) allows you to create transactional message series and segment based on purchase data.
 
 > ▶️ [Create workflow](https://my.yespo.io/workflows-ui/?_gl=1*1uidh8*_gcl_au*MTc4NjY1Mjc4MS4xNzQyNDUyNTU2*_ga*MTg3NTc0MjA3LjE2OTUwNDg2MDk.*_ga_FKJZYQ2SLW*MTc0NDcyNDc5Mi43NzguMS4xNzQ0NzI0ODM3LjE1LjAuMA..#/workflows-list)
@@ -131,28 +101,13 @@ Recommendations provide a personalized experience for each user, which helps bui
 
 Use recommendations
 
-- [on the site](https://docs.yespo.io/docs/recommendations-overview)
-- [in the email channel](https://docs.yespo.io/docs/recommendations-in-media-channels)
-- [in the mobile app](https://docs.yespo.io/docs/recommendations-in-mobile-app)
+* [on the site](https://docs.yespo.io/docs/recommendations-overview)
+* [in the email channel](https://docs.yespo.io/docs/recommendations-in-media-channels)
+* [in the mobile app](https://docs.yespo.io/docs/recommendations-in-mobile-app)
 
 > ▶️ [Set recommendations](https://my.yespo.io//settings-ui/?_gl=1*1hqh34n*_gcl_au*MTc4NjY1Mjc4MS4xNzQyNDUyNTU2*_ga*MTg3NTc0MjA3LjE2OTUwNDg2MDk.*_ga_FKJZYQ2SLW*MTc0NDcyNDc5Mi43NzguMS4xNzQ0NzI0ODM3LjE1LjAuMA..#/data-sources-list)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/25d5d84db949b18e6ddd63eced33399f930f6a25131004d491836b1f6fca356b-22.webp",
-        "",
-        "Widgets"
-      ],
-      "align": "right",
-      "sizing": "30% "
-    }
-  ]
-}
-[/block]
-
+<Image align="right" width="30% " src="https://files.readme.io/25d5d84db949b18e6ddd63eced33399f930f6a25131004d491836b1f6fca356b-22.webp" />
 
 ## Install Widgets
 
@@ -175,49 +130,34 @@ Use flexible [widget display options](https://docs.yespo.io/docs/widget-calling)
 Organize communications to increase sales and expand your audience — create campaigns and combine all channels on one platform:
 
 > 🔊 [Mobile push messages](https://docs.yespo.io/docs/mobile-push)
-> 
+>
 > Retain your mobile app users and increase ROI.
 
 > 🔊 [The SMS channel](https://docs.yespo.io/docs/sms)
-> 
+>
 > Is easy to implement and works excellent for time-sensitive announcements, reminders, and sales.
 
 > 🔊 [The Viber channel](https://docs.yespo.io/docs/viber)
-> 
+>
 > Differs from SMS in its large text volumes and the ability to add images and active links.
 
 > 🔊 [In-App Notifications](https://docs.yespo.io/docs/in-app)
-> 
+>
 > Displayed in an app during an active user session.
 
 > 🔊 [Web Pushes](https://docs.yespo.io/docs/web-push)
-> 
+>
 > Your offer will be seen by the broadest possible audience: these messages appear directly in the browser, even if your website is closed at that moment.
 
 > 🔊 [App Inbox notifications](https://docs.yespo.io/docs/app-inbox)
-> 
+>
 > Combine the advantages of mobile and web push messages. With their help, you can deliver a variety of personalized content to users directly to their accounts or apps.
 
 > 🔊 [The Telegram channel](https://esputnik.com/uk/support/telegram)
-> 
+>
 > Is very convenient and familiar to most of your audience. Telegram tokens are associated to other contact information, allowing you to integrate a Telegram bot into your omnichannel strategy.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d072f48035aa8cb8400f07cc7e77b5eea1e09bcf68cb3ba5ef7ca540ea923f78-33.webp",
-        "",
-        "Workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/d072f48035aa8cb8400f07cc7e77b5eea1e09bcf68cb3ba5ef7ca540ea923f78-33.webp" />
 
 Manage all these channels within one platform and choose the most appropriate tool for each specific situation. The more relevant channels you use in your omnichannel strategy, the more effective each one will be.
 
@@ -227,22 +167,7 @@ Manage all these channels within one platform and choose the most appropriate to
 
 During the trial period, you can:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1b5a1f343b1bec17cd101037bcb30ca8814661c37845de96f287735945d5b879-frame-2x.webp",
-        "",
-        "Test the System"
-      ],
-      "align": "right",
-      "sizing": "200px"
-    }
-  ]
-}
-[/block]
-
+<Image align="right" width="200px" src="https://files.readme.io/1b5a1f343b1bec17cd101037bcb30ca8814661c37845de96f287735945d5b879-frame-2x.webp" />
 
 ✔️ Send 2500 emails and 10 SMS
 
