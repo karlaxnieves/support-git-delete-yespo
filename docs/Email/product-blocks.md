@@ -23,24 +23,9 @@ Before working with the blocks, you need to:
 
 After this, you can customize the display of bestsellers or recommendations based on user data. Product recommendations are a powerful tool for personalizing campaigns, informing the audience about the product range, and increasing conversion rates
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/12efe5d4f26c7803731204ddee5679070e4356f5199cf2e0cd76d257b2128e72-product-blocks.webp",
-        "Product blocks",
-        "Product blocks"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/12efe5d4f26c7803731204ddee5679070e4356f5199cf2e0cd76d257b2128e72-product-blocks.webp" />
 
 Product blocks consist of the following elements:
 
-- [Products](https://docs.yespo.io/docs/using-the-products-block) is the main block that displays recommended offers.
-- [Price and Discount](https://docs.yespo.io/docs/using-the-price-block) are additional components that show the prices of products and are part of the _Products_ block.
+* [Products](https://docs.yespo.io/docs/using-the-products-block) is the main block that displays recommended offers.
+* [Price and Discount](https://docs.yespo.io/docs/using-the-price-block) are additional components that show the prices of products and are part of the *Products* block.
