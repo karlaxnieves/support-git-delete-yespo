@@ -19,12 +19,12 @@ To configure the sending of mobile push notifications through the Yespo, it’s 
 The [Add contacts](https://docs.yespo.io/reference/contactsbulkupdate-1) method allows for creating new contacts to an account or updating existing ones. ​​You can add/update up to 3000 contacts with one request.
 
 > 📘 Note
-> 
-> - This method automatically generates [events](https://docs.yespo.io/docs/events-and-behaviour-tracking) for new contacts but will not run a workflow for updated or existing contacts.
-> - Contacts with email addresses will be created as confirmed, as [imported from a file](https://docs.yespo.io/docs/file-uploading); however, it doesn't allow configuring double opt-in.
-> - If you want to store some custom information about your users, create [additional fields](https://docs.yespo.io/docs/usage-of-additional-fields) before uploading contacts.
-> - For adding/updating one contact, use the [Add Contact](https://docs.yespo.io/docs/adding-new-users) method. This resource allows to create a user's profile or update an existing one.
-> - Upload your contact list with external user ID as the main identifier.
+>
+> * This method automatically generates [events](https://docs.yespo.io/docs/events-and-behaviour-tracking) for new contacts but will not run a workflow for updated or existing contacts.
+> * Contacts with email addresses will be created as confirmed, as [imported from a file](https://docs.yespo.io/docs/file-uploading); however, it doesn't allow configuring double opt-in.
+> * If you want to store some custom information about your users, create [additional fields](https://docs.yespo.io/docs/usage-of-additional-fields) before uploading contacts.
+> * For adding/updating one contact, use the [Add Contact](https://docs.yespo.io/docs/adding-new-users) method. This resource allows to create a user's profile or update an existing one.
+> * Upload your contact list with external user ID as the main identifier.
 
 ## JSON sample for channel
 
