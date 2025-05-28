@@ -15,9 +15,9 @@ next:
 ---
 In order to use Yespo product recommendation algorithms and customize their display on your side (appearance of blocks, display pages, etc.), follow these steps:
 
-- [install the script](https://docs.yespo.io/docs/how-set-web-tracking-your-website) on the site to track the behavior of site visitors;
-- [upload product data feed](https://docs.yespo.io/docs/importing-product-feed) to your Yespo account;
-- [set up the recommendation algorithm](https://docs.yespo.io/docs/getting-api-recommendations) in your Yespo account.
+* [install the script](https://docs.yespo.io/docs/how-set-web-tracking-your-website) on the site to track the behavior of site visitors;
+* [upload product data feed](https://docs.yespo.io/docs/importing-product-feed) to your Yespo account;
+* [set up the recommendation algorithm](https://docs.yespo.io/docs/getting-api-recommendations) in your Yespo account.
 
 ## Examples of Requests
 
@@ -96,73 +96,187 @@ The JS API method is asynchronous, which allows not to wait for the execution of
 
 ## Request Parameters
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Name",
-    "h-1": "Type",
-    "h-2": "Example",
-    "h-3": "Description",
-    "0-0": "variantId",
-    "0-1": "Required  \nString",
-    "0-2": "r262v361",
-    "0-3": "The unique ID of the recommendation variation in the Yespo account.",
-    "1-0": "productId",
-    "1-1": "Optional  \nString",
-    "1-2": "MX-1512\\\\42",
-    "1-3": "To pass the product ID from the page the user is on.  \n  \nRequired parameter for recommendations using the product algorithm (similar products, products that were bought together with some items); for other types of algorithms, it is not necessary to pass.",
-    "2-0": "productIds",
-    "2-1": "Optional  \nList",
-    "2-2": "['123', '543534']",
-    "2-3": "To pass a product ID or an array of cart product IDs.  \n  \nRequired parameter for recommendations using the product algorithm (similar products, products that were bought together with some items); for other types of algorithms, it is not necessary to pass.",
-    "3-0": "categoryKey",
-    "3-1": "Optional  \nString",
-    "3-2": "Jackets",
-    "3-3": "To pass the key of the category the user is in.  \n  \nRequired parameter for recommendations using a categorical algorithm (personally for you in this category); for other types of algorithms, it is not necessary to pass.",
-    "4-0": "allFields",
-    "4-1": "Optional Boolean",
-    "4-2": "true\\\\false",
-    "4-3": "Parameter for determining which product attributes will be in the recommendation request: _All_ (which are available in the product data feed) or only _Required:_  \n  • _ product_id_  \n  • _ url_  \n  • _container_type_  \nDefault parameter setting = false"
-  },
-  "cols": 4,
-  "rows": 5,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Example
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        variantId
+      </td>
+
+      <td>
+        Required\
+        String
+      </td>
+
+      <td>
+        r262v361
+      </td>
+
+      <td>
+        The unique ID of the recommendation variation in the Yespo account.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        productId
+      </td>
+
+      <td>
+        Optional\
+        String
+      </td>
+
+      <td>
+        MX-1512\\42
+      </td>
+
+      <td>
+        To pass the product ID from the page the user is on.  
+
+        Required parameter for recommendations using the product algorithm (similar products, products that were bought together with some items); for other types of algorithms, it is not necessary to pass.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        productIds
+      </td>
+
+      <td>
+        Optional\
+        List
+      </td>
+
+      <td>
+        ['123', '543534']
+      </td>
+
+      <td>
+        To pass a product ID or an array of cart product IDs.  
+
+        Required parameter for recommendations using the product algorithm (similar products, products that were bought together with some items); for other types of algorithms, it is not necessary to pass.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        categoryKey
+      </td>
+
+      <td>
+        Optional\
+        String
+      </td>
+
+      <td>
+        Jackets
+      </td>
+
+      <td>
+        To pass the key of the category the user is in.  
+
+        Required parameter for recommendations using a categorical algorithm (personally for you in this category); for other types of algorithms, it is not necessary to pass.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        allFields
+      </td>
+
+      <td>
+        Optional Boolean
+      </td>
+
+      <td>
+        true\\false
+      </td>
+
+      <td>
+        Parameter for determining which product attributes will be in the recommendation request: *All* (which are available in the product data feed) or only *Required:*\
+          • *product\_id*\
+          • *url*\
+          • *container\_type*\
+        Default parameter setting = false
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ## Response Example
 
 Upon successful submission of the request, you will receive a response similar to the following:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Response body",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "**JavaScript**  \n  \n`[  \n {  \n \"product_id\": \"02G439\",  \n \"container_type\": \"19534_r24v435\",  \n \"url\": \"https://…?sc_content=19534_r24v435\"  \n  // and other product attributes from the feed  \n  }  \n]`",
-    "0-1": "List<object>",
-    "0-2": "•  product_id - recommended product ID  \n• container_type must be used when passing the event ProductImpression  \n• URL contains a link to the product, with an additional parameter for proper web tracking"
-  },
-  "cols": 3,
-  "rows": 1,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Response body
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        **JavaScript**  
+
+        ```
+        [  
+         {  
+         "product_id": "02G439",  
+         "container_type": "19534_r24v435",  
+         "url": "https://…?sc_content=19534_r24v435"  
+          // and other product attributes from the feed  
+          }  
+        ]
+        ```
+      </td>
+
+      <td>
+        List<object>
+      </td>
+
+      <td>
+        •  product\_id - recommended product ID\
+        • container\_type must be used when passing the event ProductImpression\
+        • URL contains a link to the product, with an additional parameter for proper web tracking
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 > 📘 Important
-> 
+>
 > Don’t edit the return value in the URL field for web tracking to work correctly.
 
 ### Error Example
@@ -172,7 +286,7 @@ Upon successful submission of the request, you will receive a response similar t
 | variantId r262v361 was not found in config | String | No such recommendation variant identifier was found. |
 
 > 📘 Important
-> 
+>
 > Send the [ProductImpressions](https://docs.yespo.io/docs/transferring-website-behavior-data-via-javascript-requests) event after calling and displaying the recommendations block for proper tracking.
 
 ## Filtering Recommendations
@@ -201,43 +315,118 @@ eS('getRecommendations', {
 
 Request parameters:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Name",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "filters",
-    "0-1": "Optional  \nObject",
-    "0-2": " A parameter that includes filtering rules.",
-    "1-0": "include",
-    "1-1": "Optional  \nList",
-    "1-2": "Strict filtering: recommend only products according to the given parameters. For example, show only products of a certain brand.",
-    "2-0": "exclude",
-    "2-1": "Optional  \nList",
-    "2-2": "Strict filtering: products with specified parameters are not shown. For example, do not show discount items.",
-    "3-0": "should",
-    "3-1": "Optional  \nList",
-    "3-2": "Non-strict filtering: products with specified parameters  \nshown in priority, others by default  \n(if there should be 20 recommendations in the search results, 5 products with the specified parameters will be shown, the remaining 15 — without applying the filter). For example, include products from a new collection in recommendations.",
-    "4-0": "name",
-    "4-1": "Required  \nString",
-    "4-2": "The name of the product parameter from the product feed.",
-    "5-0": "values",
-    "5-1": "Required List",
-    "5-2": "List of values to filter. The comma in values is the OR operator (values: ['Kiev','Kharkiv'])."
-  },
-  "cols": 3,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
 
+      <th>
+        Type
+      </th>
 
-You can also define a field (parameter) by which product categories will be filtered in the feed for display in recommendations. To do this, specify the desired _categoryField_ value in the request.
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        filters
+      </td>
+
+      <td>
+        Optional\
+        Object
+      </td>
+
+      <td>
+         A parameter that includes filtering rules.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        include
+      </td>
+
+      <td>
+        Optional\
+        List
+      </td>
+
+      <td>
+        Strict filtering: recommend only products according to the given parameters. For example, show only products of a certain brand.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        exclude
+      </td>
+
+      <td>
+        Optional\
+        List
+      </td>
+
+      <td>
+        Strict filtering: products with specified parameters are not shown. For example, do not show discount items.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        should
+      </td>
+
+      <td>
+        Optional\
+        List
+      </td>
+
+      <td>
+        Non-strict filtering: products with specified parameters\
+        shown in priority, others by default\
+        (if there should be 20 recommendations in the search results, 5 products with the specified parameters will be shown, the remaining 15 — without applying the filter). For example, include products from a new collection in recommendations.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        name
+      </td>
+
+      <td>
+        Required\
+        String
+      </td>
+
+      <td>
+        The name of the product parameter from the product feed.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        values
+      </td>
+
+      <td>
+        Required List
+      </td>
+
+      <td>
+        List of values to filter. The comma in values is the OR operator (values: ['Kiev','Kharkiv']).
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+You can also define a field (parameter) by which product categories will be filtered in the feed for display in recommendations. To do this, specify the desired *categoryField* value in the request.
 
 Example request:
 
