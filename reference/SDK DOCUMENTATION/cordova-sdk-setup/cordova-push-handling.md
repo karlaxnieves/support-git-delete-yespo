@@ -12,7 +12,7 @@ next:
 ---
 ## Listen for New Push Notifications while App is Active
 
-While app is open, you may need to track, if there is new push;  
+While app is open, you may need to track, if there is new push;\
 To do so, set listener using `FirebasePlugin.onMessageReceived` function;
 
 ```typescript
