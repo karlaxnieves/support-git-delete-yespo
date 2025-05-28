@@ -18,99 +18,39 @@ Workflows allow you to automate sending your notifications through different cha
 Yespo offers a drag-and-drop builder for building workflows. The builder uses pre-programmed configurable blocks which you can place and connect into a workflow, and assign tasks and conditions to them.
 
 > 📘 Note
-> 
+>
 > Read about [workflow blocks](https://docs.yespo.io/docs/introduction-to-workflows#workflow-blocks) before you start building and editing workflow.
 
 ## Creating a New Workflow
 
 To create a new workflow:
 
-1. Go to _Automation → Workflows_ and click _New workflow_.
+1. Go to *Automation → Workflows* and click *New workflow*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/77f7c614b97d978b1878d3ec9e5a882d02840781bd6826598499a26d1370253d-building-and-editing-workflows-001.webp",
-        "",
-        "Creating a new workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/77f7c614b97d978b1878d3ec9e5a882d02840781bd6826598499a26d1370253d-building-and-editing-workflows-001.webp" />
 
+2. Enter the workflow *name* (required) and add *[tags](https://docs.yespo.io/docs/how-add-tags)* (optional).
 
-2. Enter the workflow _name_ (required) and add _[tags](https://docs.yespo.io/docs/how-add-tags)_ (optional).
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b13bd1ebf63e937a8325ad68170f7331ae57ad65d1e559ce0155b09a62e1dfcc-building-workflows-01.webp",
-        "",
-        "Workflow name and tags"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/b13bd1ebf63e937a8325ad68170f7331ae57ad65d1e559ce0155b09a62e1dfcc-building-workflows-01.webp" />
 
 3. Add and set up the necessary blocks.
 
 Each workflow contains the required blocks:
 
-- **[Start](https://docs.yespo.io/docs/start-block)**. This block is automatically added at the beginning of a workflow.
-- **[End](https://docs.yespo.io/docs/popular-blocks#end)**. Place this block at the end of a workflow branch.
+* **[Start](https://docs.yespo.io/docs/start-block)**. This block is automatically added at the beginning of a workflow.
+* **[End](https://docs.yespo.io/docs/popular-blocks#end)**. Place this block at the end of a workflow branch.
 
 4. After adding all the necessary workflow blocks, choose the following actions:
 
-- Save
-- Save and exit
-- Save and launch one time
+* Save
+* Save and exit
+* Save and launch one time
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6ca39b150191c6cb9a7e42f2480905627052584928f388c20a9ae6c916097162-building-workflows-02.webp",
-        "",
-        "Actions after building workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6ca39b150191c6cb9a7e42f2480905627052584928f388c20a9ae6c916097162-building-workflows-02.webp" />
 
 The new workflow will appear in the list of workflows after saving.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8c6d346fd841cef702a3fcacfc0e0806b028f77a84ca37148d13f41fa615cd30-building-and-editing-workflows-201.webp",
-        "",
-        "New workflow with the Not active status"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/8c6d346fd841cef702a3fcacfc0e0806b028f77a84ca37148d13f41fa615cd30-building-and-editing-workflows-201.webp" />
 
 ## Managing Blocks
 
@@ -123,172 +63,52 @@ You can add blocks to your workflow in two ways:
 1. Left-click the necessary block. It is automatically connected to the previous block. If the previous block is a condition that has two branches – green and red – the next block is connected first to the green branch.
 2. Drag a block and connect it manually to any block.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f6fd236459b16d55bbafad3169d258189f17df301013b3371229b534676cd0e6-building-and-editing-workflows-0003.gif",
-        "",
-        "Adding blocks"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/f6fd236459b16d55bbafad3169d258189f17df301013b3371229b534676cd0e6-building-and-editing-workflows-0003.gif" />
 
 ### Deleting Blocks
 
-To delete a block, select it and click the trash icon above it or in the top panel. You can also press _Delete_ on your keyboard.
+To delete a block, select it and click the trash icon above it or in the top panel. You can also press *Delete* on your keyboard.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1f33df7aa64613e7e9f9514c44f08a01e97cc299f25ade88c5cb115a5fe9bf01-building-workflows-03.webp",
-        "",
-        "Deleting block"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/1f33df7aa64613e7e9f9514c44f08a01e97cc299f25ade88c5cb115a5fe9bf01-building-workflows-03.webp" />
 
+To delete a connection between blocks, select it (the color of the connection points changes to blue) and press *Delete* on the keyboard.
 
-To delete a connection between blocks, select it (the color of the connection points changes to blue) and press _Delete_ on the keyboard.
+<Image align="center" width="80% " src="https://files.readme.io/5b87a34ae3eae0cee2225aa5a3855b89b5e20617b0a2167d1fe4f1e4c8f25ae6-building-workflows-04.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5b87a34ae3eae0cee2225aa5a3855b89b5e20617b0a2167d1fe4f1e4c8f25ae6-building-workflows-04.webp",
-        "",
-        "Deleting connection between blocks"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+To select a few blocks and connections, press the *Shift* key on the keyboard and select the necessary workflow fragment.
 
-
-To select a few blocks and connections, press the _Shift_ key on the keyboard and select the necessary workflow fragment.
-
-To select all blocks and connections, press _Ctrl+A_ on the keyboard.
+To select all blocks and connections, press *Ctrl+A* on the keyboard.
 
 ### Undo Actions
 
 To undo the previous action or redo the undone action, click the arrow icons on the top panel or press on the keyboard:
 
-- _Ctrl + Z_ — undo the previous action.
-- _Ctrl + Y_ — redo the undone action.
+* *Ctrl + Z* — undo the previous action.
+* *Ctrl + Y* — redo the undone action.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4f6f54c4533774e4bed1489415a8eacf8c65148090cd9579602d53f79515db3f-building-workflows-05.webp",
-        "",
-        "Undo the previous action"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/4f6f54c4533774e4bed1489415a8eacf8c65148090cd9579602d53f79515db3f-building-workflows-05.webp" />
 
 ### Additional Block Settings
 
 The blocks requiring additional settings have an orange alert label mark. Select a block and configure its settings in the right-hand side panel. Learn more about the block settings in the instructions for each block group.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fa813f167d80499c349145090479871bc7273da8c35362c8542b974fee2f699e-building-workflows-06.webp",
-        "",
-        "Block settings"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/fa813f167d80499c349145090479871bc7273da8c35362c8542b974fee2f699e-building-workflows-06.webp" />
 
+To expand or collapse the block panel, click *"\["* on the keyboard or *angle brackets* icon in the drag-and-drop builder.
 
-To expand or collapse the block panel, click _"\["_ on the keyboard or _angle brackets_ icon in the drag-and-drop builder.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/0a05a45a0eca53ffce0a668bba3ebbeb15edb3b118ef8bad979c1d83b90e0f35-building-workflows-07.webp",
-        "",
-        "Expand/collapse the block panel"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/0a05a45a0eca53ffce0a668bba3ebbeb15edb3b118ef8bad979c1d83b90e0f35-building-workflows-07.webp" />
 
 ## Workflow Description
 
 The description of a workflow in the system helps mark workflows with brief information about their purpose and key actions.
 
-Click the _Workflow description_ icon and add the necessary information.
+Click the *Workflow description* icon and add the necessary information.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/76736fbe70c20ba48a28b3693fcf6c5ef32bc4b7e038218b8aa4f81e50f7c627-building-workflows-09.webp",
-        null,
-        "Describe your workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/76736fbe70c20ba48a28b3693fcf6c5ef32bc4b7e038218b8aa4f81e50f7c627-building-workflows-09.webp" />
 
 In the menu, the description appears in a tooltip when you hover over the icon.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8a4e741fb6f8470eb3215be9fdc514a064b0d90cdd3ce96d8fb29a1fb565e59b-building-workflows-10.webp",
-        null,
-        "Workflow Description"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/8a4e741fb6f8470eb3215be9fdc514a064b0d90cdd3ce96d8fb29a1fb565e59b-building-workflows-10.webp" />
 
 ## Copying Blocks & Workflows
 
@@ -296,59 +116,29 @@ You can duplicate blocks in a workflow so that a duplicated block has the same c
 
 You can also copy selected blocks from one workflow to another and create a new workflow containing the blocks from an existing workflow.
 
-To duplicate a block, select the block and click the Copy icon above it or in the top panel. You can use _Ctrl + C / Ctrl + V_ combinations on your keyboard.
+To duplicate a block, select the block and click the Copy icon above it or in the top panel. You can use *Ctrl + C / Ctrl + V* combinations on your keyboard.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b757d7ccfc5cc7568fbf11ec437daa332b42f855dd8c120d9cfec62af5a025f6-building-workflows-08.webp",
-        "",
-        "Copying blocks"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/b757d7ccfc5cc7568fbf11ec437daa332b42f855dd8c120d9cfec62af5a025f6-building-workflows-08.webp" />
 
 To copy the selected blocks from one workflow to another:
 
 1. Open two workflows in different tabs.
-2. Using your mouse, select the blocks in the workflow you want to copy or press _Ctrl + C_ on your keyboard.
-3. Go to another workflow and paste the copied blocks by pressing _Ctrl + V_ on your keyboard.
+2. Using your mouse, select the blocks in the workflow you want to copy or press *Ctrl + C* on your keyboard.
+3. Go to another workflow and paste the copied blocks by pressing *Ctrl + V* on your keyboard.
 
 To copy workflow:
 
-1. Go to _Automation_ → _Workflows_.
+1. Go to *Automation* → *Workflows*.
 2. Select the ellipses (three dots) icon beside the workflow you want to copy.
-3. Select _Copy_ from the dropdown list.
+3. Select *Copy* from the dropdown list.
 
 A new workflow window appears containing the blocks from the copied workflow. You can edit and save it.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c5a3329e01fb9072e38b0c66a97bc85b72531faef7f27a38c2892de56d45b732-building-and-editing-workflows-202.webp",
-        "",
-        "Copying a workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c5a3329e01fb9072e38b0c66a97bc85b72531faef7f27a38c2892de56d45b732-building-and-editing-workflows-202.webp" />
 
 > 📘 Note
-> 
-> For more convenient selection and copying of blocks, you can use the _Ctrl/command_ keys
+>
+> For more convenient selection and copying of blocks, you can use the *Ctrl/command* keys
 
 ## Setting up Workflow Start/Stop Configuration
 
@@ -362,163 +152,43 @@ There are two ways to check the correctness of the workflow:
 
 A. When saving it:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3778708a5c0f90373958b4dd82fa40e5dd9fdfa589b38724f643a9e920d3c965-testing_4.png",
-        "",
-        "Testing workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/3778708a5c0f90373958b4dd82fa40e5dd9fdfa589b38724f643a9e920d3c965-testing_4.png" />
 
 B. In the general workflow list:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/759166cc7d7ff83a3d418c33b43195680d0e2c774979663485b61898065580f7-testing_2.png",
-        "",
-        "Testing workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/759166cc7d7ff83a3d418c33b43195680d0e2c774979663485b61898065580f7-testing_2.png" />
 
-
-1. Select the _(Save and) launch one time_ option.
+1. Select the *(Save and) launch one time* option.
 
 2. Select one of the testing options:
-   - Start for a contact
-   - Start with event
+   * Start for a contact
+   * Start with event
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/922753a128faefb388acb44c66ccb53fd7910bca4d9acdea7bdab6c2a601d1e2-testing_8.png",
-        "",
-        "Testing workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/922753a128faefb388acb44c66ccb53fd7910bca4d9acdea7bdab6c2a601d1e2-testing_8.png" />
 
 ### Start for a Contact
 
-Click _Select contact_ and select the contact from the list.
+Click *Select contact* and select the contact from the list.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c141abc11bcb250024c5d3d6eb2842c655b209eb6556391115af3e4dcf2108ca-testing_7.png",
-        "",
-        "Select contact"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c141abc11bcb250024c5d3d6eb2842c655b209eb6556391115af3e4dcf2108ca-testing_7.png" />
 
 If the workflow uses event parameters, select the event from the list.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3736ab2663e7e4a2ecaa82c904bf3a328f7ca70c5c1d6759a30ae40603384b77-testing_1.png",
-        "",
-        "Select event"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/3736ab2663e7e4a2ecaa82c904bf3a328f7ca70c5c1d6759a30ae40603384b77-testing_1.png" />
 
 If variables are specified in the workflow blocks, specify their values ​​in the corresponding fields.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2892f8594bf72792ff46c52d989bd5c3bec51bd7460161bf3db4d335d0188858-testing_6.png",
-        "",
-        "Variables' values"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/2892f8594bf72792ff46c52d989bd5c3bec51bd7460161bf3db4d335d0188858-testing_6.png" />
 
+Click *Launch*.
 
-Click _Launch_.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6201fe21a81c3c100259b217828819a4f6619fb1aff424ac5520c08b9b13b620-testing_3.png",
-        "",
-        "Launch"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6201fe21a81c3c100259b217828819a4f6619fb1aff424ac5520c08b9b13b620-testing_3.png" />
 
 ### Start with Event
 
-Paste the event parameters in JSON format into the appropriate field and click _Launch_.
+Paste the event parameters in JSON format into the appropriate field and click *Launch*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cf4fc71c273581535210b26a16632e68f4b05fbbea04e02b14befb2773f9fe1a-testing_5.png",
-        "",
-        "Start with Event"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/cf4fc71c273581535210b26a16632e68f4b05fbbea04e02b14befb2773f9fe1a-testing_5.png" />
 
 After a workflow test run, check [the history of its launches](https://docs.yespo.io/docs/using-workflow-launch-history) and/or the messages received through the workflow.
 
@@ -528,90 +198,30 @@ You need to activate your workflow, so it can start automatically in accordance 
 
 To activate a workflow:
 
-1. Go to _Automation → Workflows_, and select _Not Active_ in the menu on the left-hand side.
+1. Go to *Automation → Workflows*, and select *Not Active* in the menu on the left-hand side.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ba3ca17a25ffe4e27469640e746661a9e352f3546b62f3a20eadd0a2d9570895-building-and-editing-workflows-203.webp",
-        "",
-        "Activating a workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/ba3ca17a25ffe4e27469640e746661a9e352f3546b62f3a20eadd0a2d9570895-building-and-editing-workflows-203.webp" />
 
+2. Click the *Activate* icon beside the workflow you want to activate.
 
-2. Click the _Activate_ icon beside the workflow you want to activate.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f48cc30ef884b32f7ae0497e49358e4039e557107b85db33d9472f5e4f0b4250-building-and-editing-workflows-204.webp",
-        "",
-        "Activate icon"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/f48cc30ef884b32f7ae0497e49358e4039e557107b85db33d9472f5e4f0b4250-building-and-editing-workflows-204.webp" />
 
 To deactivate a workflow:
 
-Go to _Automation → Workflows_ _→ Active_ and click the _Deactivate_ icon beside the workflow you want to deactivate.
+Go to *Automation → Workflows* *→ Active* and click the *Deactivate* icon beside the workflow you want to deactivate.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c65b4b45cec9d8d3fc9f060bf86eeb1e1a3f3d87dae459098f43e1b1f3854188-building-and-editing-workflows-205.webp",
-        "",
-        "Deactivate icon"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c65b4b45cec9d8d3fc9f060bf86eeb1e1a3f3d87dae459098f43e1b1f3854188-building-and-editing-workflows-205.webp" />
 
 ## Viewing Workflow Statistics
 
-The _Statistics_ icon beside a workflow opens a dropdown list of options. You can choose the following options:
+The *Statistics* icon beside a workflow opens a dropdown list of options. You can choose the following options:
 
-- **In progress**. This item opens the list of all the currently running workflows.
-- **Completed**. This item opens the list of all the completed workflows.
-- **Launched per 7 days**. This item opens the list of the workflows launched during the last 7 days.
-- **Statuses of launches to segment**. This item opens the details of workflows launched for the segments of contacts.
+* **In progress**. This item opens the list of all the currently running workflows.
+* **Completed**. This item opens the list of all the completed workflows.
+* **Launched per 7 days**. This item opens the list of the workflows launched during the last 7 days.
+* **Statuses of launches to segment**. This item opens the details of workflows launched for the segments of contacts.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e045ff5dbe00ae8e8a32232d02a2506cc6c1b34aca8303ad21fcfb84c792eb59-building-and-editing-workflows-202.webp",
-        "",
-        "Workflow statistics"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/e045ff5dbe00ae8e8a32232d02a2506cc6c1b34aca8303ad21fcfb84c792eb59-building-and-editing-workflows-202.webp" />
 
 When you select one of the first three items, you can view the launch history of your workflows and check for any errors in their blocks. You can also preview the workflows. Read [Using Workflow Launch History](https://docs.yespo.io/docs/using-workflow-launch-history) to learn more.
 
@@ -619,41 +229,12 @@ When you select one of the first three items, you can view the launch history of
 
 To find a workflow, use the search bar by name, [tag](https://docs.yespo.io/docs/how-add-tags), or workflow ID
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4def771f7d782eaf73ad63c37d9139a025da49e08d4d2d7b8bcc2eb30aea699c-building-and-editing-workflows-207.webp",
-        "",
-        "Search workflows"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/4def771f7d782eaf73ad63c37d9139a025da49e08d4d2d7b8bcc2eb30aea699c-building-and-editing-workflows-207.webp" />
 
 To filter workflows by activity, click the corresponding tab in the menu on the left:
 
-- All workflows (shows workflows with all statuses)
-- Active
-- Not active
+* All workflows (shows workflows with all statuses)
+* Active
+* Not active
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1eeda255f8bbc5e95fe7d5fb10443cd02041b3694a4457d23dd95e68e208ba21-building-and-editing-workflows-208.webp",
-        "",
-        "Filter workflows"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/1eeda255f8bbc5e95fe7d5fb10443cd02041b3694a4457d23dd95e68e208ba21-building-and-editing-workflows-208.webp" />
