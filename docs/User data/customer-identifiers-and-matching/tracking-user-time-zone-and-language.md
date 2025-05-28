@@ -15,17 +15,17 @@ next:
 ---
 You can record the contact's time zone and language in two ways:
 
-- via API.
-- using the SDK (when transferring data from the frontend of the mobile application).
+* via API.
+* using the SDK (when transferring data from the frontend of the mobile application).
 
 > 📘 Note
-> 
+>
 > Send data about language in <a rel="nofollow" href="https://www.rfc-editor.org/rfc/rfc5646.html" target="_blank"> RFC 5646</a> format. A primary language subtag in <a rel="nofollow" href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank"> ISO 639-1</a> format is required. Example: de-AT
-> 
+>
 > Send data about time zone in <a rel="nofollow" href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank"> TZ database</a> format. Example: Europe/Kyiv
 
 > ❗️ Important
-> 
+>
 > You can track user attributes (language, time zone etc.) only for users with [external user IDs](https://docs.yespo.io/docs/external-id-creating-and-updating-users).
 
 ## API Methods
@@ -99,7 +99,7 @@ Add user attributes like time zone and language by the following method:
 Reteno.updateUserAttributes(externalUserId: "USER_ID", userAttributes: UserAttributes, subscriptionKeys: [String], groupNamesInclude: [String], groupNamesExclude: [String])
 ```
 
-The _UserAttributes_ object example:
+The *UserAttributes* object example:
 
 ```swift
 func saveUser() {
@@ -127,7 +127,7 @@ Reteno.setUserAttributes(String externalUserId, User user)
 Reteno.setUserAttributes(externalUserId: String, user: User?)
 ```
 
-The _userAttributes_ object example:
+The *userAttributes* object example:
 
 ```java
 fun setLanguageTimeZone() {
@@ -164,7 +164,7 @@ setUserAttributes({
 })
 ```
 
-The _userAttributes_ object example:
+The *userAttributes* object example:
 
 ```typescript
 setUserAttributes({
