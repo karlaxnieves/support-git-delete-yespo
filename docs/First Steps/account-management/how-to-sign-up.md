@@ -64,7 +64,7 @@ In case you have made a mistake when typing your email address, сlick the icon 
 
 You will be directed to the *Account Activation* page to complete the process.
 
-* **Login data**
+* *Login data*
 
 Enter your password into the *Password* and *Password Again* fields, and click *Next*.
 
@@ -72,13 +72,13 @@ Enter your password into the *Password* and *Password Again* fields, and click *
 
 Your password has to comply with the conditions listed below the fields.
 
-* **Account information**
+* *Account information*
 
 Enter the preferred name for your account and click the *Next* button.
 
 <Image align="center" width="80% " src="https://files.readme.io/f89e516358b9fd577a5682728f96dd04415f7b325d47149d14b5be306c881a99-how-to-sign-up-0006.webp" />
 
-* **More options**
+* *More options*
 
 1. From the dropdown list, select:
 
