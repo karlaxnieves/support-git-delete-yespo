@@ -22,10 +22,10 @@ We clearly understand that quicker integration means shorter sales cycles for yo
 1. Start working with SDK by [managing your SDK Access Key](https://docs.yespo.io/docs/managing-mobile-sdk-access-keys-1). 
 2. Integrate the required SDK versions into your mobile app:
 
-- [iOS SDK](https://docs.yespo.io/reference/ios-sdk)
-- [Android SDK](https://docs.yespo.io/reference/android-sdk)
-- [React Native SDK](https://docs.yespo.io/reference/react-native-sdk)
-- [Flutter SDK](https://docs.yespo.io/reference/flutter-sdk)
-- [Unity SDK](https://docs.yespo.io/reference/unity-sdk-setup)
-- [Cordova SDK](https://docs.yespo.io/reference/cordova-sdk-setup)
-- [Ionic SDK](https://docs.yespo.io/reference/ionic-sdk)
+* [iOS SDK](https://docs.yespo.io/reference/ios-sdk)
+* [Android SDK](https://docs.yespo.io/reference/android-sdk)
+* [React Native SDK](https://docs.yespo.io/reference/react-native-sdk)
+* [Flutter SDK](https://docs.yespo.io/reference/flutter-sdk)
+* [Unity SDK](https://docs.yespo.io/reference/unity-sdk-setup)
+* [Cordova SDK](https://docs.yespo.io/reference/cordova-sdk-setup)
+* [Ionic SDK](https://docs.yespo.io/reference/ionic-sdk)
