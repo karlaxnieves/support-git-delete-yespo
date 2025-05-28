@@ -17,14 +17,14 @@ The list of supported events:
 | **Event type**         | **Description**                                                                                                                                                             |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | productViewed          | Tracking the product cards visited by a user. The event is used for ranking items / categories and sending triggers for browse abandonment.                                 |
-| productCategoryViewed  | Tracking the product categories viewed by a user. The event is used for the triggers like _Website visit with a category view_ and _Website visit without a category view_. |
+| productCategoryViewed  | Tracking the product categories viewed by a user. The event is used for the triggers like *Website visit with a category view* and *Website visit without a category view*. |
 | productAddedToWishlist | Tracking products added to the wishlist. The event is used for processing and displaying recommendations and sending the wishlist related triggers.                         |
 | cartUpdated            | Tracking updates of the shopping cart. The event is used for the shopping cart related triggers.                                                                            |
 | orderCreated           | An order creation event.                                                                                                                                                    |
 | orderUpdated           | An order updating event.                                                                                                                                                    |
 | orderDelivered         | The existing order status changes to DELIVERED.                                                                                                                             |
 | orderCancelled         | The existing order status changes to CANCELLED.                                                                                                                             |
-| searchRequest          | Tracking the search requests. The event is used for the triggers like _Abandoned search_.                                                                                   |
+| searchRequest          | Tracking the search requests. The event is used for the triggers like *Abandoned search*.                                                                                   |
 
 Use the following method for activity tracking:
 
@@ -59,7 +59,7 @@ data class ProductViewed @JvmOverloads constructor(
 ) : EcomEvent(occurred)
 ```
 
-`CurrencyCode` must be in [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
+`CurrencyCode` must be in [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "\{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
 
 The `ProductView` model:
 
@@ -158,7 +158,7 @@ data class ProductAddedToWishlist @JvmOverloads constructor(
 ) : EcomEvent(occurred)
 ```
 
-`CurrencyCode` must be in [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
+`CurrencyCode` must be in [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "\{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
 
 The `ProductView` model:
 
@@ -215,7 +215,7 @@ data class CartUpdated @JvmOverloads constructor(
 ) : EcomEvent(occurred)
 ```
 
-`CurrencyCode` must be in the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
+`CurrencyCode` must be in the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "\{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
 
 The `ProductInCart` model:
 
@@ -287,7 +287,7 @@ data class OrderCreated @JvmOverloads constructor(
 ) : EcomEvent(occurred)
 ```
 
-`CurrencyCode` must be in the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
+`CurrencyCode` must be in the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "\{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If the currency is not set, the organization's default currency is used.
 
 The `Order` model:
 
@@ -584,7 +584,7 @@ getReteno().logEcommerceEvent(ecomEvent);
 
 ## Search Request
 
-Track the search requests for the triggers like _Abandoned search_.
+Track the search requests for the triggers like *Abandoned search*.
 
 The `SearchRequest` event model:
 
