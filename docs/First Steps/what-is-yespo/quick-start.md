@@ -33,7 +33,7 @@ This section manages contacts and stores information about them — first name, 
 
 ## Messages
 
-In this section, you can create and send different types of messages: **Email**,**SMS**, **Web Push**,**Mobile Push**, **Viber**,**App Inbox**, **In-App**, **Telegram**. Save messages as templates for quick future reference. Statistics in the *Messages* section displays information about the number of sent and read messages, and clicks on the links.
+In this section, you can create and send different types of messages: **Email**, **SMS**, **Web Push**, **Mobile Push**, **Viber**, **App Inbox**, **In-App**, **Telegram**. Save messages as templates for quick future reference. Statistics in the *Messages* section displays information about the number of sent and read messages, and clicks on the links.
 
 <Image align="center" width="80% " src="https://files.readme.io/f263d9f562d89cfcf8202b0929ac9eafe0d38651c06eb9a668e0f19b8ab23e97-sections-overview-message.webp" />
 
