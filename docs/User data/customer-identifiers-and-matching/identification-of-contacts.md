@@ -18,7 +18,7 @@ The script collects data from the following sources, as described below.
 
 ## Cookies
 
-When a person visits your site for the first time, the only information about that visitor is the ID from the cookie file stored on the customer’s computer.   
+When a person visits your site for the first time, the only information about that visitor is the ID from the cookie file stored on the customer’s computer. \
 The script writes this ID into the customer’s browser. This ID is used for tracing and storing historical data about the customer.
 
 ## UTM Tags
@@ -27,17 +27,17 @@ UTM tags are small snippets of code that you can add to the end of links that yo
 
 The script takes the contact ID\* from the UTM tag and uses it in the tracking events. Also, this contact ID is used for linking a web push token to the existing contact.
 
-_\* The contact ID is the identifier of a customer, whose data you store in the system._
+*\*The contact ID is the identifier of a customer, whose data you store in the system.*
 
-A contact is identified by the _contactId_ parameter when navigating from a message to a website. We get the _contactId_ from UTM tags according to the following priority:
+A contact is identified by the *contactId* parameter when navigating from a message to a website. We get the *contactId* from UTM tags according to the following priority:
 
-1. _etm\_term_ – if the tag is configured.
-2. _utm\_content=Yespo-$contactId_ — transmission of the _contactId_ is configured by default.
-3. _utm\_source=Yespo-$type_ + _utm\_content=$contactId_ – if the _Yespo_ value is specified in _utm\_source_ (it can be changed if necessary, _contactId_ will be transferred from tags with higher priority).
+1. *etm\_term* – if the tag is configured.
+2. *utm\_content=Yespo-$contactId* — transmission of the *contactId* is configured by default.
+3. *utm\_source=Yespo-$type* + *utm\_content=$contactId* – if the *Yespo* value is specified in *utm\_source* (it can be changed if necessary, *contactId* will be transferred from tags with higher priority).
 
 > ❗️ Important
-> 
-> For the script to work properly, do not change the default values of the _utm\_content_ tag
+>
+> For the script to work properly, do not change the default values of the *utm\_content* tag
 
 ## Web Push
 
@@ -48,7 +48,7 @@ If the same contact follows a link in your message (for example, an email or a V
 In this case, we connect the contact ID of the existing contact and the web push token of the contact created later. The contact becomes more complete.
 
 > 📘 Note
-> 
+>
 > You have to enable the Enable UTM tags for all language versions option when configuring your web push notifications. Read [this information](https://docs.yespo.io/docs/how-create-and-manage-web-push-notifications#additional-settings) to learn more.
 
 ## Subscription Form
@@ -58,16 +58,16 @@ A contact can enter the email address or a phone number in a subscription form t
 If there is no contact having such an email address or a phone number, a new contact ID is created.
 
 > 📘 Note
-> 
+>
 > The contact ID received after a subscription using the subscription form has higher priority than that received after a subscription using a web-push notification.
 
 ## Sending Events Using JavaScript Requests
 
-You can send to our system the information that you collected about contacts on your website. This works if you have installed and activated the web tracking script on your site.  
+You can send to our system the information that you collected about contacts on your website. This works if you have installed and activated the web tracking script on your site.\
 There are two ways to transfer the contact information:
 
-- Using the [Customer data](https://docs.yespo.io/docs/how-set-web-tracking-sending-events-java-scipt-request#customer) event.
-- Passing the information in the [General Info](https://docs.yespo.io/docs/how-set-web-tracking-sending-events-java-scipt-request#site-visitor-data) object inserted into any event. See the example below.
+* Using the [Customer data](https://docs.yespo.io/docs/how-set-web-tracking-sending-events-java-scipt-request#customer) event.
+* Passing the information in the [General Info](https://docs.yespo.io/docs/how-set-web-tracking-sending-events-java-scipt-request#site-visitor-data) object inserted into any event. See the example below.
 
 ```json
 - eS('sendEvent', 'PageView', {  
