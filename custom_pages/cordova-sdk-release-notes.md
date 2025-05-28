@@ -8,7 +8,7 @@ metadata:
 ---
 We are constantly working to improve our SDK. Here you’ll find the change log for the Cordova SDK and related details.
 
-- [Cordova 1.1.0 Release](#1-1-0)
+* [Cordova 1.1.0 Release](#1-1-0)
 
 ***
 
@@ -16,18 +16,18 @@ We are constantly working to improve our SDK. Here you’ll find the change log 
 Cordova 1.1.0 Release
 </h2>
 
-:high-brightness: **Improved**
+:high_brightness: **Improved**
 
-- Removed Sentry
-- Simplified GitHub and npm releases
+* Removed Sentry
+* Simplified GitHub and npm releases
 
-:white-check-mark: **Fixed**
+:white_check_mark: **Fixed**
 
-- Fixed Cordova example app builds
-- Fixed example apps inconsistencies
-- Fixed plugin incorrect attributes and anonymous attributes
-- Fixed plugin incorrect types
-- Fixed incorrect SDK initializations
+* Fixed Cordova example app builds
+* Fixed example apps inconsistencies
+* Fixed plugin incorrect attributes and anonymous attributes
+* Fixed plugin incorrect types
+* Fixed incorrect SDK initializations
 
 <a rel="nofollow" href="https://github.com/reteno-com/cordova-plugin-reteno/releases" target="_blank"> Read more </a>
 
