@@ -17,44 +17,91 @@ next:
 Using the [Generate event](https://docs.yespo.io/reference/registerevent_1) API resource, you can send events from your website and store them in our system. These events can be used for triggering a workflow or for segmentation purposes.
 
 > 📘 Note
-> 
+>
 > Version 2 API methods do not require escaping in nested JSON.
 
 The method has the following body parameters explained in the table below.
 
 > ❗️ Important
-> 
+>
 > The maximum size of content for events sent in the request body is 20 kilobytes. Please contact Support if you need to adjust the maximum size.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "eventTypeKey",
-    "0-1": "string, required",
-    "0-2": "Event type ID key. If no such event type exists with such a key, a new one is created.  \nAll characters are allowed except \\< ; ’ \\\\ / | \" \\` ' ^ ? ! , >  \nMax length: 100 symbols",
-    "1-0": "keyValue",
-    "1-1": "string",
-    "1-2": "Event key. Determines event uniqueness.  \nThe key must contain a unique value for each contact (for example, email, phone number, external contact id, etc.)  \nIf this parameter is not set, **params** must contain one of the following contact identifiers:  \n  \n- contactId\n- externalCustomerId (see the note below)\n- email\n- phone\n- pushToken: web or mobileAll characters are allowed except \\< ; ’ \\\\ / | \" \\` ' ^ ? ! , >  \n  Max length: 300 symbols",
-    "2-0": "params",
-    "2-1": "array of objects",
-    "2-2": "List of event parameters represented as an array of \"key\" - \"value\" pairs. The parameter keys are arbitrary.  \nUsed in campaigns and for creating dynamic content in messages."
-  },
-  "cols": 3,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        eventTypeKey
+      </td>
+
+      <td>
+        string, required
+      </td>
+
+      <td>
+        Event type ID key. If no such event type exists with such a key, a new one is created.\
+        All characters are allowed except \< ; ’ \\ / | " \` ' ^ ? ! , >\
+        Max length: 100 symbols
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        keyValue
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Event key. Determines event uniqueness.\
+        The key must contain a unique value for each contact (for example, email, phone number, external contact id, etc.)\
+        If this parameter is not set, **params** must contain one of the following contact identifiers:  
+
+        * contactId
+        * externalCustomerId (see the note below)
+        * email
+        * phone
+        * pushToken: web or mobileAll characters are allowed except \< ; ’ \\ / | " \` ' ^ ? ! , >\
+          Max length: 300 symbols
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        params
+      </td>
+
+      <td>
+        array of objects
+      </td>
+
+      <td>
+        List of event parameters represented as an array of "key" - "value" pairs. The parameter keys are arbitrary.\
+        Used in campaigns and for creating dynamic content in messages.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 > ❗️ Important
-> 
+>
 > When passing events using the Generate event v2 method, **externalCustomerId** in **params**  is ignored if it contains the empty or null value. For example, "", " ", " ", "null", null.
 
 You can use this API resource for sending the following requests, as described below.
@@ -122,67 +169,22 @@ Request example:
 }
 ```
 
-_eventTypeKey_ is a string identifier for the event type. If it did not exist before, after the first request it appears in the account, and you can see it in the _Automation_ → _Event types_ section.
+*eventTypeKey* is a string identifier for the event type. If it did not exist before, after the first request it appears in the account, and you can see it in the *Automation* → *Event types* section.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c43b9e1aac324eeecb65e948eae4997f51ef084b8f113754f0d28a97ecce17ea-image6.png",
-        "New event",
-        "New event"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/c43b9e1aac324eeecb65e948eae4997f51ef084b8f113754f0d28a97ecce17ea-image6.png" />
 
+To view the event body, go to *Automation → Event history* and click the event.
 
-To view the event body, go to _Automation → Event history_ and click the event.
+<Image align="center" width="80% " src="https://files.readme.io/6473553c76d13de9aa0f1875d054a594f06f025fdcded185f00df07d4d255d27-image5.png" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6473553c76d13de9aa0f1875d054a594f06f025fdcded185f00df07d4d255d27-image5.png",
-        "Event parameters",
-        "Event body"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
-
-- **keyValue** is the event key.
-- **params** are event parameters that can be used in a workflow. Their number is unlimited.
+* **keyValue** is the event key.
+* **params** are event parameters that can be used in a workflow. Their number is unlimited.
 
 The event must contain a contact identifier, such as email, phone number, or [External ID](https://docs.yespo.io/docs/external-id-creating-and-updating-users).
 
 In our example, this is the email `site@ukr.net`. In the future, you need to refer to it in the workflow by writing `${emailAddress}` in the message sending block to successfully send to the email `site@ukr.net`:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/76b269a0dbeaddb1e2b0e3a667b365c9eee25a21432f0ea59a194e628e82f225-using-the-generate-event-api-resource-31032025-01.webp",
-        "Workflow with the selected contact's email",
-        "Workflow with the selected contact's email"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/76b269a0dbeaddb1e2b0e3a667b365c9eee25a21432f0ea59a194e628e82f225-using-the-generate-event-api-resource-31032025-01.webp" />
 
 The request may contain several arrays. In our example, these are two arrays — `cartItems` and `recommendedItems` — containing two products each with a set of variables `name`, `price`, `url`, `imageUrl`, `brand`, `tags_weight`, `tags_oldprice`. The names of variables are arbitrary.
 
@@ -231,51 +233,21 @@ $!data.get('array').get(1).get('tags_oldprice')
 The number of elements is unlimited.
 
 > 📘 Important
-> 
+>
 > Variables are case-sensitive. If an email contains `$!item.get ('ImageUrl')` and the request transfers imageurl, the variable will not be inserted.
 
-To view and check dynamic data in an email, click _Additional settings → Configuring dynamic content._
+To view and check dynamic data in an email, click *Additional settings → Configuring dynamic content.*
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/38294c77e190a0abe5802a7c057bbc114a629060da4f5e57affb27c3f3a67969-using-the-generate-event-api-resource-003.webp",
-        "How to view dynamic data in the email",
-        "How to view dynamic data in the email"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/38294c77e190a0abe5802a7c057bbc114a629060da4f5e57affb27c3f3a67969-using-the-generate-event-api-resource-003.webp" />
 
+Insert an array with dynamic data and click *View message*.
 
-Insert an array with dynamic data and click _View message_.
+<Image align="center" width="80% " src="https://files.readme.io/70f645af245c593b26710a0cbf91f5c5a63921876d0ecf04826b1a705cf32f2f-using-the-generate-event-api-resource-004.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/70f645af245c593b26710a0cbf91f5c5a63921876d0ecf04826b1a705cf32f2f-using-the-generate-event-api-resource-004.webp",
-        "Parameters of dynamic content",
-        "Parameters of dynamic content"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
-
-- In case of an error in the dynamic content substitution, check the Velocity syntax in the message.
-- If you see the _Wrong Format_ error, check the JSON request body.
-- If there are no errors, but the data is not inserted in the preview, check whether the variables in the request and variables in the email correspond and whether variables are referred to correctly.
-- If there are no errors and the data is substituted correctly, run a test by [sending an API request to the account](https://docs.yespo.io/docs/integration-with-api).
+* In case of an error in the dynamic content substitution, check the Velocity syntax in the message.
+* If you see the *Wrong Format* error, check the JSON request body.
+* If there are no errors, but the data is not inserted in the preview, check whether the variables in the request and variables in the email correspond and whether variables are referred to correctly.
+* If there are no errors and the data is substituted correctly, run a test by [sending an API request to the account](https://docs.yespo.io/docs/integration-with-api).
 
 ## Create or Update a Contact
 
@@ -318,39 +290,24 @@ Request sample:
 
 where,
 
-- **10001** is the ID of the additional field.
-- **2020-11-23** is the value of the additional field.
+* **10001** is the ID of the additional field.
+* **2020-11-23** is the value of the additional field.
 
 Check that the transferred data comply with the following requirements:
 
-- The name and surname length is up to 60 characters.
-- The phone number is in the international format. For example, +1-541-754-3010.
-- The value of an additional contact field is in the required format.
+* The name and surname length is up to 60 characters.
+* The phone number is in the international format. For example, +1-541-754-3010.
+* The value of an additional contact field is in the required format.
 
 If the transferred data contains errors, the system ignores the entire array and does not add or update data in the contact card.
 
-For a workflow to run correctly, in the block _Task (Create contact/Update contact)_, specify a variable `${email}` in the field _Contact’s email_ and a variable `${json}` in the field JSON.
+For a workflow to run correctly, in the block *Task (Create contact/Update contact)*, specify a variable `${email}` in the field *Contact’s email* and a variable `${json}` in the field JSON.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ab2af31d6c3fef8745cdf39f6a95c3ea2b5053b783dd2d6ad91ae1d3dbf42ab2-how-to-use-the-generate-event-api-03.webp",
-        "Specify Contact's email and JSON",
-        "Specify Contact's email and JSON"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/ab2af31d6c3fef8745cdf39f6a95c3ea2b5053b783dd2d6ad91ae1d3dbf42ab2-how-to-use-the-generate-event-api-03.webp" />
 
 [Learn more about the Task block](https://docs.yespo.io/docs/popular-blocks#task)
 
-In addition to that, the _Generate event_ resource can be used to create or update a contact and to trigger a workflow that sends messages with the dynamic content. It can also be used to [send orders to the system](https://docs.yespo.io/docs/how-send-events-resource-v1event).
+In addition to that, the *Generate event* resource can be used to create or update a contact and to trigger a workflow that sends messages with the dynamic content. It can also be used to [send orders to the system](https://docs.yespo.io/docs/how-send-events-resource-v1event).
 
 ## Send Transactional Letters
 
@@ -374,32 +331,17 @@ Request example:
 }
 ```
 
-In the workflow, it is necessary to use the _Task - Send obligatory (transactional) email_ block. Enter the `$!data.get('password')` variable in the letter you want to send.
+In the workflow, it is necessary to use the *Task - Send obligatory (transactional) email* block. Enter the `$!data.get('password')` variable in the letter you want to send.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3f3e28c448026611eb950a64616a90280a9ca3ee4e145a8d12be7da38a141ce5-using-the-generate-event-api-resource-31032025-03.webp",
-        "Transactional Email Workflow",
-        "Transactional Email Workflow"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/3f3e28c448026611eb950a64616a90280a9ca3ee4e145a8d12be7da38a141ce5-using-the-generate-event-api-resource-31032025-03.webp" />
 
-
-To learn more about the _Task_ block, read [this manual](https://docs.yespo.io/docs/popular-blocks#task).
+To learn more about the *Task* block, read [this manual](https://docs.yespo.io/docs/popular-blocks#task).
 
 ## Validate Contact Data in Events
 
 You can validate the contact data in events using the Generate event v2 API method.
 
-To validate contact data in events, you have to set _contactJson_ in `params` as a parameter `name`.
+To validate contact data in events, you have to set *contactJson* in `params` as a parameter `name`.
 
 ```json
 {
@@ -412,7 +354,7 @@ To validate contact data in events, you have to set _contactJson_ in `params` as
 }
 ```
 
-Indicate the data you want to validate in the _value_ field.
+Indicate the data you want to validate in the *value* field.
 
 **Example:**
 
@@ -459,55 +401,25 @@ The event will be enriched with the parameters explained in the following table.
 | cityName      | City name in English                    |
 | cityId        | City ID in the geographical database    |
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/eaa0f236e574ec1a98862c1ea66d9df1f7305ecd9792afce66500cb016eb8d73-event.webp",
-        "Event parameters",
-        "Event parameters"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/eaa0f236e574ec1a98862c1ea66d9df1f7305ecd9792afce66500cb016eb8d73-event.webp" />
 
 > 📘 Note
-> 
-> If the system cannot define region and city by the IP, it defines the country by _countryCode_ event parameter.
+>
+> If the system cannot define region and city by the IP, it defines the country by *countryCode* event parameter.
 
 The enriched event uses the contact’s location in a workflow.
 
 Also, these values in the event parameters are used for setting or updating the contact's location data.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/042c76b832eb5787211c698955d53b90e66f33264fac415676682fff1624f0a6-contact-card.webp",
-        "Location",
-        "Location"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/042c76b832eb5787211c698955d53b90e66f33264fac415676682fff1624f0a6-contact-card.webp" />
 
 > 📘 Note
-> 
+>
 > If the event already contains one of the following parameters, additional fields are not created and the location remains unchanged:
-> 
-> - countryCode,
-> - countryId,
-> - regionName,
-> - regionId,
-> - cityName,
-> - cityId.
+>
+> * countryCode,
+> * countryId,
+> * regionName,
+> * regionId,
+> * cityName,
+> * cityId.
