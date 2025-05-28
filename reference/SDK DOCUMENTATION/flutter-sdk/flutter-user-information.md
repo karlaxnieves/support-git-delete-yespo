@@ -14,7 +14,7 @@ You can track the user related information using external user ID and/or user at
 
 ## Adding External User ID
 
-External user ID is an ID you have assigned to a user in your system (external for 'Reteno').  
+External user ID is an ID you have assigned to a user in your system (external for 'Reteno').\
 You can add these in `Reteno` Flutter using the following method:
 
 ```text Dart
@@ -107,26 +107,26 @@ class UserCustomField {
 ```
 
 > 📘 Note
-> 
+>
 > `key`
-> 
+>
 > Custom fields variables. [Details >](https://yespo.io/support/how-add-additional-contact-fields#Updating-Custom-Fields-with-Data-from-Custom-Events-via-SDK)
-> 
+>
 > `phone`
-> 
-> We use [Google's libphonenumber library](https://github.com/google/libphonenumber "{rel='nofollow'}")  for phone number validation. Send phone numbers in the E164 format. A request with an invalid phone number will not be transmitted. You can validate phone numbers [by the link](https://libphonenumber.appspot.com/).
-> 
+>
+> We use [Google's libphonenumber library](https://github.com/google/libphonenumber "\{rel='nofollow'}")  for phone number validation. Send phone numbers in the E164 format. A request with an invalid phone number will not be transmitted. You can validate phone numbers [by the link](https://libphonenumber.appspot.com/).
+>
 > `languageCode`
-> 
-> Data about language in [RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html "{rel='nofollow'}") format. Primary language subtag in [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes "{rel='nofollow'}") format is required. Example: de-AT
-> 
+>
+> Data about language in [RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html "\{rel='nofollow'}") format. Primary language subtag in [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes "\{rel='nofollow'}") format is required. Example: de-AT
+>
 > `timeZone`
-> 
-> Item from [TZ database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones "{rel='nofollow'}"). Example: `Europe/Kyiv`
+>
+> Item from [TZ database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones "\{rel='nofollow'}"). Example: `Europe/Kyiv`
 
 ## Anonymous User Attributes
 
-> Available for reteno_plugin starting from version **1.1.0**  
+> Available for reteno\_plugin starting from version **1.1.0**\
 > `Reteno` plugin allows tracking anonymous user attributes `(no externalUserId required)`. To set user attributes without externalUserId use method `setAnonymousUserAttributes()`:
 
 ````text Dart
