@@ -27,98 +27,23 @@ We provide 5 widget types:
 
 **1. Subscription forms** – widgets for collecting contact data: email, phone, name.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/af430b1dc86d675310fef28bc4636b9f9127cced63c6a2960107746bde170fc2-widgets01.webp",
-        null,
-        "Subscription forms"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/af430b1dc86d675310fef28bc4636b9f9127cced63c6a2960107746bde170fc2-widgets01.webp" />
 
 **2. Informers** – clickable widgets to inform site visitors about promotions, discounts, new arrivals, upcoming events, and increase their involvement in social media.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/43cb38bcfddbe7656da4d4242e4fe6856477d604ad6956b5adc5709dd403c15d-widgets02.webp",
-        null,
-        "Informers"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/43cb38bcfddbe7656da4d4242e4fe6856477d604ad6956b5adc5709dd403c15d-widgets02.webp" />
 
 **3.** **Request forms** – widgets for collecting additional information about existing contacts and processing their requests for services and feedback.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2fad650df737cbfb31bf4f47acbbb47d5e4ee03eb324b905374137378dd74bb2-widgets.webp",
-        "Request forms",
-        "Request forms"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/2fad650df737cbfb31bf4f47acbbb47d5e4ee03eb324b905374137378dd74bb2-widgets.webp" />
 
 **4. Launchers** – call buttons on web pages that allow visitors to subscribe at a convenient moment.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/69abef21bcbe17f9eaeba4cd9fa4816e39ba141db9e446494d12d2f828b18fdb-widgets03.webp",
-        null,
-        "Launchers"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/69abef21bcbe17f9eaeba4cd9fa4816e39ba141db9e446494d12d2f828b18fdb-widgets03.webp" />
 
 **5. Age gate** – a widget that overlaps the main site content until the visitor confirms age.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/0971ed34bfb2ee3cfaa510ee54ccfd9261980076897b03b870dc7ab71755e4d0-widgets04.webp",
-        null,
-        "Age gate"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/0971ed34bfb2ee3cfaa510ee54ccfd9261980076897b03b870dc7ab71755e4d0-widgets04.webp" />
 
 ## Creating and Managing Widgets
 
@@ -133,24 +58,10 @@ Create [dynamic segments](https://docs.yespo.io/docs/how-add-dynamic-segment) ba
 
 Segmentation conditions:
 
-- Event count
-- Widget type
-- Widget
-- Widget language
-- CTOR (for clicks)
+* Event count
+* Widget type
+* Widget
+* Widget language
+* CTOR (for clicks)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4957b2e17210ebb10dbbdbdbb096b3c81020afa6d837fc07534ce3f58babeeb8-dynamic-segment.webp",
-        null,
-        "Segmentation by widget events"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/4957b2e17210ebb10dbbdbdbb096b3c81020afa6d837fc07534ce3f58babeeb8-dynamic-segment.webp" />
