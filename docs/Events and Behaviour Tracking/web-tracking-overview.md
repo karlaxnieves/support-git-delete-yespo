@@ -17,16 +17,16 @@ The data collected by web tracking allows you to make communication with custome
 
 With web tracking, you get access to such information as:
 
-- categories of viewed/postponed/purchased goods;
-- their price segment;
-- number of purchases;
-- user device type, model, browser, location, and more.
+* categories of viewed/postponed/purchased goods;
+* their price segment;
+* number of purchases;
+* user device type, model, browser, location, and more.
 
 By tracking the behavior of site visitors, you can:
 
-- create segments depending on events from your site;
-- send targeted omnichannel campaigns: email, SMS, Web push, App inbox, Mobile push, Viber, In-App, Telegram;
-- generate personalized product recommendations on the website, mobile app, and all message channels.
+* create segments depending on events from your site;
+* send targeted omnichannel campaigns: email, SMS, Web push, App inbox, Mobile push, Viber, In-App, Telegram;
+* generate personalized product recommendations on the website, mobile app, and all message channels.
 
 ## Setting Up Web Tracking
 
@@ -49,7 +49,7 @@ A product feed is a list of products and their attributes in your online store, 
 Set up the transmission of the events you want to track: adding a product to a wishlist or cart, searches, sales, or any other user activity on your site. [Web tracking setup instructions >](https://docs.yespo.io/docs/how-set-web-tracking-sending-events-java-scipt-request)
 
 > 📘 Important
-> 
+>
 > If you encounter difficulties at any of the configuration steps, please contact our support at [support@yespo.io](mailto:support@yespo.io)
 
 After setting up web tracking, you can already [build segments based on user behavior on your site](https://docs.yespo.io/docs/segmentation-web-tracking-events) and send targeted messages to them.
@@ -68,6 +68,6 @@ Due to high-level offer personalization, recommendations help to increase sales 
 
 To add recommendation blocks, go to the following settings:
 
-- [Recommendations in the email and other media channels >](https://docs.yespo.io/docs/recommendations-in-media-channels)
-- [Recommendations on the website pages >](https://docs.yespo.io/docs/recommendations-overview)
-- [Recommendations in the mobile app >](https://docs.yespo.io/docs/recommendations-in-mobile-app)
+* [Recommendations in the email and other media channels >](https://docs.yespo.io/docs/recommendations-in-media-channels)
+* [Recommendations on the website pages >](https://docs.yespo.io/docs/recommendations-overview)
+* [Recommendations in the mobile app >](https://docs.yespo.io/docs/recommendations-in-mobile-app)
