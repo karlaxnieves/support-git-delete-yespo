@@ -25,8 +25,8 @@ ionic cordova plugin add cordova-plugin-firebasex
 ```
 
 3. Compile bundles to use Awesome Cordova Plugin for both plugins
-   - <a rel="nofollow" href="https://github.com/reteno-com/reteno-cordova/tree/main/awesome-cordova-plugin-reteno"> awesome-cordova-plugin-reteno </a> 
-   - <a rel="nofollow" href="https://github.com/reteno-com/reteno-cordova/tree/main/awesome-cordova-plugin-reteno-firebase"> awesome-cordova-plugin-reteno-firebase </a>
+   * <a rel="nofollow" href="https://github.com/reteno-com/reteno-cordova/tree/main/awesome-cordova-plugin-reteno"> awesome-cordova-plugin-reteno </a> 
+   * <a rel="nofollow" href="https://github.com/reteno-com/reteno-cordova/tree/main/awesome-cordova-plugin-reteno-firebase"> awesome-cordova-plugin-reteno-firebase </a>
 
 ```shell
 npm run build
@@ -51,84 +51,25 @@ ionic cordova platform add android
 
 ### Step 2: Set up your Firebase application for Firebase Cloud Messaging:
 
-- Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en)).
+* Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en)).
 
-- Add the above file to your root `app/` folder.
+* Add the above file to your root `app/` folder.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4202e48-google-services-json.png",
-        "",
-        "Firebase Cloud Messaging"
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/4202e48-google-services-json.png" />
 
+* Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/), click the gear icon next to Overview. 
 
-- Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/), click the gear icon next to Overview. 
+<Image align="center" width="600px" src="https://files.readme.io/232a501-FirebaseConsole.png" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/232a501-FirebaseConsole.png",
-        "",
-        "FCM Server Key"
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
+Then click *Project Settings* → *Cloud Messaging* → *Manage Service Accounts*. 
 
-
-Then click _Project Settings_ → _Cloud Messaging_ → _Manage Service Accounts_. 
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2f62d0c-CloudConsole1.png",
-        "",
-        "Manage Service Accounts"
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="600px" src="https://files.readme.io/2f62d0c-CloudConsole1.png" />
 
 Go to Service accounts to download `FirebaseAdminSdk` account's json key.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b841909-CloudConsole2.png",
-        "",
-        "FirebaseAdminSdk"
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="600px" src="https://files.readme.io/b841909-CloudConsole2.png" />
 
-
-- Follow this manual to [set up Reteno admin panel](https://docs.reteno.com/docs/connect-your-mobile-app) with your Firebase key.
+* Follow this manual to [set up Reteno admin panel](https://docs.reteno.com/docs/connect-your-mobile-app) with your Firebase key.
 
 Now you are ready to run your app and send a marketing push notification to your application.
 
@@ -189,16 +130,16 @@ If you already use Firebase for Remote notifications or would like to use Fireba
 
 ## Run Android version
 
-- **Run from command line**: 
+* **Run from command line**: 
 
 ```shell
 ionic cordova run android
 ```
 
-- **Run from Android Studio**: Go to plaftforms/android folder. Create android studio project and run `MainActivity` class
+* **Run from Android Studio**: Go to plaftforms/android folder. Create android studio project and run `MainActivity` class
 
 Run your app on a physical Android device to make sure it builds correctly.
 
 > 📘 Note
-> 
+>
 > [Android Debug Mode](https://docs.yespo.io/reference/android-debug-mode) enables you to ensure that all events and user properties are logged correctly.
