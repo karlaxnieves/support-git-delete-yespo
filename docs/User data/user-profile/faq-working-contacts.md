@@ -43,78 +43,19 @@ This is excluded [according to our service rules](https://yespo.io/terms-of-use)
 
 To create a dynamic segment that will automatically collect all available contacts in the account, follow these steps:
 
-1. Go to _Contacts → Segments_.
-2. Click the _Add segment_ button and select _Dynamic_.
+1. Go to *Contacts → Segments*.
+2. Click the *Add segment* button and select *Dynamic*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/514cb273efc619edb03527cc25d03debfbe0b601b8bf24f1bfc9ae276778581e-image2.webp",
-        "",
-        "Creating dynamic segment"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/514cb273efc619edb03527cc25d03debfbe0b601b8bf24f1bfc9ae276778581e-image2.webp" />
 
+3. Click *Add condition* in the *Include* section.
 
-3. Click _Add condition_ in the _Include_ section.
+<Image align="center" width="80% " src="https://files.readme.io/3a4a18884b3d20762df038971c09af20228dc27fc2f1136dd87dcb34e306ef76-image1.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3a4a18884b3d20762df038971c09af20228dc27fc2f1136dd87dcb34e306ef76-image1.webp",
-        "",
-        "Add condition"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+4. Set the condition *Fields → Personal → ID →* greater than 0.
 
+<Image align="center" width="80% " src="https://files.readme.io/30d07c0acd4bbcb4a98610d9384e8bc98c621038fabdd27108db7faedbf87809-image4.webp" />
 
-4. Set the condition _Fields → Personal → ID →_ greater than 0.
+5. Click *Done*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/30d07c0acd4bbcb4a98610d9384e8bc98c621038fabdd27108db7faedbf87809-image4.webp",
-        "",
-        "Filtering rules"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
-
-5. Click _Done_.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fcf3613996f9f6ab411bc15faab53531b940f166776e92aef49e5c510cf93c50-image3.webp",
-        "",
-        "Save results"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/fcf3613996f9f6ab411bc15faab53531b940f166776e92aef49e5c510cf93c50-image3.webp" />
