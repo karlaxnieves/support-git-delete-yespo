@@ -17,7 +17,7 @@ Our system features the dynamic content option using the <a rel="nofollow" href=
 
 ## Getting the single parameter
 
-All external data is contained in the data object. To extract it to the message, use command _$!data.get_ and specify the parameter name you want to extract:
+All external data is contained in the data object. To extract it to the message, use command *$!data.get* and specify the parameter name you want to extract:
 
 ```json
 $!data.get('parameter name')
@@ -117,8 +117,8 @@ $!firstString.equalsIgnoreCase($!secondString)
 
 Use conditions in such cases:
 
-- if you need to get only some specific data (for example, only one product category);
-- if you need to display a certain amount of products in one block so as not to break the message layout.
+* if you need to get only some specific data (for example, only one product category);
+* if you need to display a certain amount of products in one block so as not to break the message layout.
 
 Syntax:
 
@@ -246,9 +246,9 @@ $!dateTool.formatInContactTimezone(String format, String dateTime)
 
 where the date format must be in ISO 8601:
 
-- dd/MM/yyyy HH:mm:ss
-- yyyy-MM-dd'T'HH:mm:ss
-- yyyy-MM-dd'T'HH:mm:ss'Z'
+* dd/MM/yyyy HH:mm:ss
+* yyyy-MM-dd'T'HH:mm:ss
+* yyyy-MM-dd'T'HH:mm:ss'Z'
 
 The organization time zone is applied if the contact's time zone is not specified.
 
@@ -270,10 +270,10 @@ if the second argument is negative, the subtraction result will be returned.
 
 By default, a date is expected in one of the listed formats.
 
-- dd/MM/yyyy HH:mm
-- dd/MM/yyyy
-- yyyy-MM-dd'T'HH:mm
-- yyyy-MM-dd
+* dd/MM/yyyy HH:mm
+* dd/MM/yyyy
+* yyyy-MM-dd'T'HH:mm
+* yyyy-MM-dd
 
 If the format is different, set your own format as the third argument. For example, if the date you pass in the format "customDate": "12:00 2020-30-04", the expression will take the form:
 
