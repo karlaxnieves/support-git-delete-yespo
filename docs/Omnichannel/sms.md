@@ -22,5 +22,5 @@ We provide two options for SMS messaging:
 Read our setup documentation [for guidance in SMS creation >](https://docs.yespo.io/docs/creation-sms)
 
 > 📘 Recommendation
-> 
+>
 > Use [purchase possibility segmentation](https://docs.yespo.io/docs/segmentation-web-tracking-events#3-predicted-event) when you want to reduce the cost of your messaging without losing the potential revenue it should generate. By leaving only the most likely buyers in the target segment, you will reduce the number of messages sent, but at the same time retain as many possible orders as possible.
