@@ -17,24 +17,24 @@ You can personalize the user experience and increase sales by adding recommendat
 
 The passed recommendations are based on the customer activity data and include the following options:
 
-- **Out of stock.** A selection based on similar items.
-- **Cross-selling.** Offer of related products. The selected items are based on those added to the cart.
-- **Upselling.** Offering based on more expensive and complementary goods and services to increase the order value.
-- **Potential purchase.** The selected items are based on the orders of users who have purchased this product.
-- **Personal recommendations** based on the customer's purchase and browsing history.
-- **Other.** An offer is created individually if the required algorithm is not available among our platform's pre-configured algorithms.
+* **Out of stock.** A selection based on similar items.
+* **Cross-selling.** Offer of related products. The selected items are based on those added to the cart.
+* **Upselling.** Offering based on more expensive and complementary goods and services to increase the order value.
+* **Potential purchase.** The selected items are based on the orders of users who have purchased this product.
+* **Personal recommendations** based on the customer's purchase and browsing history.
+* **Other.** An offer is created individually if the required algorithm is not available among our platform's pre-configured algorithms.
 
 > 📘 Note
-> 
+>
 > Each type of recommendation uses different requests, having their own algorithms and rules since they take data from different sources.
 
 ## Preconditions
 
 Before starting using recommendations, you have to meet the following conditions:
 
-- Subscribe to one of the Extra features pricing plans.
-- [Set up web tracking](https://docs.yespo.io/docs/how-set-web-tracking-your-website) or tracking for mobile apps.
-- Create a [data source](https://docs.yespo.io/docs/create-data-source-recommendations) with a required algorithm for each recommendation type to use its ID when calling an API.
+* Subscribe to one of the Extra features pricing plans.
+* [Set up web tracking](https://docs.yespo.io/docs/how-set-web-tracking-your-website) or tracking for mobile apps.
+* Create a [data source](https://docs.yespo.io/docs/create-data-source-recommendations) with a required algorithm for each recommendation type to use its ID when calling an API.
 
 Setting up recommendation transmission includes the following steps, as detailed below:
 
@@ -49,7 +49,7 @@ To get a user authentication token (authToken), send a request via your applicat
 | :---------------------------------- | :------------- |
 | `https://api/v1/auth/contact/token` | POST           |
 
-Authenticate the request using one of the methods described in the [API](https://yespo.io/api/) instructions. For example, using [API keys](https://docs.yespo.io/reference/api-keys).  
+Authenticate the request using one of the methods described in the [API](https://yespo.io/api/) instructions. For example, using [API keys](https://docs.yespo.io/reference/api-keys).\
 The request shall pass the known user fields listed in the table (at least one field is required). 
 
 | Field              | Value  | Description                                                                                  |
@@ -94,57 +94,100 @@ Send the following request to get personalized recommendations based on customer
 
 **Request parameters:**
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Field",
-    "h-1": "Value",
-    "h-2": "Description",
-    "0-0": "dataSourceId",
-    "0-1": "",
-    "0-2": "Data source ID.  \nRequired parameter\\*",
-    "1-0": "products",
-    "1-1": "string",
-    "1-2": "Array of products. The required field for algorithms based on product data",
-    "2-0": "category",
-    "2-1": "string",
-    "2-2": "Array of categories. The required field for algorithms based on category data",
-    "3-0": "request header",
-    "3-1": "",
-    "3-2": "`ES-TOKEN`: authToken",
-    "4-0": "response header",
-    "4-1": "",
-    "4-2": "`ES-TOKEN`: authToken"
-  },
-  "cols": 3,
-  "rows": 5,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Field
+      </th>
 
+      <th>
+        Value
+      </th>
 
-\* To find out the data source ID, go to _Account_ → _Settings_ → _Data sources_.
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9ececd3b64cb597c9c6931c70888a9482453641600e3def0a1a6e385156ada2d-finding-data-source-id.webp",
-        "Finding Data Source ID",
-        "Finding Data Source ID"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+  <tbody>
+    <tr>
+      <td>
+        dataSourceId
+      </td>
 
+      <td>
+
+      </td>
+
+      <td>
+        Data source ID.\
+        Required parameter\*
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        products
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Array of products. The required field for algorithms based on product data
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        category
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Array of categories. The required field for algorithms based on category data
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        request header
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+        `ES-TOKEN`: authToken
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        response header
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+        `ES-TOKEN`: authToken
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+\* To find out the data source ID, go to *Account* → *Settings* → *Data sources*.
+
+<Image align="center" width="80% " src="https://files.readme.io/9ececd3b64cb597c9c6931c70888a9482453641600e3def0a1a6e385156ada2d-finding-data-source-id.webp" />
 
 The response contains every field filled with the data.
 
