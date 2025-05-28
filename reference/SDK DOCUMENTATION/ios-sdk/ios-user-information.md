@@ -14,10 +14,10 @@ next:
 
 After you [install SDK](https://docs.yespo.io/reference/ios-sdk) to your app, Yespo begins automatically collect such data:
 
-- Information about push message delivery and openings,
-- Users’ push tokens,
-- [_Screen view_ events](https://docs.yespo.io/reference/ios-user-behaviour#track-screen-view-events),
-- [Statuses of the users’ subscription](https://docs.yespo.io/reference/ios-user-behaviour#track-mob-push-subscribers) to push notifications.
+* Information about push message delivery and openings,
+* Users’ push tokens,
+* [*Screen view* events](https://docs.yespo.io/reference/ios-user-behaviour#track-screen-view-events),
+* [Statuses of the users’ subscription](https://docs.yespo.io/reference/ios-user-behaviour#track-mob-push-subscribers) to push notifications.
 
 Yespo automatically creates user profiles with all these data, so you can immediately start working with new contacts, for example, sending them a mobile campaign.
 
@@ -40,7 +40,7 @@ Reteno.updateUserAttributes(externalUserId: "USER_ID", attributes: UserAttribute
 User attributes are attributes you define to describe segments of your user base, such as language preference or geographic location. Before sending specific contact data via API, you must add custom user fields to Reteno. Read more on how to [set additional fields](https://docs.yespo.io/docs/custom-user-fields).
 
 > 📘 Note
-> 
+>
 > You can track user attributes only for users with external user IDs.
 
 Add user attributes like phone, email, etc by the following method:
@@ -50,7 +50,7 @@ Reteno.updateUserAttributes(externalUserId: "USER_ID", userAttributes: UserAttri
 ```
 
 > 📘 Note
-> 
+>
 > `groupNamesInclude` and `groupNamesExclude` parameters are available in SDK version 1.0.0 or later.
 
 The `UserAttributes` object structure:
@@ -81,22 +81,22 @@ public struct UserAttributes {
 ```
 
 > 📘 Note
-> 
+>
 > `key`
-> 
+>
 > Custom fields variables. [Details >](https://yespo.io/support/how-add-additional-contact-fields#Updating-Custom-Fields-with-Data-from-Custom-Events-via-SDK)
-> 
+>
 > `phone`
-> 
-> We use [Google's libphonenumber library](https://github.com/google/libphonenumber "{rel='nofollow'}")  for phone number validation. Send phone numbers in the E164 format. A request with an invalid phone number will not be transmitted. You can validate phone numbers [by the link](https://libphonenumber.appspot.com/).
-> 
+>
+> We use [Google's libphonenumber library](https://github.com/google/libphonenumber "\{rel='nofollow'}")  for phone number validation. Send phone numbers in the E164 format. A request with an invalid phone number will not be transmitted. You can validate phone numbers [by the link](https://libphonenumber.appspot.com/).
+>
 > `languageCode`
-> 
-> Data about language in [RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html "{rel='nofollow'}") format. Primary language subtag in [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes "{rel='nofollow'}") format is required. Example: de-AT
-> 
+>
+> Data about language in [RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html "\{rel='nofollow'}") format. Primary language subtag in [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes "\{rel='nofollow'}") format is required. Example: de-AT
+>
 > `timeZone`
-> 
-> Item from [TZ database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones "{rel='nofollow'}"). Example: `Europe/Kyiv`
+>
+> Item from [TZ database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones "\{rel='nofollow'}"). Example: `Europe/Kyiv`
 
 ## Anonymous User Attributes
 
@@ -115,5 +115,5 @@ Reteno.updateAnonymousUserAttributes(userAttributes: attributes)
 ```
 
 > 📘 Note
-> 
-> You can't provide to the SDK anonymous user _phone_ and _email_ attributes.
+>
+> You can't provide to the SDK anonymous user *phone* and *email* attributes.
