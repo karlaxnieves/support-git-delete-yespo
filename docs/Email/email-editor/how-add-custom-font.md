@@ -105,7 +105,8 @@ For example, let's add the *Barlow* with the *SemiBold 600* style.
 
 <Image align="center" width="80% " src="https://files.readme.io/eec07fd6a56b251bf486038e8de168d239018bb096d3428c95d10fb9a8fdadce-adding-custom-fonts-009.webp" />
 
-6. In the tab copy the `href` attribute content as follows: `https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap`
+6. In the tab copy the `href` attribute content as follows:
+`https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap`
 
 <Image align="center" width="80% " src="https://files.readme.io/e7a60caabd5d5776e2848850f8b1047695551fa18fe78d63ad302e8935968e4f-adding-custom-fonts-010.webp" />
 
