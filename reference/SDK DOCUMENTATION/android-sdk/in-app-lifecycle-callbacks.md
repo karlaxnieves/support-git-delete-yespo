@@ -14,11 +14,11 @@ Since Reteno SDK 2.0.2 you can subscribe to In-App messages lifecycle.
 
 You get callbacks:
 
-- before In-App message is displayed
-- right after In-App message is displayed
-- before In-App message is closed
-- after In-App message is closed
-- if an error during displaying In-App message occurred
+* before In-App message is displayed
+* right after In-App message is displayed
+* before In-App message is closed
+* after In-App message is closed
+* if an error during displaying In-App message occurred
 
 In these callbacks you also receive a data model which contains information whether In-App message was displayed via display rules or push notification click, ID or interaction ID of In-App message, and some other data which may be useful.
 
