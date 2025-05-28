@@ -28,84 +28,39 @@ To disable DebugMode run the following command in CLI:
 
 In order to run the commands make sure to install [ADB]\([Android Debug Bridge (adb)  |  Android Developers](https://developer.android.com/studio/command-line/adb))
 
-To view events from your app in debug mode specify _X-Reteno-Debug:true_ in the request’s headers. 
+To view events from your app in debug mode specify *X-Reteno-Debug:true* in the request’s headers. 
 
-Then go to settings -> _Mob Push_ -> and click _Debug_ next to the app name.
+Then go to settings -> *Mob Push* -> and click *Debug* next to the app name.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f69cd48-Debug.png",
-        "",
-        "App list"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/f69cd48-Debug.png" />
 
 [Go to my app list >](https://my.yespo.io/settings-ui/#/mobile-push/apps-list)
 
 You will see:
 
-- notifications with recommendations for checking settings and verification statuses,
-- _Test Mobile Push_ and _Test App Inbox_ buttons,
-- valid and invalid events with error descriptions,
-- event parameters,
-- contact information (full name, email, phone, device ID),
-- filter by devices.
+* notifications with recommendations for checking settings and verification statuses,
+* *Test Mobile Push* and *Test App Inbox* buttons,
+* valid and invalid events with error descriptions,
+* event parameters,
+* contact information (full name, email, phone, device ID),
+* filter by devices.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9a2d53e-android.gif",
-        null,
-        "Android debug"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/9a2d53e-android.gif" />
 
 > 📘 Note
-> 
+>
 > The system keeps events for 8 hours.
 
 These requests also will be visible in the Event history (as shown below).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f584e5c-Event_history.png",
-        "Event history.png",
-        1742
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/f584e5c-Event_history.png" />
 
 **Troubleshooting Steps:**
 
-- **The notification service is not configured:** Configure [FCM](https://docs.yespo.io/docs/connect-your-mobile-app#fcm).
-- **Push tokens/device data are absent:** Check that you have allowed notifications on the device and configured the token transfer. [Details >](https://docs.yespo.io/reference/using-updateuserattributes-method)
-- **The _Delivered_ message statuses are absent:** Check your message delivery data settings. [Details >](https://docs.yespo.io/docs/setting-up-delivery-and-clicks-analytics)
-- **The _Clicked_ message statuses are absent:** Click the notification, or check click tracking in the code. [Details >](https://docs.yespo.io/docs/setting-up-delivery-and-clicks-analytics)
-- **User profile updates are absent:** Ensure you send user data when you identify them. For example, when they sign in to the app. [Details >](https://docs.yespo.io/reference/using-updateuserattributes-method)
+* **The notification service is not configured:** Configure [FCM](https://docs.yespo.io/docs/connect-your-mobile-app#fcm).
+* **Push tokens/device data are absent:** Check that you have allowed notifications on the device and configured the token transfer. [Details >](https://docs.yespo.io/reference/using-updateuserattributes-method)
+* **The*Delivered* message statuses are absent:** Check your message delivery data settings. [Details >](https://docs.yespo.io/docs/setting-up-delivery-and-clicks-analytics)
+* **The*Clicked* message statuses are absent:** Click the notification, or check click tracking in the code. [Details >](https://docs.yespo.io/docs/setting-up-delivery-and-clicks-analytics)
+* **User profile updates are absent:** Ensure you send user data when you identify them. For example, when they sign in to the app. [Details >](https://docs.yespo.io/reference/using-updateuserattributes-method)
 
 [More on debugging in Yespo account >](https://yespo.io/support/sending-test-messages-from-the-event-debug-view)
