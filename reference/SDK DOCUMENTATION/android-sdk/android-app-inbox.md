@@ -15,7 +15,7 @@ App Inbox is similar to an email inbox but is designed for direct messages from 
 With the Reteno App Inbox, there is no default UI. This means with a few lines of code, you can connect Reteno with your inbox.
 
 > 📘 Note
-> 
+>
 > SDK Version App Inbox is available in version 1.2.0 and later.
 
 ## Reteno App Inbox
@@ -127,7 +127,7 @@ appInbox.subscribeOnMessagesCountChanged(object : RetenoResultCallback<Int> {
 ```
 
 > 📘 Note
-> 
+>
 > Don't forget to unsubscribe
 
 ```kotlin
