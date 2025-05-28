@@ -15,11 +15,11 @@ next:
 ---
 Create and manage your Yespo account. 
 
-1. [Sign up](https://docs.yespo.io/docs/how-to-sign-up) **and fill in some general information about your company.**
+1. [Sign up](https://docs.yespo.io/docs/how-to-sign-up) and fill in some general information about your company.
 
 After signing up, you can test basic system features and send campaigns to up to 500 contacts for free.
 
-2. **Provide your account security by** [setting up multi-factor authentication](https://docs.yespo.io/docs/how-set-multi-factor-authentication-mfa).
+2. Provide your account security by [setting up multi-factor authentication](https://docs.yespo.io/docs/how-set-multi-factor-authentication-mfa).
 
 Authentication with the Google Authenticator app will protect your account and its sensitive data from unauthorized access. Each time you log into your account, you will use a unique temporary password known only to you.
 
