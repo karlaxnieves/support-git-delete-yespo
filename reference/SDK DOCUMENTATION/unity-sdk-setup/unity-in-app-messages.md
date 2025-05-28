@@ -17,8 +17,8 @@ The In-App Messages module allows you to manage and configure the behavior of in
 
 ## How It Works
 
-- **Pause In-App Messages**: Temporarily disable in-app messaging.
-- **Set In-App Messages Pause Behaviour**: Specify whether messages should be skipped or postponed.
+* **Pause In-App Messages**: Temporarily disable in-app messaging.
+* **Set In-App Messages Pause Behaviour**: Specify whether messages should be skipped or postponed.
 
 ## Code Sample
 
@@ -38,5 +38,5 @@ public class InAppExample : MonoBehaviour
 
 ### Additional Tips:
 
-- Dynamic Control: You can pause and resume in-app messages based on user actions or app state.
-- User Experience: Adjust the pause behavior to avoid interrupting the user experience during critical moments.
+* Dynamic Control: You can pause and resume in-app messages based on user actions or app state.
+* User Experience: Adjust the pause behavior to avoid interrupting the user experience during critical moments.
