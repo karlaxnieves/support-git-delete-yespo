@@ -42,11 +42,11 @@ Additionally, you can subscribe to various In-App lifecycle events to receive no
 
 Event Handlers:
 
-- **beforeInAppDisplayHandler**
-- **onInAppDisplayHandler**
-- **beforeInAppCloseHandler**
-- **afterInAppCloseHandler**
-- **onInAppErrorHandler**
+* **beforeInAppDisplayHandler**
+* **onInAppDisplayHandler**
+* **beforeInAppCloseHandler**
+* **afterInAppCloseHandler**
+* **onInAppErrorHandler**
 
 To subscribe on lifecycle events you can use `setInAppLifecycleCallback`. And only on Android - to unsubscribe you can use `removeInAppLifecycleCallback`.
 
