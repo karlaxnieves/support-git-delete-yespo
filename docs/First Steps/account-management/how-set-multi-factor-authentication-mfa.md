@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-In accordance with [GDPR](https://docs.yespo.io/docs/gdpr-overview), we’ve added an additional layer of security to protect your account - multi-factor authentication. In *Settings*, turn on MFA once, and log in to your account with a one-time password available for you only. The procedure takes no more than 4 minutes.
+In accordance with [GDPR](https://docs.yespo.io/docs/gdpr-overview), we’ve added an additional layer of security to protect your account - multi-factor authentication. In *Settings*, turn on **MFA** once, and log in to your account with a one-time password available for you only. The procedure takes no more than 4 minutes.
 
 1. In your account settings, go to *Your organization* → *My Profile*
 
@@ -41,6 +41,7 @@ You’ll see a pop-up window with a step-by-step instruction. This feature will 
         <img src="https://files.readme.io/61e17fb7706fec4464700a45bd0da35acca1e506f9b18d8fb9d7f9207514a3ff-get_it_on_GP.webp" alt="Google Play" style={{ width: "150px", height: "44px" }} />
       </a>
     </td>
+
     <td style={{ textAlign: "center" }}>
       <a rel="nofollow" href="https://apps.apple.com/us/app/google-authenticator/id388497605" target="_blank">
         <img src="https://files.readme.io/7c842a1a38fb0dd5df7ae39fb70b59b0a1dce0ed9102b9713c65327f14a25349-Download-On-The-App-Store.webp" alt="App Store" style={{ width: "150px", height: "52px" }} />
@@ -49,7 +50,7 @@ You’ll see a pop-up window with a step-by-step instruction. This feature will 
   </tr>
 </table>
 
-2. Please make sure that your smartphone's time is set to automatic. In order to check or enable auto-sync, go to your phone settings (Date and time) and set the slider to the right.
+2. Please make sure that your smartphone's time is set to automatic. In order to check or enable auto-sync, go to your phone settings (*Date and time*) and set the slider to the right.
 
 <Image align="center" width="40%" src="https://files.readme.io/933341267eaddeb92e624d97330a5a18bd93ec349d15428d96a026d7a66a47a5-date_time_en.webp" />
 
@@ -61,7 +62,7 @@ You’ll see a pop-up window with a step-by-step instruction. This feature will 
 
 <Image align="center" width="40%" src="https://files.readme.io/c096a982b3591edaecac88cc7ff032903d3ce01d39843681522c4053187319af-enter_code.webp" />
 
-5. At the next login in the system, enter the code without spaces from Google Authenticator into the MFA code field.
+5. At the next login in the system, enter the code without spaces from Google Authenticator into the *MFA code* field.
 
 <Image align="center" width="80%" src="https://files.readme.io/d15df36a6708d803d9953a22045c71b94d8373865319323a15d0f0e7fee13695-mfa-en-yespo.webp" />
 
