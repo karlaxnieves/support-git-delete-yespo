@@ -15,16 +15,16 @@ next:
 ---
 Product recommendations are an effective marketing tool. You can display personalized product [recommendations in emails](https://docs.yespo.io/docs/how-set-product-recommendations-email) and on the [site](https://docs.yespo.io/docs/product-recommendations-website) to generate repeat sales and grow customer retention.
 
-Using the _[Contact recommendations based on web tracking](https://docs.yespo.io/reference/contactrecoms-1)_ resource, you can transfer data on customer preferences to other channels and offer recommendations based on it.
+Using the *[Contact recommendations based on web tracking](https://docs.yespo.io/reference/contactrecoms-1)* resource, you can transfer data on customer preferences to other channels and offer recommendations based on it.
 
-- Messengers;
-- Call centers;
-- Pickup points;
-- Mobile apps.
+* Messengers;
+* Call centers;
+* Pickup points;
+* Mobile apps.
 
-## How to Use _Contact Recommendations Based on Web Tracking_
+## How to Use *Contact Recommendations Based on Web Tracking*
 
-The transfer of recommendations through _Contact recommendations based on web tracking_ will allow operators/cashiers to generate repeat sales offering products based on customer shopping history.
+The transfer of recommendations through *Contact recommendations based on web tracking* will allow operators/cashiers to generate repeat sales offering products based on customer shopping history.
 
 **Example 1**
 
@@ -36,12 +36,12 @@ When making an offline purchase, the customer provides their discount card or te
 
 ## What Product Categories Can Be Recommended
 
-- **Alternatives to out-of-stock products**.
-- **Also bought**. Cross-sell based on items added to the cart.
-- **You may also like**. Upsell of more expensive items and complementary goods to increase the order price.
-- **Bestsellers**. Recommendations based on orders by other customers.
-- **Personal recommendations** based on the customer’s purchase history.
-- **Other**. Recommendations created not using our algorithms.
+* **Alternatives to out-of-stock products**.
+* **Also bought**. Cross-sell based on items added to the cart.
+* **You may also like**. Upsell of more expensive items and complementary goods to increase the order price.
+* **Bestsellers**. Recommendations based on orders by other customers.
+* **Personal recommendations** based on the customer’s purchase history.
+* **Other**. Recommendations created not using our algorithms.
 
 Important
 
@@ -49,83 +49,159 @@ You need to send requests for each recommendation type because they have differe
 
 ## How to Use Recommendations
 
-- [Set web tracking](https://docs.yespo.io/docs/how-set-web-tracking-your-website) and upload a product feed.
-- [Subscribe to a pricing plan](https://yespo.io/tarif-universum) covering Advanced Segmentation.
-- Create a data source and select the necessary algorithm.
+* [Set web tracking](https://docs.yespo.io/docs/how-set-web-tracking-your-website) and upload a product feed.
+* [Subscribe to a pricing plan](https://yespo.io/tarif-universum) covering Advanced Segmentation.
+* Create a data source and select the necessary algorithm.
 
 You need to create a data source for each recommendation type. Its ID will be used for an API call.
 
 ## How to Send Recommendations
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "dataSourceId",
-    "0-1": "",
-    "0-2": "Required.  \nYou can find data source IDs in Settings > Data sources.",
-    "1-0": "contactId",
-    "1-1": "Long",
-    "1-2": "You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.",
-    "2-0": "email",
-    "2-1": "Email",
-    "2-2": "You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.",
-    "3-0": "phone",
-    "3-1": "Phone",
-    "3-2": "You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.",
-    "4-0": "externalCustomerId",
-    "4-1": "String",
-    "4-2": "You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.",
-    "5-0": "webI",
-    "5-1": "String",
-    "5-2": "You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.",
-    "6-0": "products",
-    "6-1": "String",
-    "6-2": "Product array. Required for algorithms based on product data.",
-    "7-0": "category",
-    "7-1": "String",
-    "7-2": "Category array. Required for algorithms based on category data."
-  },
-  "cols": 3,
-  "rows": 8,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        dataSourceId
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+        Required.\
+        You can find data source IDs in Settings > Data sources.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        contactId
+      </td>
+
+      <td>
+        Long
+      </td>
+
+      <td>
+        You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        email
+      </td>
+
+      <td>
+        Email
+      </td>
+
+      <td>
+        You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        phone
+      </td>
+
+      <td>
+        Phone
+      </td>
+
+      <td>
+        You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        externalCustomerId
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        webI
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        You need to specify at least one of the parameters – contactId, email, phone, externalCustomerId, webI.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        products
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Product array. Required for algorithms based on product data.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        category
+      </td>
+
+      <td>
+        String
+      </td>
+
+      <td>
+        Category array. Required for algorithms based on category data.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 > 📘 Important
-> 
-> - This method doesn’t include the _offset_ and _maxrows_ parameters. The number of elements isn’t expected to be large and they are configured at the data source level.
-> - To receive recommendations on the site's backend, use the _webId_ identification parameter.
+>
+> * This method doesn’t include the *offset* and *maxrows* parameters. The number of elements isn’t expected to be large and they are configured at the data source level.
+> * To receive recommendations on the site's backend, use the *webId* identification parameter.
 
 ### Request and Response Examples
 
-Go to your profile → _Settings → Data Sources_. Choose the data source and send a request `/api/v2/contacts/recoms/1244?contactId=162688150`,
+Go to your profile → *Settings → Data Sources*. Choose the data source and send a request `/api/v2/contacts/recoms/1244?contactId=162688150`,
 
 where 1244 is a data source ID.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cc6fcc5f97f9ba1bde435175e53fe4e6c3b2ebb732b59605293addb6c2a9f2cb-sending-product-recommendations-via-api-001.webp",
-        "Data source ID",
-        "Data source ID"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/cc6fcc5f97f9ba1bde435175e53fe4e6c3b2ebb732b59605293addb6c2a9f2cb-sending-product-recommendations-via-api-001.webp" />
 
 In the response, each field will be filled:
 
