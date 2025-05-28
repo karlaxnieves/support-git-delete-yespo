@@ -26,6 +26,6 @@ Use your company domain name as a corporate address and add different prefixes b
 
 Gradually increase the number of emails sent from your new domain. The better you [warm up the domain](https://yespo.io/blog/first-campaigns-new-domain-how-warm-right), the faster and for a greater number of users you'll be able to launch the campaign.
 
-## Step 4. Add a favicon (_optional_)
+## Step 4. Add a favicon (*optional*)
 
 [Favicon](https://docs.yespo.io/docs/adding-favicon-emails-web-version) is a small image associated with your brand, which you can add to your emails’ web version.
