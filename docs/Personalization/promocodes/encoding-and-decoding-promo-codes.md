@@ -18,71 +18,159 @@ If general methods of substituting promo codes do not suit you, consider impleme
 
 ## The promo code format supported by Yespo
 
-The promo code contains the date until which it is valid, the type of promotion, the discount amount and the checksum.  
+The promo code contains the date until which it is valid, the type of promotion, the discount amount and the checksum.\
 As a result, we get a line like
 
 ```
 <YY><MM><DD><Promo type><Discount><CRC>
 ```
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Field",
-    "h-1": "Length",
-    "h-2": "Description",
-    "h-3": "Example",
-    "0-0": "YY",
-    "0-1": "2 symbols",
-    "0-2": "Year, two-digit number",
-    "0-3": "15, 54",
-    "1-0": "MM",
-    "1-1": "2 symbols",
-    "1-2": "Month, two-digit number, can be padded on the left with a zero",
-    "1-3": "01, 12",
-    "2-0": "DD",
-    "2-1": "2 symbols",
-    "2-2": "Day, two-digit number, can be padded on the left with a zero",
-    "2-3": "06, 28",
-    "3-0": "Promo type",
-    "3-1": "1 symbol",
-    "3-2": "Type of promo code, can take a value from 0 to 31, encoded by a character from the alphabet <a rel=\"nofollow\" href=\"https://tools.ietf.org/html/rfc4648#section-6\" target=\"_blank\">Base32</a>",
-    "3-3": "A, D, X",
-    "4-0": "Discount",
-    "4-1": "2 symbols",
-    "4-2": "Discount amount in %, two-digit number, can be padded with zero on the left",
-    "4-3": "15, 02",
-    "5-0": "CRC",
-    "5-1": "1 symbol",
-    "5-2": "Checksum - one of the values from the alphabet <a rel=\"nofollow\" href=\"https://tools.ietf.org/html/rfc4648#section-6\" target=\"_blank\">Base32</a>",
-    "5-3": "B, N, Z"
-  },
-  "cols": 4,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Field
+      </th>
 
+      <th>
+        Length
+      </th>
+
+      <th>
+        Description
+      </th>
+
+      <th>
+        Example
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        YY
+      </td>
+
+      <td>
+        2 symbols
+      </td>
+
+      <td>
+        Year, two-digit number
+      </td>
+
+      <td>
+        15, 54
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        MM
+      </td>
+
+      <td>
+        2 symbols
+      </td>
+
+      <td>
+        Month, two-digit number, can be padded on the left with a zero
+      </td>
+
+      <td>
+        01, 12
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        DD
+      </td>
+
+      <td>
+        2 symbols
+      </td>
+
+      <td>
+        Day, two-digit number, can be padded on the left with a zero
+      </td>
+
+      <td>
+        06, 28
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Promo type
+      </td>
+
+      <td>
+        1 symbol
+      </td>
+
+      <td>
+        Type of promo code, can take a value from 0 to 31, encoded by a character from the alphabet <a rel="nofollow" href="https://tools.ietf.org/html/rfc4648#section-6" target="_blank">Base32</a>
+      </td>
+
+      <td>
+        A, D, X
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Discount
+      </td>
+
+      <td>
+        2 symbols
+      </td>
+
+      <td>
+        Discount amount in %, two-digit number, can be padded with zero on the left
+      </td>
+
+      <td>
+        15, 02
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        CRC
+      </td>
+
+      <td>
+        1 symbol
+      </td>
+
+      <td>
+        Checksum - one of the values from the alphabet <a rel="nofollow" href="https://tools.ietf.org/html/rfc4648#section-6" target="_blank">Base32</a>
+      </td>
+
+      <td>
+        B, N, Z
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 The result is a 10-character string like this: **151231Y16N**
 
 > 📘 Note
-> 
+>
 > The value of promo codes depends on the block parameters and the current calendar date. That is, during the day, all contacts will receive the same promo code if no changes are made to the block parameters. Tracking the use of the promo code and its expiration date should be on your side.
 
 ### Promo type usage example
 
-0 - valid for all items in the cart (Must Have)  
-1 - valid only for A category  
+0 - valid for all items in the cart (Must Have)\
+1 - valid only for A category\
 2 - valid only for B category…
 
 > 📘 Note
-> 
+>
 > When using promo types in this way, send a file to Yespo support indicating which product category corresponds to one or another promo type.
 
 ### Checksum calculation algorithm (CRC)
@@ -115,10 +203,10 @@ The encrypted data is encoded using <a rel="nofollow" href="https://tools.ietf.o
 
 Encryption parameters:
 
-- key 24 bytes long
-- initialisation\_vector 8 bytes long
-- encryption mode: CFB8 (Cipher Feedback Mode)
-- <a rel="nofollow" href="https://en.wikipedia.org/wiki/Padding_(cryptography)" target="_blank">padding</a>: NoPadding
+* key 24 bytes long
+* initialisation\_vector 8 bytes long
+* encryption mode: CFB8 (Cipher Feedback Mode)
+* <a rel="nofollow" href="https://en.wikipedia.org/wiki/Padding_(cryptography)" target="_blank">padding</a>: NoPadding
   ### The sequence of actions when encoding a promo code
 
 1. An encryption algorithm <a rel="nofollow" href="https://en.wikipedia.org/wiki/Triple_DES" target="_blank">Triple DES</a> is applied to the promotional code.
@@ -138,8 +226,8 @@ For encoding and decoding promo codes, a secret key is used on the side of Yespo
 
 Generate a key in such format: eSSuperKeyXXXXXXXXXXXXXX, where xxx… - random numbers. Come up with an initialization vector: 12345678.
 
-> 🚧 
-> 
+> 🚧
+>
 > The initialization vector must always be **12345678**.
 
 Pass both of these values to Yespo support.
@@ -399,5 +487,5 @@ public class CryptData {
 ```
 
 > 📘 Note
-> 
+>
 > In order not to spend effort on transforming the code into a human-readable form, use Format Preserving Encryption
