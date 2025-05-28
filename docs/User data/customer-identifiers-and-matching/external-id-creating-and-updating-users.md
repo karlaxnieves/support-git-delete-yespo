@@ -13,19 +13,19 @@ metadata:
 next:
   description: ''
 ---
-The external ID is a [unique contact identifier](https://docs.yespo.io/docs/customer-identifiers-and-matching) generated in your system. We recommend using an external ID as the main identifier in the API request field _externalCustomerId_ (or _user\_id_ in [Mobile SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo)). It will help you avoid duplicating contact profiles, collect all available data into a single contact profile, and get complete information about their interaction with your company.
+The external ID is a [unique contact identifier](https://docs.yespo.io/docs/customer-identifiers-and-matching) generated in your system. We recommend using an external ID as the main identifier in the API request field *externalCustomerId* (or *user\_id* in [Mobile SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo)). It will help you avoid duplicating contact profiles, collect all available data into a single contact profile, and get complete information about their interaction with your company.
 
 ## Identifier Types
 
 There are 2 types of contact identifiers — conditionally permanent and changeable:
 
-- **conditionally permanent** — email, phone number, and other contact data received during contact’s registration.
-- **changeable** — web cookies, mobile, telegram and web tokens.
+* **conditionally permanent** — email, phone number, and other contact data received during contact’s registration.
+* **changeable** — web cookies, mobile, telegram and web tokens.
 
 As a rule, changeable IDs enter the system first, but the external ID is only linked to conditionally permanent IDs.
 
 > 📘 Important
-> 
+>
 > The external ID must be created in your system at the time you first receive any conditionally permanent ID
 
 To better understand how contact data enters the system and how to optimize contact identification, consider 2 basic use cases: creating contacts from mobile applications and websites.
@@ -52,8 +52,8 @@ To better understand how contact data enters the system and how to optimize cont
 After a contact profile has been created in Yespo with the External ID field, we recommend making each profile’s update by this field — for example, at login ([Add/update a contact](https://docs.yespo.io/reference/addcontact-1)) or creating order ([Add orders](https://docs.yespo.io/reference/ordersbulkinsert-1) or [Generate event](https://docs.yespo.io/reference/registerevent_1)). In this way, you will be able to constantly maintain the relevance of all contact data since external ID is unique and immutable, while other identifiers, even conditionally constant ones, can change.
 
 > 📘 Note
-> 
-> If your system does not assign IDs to contacts, you can use Yespo's system ID (_contactId_) and save it on your side as a contact ID. However, using the external ID is a better option because this identification 100% prevents the creation of duplicates.
+>
+> If your system does not assign IDs to contacts, you can use Yespo's system ID (*contactId*) and save it on your side as a contact ID. However, using the external ID is a better option because this identification 100% prevents the creation of duplicates.
 
 ## External ID in Single Contact API Methods
 
@@ -63,18 +63,18 @@ Updated logic of single API methods:
 
 The system searches for a contact by external ID when getting a request:
 
-- if the contact profile with this external ID is found, it is updated with the data from the request;
-- if the contact profile with this external ID has been removed, it will be restored;
-- if the contact profile is not found, it will be created in the system;
-- if there is no external ID in the request, the creation logic remains unchanged.
+* if the contact profile with this external ID is found, it is updated with the data from the request;
+* if the contact profile with this external ID has been removed, it will be restored;
+* if the contact profile is not found, it will be created in the system;
+* if there is no external ID in the request, the creation logic remains unchanged.
 
 ### [Update contact](https://docs.yespo.io/reference/updatecontact-1)
 
 The contactId is specified in the request URL, and the external ID is passed in the body:
 
-- if this external ID already belongs to the contact with another contactId, an error will occur;
-- if the external ID does not belong to another contact, the contact will be updated and given that ID;
-- if there is no external ID in the request, the creation logic remains unchanged.
+* if this external ID already belongs to the contact with another contactId, an error will occur;
+* if the external ID does not belong to another contact, the contact will be updated and given that ID;
+* if there is no external ID in the request, the creation logic remains unchanged.
 
 ### [Get contact](https://docs.yespo.io/reference/getcontact-1)
 
@@ -104,24 +104,9 @@ Export external IDs to BigQuery and PostgreSQL — they will appear in the corre
 
 Create the dynamic segment to find all your contacts with empty external IDs.
 
-1. Go to _Contacts → Segments → Add Segment_ and create the dynamic segment.
-2. Add condition: _Fields → External ID → is empty_ and click _Done_.
+1. Go to *Contacts → Segments → Add Segment* and create the dynamic segment.
+2. Add condition: *Fields → External ID → is empty* and click *Done*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c20f8b32597e8bf7a7f27bf1ca1cb0b47cb3b0e3739557c028140ea5a9573537-External_ID.webp",
-        "",
-        "ID for Creating and Updating Users"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c20f8b32597e8bf7a7f27bf1ca1cb0b47cb3b0e3739557c028140ea5a9573537-External_ID.webp" />
 
 The system will find all contacts without external IDs and place them into this segment. As the segment is dynamic, all new contacts without external IDs will be also automatically placed in it.
