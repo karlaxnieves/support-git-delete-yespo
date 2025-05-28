@@ -15,16 +15,16 @@ next:
 ---
 In Yespo, you can automatically add blocks with product recommendations to all available media channels in trigger and promo campaigns.
 
-How to use _Product blocks_ in email messages, read in this [article](https://docs.yespo.io/docs/using-the-products-block).
+How to use *Product blocks* in email messages, read in this [article](https://docs.yespo.io/docs/using-the-products-block).
 
 > 📘 Note
-> 
+>
 > Before starting to configure recommendations:
-> 
-> - [install web tracking script](https://docs.yespo.io/docs/web-tracking-overview) to collect users’ online behavior data
-> - [upload a product feed](https://docs.yespo.io/docs/importing-product-feed) to provide data about your product range
-> - [set up web tracking](https://docs.yespo.io/docs/how-set-web-tracking-your-website)
-> - [create data sources](https://docs.yespo.io/docs/create-data-source-recommendations) for recommendation blocks
+>
+> * [install web tracking script](https://docs.yespo.io/docs/web-tracking-overview) to collect users’ online behavior data
+> * [upload a product feed](https://docs.yespo.io/docs/importing-product-feed) to provide data about your product range
+> * [set up web tracking](https://docs.yespo.io/docs/how-set-web-tracking-your-website)
+> * [create data sources](https://docs.yespo.io/docs/create-data-source-recommendations) for recommendation blocks
 
 Available recommendation algorithms depend on the pricing plan.
 
@@ -48,7 +48,7 @@ Available recommendation algorithms depend on the pricing plan.
 
 The following instructions will help you with the creation of recommendation blocks for different campaign types:
 
-- [Setting Up Recommendations for Trigger Campaigns](https://docs.yespo.io/docs/how-set-product-recommendations-email)
-- [Setting Up Recommendations for Promo Campaigns](https://docs.yespo.io/docs/product-recommendations-promo)
+* [Setting Up Recommendations for Trigger Campaigns](https://docs.yespo.io/docs/how-set-product-recommendations-email)
+* [Setting Up Recommendations for Promo Campaigns](https://docs.yespo.io/docs/product-recommendations-promo)
 
 For general information about design and layout, see [the article on designing recommendation blocks in the email](https://docs.yespo.io/docs/designing-recommendations-email).
