@@ -23,7 +23,7 @@ Tags are labels that help you to:
 * Setup a [frequency strategy for bulk campaigns](https://docs.yespo.io/docs/how-make-campaign-using-optimal-messaging-frequency-strategy).
 * Fully automate A/B testing of campaigns at every stage of user interaction.
 
-[More about campaigns using the *One from many* message block >](https://docs.yespo.io/docs/using-one-many-block)
+[More about campaigns using the One from many message block >](https://docs.yespo.io/docs/using-one-many-block)
 
 There are two types of tags in Yespo:
 
@@ -36,7 +36,7 @@ There are two types of tags in Yespo:
 
 <Image align="center" width="80% " src="https://files.readme.io/1e2fce5244268f0317b0839d3e89fff1ac7c55a64a7f02313ddf5c1756fbbe40-adding-tags-01.webp" />
 
-1. Select the tag type (*Communication* or *Segment*), click *\+New tag* , enter a name, and click *Save*.
+1. Select the tag type (*Communication* or *Segment*), click *+New tag* , enter a name, and click *Save*.
 
 > 📘 Note
 >
@@ -111,7 +111,7 @@ If a tag is no longer relevant or needs to be replaced, click the *x* icon next 
 
 ### Lists
 
- allows you to modify tags for multiple items simultaneously, making management easier and enabling quick changes without editing each item individually.
+allows you to modify tags for multiple items simultaneously, making management easier and enabling quick changes without editing each item individually.
 
 Let’s look at an example of adding tags in an email message list.
 
