@@ -13,8 +13,10 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "<style>\n\t.InputGroup-input:last-child {\n  \t -webkit-text-security: disc !important;\n\t}\n</style>"
-}
-[/block]
+<HTMLBlock>{`
+<style>
+	.InputGroup-input:last-child {
+  	 -webkit-text-security: disc !important;
+	}
+</style>
+`}</HTMLBlock>
