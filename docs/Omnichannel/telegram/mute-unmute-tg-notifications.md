@@ -21,12 +21,12 @@ In our platform, these can be done for users with Telegram tokens. The feature i
 
 To mute notifications, send requests to the following endpoint: 
 
-- POST `/v1/apps/{app_uuid}/token/mute`
+* POST `/v1/apps/{app_uuid}/token/mute`
 
 where substitute `{app_uuid}` in the path with your application UUID.
 
 > 📘 NOTE
-> 
+>
 > Muted users or chats can receive transactional messages (smartsend, test).
 
 The method’s parameters and their description are given in the following table.
@@ -47,47 +47,17 @@ The response may return the following errors listed in the table.
 
 The muted contacts in the campaign reports are shown as `Unavailable contacts` with `Other errors` as the error type.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7c086500f0c031dbe53e632d46e985bf7c57e730ef3671f3961098985ee7508c-report_muted_contacts.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/7c086500f0c031dbe53e632d46e985bf7c57e730ef3671f3961098985ee7508c-report_muted_contacts.png" />
 
 The error name in the details is `CHANNEL_WAS_MUTED`.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9f9dd1ca9cc71c8ae5f4327a82fa8b284533a242a4681d58669a955d60527f89-error_details.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/9f9dd1ca9cc71c8ae5f4327a82fa8b284533a242a4681d58669a955d60527f89-error_details.png" />
 
 # Unmuting Notifications
 
 To unmute notifications, send requests to the following endpoint:
 
-- POST `/v1/apps/{app_uuid}/token/unmute`
+* POST `/v1/apps/{app_uuid}/token/unmute`
 
 where substitute `{app_uuid}` in the path with your application UUID.
 
