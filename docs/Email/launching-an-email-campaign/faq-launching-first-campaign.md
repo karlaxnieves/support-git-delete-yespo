@@ -15,64 +15,19 @@ next:
 ---
 ## How to Launch a Campaign from the Saved templates?
 
-There is no way to start a campaign in the _Saved_ templates section.
+There is no way to start a campaign in the *Saved* templates section.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/612c8b02a634b025909cf64a5445c9b176dd96e0df3f84536b29d1f4a7eb7ef6-image3.webp",
-        "",
-        "Saved templates"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/612c8b02a634b025909cf64a5445c9b176dd96e0df3f84536b29d1f4a7eb7ef6-image3.webp" />
 
+To send an email saved as a template, go to the *Messages* section, click *Create Email* and go to the *Saved* tab.
 
-To send an email saved as a template, go to the _Messages_ section, click _Create Email_ and go to the _Saved_ tab.
+<Image align="center" width="80% " src="https://files.readme.io/a5932c7ee688b69892fe7e629c39224295bd459d9c89d291bcde99ed59488f90-image1.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a5932c7ee688b69892fe7e629c39224295bd459d9c89d291bcde99ed59488f90-image1.webp",
-        "",
-        "Saved"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+Open the desired template — it contains the *Create campaign* button. Click it and schedule a campaign.
 
+To make the template appear as a regular email in the general list, go to it and click *Save*. The email will be in the saved templates and the general list.
 
-Open the desired template — it contains the _Create campaign_ button. Click it and schedule a campaign.
-
-To make the template appear as a regular email in the general list, go to it and click _Save_. The email will be in the saved templates and the general list.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7901f64c7293ac14604c4ae719f9609056eeb368a1a257ae0b93d521c0b93d89-image2.webp",
-        "",
-        "Saved email"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/7901f64c7293ac14604c4ae719f9609056eeb368a1a257ae0b93d521c0b93d89-image2.webp" />
 
 ## What Are the Email Open and Click Rates for My Industry?
 
@@ -86,9 +41,9 @@ The CTR of promotional emails will vary depending on the content's quality, the 
 
 The normal unsubscribe rate is up to 3%. Unsubscribes may be affected by the following:
 
-- uninteresting and irrelevant emails;
-- frequency of mailings;
-- changing the sender's name.
+* uninteresting and irrelevant emails;
+* frequency of mailings;
+* changing the sender's name.
 
 Note that unsubscribes are sometimes good. In this way, the contact list is cleaned of inactive contacts, and the general indicators of the mailing are improved. There is no reason to worry if the percentage of unsubscribes is at most 1%.
 
@@ -104,9 +59,9 @@ Your tests can provide a better answer to this question.
 
 Test the following sending parameters:
 
-- Time of day;
-- Weekday;
-- The number of weekly campaigns.
+* Time of day;
+* Weekday;
+* The number of weekly campaigns.
 
 ## Why Do We Need Alt Attributes for Images?
 
@@ -114,5 +69,5 @@ Alt-text indicates to mailers that the email contains an image that needs to be 
 
 ## How to Сreate an Email That Will Look Equally Good on Different Device Types?
 
-The Yespo editor has a built-in adaptability function. You can adjust the adaptability both for the entire email and its elements.  
+The Yespo editor has a built-in adaptability function. You can adjust the adaptability both for the entire email and its elements.\
 [Adaptivity settings](https://docs.yespo.io/docs/all-adaptivity-email-builder).
