@@ -12,7 +12,7 @@ next:
 ---
 ## Get Initial Notification
 
-When your app is instantiated by clicking on push notification, you may need its payload;  
+When your app is instantiated by clicking on push notification, you may need its payload;\
 In order to get it, use `getInitialNotification` function
 
 ```typescript
@@ -28,7 +28,7 @@ useEffect(() => {
 
 ## Listen for New Push Notifications while App is Active
 
-While app is open, you may need to track, if there is new push;  
+While app is open, you may need to track, if there is new push;\
 To do so, set listener using `setOnRetenoPushReceivedListener` function;
 
 ```typescript
