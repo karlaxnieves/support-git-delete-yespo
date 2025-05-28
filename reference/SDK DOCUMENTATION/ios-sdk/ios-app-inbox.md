@@ -12,27 +12,12 @@ next:
 ---
 App Inbox is similar to an email inbox but is designed for direct messages from an app. As opposed to push notifications, it allows customers to keep promotions and browse a chronological list of messages at any time.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3c083e1-Frame_2483.png",
-        "Frame 2483.png",
-        808
-      ],
-      "align": "center",
-      "sizing": "smart"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="smart" src="https://files.readme.io/3c083e1-Frame_2483.png" />
 
 With the Reteno App Inbox, there is no default UI. This means with a few lines of code, you can connect Reteno with your inbox.
 
 > 📘 Note
-> 
+>
 > SDK Version App Inbox is available in version **1.2.0** and later.
 
 ### Reteno App Inbox
