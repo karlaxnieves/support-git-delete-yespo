@@ -31,11 +31,11 @@ data class Custom(
 )
 ```
 
-- `typeKey`- key qualifier of the event (provided by appDeveloper, confirmed by marketing team).
+* `typeKey`- key qualifier of the event (provided by appDeveloper, confirmed by marketing team).
 
-- `dateOccurred` - time when event occurred
+* `dateOccurred` - time when event occurred
 
-- `parameters` - list of parameters, which describe the event
+* `parameters` - list of parameters, which describe the event
 
 ###### Parameter model containt key/value fields to describe the parameter:
 
@@ -89,11 +89,11 @@ data class ScreenTrackingConfig @JvmOverloads constructor(
 
 ###### Arguments:
 
-- `enable` → true/false. Enable/Disable automatic screen tracking
+* `enable` → true/false. Enable/Disable automatic screen tracking
 
-- `excludeScreens` → you may provide a blackList of Fragment names which should not be tracked. Default argument is emptyList
+* `excludeScreens` → you may provide a blackList of Fragment names which should not be tracked. Default argument is emptyList
 
-- `trigger` → Fragment Lifecycle callback to trigger screenView event tracking. You may either choose ON_RESUME or ON_START. By default it is ON_START
+* `trigger` → Fragment Lifecycle callback to trigger screenView event tracking. You may either choose ON\_RESUME or ON\_START. By default it is ON\_START
 
 If you just want to enable/disable automatic screen tracking with the default params you may use overloaded constructor of the data class
 
@@ -116,7 +116,7 @@ Reteno.logScreenView(String screenName);
 ```
 
 > 📘 Note
-> 
+>
 > Set up [event-based segmentation](https://yespo.io/support/how-to-use-event-segmentation) to ensure custom events and their parameters are recorded in contact cards, enabling the creation of dynamic segments.
 
 ## Track Mob Push Subscribers
@@ -125,9 +125,9 @@ Your end-user may prohibit receiving pushes by disabling `Reteno` notification c
 
 ###### SDK checks notifications enabled status in these cases:
 
-- On App resume
-- On push received event
-- On settings changed in Android OS Settings menu (starting from Android 9.0, using system broadcast)
+* On App resume
+* On push received event
+* On settings changed in Android OS Settings menu (starting from Android 9.0, using system broadcast)
 
 Once status `false` sent to the server, the backend won't send any push notifications to this device until the end-user re-enables channel/notifications. Once the end-user re-enables channel/notifications the server will be notified and will send push notifications again.
 
@@ -135,22 +135,7 @@ Once status `false` sent to the server, the backend won't send any push notifica
 
 `Reteno` caches all events (events, device data, user information, user behavior, screen tracking, push statuses, etc) locally into database to save battery minimize API calls. Each n seconds (default = 30sec) SDK sends cached data to `Reteno` server in batches. The scheme is as follows:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1efc636-Frame_4.png",
-        "Frame_4.png",
-        1600
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/1efc636-Frame_4.png" />
 
 If you need some of your events to be sent to the `Reteno` server instantly just call the following method:
 
