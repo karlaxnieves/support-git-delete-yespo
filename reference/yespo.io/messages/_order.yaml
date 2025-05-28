@@ -35,3 +35,4 @@
 - gettelegrambotmessage
 - updatebasetelegrambotmessage
 - deletetelegrambotmessage
+- updatetranslatedtelegrambotmessage
