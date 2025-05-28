@@ -18,36 +18,36 @@ Product recommendations are a tool that helps online store visitors find the rig
 
 Depending on the goals, the algorithm for generating recommendations can be based on data about products, users, or specific patterns in the behavior of online store customers.
 
-- **Product data** includes characteristics from the product feed: color, size, price, stock status, rating, etc. 
-- **User data** is based on browsing and purchase history, demographic characteristics, and behavioral patterns.
-- **Data on general user behavior patterns:** information about which products are more often bought together or which are viewed before purchasing a particular item.
+* **Product data** includes characteristics from the product feed: color, size, price, stock status, rating, etc. 
+* **User data** is based on browsing and purchase history, demographic characteristics, and behavioral patterns.
+* **Data on general user behavior patterns:** information about which products are more often bought together or which are viewed before purchasing a particular item.
 
 Product recommendations are used on different pages of the site for various purposes. Below are the types of product recommendations that can be placed on the home page, category page, product page, and checkout page.
 
 **1. Home page:**
 
-- Recommendations based on user preferences (for example, views and purchases).
-- Bestsellers and novelties.
-- Special offers or discounts.
+* Recommendations based on user preferences (for example, views and purchases).
+* Bestsellers and novelties.
+* Special offers or discounts.
 
 **2. Category pages:**
 
-- The most popular products from the category.
-- Bestsellers in the category.
-- New arrivals or discounted items.
-- Personalized recommendations based on browsing history, orders, user demographics, and product reviews.
+* The most popular products from the category.
+* Bestsellers in the category.
+* New arrivals or discounted items.
+* Personalized recommendations based on browsing history, orders, user demographics, and product reviews.
 
 **3. Product page:**
 
-- Recommendations of similar products based on product characteristics.
-- Recommendations of products that are often bought together.
-- Personalized recommendations based on the user's browsing and purchase history.
+* Recommendations of similar products based on product characteristics.
+* Recommendations of products that are often bought together.
+* Personalized recommendations based on the user's browsing and purchase history.
 
 **4. Checkout page:**
 
-- Recommendations based on the contents of the cart (for example, additional items that may be of interest to the user).
-- Recommendations based on discounts and promotions (for example, the _Buy Together_ or _Get Free Shipping_ offer).
-- Personalized recommendations.
+* Recommendations based on the contents of the cart (for example, additional items that may be of interest to the user).
+* Recommendations based on discounts and promotions (for example, the *Buy Together* or *Get Free Shipping* offer).
+* Personalized recommendations.
 
 The purpose of displaying product recommendations on the website can be:
 
@@ -77,13 +77,13 @@ Before starting the settings, [upload a product feed](https://docs.yespo.io/docs
 
 Use the JavaScript API to get product recommendations. Calling the API and setting up the appearance of recommendation blocks and their placement will take place on your side. Implementation steps:
 
-- [Set up the recommendation algorithm in Yespo](https://docs.yespo.io/docs/getting-api-recommendations).
-- [Install a JS function on your website](https://docs.yespo.io/docs/recommendations-using-javascript-api) and call it to get recommendation data from Yespo.
-- Create a recommendation block design on your side.
+* [Set up the recommendation algorithm in Yespo](https://docs.yespo.io/docs/getting-api-recommendations).
+* [Install a JS function on your website](https://docs.yespo.io/docs/recommendations-using-javascript-api) and call it to get recommendation data from Yespo.
+* Create a recommendation block design on your side.
 
 ### 2. Yespo account
 
 You can set up all the recommendation block functionality directly in Yespo. Implementation steps:
 
-- [Create a recommendation block](https://docs.yespo.io/docs/product-recommendations-website).
-- [Set up recommendation placements](https://docs.yespo.io/docs/placement-recommendations-webpage).
+* [Create a recommendation block](https://docs.yespo.io/docs/product-recommendations-website).
+* [Set up recommendation placements](https://docs.yespo.io/docs/placement-recommendations-webpage).
