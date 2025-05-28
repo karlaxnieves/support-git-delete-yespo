@@ -14,7 +14,7 @@ next:
 ---
 ## Getting Started With Reteno SDK for Android
 
-1. Install reteno_flutter_sdk using flutter pub command:
+1. Install reteno\_flutter\_sdk using flutter pub command:
 
 ```shell
 flutter pub add reteno_plugin
@@ -69,7 +69,7 @@ android.enableJetifier=true
 ### Step 2: Add ‘com.reteno:fcm’ and Firebase Dependencies in build.gradle
 
 > 📘 Note
-> 
+>
 > Java 1.8 compiler is required. In app level `build.gradle:`
 
 ```groovy
@@ -82,7 +82,7 @@ android {
 ```
 
 > 📘 Note
-> 
+>
 > If you are using `minSdkVersion<26` please add desugaring dependency in you app level build.gradle as follows
 
 ```groovy
@@ -167,86 +167,26 @@ and then in Flutter app, call `Reteno.initWith`
 
 ### Step 4:  Set Up Your Firebase Application for Firebase Cloud Messaging:
 
-- Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en "{rel='nofollow'}")).
+* Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en "\{rel='nofollow'}")).
 
-- Add the above file to your root `app/` folder.
+* Add the above file to your root `app/` folder.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/baf1ff7-google-services-json.png",
-        "google-services-json.png",
-        371
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/baf1ff7-google-services-json.png" />
 
+* Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/ "\{rel='nofollow'}"), click the gear icon next to *Project Overview*, then click Project Settings → Cloud Messaging → Manage Service Accounts. Go to Service accounts to download FirebaseAdminSdk account's json key.
 
-- Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/ "{rel='nofollow'}"), click the gear icon next to _Project Overview_, then click Project Settings → Cloud Messaging → Manage Service Accounts. Go to Service accounts to download FirebaseAdminSdk account's json key.
+<Image align="center" width="80%" src="https://files.readme.io/6987c7d-FirebaseConsole.png" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6987c7d-FirebaseConsole.png",
-        "FirebaseConsole.png",
-        743
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/f4bac6b-CloudConsole1.png" />
 
+<Image align="center" width="80%" src="https://files.readme.io/a577959-CloudConsole2.png" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f4bac6b-CloudConsole1.png",
-        "CloudConsole1.png",
-        648
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a577959-CloudConsole2.png",
-        "CloudConsole2.png",
-        654
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
-
-- Follow this manual to [set up Yespo admin panel](https://docs.yespo.io/docs/connect-your-mobile-app#for-all-devices) with your Firebase key.
+* Follow this manual to [set up Yespo admin panel](https://docs.yespo.io/docs/connect-your-mobile-app#for-all-devices) with your Firebase key.
 
 Now you are ready to run your app and send a marketing push notification to your application.
 
 Run your app on a physical Android device to make sure it builds correctly.
 
 > 📘 Note
-> 
+>
 > [Android Debug Mode](https://docs.yespo.io/reference/android-debug-mode) enables you to ensure that all events and user properties are logged correctly.
