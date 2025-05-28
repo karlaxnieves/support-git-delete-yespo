@@ -12,19 +12,19 @@ next:
 ---
 You can personalize the user experience and increase sales by adding recommendations of your goods and services to an app. The passed recommendations are based on the customer activity data and include the following options:
 
-- **Out of stock** - a selection based on similar items.
-- **Cross-selling** - offer of related products. The selected items are based on those added to the cart.
-- **Upselling** - offering based on more expensive and complementary goods and services to increase the order value.
-- **Potential purchase** - The selected items are based on the orders of users who have purchased this product.
-- **Personal recommendations** - based on the customer's purchase and browsing history.
-- **Other** - an offer is created individually if the required algorithm is not available among our platform's pre-configured algorithms.
+* **Out of stock** - a selection based on similar items.
+* **Cross-selling** - offer of related products. The selected items are based on those added to the cart.
+* **Upselling** - offering based on more expensive and complementary goods and services to increase the order value.
+* **Potential purchase** - The selected items are based on the orders of users who have purchased this product.
+* **Personal recommendations** - based on the customer's purchase and browsing history.
+* **Other** - an offer is created individually if the required algorithm is not available among our platform's pre-configured algorithms.
 
 > 📘 Note
-> 
+>
 > Each type of recommendation uses different requests having their own algorithms and rules since they take data from different sources.
 
 > 📘 Note
-> 
+>
 > Recommendations are available in SDK starting from version **1.3.0**.
 
 #### Reteno Recommendations
@@ -49,8 +49,8 @@ val recommendation = reteno.recommendation
 
 Before starting using recommendations you have to meet the following conditions:
 
-- Set up web tracking or tracking for mobile apps.
-- Create a data source with a required algorithm for each recommendation type to use its ID when calling an API.
+* Set up web tracking or tracking for mobile apps.
+* Create a data source with a required algorithm for each recommendation type to use its ID when calling an API.
 
 Method signature:
 
@@ -74,30 +74,15 @@ fun <T : RecomBase> fetchRecommendation(
 )
 ```
 
-To get `recomVariantId` parameter, copy ID from JS script example in the recom Parameters screen. It is in r{recomId}v{variantId} format. Where recomId and variant Id are integer identifiers.
+To get `recomVariantId` parameter, copy ID from JS script example in the recom Parameters screen. It is in r\{recomId}v\{variantId} format. Where recomId and variant Id are integer identifiers.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/69cf8bf-RecomVariantId.png",
-        "RecomVariantId.png",
-        2154
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/69cf8bf-RecomVariantId.png" />
 
 There are three types of recommendations algorythms:
 
-- Personal based recommendations. In this case you don't need to pass `productIds` and `categoryId` parameters.
-- Category based recommendations. In this case `categoryId` parameter is required.
-- Product based recommendations. This algorithm requres passing `productIds` parameter.
+* Personal based recommendations. In this case you don't need to pass `productIds` and `categoryId` parameters.
+* Category based recommendations. In this case `categoryId` parameter is required.
+* Product based recommendations. This algorithm requres passing `productIds` parameter.
 
 `RecomRequestModel`
 
@@ -125,7 +110,7 @@ data class RecomRequest @JvmOverloads constructor(
 In the `fields` parameter pass recommended product model fields you want to receive in the response.
 
 > 📘 Note
-> 
+>
 > SDK returns all product fields if a request does not contain `fields` parameter and only `productId` if `fields` array in a request is empty.
 
 `RecomFilter`
@@ -163,15 +148,92 @@ interface GetRecommendationResponseCallback<T : RecomBase> {
 }
 ```
 
-In the end you will receive recommendations either in the `onSuccess(response: Recoms)` callback method (if casting to provided model is successful) or in `fun onSuccessFallbackToJson(response: String)` if casting failed. If there is any problem with the server or if the request was created incorrectly you will receive all the information in the callback `fun onFailure(statusCode: Int?, response: String?, throwable: Throwable?)`.  
+In the end you will receive recommendations either in the `onSuccess(response: Recoms)` callback method (if casting to provided model is successful) or in `fun onSuccessFallbackToJson(response: String)` if casting failed. If there is any problem with the server or if the request was created incorrectly you will receive all the information in the callback `fun onFailure(statusCode: Int?, response: String?, throwable: Throwable?)`.\
 Note the possible errors from the server:
 
-| <div style="width:350px">**Case**</div>           | Status | Message                                                                                                |
-| ------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------ |
-| Invalid request parameters                        | 400    | `recomVariantId` <br/>- must be specified<br/>- Invalid format: %s. Must be **r{recomId}v{variantId}** |
-| `recomVariantId` doesn’t exist                    | 422    | Unknown recomVariantId `r1105v148`                                                                     |
-| `product` is empty for product-based algorithms   | 400    | product ids must be set                                                                                |
-| `category` is empty for category-based algorithms | 400    | category id must be set                                                                                |
+<Table>
+  <thead>
+    <tr>
+      <th>
+        <div style="width:350px">**Case**</div>
+      </th>
+
+      <th>
+        Status
+      </th>
+
+      <th>
+        Message
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Invalid request parameters
+      </td>
+
+      <td>
+        400
+      </td>
+
+      <td>
+        `recomVariantId` <br/>- must be specified<br/>- Invalid format: %s. Must be **r\{recomId}v\{variantId}**
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `recomVariantId`
+
+         doesn’t exist
+      </td>
+
+      <td>
+        422
+      </td>
+
+      <td>
+        Unknown recomVariantId 
+
+        `r1105v148`
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `product`
+
+         is empty for product-based algorithms
+      </td>
+
+      <td>
+        400
+      </td>
+
+      <td>
+        product ids must be set
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `category`
+
+         is empty for category-based algorithms
+      </td>
+
+      <td>
+        400
+      </td>
+
+      <td>
+        category id must be set
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ## Usage example
 
@@ -220,8 +282,8 @@ public class RecommendationResponse implements RecomBase {
 }
 ```
 
-> 📘 
-> 
+> 📘
+>
 > **Tip:** at first and see what properties will be in the response model.
 
 #### 2\. Make a request
@@ -282,7 +344,7 @@ getReteno().getRecommendation().fetchRecommendation("r123v123", request, Recomme
 ```
 
 > 📘 Note
-> 
+>
 > The Recoms model, where T is the model you wish to receive (`RecommendationResponse`):
 
 ```kotlin
