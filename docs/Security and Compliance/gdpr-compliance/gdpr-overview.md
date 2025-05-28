@@ -16,15 +16,15 @@ next:
 
 General Data Protection Regulation (GDPR) is a complex of rules for using and protecting EU and UK residents’ personal data.
 
-According to GDPR, two parties are responsible for compliance with the law: _Controller_ and _Processor_.
+According to GDPR, two parties are responsible for compliance with the law: *Controller* and *Processor*.
 
-- **Data controller** determines the goals and means of personal data processing (your organization as a customer).
-- **Data processor’s** function is to process personal data on Controller's behalf or provide tools for this purpose (area of responsibility).
+* **Data controller** determines the goals and means of personal data processing (your organization as a customer).
+* **Data processor’s** function is to process personal data on Controller's behalf or provide tools for this purpose (area of responsibility).
 
 As the data processor, we provide you with the full range of technical and organizational measures to protect the data subject's rights according to GDPR.
 
 > 📘 Note
-> 
+>
 > GDPR became the basis of some other personal data regulations, such as California Consumer Privacy Act (CCPA) or Brazilian General Data Protection Law (LGPD). However, due to the common basis of these laws, our data protection measures allow you to meet all their requirements.
 
 See below how to solve main regulation tasks and remain compliant with data protection laws.
@@ -39,9 +39,9 @@ Permission to use personal data must be free, specific, informed, and unambiguou
 
 We help you to receive communication permission for every channel:
 
-- **Email** — as DOI email subscription completely meets the GDPR requirements, we provide you with ready-made DOI templates, workflows, and web forms: everything you need to grow your contact list effectively.
-- **Mobile push, In-app, App inbox** — we recognize iOS and Android users and send them notifications according to App Store and Google Play rules respectively.
-- **Web push** — we provide you single and double opt (DOI) in mechanics to collect user web tokens.
+* **Email** — as DOI email subscription completely meets the GDPR requirements, we provide you with ready-made DOI templates, workflows, and web forms: everything you need to grow your contact list effectively.
+* **Mobile push, In-app, App inbox** — we recognize iOS and Android users and send them notifications according to App Store and Google Play rules respectively.
+* **Web push** — we provide you single and double opt (DOI) in mechanics to collect user web tokens.
 
 ## Right to be forgotten
 
