@@ -55,8 +55,8 @@ data class LifecycleTrackingOptions(
 
 Also there are 2 useful shortcuts:
 
-- `LifecycleTrackingOptions.ALL` to all categories
-- `LifecycleTrackingOptions.NONE` to disable all categories.
+* `LifecycleTrackingOptions.ALL` to all categories
+* `LifecycleTrackingOptions.NONE` to disable all categories.
 
 ### During SDK initialization
 
