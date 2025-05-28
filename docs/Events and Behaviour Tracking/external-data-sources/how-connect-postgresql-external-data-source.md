@@ -19,223 +19,88 @@ To access data from third-party sources and use it for content substitution, use
 
 Connection to PostgreSQL would be the most optimal option if you need to
 
-- add extra fields for segmentation by contact fields;
-- configure seamless synchronization of content component;
-- get extra data on contacts in order to build precise segments based on specific conditions.
+* add extra fields for segmentation by contact fields;
+* configure seamless synchronization of content component;
+* get extra data on contacts in order to build precise segments based on specific conditions.
 
 ## 1. Set up a connector.
 
-1. Go to your personal profile → _Settings → Connectors_ → and select _Connect PostgreSQL_.
+1. Go to your personal profile → *Settings → Connectors* → and select *Connect PostgreSQL*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/375796eed3e1ef1a2edb74489f64d439559399523766277ee44b11e5713a1cea-connect-postgresql-01.webp",
-        "Select Connect PostgreSQL in Connectors",
-        "Select Connect PostgreSQL in Connectors"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/375796eed3e1ef1a2edb74489f64d439559399523766277ee44b11e5713a1cea-connect-postgresql-01.webp" />
 
 2. Fill in all fields:
 
-- Name. Required.
-- Host. Can be the domain name of the remote server or its IP address.
-- Port. Entered automatically by default.
-- Database. Name of the database on a remote server.
-- Username. User's database login (read only user role is enough). Required.
-- Password. Required.
+* Name. Required.
+* Host. Can be the domain name of the remote server or its IP address.
+* Port. Entered automatically by default.
+* Database. Name of the database on a remote server.
+* Username. User's database login (read only user role is enough). Required.
+* Password. Required.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/be6b823cdfe5a92c2291b14a42aae2d55b3efcc26772abb1450999d79cd10dcb-connecting-postgreSQL-001.webp",
-        "Fill in all fields",
-        "Fill in all fields"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/be6b823cdfe5a92c2291b14a42aae2d55b3efcc26772abb1450999d79cd10dcb-connecting-postgreSQL-001.webp" />
 
-
-You may click _Validate connection_ to test whether authorization data is entered correctly.
+You may click *Validate connection* to test whether authorization data is entered correctly.
 
 > 📘 Note
-> 
+>
 > When connecting to PostgreSQL, we recommend using a secure SSL connection for secure data transfer.
 
 If you are not using an SSL connection, the system will warn you:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5a0dd52071a0eecfc539af774bf40e9aa1f2f09fc18488a7aba7ec207f409c19-ssl-en.webp",
-        "Connection is not SSL-secured",
-        "Connection is not SSL-secured"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/5a0dd52071a0eecfc539af774bf40e9aa1f2f09fc18488a7aba7ec207f409c19-ssl-en.webp" />
 
 In case of a successful connection, the corresponding service notification will appear in the top right corner. If the connection failed, check the entered data and contact your system administrator if needed.
 
-3. In _Set unique contact field_, select a table column that contains a unique contact key and our system's unique contact key. They should match.
+3. In *Set unique contact field*, select a table column that contains a unique contact key and our system's unique contact key. They should match.
 
-For example, you choose _Email_. After connection, the column of the PostgreSQL table with email addresses will be mapped to the corresponding field in the system.
+For example, you choose *Email*. After connection, the column of the PostgreSQL table with email addresses will be mapped to the corresponding field in the system.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bec8dfd1cb9f382c6e0ca58d84c617bf2a4b02714b4b718e455b4f37432a2165-image7.webp",
-        "Example of the table with contact data",
-        "Table with contact data"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/bec8dfd1cb9f382c6e0ca58d84c617bf2a4b02714b4b718e455b4f37432a2165-image7.webp" />
 
 Aside from email addresses, uniqueness of contacts can be determined by a phone number, [external ID](https://docs.yespo.io/docs/external-id-for-creating-and-updating-contacts) or additional contact field.
 
 > 📘 Important
-> 
+>
 > The created connector can be used to connect to several data sources. All of them will have the same unique contact key so it’s recommended to use one key in all tables. To use a different key, then create another connector to the same database and set a different unique contact field.
 
-4. Click _Save_.
+4. Click *Save*.
 
 ## 2. Configure a data source.
 
 Your external database may contain several tables, and you need to select which one you want to connect to.
 
-1. Go to your personal profile → _Settings → Data sources_, click _New data source_ and select _External data source_.
+1. Go to your personal profile → *Settings → Data sources*, click *New data source* and select *External data source*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7ce73f1eabd3e09903561786e445a3685f146ccc2e74f18898aceedf667c913c-connecting-postgreSQL-002.webp",
-        "Select External data source",
-        "Select External data source"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/7ce73f1eabd3e09903561786e445a3685f146ccc2e74f18898aceedf667c913c-connecting-postgreSQL-002.webp" />
 
 2. Select the created connector.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/579f1239bed8940bca3d1c47f2c9647ebbb66d9e7af7255eab345c7753c452a8-connecting-postgreSQL-003.webp",
-        "Select the connector you've created",
-        "Select the created connector"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/579f1239bed8940bca3d1c47f2c9647ebbb66d9e7af7255eab345c7753c452a8-connecting-postgreSQL-003.webp" />
 
+3. Select dataset and table and enter a source name. Click *Save.*
 
-3. Select dataset and table and enter a source name. Click _Save._
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1d2b7dbbd0517f7e957859ee27d8cccafa25f46a982b62c65ae969c1904f531d-connecting-postgreSQL-004.webp",
-        "Select dataset and table",
-        "Select dataset and table"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/1d2b7dbbd0517f7e957859ee27d8cccafa25f46a982b62c65ae969c1904f531d-connecting-postgreSQL-004.webp" />
 
 4\. Now, import contacts to our service and fill the external source with data.
 
 Now you can build segments based on the imported contact fields.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fa5c24511c7a5e8791aaf0772927f6e5a831da6c77341929de3eaedb4c849280-build-a-segment.gif",
-        "",
-        "Build a segment using the imported data"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/fa5c24511c7a5e8791aaf0772927f6e5a831da6c77341929de3eaedb4c849280-build-a-segment.gif" />
 
 > 📘 Important
-> 
+>
 > Connection to the external database doesn’t presuppose contact import. Segmentation is only available for contacts that exist both in your account and in the external database. Synchronize and update contacts before creating campaigns.
 
 ## 3\. Add data to a message.
 
-To insert data, you need to reference it using a [Velocity](https://docs.yespo.io/docs/introduction-to-velocity) parameter $!data.get(‘source\_name’). As an example, we will be using the created source with the name _promo\_codes_.
+To insert data, you need to reference it using a [Velocity](https://docs.yespo.io/docs/introduction-to-velocity) parameter $!data.get(‘source\_name’). As an example, we will be using the created source with the name *promo\_codes*.
 
 ### Bulk campaign to a segment
 
 For example, you plan a campaign to a contact `kozak@example.com`.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6ad158393fbe25d1ecb7241da915386717919a10cb763e0b211769df8333c6e8-image7.webp",
-        "Table example",
-        "Example of table"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6ad158393fbe25d1ecb7241da915386717919a10cb763e0b211769df8333c6e8-image7.webp" />
 
 A set of data will be extracted from the table and inserted into an object:
 
@@ -257,7 +122,7 @@ A set of data will be extracted from the table and inserted into an object:
 
 Fields of the array promo\_codes can be referenced in two ways:
 
-- With parameters (if you know the number of parameters in the array).
+* With parameters (if you know the number of parameters in the array).
 
 ```json
 - $!data.get('promo_codes').get(0).get('name')
@@ -265,7 +130,7 @@ Fields of the array promo\_codes can be referenced in two ways:
   $!data.get('promo_codes').get(0).get('promo_code')
 ```
 
-- With a loop (most common method).
+* With a loop (most common method).
 
 ```json
 - # foreach($pc in $!data.get('promo_codes'))
@@ -281,22 +146,7 @@ Fields of the array promo\_codes can be referenced in two ways:
 
 First, you need to create a dynamic segment with certain conditions. For example, your segment will include only contacts who have a birthday today.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/327140485d042f0a1fd42726c88d1882fb206719bc38ac2180d69cd539add40a-image12.webp",
-        "Segment conditions",
-        "Segment conditions"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/327140485d042f0a1fd42726c88d1882fb206719bc38ac2180d69cd539add40a-image12.webp" />
 
 When the workflow is triggered for contacts that match this condition, the system generates the event. The name of the event is formed from the static part (regularEventType) and the segment ID the campaign is sent to. It can be, for example, regularEventType-170531841.
 
@@ -304,22 +154,7 @@ The event contains contact data, contact ID in our platform (ContactId), email a
 
 The data from each table field is converted into a key and is placed in an array with a numerical name that corresponds to the ID of the data source.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/54852f623b0ad09e110f4ea995d2aa4eba6ad0ec9644b2a56686be075de6c64d-image6.webp",
-        "Data source key",
-        "Data source key"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/54852f623b0ad09e110f4ea995d2aa4eba6ad0ec9644b2a56686be075de6c64d-image6.webp" />
 
 In turn, this array is serialized and placed as a string in the field jsonParam. The body of the event may look as follows:
 
@@ -342,43 +177,13 @@ In turn, this array is serialized and placed as a string in the field jsonParam.
 }
 ```
 
-To deserialize a string into a set of objects, in the workflow > block _Email_ > _JSON_ specify the data source from the event - _${jsonParam}_.
+To deserialize a string into a set of objects, in the workflow > block *Email* > *JSON* specify the data source from the event - *$\{jsonParam}*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d96566b6ba01041956021477ca896fed01230c3adf6f4eed960c01c22d9d6a87-workflow-posrgresql-01.webp",
-        "JSON of the block Email",
-        "JSON parameter"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/d96566b6ba01041956021477ca896fed01230c3adf6f4eed960c01c22d9d6a87-workflow-posrgresql-01.webp" />
 
 Having set up the workflow, configure triggers:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c4cecef4eabfd6ac021d6d67f1f75550802f3e5c65d0c4164a06bb5c0253807e-connecting-postgresql-02.webp",
-        "Configure trigger",
-        "Configure trigger"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c4cecef4eabfd6ac021d6d67f1f75550802f3e5c65d0c4164a06bb5c0253807e-connecting-postgresql-02.webp" />
 
 The same approach as for a bulk campaign is used to extract data from the event, with little difference in the name of the array. The following object will be in the email:
 
@@ -400,7 +205,7 @@ The same approach as for a bulk campaign is used to extract data from the event,
 
 The fields of the array 1043 can be referenced in two ways:
 
-- With parameters (if you know the number of parameters in the array).
+* With parameters (if you know the number of parameters in the array).
 
 ```json
 - $!data.get('1043').get(0).get('name')
@@ -410,7 +215,7 @@ The fields of the array 1043 can be referenced in two ways:
 
 <br />
 
-- With a loop (most common method).
+* With a loop (most common method).
 
 ```json
 - # foreach($pc in $!data.get('1043'))
@@ -430,15 +235,15 @@ To regularly update information about the audience, orders and campaign results 
 
 Available datasets for export:
 
-- broadcasts;
-- contactActivities;
-- contacts;
-- devices;
-- events
-- messages;
-- orderItems;
-- orders
-- revenue.
+* broadcasts;
+* contactActivities;
+* contacts;
+* devices;
+* events
+* messages;
+* orderItems;
+* orders
+* revenue.
 
 <br />
 
@@ -446,224 +251,838 @@ Available datasets for export:
 
 #### Broadcasts
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "createdDate",
-    "0-1": "timestamp",
-    "0-2": "Day and time of message creation (format: '2021-10-08 11:11:02')",
-    "1-0": "groupId",
-    "1-1": "int",
-    "1-2": "Segment IDs participating in the broadcast",
-    "2-0": "id",
-    "2-1": "int",
-    "2-2": "Broadcast ID",
-    "3-0": "mediaType",
-    "3-1": "varchar (50)",
-    "3-2": "Media type (SMS, Email, WebPush, Viber, MobilePush, AppInbox, Widget)",
-    "4-0": "messageId",
-    "4-1": "int",
-    "4-2": "Message ID",
-    "5-0": "name",
-    "5-1": "varchar (1000)",
-    "5-2": "Broadcast name",
-    "6-0": "startedDate",
-    "6-1": "timestamp",
-    "6-2": "Day and time of broadcast sending (format: '2021-10-08 11:11:02')",
-    "7-0": "status",
-    "7-1": "varchar (50)",
-    "7-2": "Broadcast statuses:  \n•\tIDLE - completed;  \n•\tRUNNING - started;  \n•\tPAUSED - paused (if the mailing was not stopped manually by you, contact support for more details);  \n•\tSCHEDULED - planned;  \n•\tUNCONFIRMED - in queue for moderation;  \n•\tCONSIDERATION - under moderation;  \n•\tBLOCKED - blocked by moderator.",
-    "8-0": "updatedDate",
-    "8-1": "timestamp",
-    "8-2": "Day and time of broadcast updating (format: '2021-10-08 11:11:02')"
-  },
-  "cols": 3,
-  "rows": 9,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        createdDate
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of message creation (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        groupId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Segment IDs participating in the broadcast
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        id
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Broadcast ID
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        mediaType
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Media type (SMS, Email, WebPush, Viber, MobilePush, AppInbox, Widget)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Message ID
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        name
+      </td>
+
+      <td>
+        varchar (1000)
+      </td>
+
+      <td>
+        Broadcast name
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        startedDate
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of broadcast sending (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        status
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Broadcast statuses:\
+        •	IDLE - completed;\
+        •	RUNNING - started;\
+        •	PAUSED - paused (if the mailing was not stopped manually by you, contact support for more details);\
+        •	SCHEDULED - planned;\
+        •	UNCONFIRMED - in queue for moderation;\
+        •	CONSIDERATION - under moderation;\
+        •	BLOCKED - blocked by moderator.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        updatedDate
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of broadcast updating (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 #### ContactActivities
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "activity (activityStatus) \\*",
-    "0-1": "varchar (100)",
-    "0-2": "Activity status:  \n•\tDELIVERED – the message was delivered.  \n•\tUNDELIVERED – the message was undelivered (statusDescription contains the reason).  \n•\tRECEIVED – the message was opened.  \n•\tUNSUBSCRIBED – a contact unsubscribed from the broadcasting list.  \n•\tCLICKED – a contact clicked links in the message.  \n•\tSPAM – a contact reported spam.  \n•\tSUBSCRIPTION_CHANGED – a contact changed the subscription category.  \n•\tPUSH_SUBSCRIBED — a contact subscribed to push notifications.",
-    "1-0": "broadcastId",
-    "1-1": "int",
-    "1-2": "Broadcast ID",
-    "2-0": "campaignType",
-    "2-1": "varchar (50)",
-    "2-2": "Campaign type:  \n•\tIM — triggered message,  \n•\tGroup — bulk campaign.",
-    "3-0": "clickEventLink\t",
-    "3-1": "varchar (1000)",
-    "3-2": "Contains the link clicked by a contact (when the status is CLICKED)",
-    "4-0": "contactId",
-    "4-1": "bigint",
-    "4-2": "Contact ID in Yespo (Internal)",
-    "5-0": "errorCode (statusDescription) \\*",
-    "5-1": "varchar (1000)",
-    "5-2": "Delivery error SMTP and description",
-    "6-0": "eventKey",
-    "6-1": "varchar (100)",
-    "6-2": "Event key",
-    "7-0": "eventTypeKey",
-    "7-1": "varchar (100)",
-    "7-2": "Event type key",
-    "8-0": "externalCustomerId",
-    "8-1": "varchar (100)",
-    "8-2": "Contact ID in your system (External)",
-    "9-0": "iid",
-    "9-1": "string",
-    "9-2": "Sender name for Email and SMS",
-    "10-0": "mediaType",
-    "10-1": "varchar (50)",
-    "10-2": "Media type (SMS, Email, WebPush, Viber, MobilePush, AppInbox, Widget, In-App, Telegram)",
-    "11-0": "messageInstanceId",
-    "11-1": "int",
-    "11-2": "Service field",
-    "12-0": "messageLanguageCode",
-    "12-1": "varchar (50)",
-    "12-2": "Message language code",
-    "13-0": "messageName",
-    "13-1": "varchar (100)",
-    "13-2": "Message name in Yespo account",
-    "14-0": "messageId",
-    "14-1": "int",
-    "14-2": "Message ID",
-    "15-0": "messageTags",
-    "15-1": "varchar (200)",
-    "15-2": "Message tags",
-    "16-0": "messageURL",
-    "16-1": "varchar (1000)",
-    "16-2": "Contains the link to the email web-version",
-    "17-0": "osName",
-    "17-1": "string",
-    "17-2": "Device operating system",
-    "18-0": "osType",
-    "18-1": "string",
-    "18-2": "Device type",
-    "19-0": "senderName",
-    "19-1": "varchar (200)",
-    "19-2": "Viber sender name",
-    "20-0": "started (activityDateTime) \\*",
-    "20-1": "timestamp",
-    "20-2": "Day and time of message sending (format: '2021-10-08 11:11:02')",
-    "21-0": "utmCampaign\t",
-    "21-1": "varchar (400)",
-    "21-2": "Campaign UTM",
-    "22-0": "workflowId",
-    "22-1": "string",
-    "22-2": "Workflow ID",
-    "23-0": "workflowInstanceId",
-    "23-1": "varchar (200)",
-    "23-2": "The identifier of a particular workflow launch. Use it to group mailings within the launch of a workflow.",
-    "24-0": "workflowBlockId",
-    "24-1": "varchar (200)",
-    "24-2": "Workflow block ID"
-  },
-  "cols": 3,
-  "rows": 25,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        activity (activityStatus) \*
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Activity status:\
+        •	DELIVERED – the message was delivered.\
+        •	UNDELIVERED – the message was undelivered (statusDescription contains the reason).\
+        •	RECEIVED – the message was opened.\
+        •	UNSUBSCRIBED – a contact unsubscribed from the broadcasting list.\
+        •	CLICKED – a contact clicked links in the message.\
+        •	SPAM – a contact reported spam.\
+        •	SUBSCRIPTION\_CHANGED – a contact changed the subscription category.\
+        •	PUSH\_SUBSCRIBED — a contact subscribed to push notifications.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        broadcastId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Broadcast ID
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        campaignType
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Campaign type:\
+        •	IM — triggered message,\
+        •	Group — bulk campaign.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        clickEventLink&#x9;
+      </td>
+
+      <td>
+        varchar (1000)
+      </td>
+
+      <td>
+        Contains the link clicked by a contact (when the status is CLICKED)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        contactId
+      </td>
+
+      <td>
+        bigint
+      </td>
+
+      <td>
+        Contact ID in Yespo (Internal)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        errorCode (statusDescription) \*
+      </td>
+
+      <td>
+        varchar (1000)
+      </td>
+
+      <td>
+        Delivery error SMTP and description
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        eventKey
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Event key
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        eventTypeKey
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Event type key
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        externalCustomerId
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Contact ID in your system (External)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        iid
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Sender name for Email and SMS
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        mediaType
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Media type (SMS, Email, WebPush, Viber, MobilePush, AppInbox, Widget, In-App, Telegram)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageInstanceId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Service field
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageLanguageCode
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Message language code
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageName
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Message name in Yespo account
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Message ID
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageTags
+      </td>
+
+      <td>
+        varchar (200)
+      </td>
+
+      <td>
+        Message tags
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageURL
+      </td>
+
+      <td>
+        varchar (1000)
+      </td>
+
+      <td>
+        Contains the link to the email web-version
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        osName
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Device operating system
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        osType
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Device type
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        senderName
+      </td>
+
+      <td>
+        varchar (200)
+      </td>
+
+      <td>
+        Viber sender name
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        started (activityDateTime) \*
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of message sending (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        utmCampaign&#x9;
+      </td>
+
+      <td>
+        varchar (400)
+      </td>
+
+      <td>
+        Campaign UTM
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        workflowId
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Workflow ID
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        workflowInstanceId
+      </td>
+
+      <td>
+        varchar (200)
+      </td>
+
+      <td>
+        The identifier of a particular workflow launch. Use it to group mailings within the launch of a workflow.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        workflowBlockId
+      </td>
+
+      <td>
+        varchar (200)
+      </td>
+
+      <td>
+        Workflow block ID
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 \*The field will be removed as overdated; use the field indicated in brackets
 
 #### Contacts
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "contactId",
-    "0-1": "bigint",
-    "0-2": "Contact ID in Yespo (Internal)",
-    "1-0": "contactSource",
-    "1-1": "varchar (50)",
-    "1-2": "Contact source:  \n•\tSITE_AUTOMATED - binding an email to a push subscriber (webPush collection script),  \n•\tI_MESSAGE - sending a single message,  \n•\tCAMPAIGN - workflow (block Create contact or Add to segment),  \n•\tIMPORT - file import or Add contacts method,  \n•\tMANUAL - manually created,  \n•\tSUBSCRIPTION - subscription form (Subscribe a contact API method),  \n•\tAdd contact API method,  \n•\tORDER - order on the site (Add orders API method).",
-    "2-0": "createdDate",
-    "2-1": "timestamp",
-    "2-2": "Contact creation date and time (format: '2021-10-08 11:11:02')",
-    "3-0": "email\t",
-    "3-1": "varchar (50)",
-    "3-2": "Contact email",
-    "4-0": "emailDomain",
-    "4-1": "varchar (100)",
-    "4-2": "Email domain",
-    "5-0": "emailStatus",
-    "5-1": "varchar (50)",
-    "5-2": "Email status",
-    "6-0": "externalCustomerId\t",
-    "6-1": "varchar (100)",
-    "6-2": "Contact ID in your system (External)",
-    "7-0": "firstName\t",
-    "7-1": "varchar (50)",
-    "7-2": "Contact first name",
-    "8-0": "languageCode\t",
-    "8-1": "varchar (20)",
-    "8-2": "Contact language code",
-    "9-0": "lastClickedDate\t",
-    "9-1": "timestamp",
-    "9-2": "Day and time of the last click  (format: '2021-10-08 11:11:02')",
-    "10-0": "lastName",
-    "10-1": "varchar (50)",
-    "10-2": "Contact last name",
-    "11-0": "lastReceivedDate\t",
-    "11-1": "timestamp",
-    "11-2": "Day and time of the last delivery (format: '2021-10-08 11:11:02')",
-    "12-0": "lastSentDate\t",
-    "12-1": "timestamp",
-    "12-2": "Day and time of the last sending (format: '2021-10-08 11:11:02')",
-    "13-0": "lastViewedDate",
-    "13-1": "timestamp",
-    "13-2": "Day and time of the last opening (format: '2021-10-08 11:11:02')",
-    "14-0": "sms",
-    "14-1": "varchar (50)",
-    "14-2": "Phone number",
-    "15-0": "totalClicked",
-    "15-1": "int",
-    "15-2": "Total clicks amount",
-    "16-0": "totalReceived",
-    "16-1": "int",
-    "16-2": "Total received messages amount",
-    "17-0": "totalSent",
-    "17-1": "int",
-    "17-2": "Total sent messages amount",
-    "18-0": "totalViewed",
-    "18-1": "int",
-    "18-2": "Total viewed messages amount"
-  },
-  "cols": 3,
-  "rows": 19,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        contactId
+      </td>
+
+      <td>
+        bigint
+      </td>
+
+      <td>
+        Contact ID in Yespo (Internal)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        contactSource
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Contact source:\
+        •	SITE\_AUTOMATED - binding an email to a push subscriber (webPush collection script),\
+        •	I\_MESSAGE - sending a single message,\
+        •	CAMPAIGN - workflow (block Create contact or Add to segment),\
+        •	IMPORT - file import or Add contacts method,\
+        •	MANUAL - manually created,\
+        •	SUBSCRIPTION - subscription form (Subscribe a contact API method),\
+        •	Add contact API method,\
+        •	ORDER - order on the site (Add orders API method).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        createdDate
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Contact creation date and time (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        email&#x9;
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Contact email
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        emailDomain
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Email domain
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        emailStatus
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Email status
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        externalCustomerId&#x9;
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Contact ID in your system (External)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        firstName&#x9;
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Contact first name
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        languageCode&#x9;
+      </td>
+
+      <td>
+        varchar (20)
+      </td>
+
+      <td>
+        Contact language code
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        lastClickedDate&#x9;
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of the last click  (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        lastName
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Contact last name
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        lastReceivedDate&#x9;
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of the last delivery (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        lastSentDate&#x9;
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of the last sending (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        lastViewedDate
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of the last opening (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        sms
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Phone number
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        totalClicked
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Total clicks amount
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        totalReceived
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Total received messages amount
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        totalSent
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Total sent messages amount
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        totalViewed
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Total viewed messages amount
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 #### Devices
 
@@ -725,191 +1144,531 @@ Available datasets for export:
 
 #### Orders
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "contactId",
-    "0-1": "bigint",
-    "0-2": "Contact ID in Yespo (Internal)",
-    "1-0": "deliveryAddress\t",
-    "1-1": "varchar (100)",
-    "1-2": "Delivery address",
-    "2-0": "deliveryMethod",
-    "2-1": "varchar (50)",
-    "2-2": "Delivery method",
-    "3-0": "discount",
-    "3-1": "numeric",
-    "3-2": "Discount",
-    "4-0": "email",
-    "4-1": "varchar (50)",
-    "4-2": "Email",
-    "5-0": "externalOrderId",
-    "5-1": "varchar (100)",
-    "5-2": "External order ID",
-    "6-0": "firstName\t",
-    "6-1": "varchar (50)",
-    "6-2": "Contact first name",
-    "7-0": "lastName",
-    "7-1": "varchar (50)",
-    "7-2": "Contact last name",
-    "8-0": "orderCreatedDate",
-    "8-1": "timestamp",
-    "8-2": "Date of order creation in Yespo (format: '2021-10-08 11:11:02')",
-    "9-0": "orderDate\t",
-    "9-1": "timestamp",
-    "9-2": "Order creation date (format: '2021-10-08 11:11:02')",
-    "10-0": "orderId\t",
-    "10-1": "int",
-    "10-2": "Order ID in Yespo (Internal)",
-    "11-0": "paymentMethod",
-    "11-1": "varchar (50)",
-    "11-2": "Payment method",
-    "12-0": "Phone",
-    "12-1": "varchar (50)",
-    "12-2": "Phone number",
-    "13-0": "Status",
-    "13-1": "varchar (50)",
-    "13-2": "Order status:  \n•\tINITIALIZED,  \n•\tIN PROGRESS,  \n•\tDELIVERED,  \n•\tCANCELED.",
-    "14-0": "totalCost",
-    "14-1": "numeric",
-    "14-2": "Total order cost"
-  },
-  "cols": 3,
-  "rows": 15,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        contactId
+      </td>
+
+      <td>
+        bigint
+      </td>
+
+      <td>
+        Contact ID in Yespo (Internal)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        deliveryAddress&#x9;
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Delivery address
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        deliveryMethod
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Delivery method
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        discount
+      </td>
+
+      <td>
+        numeric
+      </td>
+
+      <td>
+        Discount
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        email
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Email
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        externalOrderId
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        External order ID
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        firstName&#x9;
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Contact first name
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        lastName
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Contact last name
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        orderCreatedDate
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Date of order creation in Yespo (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        orderDate&#x9;
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Order creation date (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        orderId&#x9;
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Order ID in Yespo (Internal)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        paymentMethod
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Payment method
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Phone
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Phone number
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Status
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Order status:\
+        •	INITIALIZED,\
+        •	IN PROGRESS,\
+        •	DELIVERED,\
+        •	CANCELED.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        totalCost
+      </td>
+
+      <td>
+        numeric
+      </td>
+
+      <td>
+        Total order cost
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 #### Revenue
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "activity (activityStatus)\\*",
-    "0-1": "varchar (100)",
-    "0-2": "Activity status:  \n•\tDELIVERED – the message was delivered.  \n•\tUNDELIVERED – the message was undelivered (statusDescription contains the reason).  \n•\tRECEIVED – the message was opened.  \n•\tUNSUBSCRIBED – a contact unsubscribed from the broadcasting list.  \n•\tCLICKED – a contact clicked links in the message.  \n•\tSPAM – a contact reported spam.  \n•\tSUBSCRIPTION_CHANGED – a contact changed the subscription category.  \n•\tPUSH_SUBSCRIBED — a contact subscribed to push notifications.",
-    "1-0": "campaignType\t",
-    "1-1": "varchar (50)",
-    "1-2": "Campaign type:  \n•\tIM — triggered message,  \n•\tGroup — bulk campaign.",
-    "2-0": "clickEventLink\t",
-    "2-1": "varchar (1000)",
-    "2-2": "Contains the link clicked by a contact (when the status is CLICKED)",
-    "3-0": "contactId",
-    "3-1": "bigint",
-    "3-2": "Contact ID in Yespo (Internal)",
-    "4-0": "currency\t\t",
-    "4-1": "varchar (3)",
-    "4-2": "Currency",
-    "5-0": "externalCustomerId\t",
-    "5-1": "varchar (100)",
-    "5-2": "Contact ID in your system (External)",
-    "6-0": "externalOrderId\t",
-    "6-1": "varchar (200)",
-    "6-2": "External order ID",
-    "7-0": "mediaType\t",
-    "7-1": "varchar (50)",
-    "7-2": "Media type (Sms, Email, WebPush, Viber, MobilePush, AppInbox, Widget, In-App)",
-    "8-0": "messageInstanceId",
-    "8-1": "int",
-    "8-2": "Service field",
-    "9-0": "messageName\t",
-    "9-1": "varchar (100)",
-    "9-2": "Message name in Yespo account",
-    "10-0": "messageTags\t",
-    "10-1": "varchar (200)",
-    "10-2": "Message tags",
-    "11-0": "messageUrl\t",
-    "11-1": "varchar (1000)",
-    "11-2": "Contains the link to the email web-version",
-    "12-0": "orderDate\t\t",
-    "12-1": "timestamp",
-    "12-2": "Order creation date (format: '2021-10-08 11:11:02')",
-    "13-0": "senderName\t",
-    "13-1": "varchar (200)",
-    "13-2": "Viber sender name",
-    "14-0": "started (activityDateTime)\\*",
-    "14-1": "timestamp",
-    "14-2": "Day and time of message sending (format: '2021-10-08 11:11:02')",
-    "15-0": "totalCost",
-    "15-1": "numeric",
-    "15-2": "Total order cost",
-    "16-0": "utmCampaign\t",
-    "16-1": "varchar (400)",
-    "16-2": "Campaign UTM"
-  },
-  "cols": 3,
-  "rows": 17,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        activity (activityStatus)\*
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Activity status:\
+        •	DELIVERED – the message was delivered.\
+        •	UNDELIVERED – the message was undelivered (statusDescription contains the reason).\
+        •	RECEIVED – the message was opened.\
+        •	UNSUBSCRIBED – a contact unsubscribed from the broadcasting list.\
+        •	CLICKED – a contact clicked links in the message.\
+        •	SPAM – a contact reported spam.\
+        •	SUBSCRIPTION\_CHANGED – a contact changed the subscription category.\
+        •	PUSH\_SUBSCRIBED — a contact subscribed to push notifications.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        campaignType&#x9;
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Campaign type:\
+        •	IM — triggered message,\
+        •	Group — bulk campaign.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        clickEventLink&#x9;
+      </td>
+
+      <td>
+        varchar (1000)
+      </td>
+
+      <td>
+        Contains the link clicked by a contact (when the status is CLICKED)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        contactId
+      </td>
+
+      <td>
+        bigint
+      </td>
+
+      <td>
+        Contact ID in Yespo (Internal)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        currency	&#x9;
+      </td>
+
+      <td>
+        varchar (3)
+      </td>
+
+      <td>
+        Currency
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        externalCustomerId&#x9;
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Contact ID in your system (External)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        externalOrderId&#x9;
+      </td>
+
+      <td>
+        varchar (200)
+      </td>
+
+      <td>
+        External order ID
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        mediaType&#x9;
+      </td>
+
+      <td>
+        varchar (50)
+      </td>
+
+      <td>
+        Media type (Sms, Email, WebPush, Viber, MobilePush, AppInbox, Widget, In-App)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageInstanceId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Service field
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageName&#x9;
+      </td>
+
+      <td>
+        varchar (100)
+      </td>
+
+      <td>
+        Message name in Yespo account
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageTags&#x9;
+      </td>
+
+      <td>
+        varchar (200)
+      </td>
+
+      <td>
+        Message tags
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageUrl&#x9;
+      </td>
+
+      <td>
+        varchar (1000)
+      </td>
+
+      <td>
+        Contains the link to the email web-version
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        orderDate	&#x9;
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Order creation date (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        senderName&#x9;
+      </td>
+
+      <td>
+        varchar (200)
+      </td>
+
+      <td>
+        Viber sender name
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        started (activityDateTime)\*
+      </td>
+
+      <td>
+        timestamp
+      </td>
+
+      <td>
+        Day and time of message sending (format: '2021-10-08 11:11:02')
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        totalCost
+      </td>
+
+      <td>
+        numeric
+      </td>
+
+      <td>
+        Total order cost
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        utmCampaign&#x9;
+      </td>
+
+      <td>
+        varchar (400)
+      </td>
+
+      <td>
+        Campaign UTM
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 \*The field will be removed as overdated; use the field indicated in brackets
 
 > 📘 Note
-> 
+>
 > Existing entries in the Revenue table (for orders placed after 03.08.2024) can be updated along with the upload of new orders. Updating may be necessary, for example, if the total cost of the order has changed.
 
 This information will be transferred to PostgreSQL and will update the data in the tables.
 
 > 📘 Important
-> 
+>
 > You don’t need to pre-create PostgreSQL tables. They will be generated automatically at the first export, and since that all the incoming data will be updated. All the table names will correspond to the data sets (contact activities, contacts, order items, orders, revenue)
 
 ### Setting up PostgreSQL connector for data export
 
-1\. Go to Settings → _Data export_ and click _New data export_. Select one of the created PostgreSQL connectors.
+1\. Go to Settings → *Data export* and click *New data export*. Select one of the created PostgreSQL connectors.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/69efb574f3f1722d65ea80c13a7b40c2e64caca0b16ad73d24a865199289188f-6c77dcd-postgresql3.webp",
-        "Select connector",
-        "Select connector"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/69efb574f3f1722d65ea80c13a7b40c2e64caca0b16ad73d24a865199289188f-6c77dcd-postgresql3.webp" />
 
+2\. Select upload interval and check the boxes for the data sets you want to upload. The data set type by default is *public*, you can select another type if you have specified it in your *PostgreSQL settings*.  \
+   Click *Save*.
 
-2\. Select upload interval and check the boxes for the data sets you want to upload. The data set type by default is _public_, you can select another type if you have specified it in your _PostgreSQL settings_.    
-   Click _Save_.
+<Image align="center" width="80% " src="https://files.readme.io/df0aedd16258ad3dffbd7553ce83c936e0d883256353221b893d22cac149b01d-158de0e-PG_export.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/df0aedd16258ad3dffbd7553ce83c936e0d883256353221b893d22cac149b01d-158de0e-PG_export.webp",
-        "Edit data",
-        "Edit data"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
-
-The connection will be displayed in the _Data export section_, here you can edit its settings.
+The connection will be displayed in the *Data export section*, here you can edit its settings.
