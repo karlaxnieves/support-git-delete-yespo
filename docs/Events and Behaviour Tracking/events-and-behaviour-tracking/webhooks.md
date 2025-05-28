@@ -19,139 +19,49 @@ Webhooks are configured by adding an external URL to your account. After that, y
 
 The system sends requests to your server whenever one of the following events occurs:
 
-- **Delivered** — the message was delivered to the contact.
-- **Undelivered** — the message could not be delivered.
-- **Read** — the contact opened the message.
-- **Unsubscribed** — the contact unsubscribed from the campaign.
-- **Clicked** — the contact clicked on a link in the message.
-- **Spam** — the message was marked as spam.
-- **Subscription changed** — the contact changed their subscription category.
+* **Delivered** — the message was delivered to the contact.
+* **Undelivered** — the message could not be delivered.
+* **Read** — the contact opened the message.
+* **Unsubscribed** — the contact unsubscribed from the campaign.
+* **Clicked** — the contact clicked on a link in the message.
+* **Spam** — the message was marked as spam.
+* **Subscription changed** — the contact changed their subscription category.
 
 > 📘 Note
-> 
+>
 > Before setting up webhooks, you need to configure an URL on your server where you want to receive messages — POST requests in JSON format — and process the data accordingly.
 
 ## Creating Data Export
 
-Open the _Data export_ tab in your account settings, click the _New data export_ button, and select _Webhook_.
+Open the *Data export* tab in your account settings, click the *New data export* button, and select *Webhook*.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/330b56e0ac0f8113eff88899e975e5a425ed9c5454a318a2b9aad78e9926c770-webhooks-for-tracking-activity-01.webp",
-        null,
-        "New data export"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/330b56e0ac0f8113eff88899e975e5a425ed9c5454a318a2b9aad78e9926c770-webhooks-for-tracking-activity-01.webp" />
 
 ### Connection
 
-Add a _Webhook name_ and specify the Webhook URL you previously set up on your server.
+Add a *Webhook name* and specify the Webhook URL you previously set up on your server.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1d680c93d5192ba2f421acbb91380a29ca03b28edba8cebd4181e12785094c35-webhooks-for-tracking-activity-02.webp",
-        null,
-        "Connection"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/1d680c93d5192ba2f421acbb91380a29ca03b28edba8cebd4181e12785094c35-webhooks-for-tracking-activity-02.webp" />
 
 ### Autentification (optional)
 
-If authentication is enabled on your server, enter the login and password that your server requires to accept requests. Enable the _Authentication_ toggle and fill in the corresponding fields.
+If authentication is enabled on your server, enter the login and password that your server requires to accept requests. Enable the *Authentication* toggle and fill in the corresponding fields.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1c3711183b07820f4735cd9eee2fc89380131a56b452102ae1ccbfcb83bde41b-webhooks-for-tracking-activity-03.webp",
-        null,
-        "Autentification"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/1c3711183b07820f4735cd9eee2fc89380131a56b452102ae1ccbfcb83bde41b-webhooks-for-tracking-activity-03.webp" />
 
 ### Export Activity Statuses
 
 By default, all activity statuses are selected for tracking. You can modify this list by deselecting the checkboxes following to the statuses you don't want to track.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/243be2350bac68013dbb01353f32259ab104a40b91f458b8346fd8a54df6e4f7-webhooks-for-tracking-activity-04.webp",
-        null,
-        "Export activity statuses"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/243be2350bac68013dbb01353f32259ab104a40b91f458b8346fd8a54df6e4f7-webhooks-for-tracking-activity-04.webp" />
 
+After setting up the data export via webhook, click the *Save* button.
 
-After setting up the data export via webhook, click the _Save_ button.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/958eb6117c147420d016a81ab881e14c248bee52d3fdc6103e3fd678d20feebc-webhooks-for-tracking-activity-05.webp",
-        null,
-        "Save settings"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/958eb6117c147420d016a81ab881e14c248bee52d3fdc6103e3fd678d20feebc-webhooks-for-tracking-activity-05.webp" />
 
 The webhook will be active, and data will be sent in real-time to the specified URL.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a6db876bb825336ba09c3c8714c55b2a9dfdd40c74362316f97632d4bd4fffc6-webhooks-for-tracking-activity-06.webp",
-        null,
-        "Active webhook"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/a6db876bb825336ba09c3c8714c55b2a9dfdd40c74362316f97632d4bd4fffc6-webhooks-for-tracking-activity-06.webp" />
 
 ## Settings Verification
 
@@ -167,24 +77,9 @@ If the webhook URL does not return the HTTP 200 response code, the POST request 
 
 ## Webhook Deactivation
 
-To deactivate the webhook, click the three-dot icon, select _Deactivate webhook_, and confirm the action.
+To deactivate the webhook, click the three-dot icon, select *Deactivate webhook*, and confirm the action.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/32eb6343be50cd9b27f46f618c6e5aef3b96f717107703b3c51191101646b362-animation.gif",
-        null,
-        "Webhook deactivation"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/32eb6343be50cd9b27f46f618c6e5aef3b96f717107703b3c51191101646b362-animation.gif" />
 
 Deactivation suspends the sending of requests, but the webhook remains saved in the system and can be reactivated later.
 
@@ -192,141 +87,502 @@ Deactivation suspends the sending of requests, but the webhook remains saved in 
 
 To change the settings, click on the webhook name, edit the data, and save the settings.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f39d22d98d9ceeaca518988a5a566c8e5215075e197b06b0aa40f61b0c15f9ed-webhooks-for-tracking-activity-08.gif",
-        null,
-        "Data Export Editing"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/f39d22d98d9ceeaca518988a5a566c8e5215075e197b06b0aa40f61b0c15f9ed-webhooks-for-tracking-activity-08.gif" />
 
 ## List of Possible Parameters
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "activityDateTime",
-    "0-1": "string",
-    "0-2": "Activity date and time.",
-    "1-0": "activityStatus",
-    "1-1": "string",
-    "1-2": "Activity status:  \n`SENT`– the message is sent (for Mobile Push only)  \n`DELIVERED` – the message was delivered.  \n`UNDELIVERED` – the message was undelivered (statusDescription contains the reason).  \n`READ` – the message was read.  \n`UNSUBSCRIBED` – a contact unsubscribed from the broadcasting list.  \n`CLICKED` – a contact clicked links in the message.  \n`SPAM` – a contact reported spam.  \n`SUBSCRIPTION_CHANGED` – a contact changed the subscription category.",
-    "2-0": "broadcastId",
-    "2-1": "int",
-    "2-2": "Broadcast ID.",
-    "3-0": "clickEventLink",
-    "3-1": "string",
-    "3-2": "Contains the link clicked by a contact (when the status is `CLICKED`).",
-    "4-0": "contactId",
-    "4-1": "int",
-    "4-2": "Contact ID.",
-    "5-0": "email",
-    "5-1": "string",
-    "5-2": "Contact Email.",
-    "6-0": "externalCustomerId",
-    "6-1": "string",
-    "6-2": "A unique customer ID in the client’s system.",
-    "7-0": "from",
-    "7-1": "string",
-    "7-2": "Sender name (in Email, SMS, and Viber messages).",
-    "8-0": "hardBounce",
-    "8-1": "bool",
-    "8-2": "This field is returned only in case when the status is `UNDELIVERED`. The parameter informs that the contact is in the black list.  \n  \n_false_ – not in the black list at the moment of message delivery.  \n_true_ – in the black list at the moment of message delivery.",
-    "9-0": "iid",
-    "9-1": "string",
-    "9-2": "Service Parameter.",
-    "10-0": "mediaType",
-    "10-1": "string",
-    "10-2": "Media type  (SMS, Email, Web Push, Viber, Mobile Push, AppInbox, Widget, In-App, Telegram).",
-    "11-0": "messageId",
-    "11-1": "int",
-    "11-2": "Message ID.",
-    "12-0": "messageInstanceId",
-    "12-1": "int",
-    "12-2": "Message instance ID.",
-    "13-0": "messageLanguageCode",
-    "13-1": "string",
-    "13-2": "Identifier of the message language.",
-    "14-0": "messageName",
-    "14-1": "string",
-    "14-2": "Message name (empty for test emails).",
-    "15-0": "messageTag",
-    "15-1": "string",
-    "15-2": "Message tag.",
-    "16-0": "mobilepush",
-    "16-1": "string",
-    "16-2": "Mobile app subscriber token.",
-    "17-0": "osName",
-    "17-1": "string",
-    "17-2": "Device operating system.",
-    "18-0": "osType",
-    "18-1": "string",
-    "18-2": "Device type.",
-    "19-0": "sms",
-    "19-1": "string",
-    "19-2": "Contact phone number.",
-    "20-0": "sourceEventId",
-    "20-1": "int",
-    "20-2": "Source event ID.",
-    "21-0": "sourceEventKey",
-    "21-1": "string",
-    "21-2": "Source event key.",
-    "22-0": "sourceEventTypeKey",
-    "22-1": "string",
-    "22-2": "Source event type key.",
-    "23-0": "statusData",
-    "23-1": "",
-    "23-2": "Data array.",
-    "24-0": "statusDescription",
-    "24-1": "string",
-    "24-2": "This field is returned only in the event when the status is `UNDELIVERED`. It contains the reason why the message has been undelivered. This may be a recipient server response, a system response saying that message delivery was not possible, and other similar reasons.",
-    "25-0": "subscription",
-    "25-1": "",
-    "25-2": "Data array.",
-    "26-0": "subscriptions",
-    "26-1": "array of strings",
-    "26-2": "Subscription category keys.",
-    "27-0": "viber",
-    "27-1": "string",
-    "27-2": "Contact phone number.",
-    "28-0": "viewMessageLink",
-    "28-1": "string",
-    "28-2": "Contains the link to the message web version.",
-    "29-0": "webpush",
-    "29-1": "string",
-    "29-2": "Web push subscriber token.",
-    "30-0": "workflowBlockId",
-    "30-1": "string",
-    "30-2": "Workflow block ID.",
-    "31-0": "workflowId",
-    "31-1": "int",
-    "31-2": "Workflow ID.",
-    "32-0": "workflowInstanceId",
-    "32-1": "uuid",
-    "32-2": "The identifier of a particular workflow launch. Use it to group mailings within the launch of a workflow."
-  },
-  "cols": 3,
-  "rows": 33,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        activityDateTime
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Activity date and time.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        activityStatus
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Activity status:\
+        `SENT`– the message is sent (for Mobile Push only)\
+        `DELIVERED` – the message was delivered.\
+        `UNDELIVERED` – the message was undelivered (statusDescription contains the reason).\
+        `READ` – the message was read.\
+        `UNSUBSCRIBED` – a contact unsubscribed from the broadcasting list.\
+        `CLICKED` – a contact clicked links in the message.\
+        `SPAM` – a contact reported spam.\
+        `SUBSCRIPTION_CHANGED` – a contact changed the subscription category.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        broadcastId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Broadcast ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        clickEventLink
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Contains the link clicked by a contact (when the status is `CLICKED`).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        contactId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Contact ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        email
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Contact Email.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        externalCustomerId
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        A unique customer ID in the client’s system.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        from
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Sender name (in Email, SMS, and Viber messages).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        hardBounce
+      </td>
+
+      <td>
+        bool
+      </td>
+
+      <td>
+        This field is returned only in case when the status is `UNDELIVERED`. The parameter informs that the contact is in the black list.  
+
+        * false\_ – not in the black list at the moment of message delivery.  
+        * true\_ – in the black list at the moment of message delivery.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        iid
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Service Parameter.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        mediaType
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Media type  (SMS, Email, Web Push, Viber, Mobile Push, AppInbox, Widget, In-App, Telegram).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Message ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageInstanceId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Message instance ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageLanguageCode
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Identifier of the message language.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageName
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Message name (empty for test emails).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        messageTag
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Message tag.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        mobilepush
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Mobile app subscriber token.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        osName
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Device operating system.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        osType
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Device type.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        sms
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Contact phone number.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        sourceEventId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Source event ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        sourceEventKey
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Source event key.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        sourceEventTypeKey
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Source event type key.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        statusData
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+        Data array.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        statusDescription
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        This field is returned only in the event when the status is `UNDELIVERED`. It contains the reason why the message has been undelivered. This may be a recipient server response, a system response saying that message delivery was not possible, and other similar reasons.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        subscription
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+        Data array.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        subscriptions
+      </td>
+
+      <td>
+        array of strings
+      </td>
+
+      <td>
+        Subscription category keys.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        viber
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Contact phone number.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        viewMessageLink
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Contains the link to the message web version.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        webpush
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Web push subscriber token.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        workflowBlockId
+      </td>
+
+      <td>
+        string
+      </td>
+
+      <td>
+        Workflow block ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        workflowId
+      </td>
+
+      <td>
+        int
+      </td>
+
+      <td>
+        Workflow ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        workflowInstanceId
+      </td>
+
+      <td>
+        uuid
+      </td>
+
+      <td>
+        The identifier of a particular workflow launch. Use it to group mailings within the launch of a workflow.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 Below are webhook test examples as a JSON array with all possible status options.
 
