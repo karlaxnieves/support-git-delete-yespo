@@ -15,7 +15,7 @@ App Inbox is similar to an email inbox but is designed for direct messages from 
 With the Reteno App Inbox, there is no default UI. This means with a few lines of code, you can connect Reteno with your inbox.
 
 > 📘 Note
-> 
+>
 > App Inbox is available in version **1.7.0** and later.
 
 ## Downloading New Messages
