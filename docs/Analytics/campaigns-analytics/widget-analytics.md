@@ -14,8 +14,8 @@ next:
 ---
 Information about widgets is available in two sections:
 
-1. **Reports** (_Campaigns → Reports_): viewed and clicked statistics, activity dynamics, revenue by identified users with _Contact ID_.
-2. **Analytics** (_Site → Widgets_): unique views, subscriptions, clicks, conversion, new contacts and activity dynamics by all widget interactions.
+1. **Reports** (*Campaigns → Reports*): viewed and clicked statistics, activity dynamics, revenue by identified users with *Contact ID*.
+2. **Analytics** (*Site → Widgets*): unique views, subscriptions, clicks, conversion, new contacts and activity dynamics by all widget interactions.
 
 You can also check out [general reports’ capabilities](https://docs.yespo.io/docs/campaigns-analytics).
 
@@ -28,22 +28,7 @@ Conventionally, the report consists of 4 parts:
 3. Revenue.
 4. Detailed statistics.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c991ee0eb1cce079f40bb41af6db9164fa002d12a94ffa4840b0462af5d362b4-image001.webp",
-        null,
-        "Widget report"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c991ee0eb1cce079f40bb41af6db9164fa002d12a94ffa4840b0462af5d362b4-image001.webp" />
 
 ### 1. General Information 
 
@@ -54,107 +39,32 @@ The first part of the report contains the following data:
 3. Widget ID. To copy an ID, click on the copy icon next to it. Click on the link icon to edit a widget.
 4. Widget preview.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fb6ac82df5507d58b691b8fad8876be843d71d7d86bc6d3ddd91074c7de4ed54-image002.webp",
-        null,
-        "General information"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/fb6ac82df5507d58b691b8fad8876be843d71d7d86bc6d3ddd91074c7de4ed54-image002.webp" />
 
 ### 2. Performance Indicators
 
 Yespo automatically tracks the performance of widgets, including views and clicks. Statistics are presented in a table.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6cf4fa918f594b22d8fdb3c0cda9b5b78e3deef163c1cbbac135a280bcca2b48-image003.webp",
-        null,
-        "Key statistics"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6cf4fa918f594b22d8fdb3c0cda9b5b78e3deef163c1cbbac135a280bcca2b48-image003.webp" />
 
 Green marks on the scale show the conditional indicators of a successful campaign, and red marks are negative indicators' conditional norm.
 
 Clicking on any report item opens a window for viewing the contacts list.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c8dcbec81452281910d665d7815c151f7fc786c90bddff8ce833b2feba1e4a7c-image004.webp",
-        null,
-        "Contacts from report"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c8dcbec81452281910d665d7815c151f7fc786c90bddff8ce833b2feba1e4a7c-image004.webp" />
 
 Above the general statistics are the following tabs:
 
-- Export. Allows you to export contacts from the report to a CSV file, to an existing or a new list. Export is available for all campaign metrics: viewed and clicked.
-- More. Allows you to delete the report.
+* Export. Allows you to export contacts from the report to a CSV file, to an existing or a new list. Export is available for all campaign metrics: viewed and clicked.
+* More. Allows you to delete the report.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4b966b879cb85ca0d9086cdaa868feee9aa1b505f2b4dc507b1cb738d6677137-image005.webp",
-        null,
-        "Actions in the report"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/4b966b879cb85ca0d9086cdaa868feee9aa1b505f2b4dc507b1cb738d6677137-image005.webp" />
 
 ### 3. Revenue
 
 If you set up integration with a CRM system that records order data, you can evaluate the revenue from widget.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/951a892e630c30ce8d2040e9b28d8a545989100ca58f289b06ab159a4b509498-image006a.webp",
-        null,
-        "Revenue"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/951a892e630c30ce8d2040e9b28d8a545989100ca58f289b06ab159a4b509498-image006a.webp" />
 
 <br />
 
@@ -162,52 +72,22 @@ If you set up integration with a CRM system that records order data, you can eva
 
 ### 4. Detailed Statistics
 
-Using the _Add details_ option, you can filter the data from the _Activity dynamics,_ _Revenue_ and _Multilanguage_ tabs by segments or language versions of the widget.
+Using the *Add details* option, you can filter the data from the *Activity dynamics,* *Revenue* and *Multilanguage* tabs by segments or language versions of the widget.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5c48b7eb75ced90e29fbec871c51763f95cf8114428abc16b546940abef4692a-image007a.webp",
-        null,
-        "Detailed Statistics"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/5c48b7eb75ced90e29fbec871c51763f95cf8114428abc16b546940abef4692a-image007a.webp" />
 
 #### Multilanguage (optional)
 
-Multilanguage is an automation tool that enables sending messages in different languages within one campaign. It helps avoid long message lists and voluminous, unsystematic reports for every message.  
+Multilanguage is an automation tool that enables sending messages in different languages within one campaign. It helps avoid long message lists and voluminous, unsystematic reports for every message.\
 Reports on multilingual campaigns are described in a special article.
 
 [Learn more about multilingual campaign report >](https://docs.yespo.io/docs/report-on-multilingual-campaigns)
 
 ## 2. Analytics
 
-To see the widget interaction statistics, go to the _Site → Widgets_ section, select the tab with the widget type and click on its name.
+To see the widget interaction statistics, go to the *Site → Widgets* section, select the tab with the widget type and click on its name.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b4cdcc017a538c356ead4eb000d71eef15b1eec70c09f5601a5f91d1b243de7b-image2.webp",
-        null,
-        "Widgets section"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/b4cdcc017a538c356ead4eb000d71eef15b1eec70c09f5601a5f91d1b243de7b-image2.webp" />
 
 ### Analytics Parameters
 
@@ -218,47 +98,17 @@ The upper part of the report presents the generalized statistics of the widget f
 3. Clicks (for all widget types except subscription forms)
 4. Conversion:
 
-- The ratio of views to subscriptions — for subscription forms
-- The ratio of views to clicks (for all widget types except subscription forms)
+* The ratio of views to subscriptions — for subscription forms
+* The ratio of views to clicks (for all widget types except subscription forms)
 
 5. New contacts (for subscription forms)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/20a2bc8acd09e8612cceeae70ce4e959bf7a2f5a26be1c417c1cfd4e3b4ac8f3-image1.webp",
-        null,
-        "Generalized widget’s statistics"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/20a2bc8acd09e8612cceeae70ce4e959bf7a2f5a26be1c417c1cfd4e3b4ac8f3-image1.webp" />
 
 ### Activity Dynamics
 
 Below, you can see site visitors’ activity dynamics in graphs to easily track the widget's effectiveness over a certain period.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e73ee3afe6f5a0a64e2cc6d6210fc54e67e4e2c166c3b52b9d8579638d283fe7-image3.webp",
-        null,
-        "Activity dynamic"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/e73ee3afe6f5a0a64e2cc6d6210fc54e67e4e2c166c3b52b9d8579638d283fe7-image3.webp" />
 
 Statistics are updated once per minute.
