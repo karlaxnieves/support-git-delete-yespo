@@ -12,53 +12,27 @@ next:
 ---
 The Reteno system starts collecting data right after the [campaign has been sent](https://docs.reteno.com/docs/sending-email-messages). 
 
-General Campaign Report
------------------------
+## General Campaign Report
 
-All the collected data on all campaigns are stored in _Campaigns_ > _Reports_. The general report contains two sections:
+All the collected data on all campaigns are stored in *Campaigns* > *Reports*. The general report contains two sections:
 
-- [Bulk](https://docs.reteno.com/docs/bulk-email-reports) (manual)
-- [Triggered](https://docs.reteno.com/docs/triggered-email-reports) (automated)  
+* [Bulk](https://docs.reteno.com/docs/bulk-email-reports) (manual)
+* [Triggered](https://docs.reteno.com/docs/triggered-email-reports) (automated)\
   To see the detailed results for a particular campaign, click on its name in the list.
 
 <p align="center">
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6a59194-image1.png",
-        "image1.png"
-      ],
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image width="80% " src="https://files.readme.io/6a59194-image1.png" />
 
 </p>
 
-Single reports
---------------
+## Single reports
 
-On _Single report_ tab in the _Campaigns section_, you can monitor single messages sent from a workflow or as a test message from the editor.
+On *Single report* tab in the *Campaigns section*, you can monitor single messages sent from a workflow or as a test message from the editor.
 
 <p align="center">
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5440888-image2.png",
-        "image2.png"
-      ],
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image width="80% " src="https://files.readme.io/5440888-image2.png" />
 
 </p>
 
