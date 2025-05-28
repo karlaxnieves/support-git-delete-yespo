@@ -10,11 +10,11 @@ metadata:
 next:
   description: ''
 ---
-The Yespo web push script is loaded via a Service Worker file called _sw.js_ and placed in the site's root. The problem can occur if the site code already uses files with the same name or uses a different Service Worker.
+The Yespo web push script is loaded via a Service Worker file called *sw\.js* and placed in the site's root. The problem can occur if the site code already uses files with the same name or uses a different Service Worker.
 
-## 1\. Changing the name of Service Worker _sw.js_
+## 1\. Changing the name of Service Worker *sw\.js*
 
-Some builders (GoDaddy, Wix, etc.) place the sw.js file in the site root by default. Since the Yespo file has the same name, errors may occur.
+Some builders (GoDaddy, Wix, etc.) place the sw\.js file in the site root by default. Since the Yespo file has the same name, errors may occur.
 
 To avoid problems, you can rename the file and, if necessary, specify the path to it in the Yespo script.
 
@@ -30,24 +30,9 @@ and add parameters to this entry in the following format:
 es("pushOn", {'service-worker': {'relUrl': '/push-worker.js'} });
 ```
 
-where the _'relUrl'_ parameter is the path to the file and its arbitrary name.
+where the *'relUrl'* parameter is the path to the file and its arbitrary name.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cb40e9f98d110d1433b94a9c2fa59f701db7e62580abb14cf62eda68f6d5c033-add-parameters.webp",
-        "",
-        "Edit code"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/cb40e9f98d110d1433b94a9c2fa59f701db7e62580abb14cf62eda68f6d5c033-add-parameters.webp" />
 
 ## 2\. Merging Service Workers from Yespo and PWA
 
@@ -63,13 +48,13 @@ The names of functions, variables or handlers in your Service Worker and Service
 
 Below is a list of methods’ (functions’) names in the Yespo file:
 
-- onPushNotification
-- getNotificationContent
-- showNotification
-- getNotificationData
-- determineClickedLink
-- collectActionLinks
-- trackNewServiceWorkerActivation
+* onPushNotification
+* getNotificationContent
+* showNotification
+* getNotificationData
+* determineClickedLink
+* collectActionLinks
+* trackNewServiceWorkerActivation
 
 If the names in your Service Worker and the Yespo's Service Worker match, the function located last in the code will be called. For example, if the code according to this instruction ends with the line
 
