@@ -11,7 +11,7 @@ next:
   description: ''
 ---
 > 📘 Note
-> 
+>
 > [You can see getting started instructions for product marketers by the link >](https://yespo.io/support/quick-start)
 
 Read our integration setup documentation for guidance below
@@ -25,13 +25,13 @@ To start messaging with your users, follow the steps below:
 1. [Provide Yespo access to your app](https://yespo.io/support/connecting-mobile-apps-esputnik) with the FCM and, optionally, APN keys.
 2. [Set up the SDK access key](https://docs.yespo.io/reference/managing-mobile-sdk-access-keys). 
 3. Integrate the required SDK versions into your mobile app:
-   - [iOS SDK](https://docs.yespo.io/reference/ios-sdk)
-   - [Android SDK](https://docs.yespo.io/reference/android-sdk-setup)
-   - [React Native SDK](https://docs.yespo.io/reference/react-native-sdk)
-   - [Flutter SDK](https://docs.yespo.io/reference/flutter-sdk)
-   - [Unity SDK](https://docs.yespo.io/reference/unity-sdk-setup)
-   - [Cordova SDK](https://docs.yespo.io/reference/cordova-sdk-setup)
-   - [Ionic SDK](https://docs.yespo.io/reference/ionic-sdk)
+   * [iOS SDK](https://docs.yespo.io/reference/ios-sdk)
+   * [Android SDK](https://docs.yespo.io/reference/android-sdk-setup)
+   * [React Native SDK](https://docs.yespo.io/reference/react-native-sdk)
+   * [Flutter SDK](https://docs.yespo.io/reference/flutter-sdk)
+   * [Unity SDK](https://docs.yespo.io/reference/unity-sdk-setup)
+   * [Cordova SDK](https://docs.yespo.io/reference/cordova-sdk-setup)
+   * [Ionic SDK](https://docs.yespo.io/reference/ionic-sdk)
 
 > 👍 [Connect Mobile App >](https://my.yespo.io/settings-ui/#/mobile-push/app/new)
 
@@ -64,16 +64,16 @@ Most often, the integration steps described above are sufficient. For special oc
 In this case, you can [transfer events via BigQuery](https://yespo.io/support/streaming-events-firebase) to Yespo and immediately use data from events for segmentation and launching trigger chains. 
 
 > 📘 Note
-> 
+>
 > Data from GA is updated only once an hour.
 
 ### Use case 2. You need to send some users events (like Subscriptions or Payments) from your backend
 
-Use our backend API method [_Generate event_](https://docs.yespo.io/reference/registerevent-1) to send custom backend events.
+Use our backend API method [*Generate event*](https://docs.yespo.io/reference/registerevent-1) to send custom backend events.
 
 ### Use case 3. You have mobile & web projects
 
 Data from online stores about **contacts and orders** is stored only on the backend. Therefore, to transfer it to Yespo, you need to use the following API methods:
 
-- Use the _[Add Contact](https://docs.yespo.io/reference/addcontact-1)_ method to create the user's profile to an account or update an existing one ([details >](https://yespo.io/support/adding-new-users)).
-- Use _[Add orders](https://docs.yespo.io/reference/ordersbulkinsert-1)_ method to transfer orders.
+* Use the *[Add Contact](https://docs.yespo.io/reference/addcontact-1)* method to create the user's profile to an account or update an existing one ([details >](https://yespo.io/support/adding-new-users)).
+* Use *[Add orders](https://docs.yespo.io/reference/ordersbulkinsert-1)* method to transfer orders.
