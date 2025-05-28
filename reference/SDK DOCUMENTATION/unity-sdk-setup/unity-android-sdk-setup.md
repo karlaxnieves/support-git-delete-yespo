@@ -20,8 +20,8 @@ Follow our setup guide to integrate the Reteno SDK with your app.
 1. From the Unity Editor, navigate to `Edit` > `Project Settings` > `Player` and click the `Android` settings tab.
 2. Expand `Publishing Settings` and enable:
 
-- Custom Main Gradle Template
-- Custom Gradle Properties Template
+* Custom Main Gradle Template
+* Custom Gradle Properties Template
 
 3. Navigate to `Assets` > `External Dependency Manager` > `Android Resolver` > `Force Resolve` and resolve your Android dependencies.
 
@@ -36,5 +36,5 @@ RetenoSDK.UpdatePushPermissionStatus();
 <br />
 
 > 📘 Note
-> 
+>
 > [Android Debug Mode](https://docs.yespo.io/reference/android-debug-mode) enables you to ensure that all events and user properties are logged correctly.
