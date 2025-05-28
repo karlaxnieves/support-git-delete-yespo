@@ -25,43 +25,13 @@ The `NotificationServiceExtension` allows your iOS application to receive rich n
 
 **1.2**  Select `Notification Service Extension` then press `Next`.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8d1311e-create_notification_service_extension.png",
-        "create_notification_service_extension.png",
-        1476
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/8d1311e-create_notification_service_extension.png" />
 
 **1.3**  Enter the product name as `NotificationServiceExtension` and press `Finish`.
 
 Do not select `Activate` on the dialog that is shown after selecting `Finish`.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/43947d4-choose_options_for_extension.png",
-        "choose_options_for_extension.png",
-        1478
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/43947d4-choose_options_for_extension.png" />
 
 **1.4**  Press `Cancel` on the Activate scheme prompt.
 
@@ -74,25 +44,10 @@ If you activate the prompt by accident, you can switch back to debugging your ap
 Check that the Deployment Target is set to the same value as your Main Application Target.
 
 > 📘 Note
-> 
+>
 > iOS versions under 10 will not be able to get Rich Media.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/13b02af-configure_target.png",
-        "configure_target.png",
-        2230
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/13b02af-configure_target.png" />
 
 **1.6**   In the project navigator, select the `NotificationServiceExtension` folder and open the `NotificationService.swift`, then replace the entire file contents with the following code. Ignore any build errors at this point. We will import the Reteno module, which will resolve any errors.
 
@@ -103,7 +58,7 @@ import Reteno
 class NotificationService: RetenoNotificationServiceExtension {}
 ```
 
-More about Notification Service Extension [Modifying Content in Newly Delivered Notifications](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications "{rel='nofollow'}")
+More about Notification Service Extension [Modifying Content in Newly Delivered Notifications](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications "\{rel='nofollow'}")
 
 ### Step 2: Install the SDK
 
@@ -127,9 +82,9 @@ end
 
 **2.2**  Open the `<project-name>.xcworkspace` file.
 
-### Step 3: Add reteno_flutter_sdk dependency in pubspec.yaml:
+### Step 3: Add reteno\_flutter\_sdk dependency in pubspec.yaml:
 
-Install reteno_plugin using flutter pub command
+Install reteno\_plugin using flutter pub command
 
 ```shell
 flutter pub add reteno_plugin
@@ -148,7 +103,7 @@ To setup SDK you need an `SDK_ACCESS_KEY`, visit [Managing Mobile SDK Access Key
 
 #### Method 1: you have AppDelegate.swift file
 
-Open your `AppDelegate.swift` file and add the `Reteno` initialization code to the `didFinishLaunchingWithOptions` method.  
+Open your `AppDelegate.swift` file and add the `Reteno` initialization code to the `didFinishLaunchingWithOptions` method.\
 Make sure to import the Reteno module `import Reteno`
 
 ```swift
@@ -183,41 +138,11 @@ import FirebaseMessaging
 
 **4.2**  Click **"+ Capability"** if you do not have App Groups in your app yet.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/daac1ed-add_group_main_target.png",
-        "add_group_main_target.png",
-        2522
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/daac1ed-add_group_main_target.png" />
 
 **4.3**  Select App Groups.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2f8b430-app_groups_capability.png",
-        "app_groups_capability.png",
-        1586
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/2f8b430-app_groups_capability.png" />
 
 **4.4**  Under App Groups click the **"+"** button.
 
@@ -225,28 +150,13 @@ import FirebaseMessaging
 
 **4.6**  In the `NotificationServiceExtension` target and repeat steps **4.2** - **4.5** for extension target
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d0624fa-add_group_in_extension.png",
-        "add_group_in_extension.png",
-        2522
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/d0624fa-add_group_in_extension.png" />
 
 > 📘 Note
-> 
+>
 > The group name structure should be `group.{bundle_id}.reteno-local-storage` where `bundle_id` is the same as your **Main App target** "Bundle Identifier". **Do Not Include** NotificationServiceExtension.
 
-For more information visit [Configuring App Groups](https://developer.apple.com/documentation/xcode/configuring-app-groups "{rel='nofollow'}")
+For more information visit [Configuring App Groups](https://developer.apple.com/documentation/xcode/configuring-app-groups "\{rel='nofollow'}")
 
 ### Step 5: Add ‘Push Notification’ Capability to Your Main App Target (not `NotificationServiceExtension`!)
 
@@ -284,5 +194,5 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 Run your app on a physical iOS device to make sure it builds correctly. You should be prompted to subscribe to push notifications. Please note that the iOS Simulator does not support receiving remote push notifications. 
 
 > 📘 Note
-> 
+>
 > [iOS Debug Mode](https://docs.yespo.io/reference/ios-debug-mode) enables you to ensure that all events and user properties are logged correctly.
