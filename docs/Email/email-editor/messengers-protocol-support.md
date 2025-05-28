@@ -18,22 +18,7 @@ With the growing use of messaging apps for communication, email marketers are in
 
 Messenger protocols enable users to open their preferred messaging app with a single click, similar to how traditional `mailto:` and `tel:` protocols work in emails. Instead of opening a mail client or making a call, these links direct users to specific chats or conversations in apps like Telegram, WhatsApp, or Facebook Messenger.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6326aa6dff2d0acc6281c100ab989bed6eddd09ba8312a0266c0aaad296b58ff-links.webp",
-        "Messenger Protocols in Email",
-        "Messenger Protocols in Email"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6326aa6dff2d0acc6281c100ab989bed6eddd09ba8312a0266c0aaad296b58ff-links.webp" />
 
 By integrating messenger protocols into emails, brands aim to reach their audience where they already spend a lot of time — on their favorite messaging platforms. This approach simplifies customer interactions and can lead to faster engagement, whether asking for support, joining a community, or initiating a conversation with the brand.
 
@@ -41,8 +26,8 @@ By integrating messenger protocols into emails, brands aim to reach their audien
 
 Messenger protocols function similarly to URL schemes. When a user clicks on a messenger link, the email triggers the opening of the messaging app on the user’s device, and the specified action — such as starting a conversation or opening a group — is executed. For example:
 
-- `tg://resolve?domain=YourBrandChannel` directs users to a specific Telegram channel.
-- `whatsapp://send?phone=YourNumber` opens a WhatsApp chat with your business.
+* `tg://resolve?domain=YourBrandChannel` directs users to a specific Telegram channel.
+* `whatsapp://send?phone=YourNumber` opens a WhatsApp chat with your business.
 
 This simple functionality provides an effortless transition from email to direct messaging.
 
@@ -54,42 +39,190 @@ Our team tested several popular messenger protocols to assess their compatibilit
 
 ## Protocol, Email Client, and Platform Compatibility Table
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Protocols",
-    "h-1": "Email Clients",
-    "h-2": "Platforms",
-    "0-0": "`viber://`",
-    "0-1": "Apple Mail  \nOutlook  \nSpark  \nEdisonMail  \nAirmail  \nCanaryMail  \nSamsungMail",
-    "0-2": "iOS, macOS  \nmacOS, Windows  \nmacOS, Android  \niOS, Android  \niOS, macOS  \nmacOS, Android  \nAndroid",
-    "1-0": "`sms:`",
-    "1-1": "Apple Mail  \nOutlook  \nSpark  \nEdisonMail  \nAirmail  \nCanaryMail  \nSamsungMail",
-    "1-2": "iOS, macOS  \nmacOS, Windows  \nmacOS, Android  \niOS, Android  \niOS, macOS  \nmacOS, Android  \nAndroid",
-    "2-0": "`tel:`",
-    "2-1": "Gmail  \nApple Mail  \nUkr.net  \nOutlook  \nSpark  \nEdisonMail  \nAirmail  \nCanaryMail  \nSamsungMail",
-    "2-2": "Web, Android  \niOS, macOS  \nWeb, iOS  \nWeb, Windows, macOS, iOS, Android  \niOS, macOS, Android  \niOS, macOS, Android  \niOS, macOS  \niOS, Android  \nAndroid",
-    "3-0": "`skype:`",
-    "3-1": "Apple Mail  \nYahoo  \nAol  \nOutlook  \nSpark  \nEdisonMail  \niOS, macOS  \nCanaryMail  \nSamsungMail",
-    "3-2": "iOS, macOS  \nWeb  \nWeb  \nmacOS, Windows  \niOS, macOS, Android  \niOS, Android  \niOS, macOS  \nAndroid  \nAndroid",
-    "4-0": "`tg://`",
-    "4-1": "Apple Mail  \nOutlook  \nSpark  \nEdisonMail  \nAirmail  \nCanaryMail  \nSamsungMail",
-    "4-2": "iOS, macOS  \nmacOS, Windows  \nmacOS, Android  \niOS, Android  \niOS, macOS  \nmacOS, Android  \nAndroid",
-    "5-0": "`whatsapp://`",
-    "5-1": "Apple Mail  \nOutlook  \nSpark  \nEdisonMail  \nAirmail  \nCanaryMail  \nSamsungMail",
-    "5-2": "iOS, macOS  \nmacOS, Windows  \nmacOS, Android  \niOS, Android  \niOS, macOS  \nmacOS, Android  \nAndroid"
-  },
-  "cols": 3,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Protocols
+      </th>
 
+      <th>
+        Email Clients
+      </th>
 
-_Based on June 2021._
+      <th>
+        Platforms
+      </th>
+    </tr>
+  </thead>
 
-_Tested on iOS 14.6, Android 10, 11 and MS Office2019._
+  <tbody>
+    <tr>
+      <td>
+        `viber://`
+      </td>
+
+      <td>
+        Apple Mail\
+        Outlook\
+        Spark\
+        EdisonMail\
+        Airmail\
+        CanaryMail\
+        SamsungMail
+      </td>
+
+      <td>
+        iOS, macOS\
+        macOS, Windows\
+        macOS, Android\
+        iOS, Android\
+        iOS, macOS\
+        macOS, Android\
+        Android
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `sms:`
+      </td>
+
+      <td>
+        Apple Mail\
+        Outlook\
+        Spark\
+        EdisonMail\
+        Airmail\
+        CanaryMail\
+        SamsungMail
+      </td>
+
+      <td>
+        iOS, macOS\
+        macOS, Windows\
+        macOS, Android\
+        iOS, Android\
+        iOS, macOS\
+        macOS, Android\
+        Android
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `tel:`
+      </td>
+
+      <td>
+        Gmail\
+        Apple Mail\
+        Ukr.net\
+        Outlook\
+        Spark\
+        EdisonMail\
+        Airmail\
+        CanaryMail\
+        SamsungMail
+      </td>
+
+      <td>
+        Web, Android\
+        iOS, macOS\
+        Web, iOS\
+        Web, Windows, macOS, iOS, Android\
+        iOS, macOS, Android\
+        iOS, macOS, Android\
+        iOS, macOS\
+        iOS, Android\
+        Android
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `skype:`
+      </td>
+
+      <td>
+        Apple Mail\
+        Yahoo\
+        Aol\
+        Outlook\
+        Spark\
+        EdisonMail\
+        iOS, macOS\
+        CanaryMail\
+        SamsungMail
+      </td>
+
+      <td>
+        iOS, macOS\
+        Web\
+        Web\
+        macOS, Windows\
+        iOS, macOS, Android\
+        iOS, Android\
+        iOS, macOS\
+        Android\
+        Android
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `tg://`
+      </td>
+
+      <td>
+        Apple Mail\
+        Outlook\
+        Spark\
+        EdisonMail\
+        Airmail\
+        CanaryMail\
+        SamsungMail
+      </td>
+
+      <td>
+        iOS, macOS\
+        macOS, Windows\
+        macOS, Android\
+        iOS, Android\
+        iOS, macOS\
+        macOS, Android\
+        Android
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `whatsapp://`
+      </td>
+
+      <td>
+        Apple Mail\
+        Outlook\
+        Spark\
+        EdisonMail\
+        Airmail\
+        CanaryMail\
+        SamsungMail
+      </td>
+
+      <td>
+        iOS, macOS\
+        macOS, Windows\
+        macOS, Android\
+        iOS, Android\
+        iOS, macOS\
+        macOS, Android\
+        Android
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+*Based on June 2021.*
+
+*Tested on iOS 14.6, Android 10, 11 and MS Office2019.*
