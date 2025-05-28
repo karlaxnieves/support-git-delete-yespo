@@ -15,22 +15,7 @@ next:
 ---
 App Inbox is a communication channel that allows you to deliver rich, personalized content to users directly on your mobile app or website. Messages sent to the notification center are saved in the user's account until they are no longer relevant.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6c47515-appinbox_example.gif",
-        "appinbox_example.gif",
-        "App Inbox"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6c47515-appinbox_example.gif" />
 
 App inbox messages don't require a subscription and are easy to combine with other channels. They are highly effective in retention, reactivation, advertising new services and products, and many other use cases.
 
