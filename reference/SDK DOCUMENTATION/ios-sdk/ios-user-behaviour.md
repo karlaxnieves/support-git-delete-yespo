@@ -32,7 +32,7 @@ Reteno.logEvent(eventTypeKey: "EVENT_TYPE_KEY", date: Date, parameters: [Reteno.
 ```
 
 > 📘 Note
-> 
+>
 > Set up [event-based segmentation](https://yespo.io/support/how-to-use-event-segmentation) to ensure custom events and their parameters are recorded in contact cards, enabling the creation of dynamic segments.
 
 ## Track Screen View Events
@@ -46,7 +46,7 @@ Reteno.logEvent(eventTypeKey: "EVENT_TYPE_KEY", date: Date, parameters: [Reteno.
 Automatic screen tracking can be turned off by providing `isAutomaticScreenReportingEnabled` flag as false during SDK initialization.
 
 > 📘 Note
-> 
+>
 > `Reteno` depends on method swizzling to automatically log screen views. SwiftUI apps must manually set class for views that should be logged, or log screen views manually (see below).
 
 #### Manually Track Screen Events
@@ -61,9 +61,9 @@ Reteno.logEvent(ScreenViewEvent, parameters: [ScreenClass: screenClass])
 
 `Reteno SDK` uses the `pushSubscribed` parameter for tracking the status of the user’s subscription to push notifications. This covers the following cases:
 
-- When a customer does not subscribe to receive push notifications (`pushSubscribed` is false), no token is created for that customer.
-- When a customer subscribes to receive push notifications (`pushSubscribed` is true), a token is created for that customer.
-- When a customer unsubscribes from receiving push notifications (`pushSubscribed` is false), the existing customer token is deleted.
+* When a customer does not subscribe to receive push notifications (`pushSubscribed` is false), no token is created for that customer.
+* When a customer subscribes to receive push notifications (`pushSubscribed` is true), a token is created for that customer.
+* When a customer unsubscribes from receiving push notifications (`pushSubscribed` is false), the existing customer token is deleted.
 
 Starting from version 2.0.4 `Reteno` can track push notification subscription events. This event will be tracked automatically but it can be managed.
 
