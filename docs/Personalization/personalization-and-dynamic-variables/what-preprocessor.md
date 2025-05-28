@@ -14,13 +14,13 @@ metadata:
 next:
   description: ''
 ---
-- [Definition](https://docs.yespo.io/docs/what-preprocessor#definition)
-- [Supported types](https://docs.yespo.io/docs/what-preprocessor#supported-types)
-- [How it works](https://docs.yespo.io/docs/what-preprocessor#how-it-works)
-- [How to upload file for preprocessor](https://docs.yespo.io/docs/what-preprocessor#how-to-upload-file-for-preprocessor)
-- [How to create letter using preprocessor](https://docs.yespo.io/docs/what-preprocessor#how-to-create-letter-using-preprocessor)
-- [How to test data for mailing](https://docs.yespo.io/docs/what-preprocessor#how-to-test-data-for-mailing)
-- [Examples of use](https://docs.yespo.io/docs/what-preprocessor#examples-of-use)
+* [Definition](https://docs.yespo.io/docs/what-preprocessor#definition)
+* [Supported types](https://docs.yespo.io/docs/what-preprocessor#supported-types)
+* [How it works](https://docs.yespo.io/docs/what-preprocessor#how-it-works)
+* [How to upload file for preprocessor](https://docs.yespo.io/docs/what-preprocessor#how-to-upload-file-for-preprocessor)
+* [How to create letter using preprocessor](https://docs.yespo.io/docs/what-preprocessor#how-to-create-letter-using-preprocessor)
+* [How to test data for mailing](https://docs.yespo.io/docs/what-preprocessor#how-to-test-data-for-mailing)
+* [Examples of use](https://docs.yespo.io/docs/what-preprocessor#examples-of-use)
 
 ## Definition
 
@@ -36,10 +36,10 @@ Besides, you can use personalization not only in emails, but also in SMS message
 
 Next types of preprocessor are available now for public use:
 
-- Key 
-- Random
+* Key 
+* Random
 
-**Key preprocessor** chooses the structure from data array by indicated key, for example, by email, and transfers it in the letter template before sending. You can prepare the list of personal recommendations especially for each contact in {email: json with recommendations} format where email acts as a key. And when sending the mailing for all contacts with the email from the list of a preprocessor, one’s json will be received and it will be used in the letter.  
+**Key preprocessor** chooses the structure from data array by indicated key, for example, by email, and transfers it in the letter template before sending. You can prepare the list of personal recommendations especially for each contact in \{email: json with recommendations} format where email acts as a key. And when sending the mailing for all contacts with the email from the list of a preprocessor, one’s json will be received and it will be used in the letter.  
 
 This approach can show each subscriber its own set of recommended goods, the sales and special offers.
 
@@ -83,113 +83,38 @@ API method, which allows you to upload a file with data in the system, now is in
 
 To upload a file using the Personal account, carry out the following actions:
 
-- open settings;
+* open settings;
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6925ddd3fd66746b846cda8ea1aa3e2e906e84586d4a71269a114aad779164f4-Dashboard.webp",
-        "Open settings",
-        "Open settings"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/6925ddd3fd66746b846cda8ea1aa3e2e906e84586d4a71269a114aad779164f4-Dashboard.webp" />
 
+* click “Upload” button
 
-- click “Upload” button
+<Image align="center" width="80% " src="https://files.readme.io/e8d9912cda9e0f9df00d91ce7a20670b27fa71149b465bfedfcff8cc85e9531f-Settings.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e8d9912cda9e0f9df00d91ce7a20670b27fa71149b465bfedfcff8cc85e9531f-Settings.webp",
-        "Choose preprocessor",
-        "Choose preprocessor"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+* choose preprocessor type, for example, we will choose Key type (setting preprocessor with Random type will be similar);
 
+<Image align="center" width="80% " src="https://files.readme.io/2128e66b647437764144bba114db5a44d448305836a207cf1228fa5f426ab670-Preprocessor.webp" />
 
-- choose preprocessor type, for example, we will choose Key type (setting preprocessor with Random type will be similar);
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2128e66b647437764144bba114db5a44d448305836a207cf1228fa5f426ab670-Preprocessor.webp",
-        "Choose preprocessor type",
-        "Choose preprocessor type"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
-
-- drag your file of preprocessor;  
-- then click “Upload”.
+* drag your file of preprocessor;  
+* then click “Upload”.
 
 The notification about successful uploading will be sent as a message in your Personal account and via email.
 
 ## How to create letter using preprocessor
 
-For inserting dynamic content in the letter the special template processor is used – _Apache Velocity_. Exactly it allows realizing conditional operators, cycles and other operations with data directly in the body of the letter. All dynamic content, available when sending, is contained in special system variable `$data`. After loading the file it needs to be chosen when forming the letter. For this:
+For inserting dynamic content in the letter the special template processor is used – *Apache Velocity*. Exactly it allows realizing conditional operators, cycles and other operations with data directly in the body of the letter. All dynamic content, available when sending, is contained in special system variable `$data`. After loading the file it needs to be chosen when forming the letter. For this:
 
-- after creating the letter, click “Show settings” in the message editor;
+* after creating the letter, click “Show settings” in the message editor;
 
-  [block:image]{"images":[{"image":["https://files.readme.io/a9453c09acf357a51947076d7b66016d801c9f71d2fa13c6795c0eecc8d6441e-prepr7.webp",null,"Show settings"],"align":"center","sizing":"% "}]}[/block]
+  <Image align="center" width="% " src="https://files.readme.io/a9453c09acf357a51947076d7b66016d801c9f71d2fa13c6795c0eecc8d6441e-prepr7.webp" />
 
-  - then choose preprocessor type (for example we chosen Key type, for adding file with Random type preprocessor actions will be similar);
+  * then choose preprocessor type (for example we chosen Key type, for adding file with Random type preprocessor actions will be similar);
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ae7f93764f8497cf1a19ba4c7b4614d7ae0c848496276ea8b261e46a8fe96abd-prepr8.webp",
-        null,
-        "Key preprocessor"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/ae7f93764f8497cf1a19ba4c7b4614d7ae0c848496276ea8b261e46a8fe96abd-prepr8.webp" />
 
+* choose file, uploaded during the previous stage
 
-- choose file, uploaded during the previous stage
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a9b0be6ecddc312b793f95e4cb7c93aec0da28e176e07315afbb51d1e85fb6b1-prepr9.webp",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/a9b0be6ecddc312b793f95e4cb7c93aec0da28e176e07315afbb51d1e85fb6b1-prepr9.webp" />
 
  Thus, uploaded file during the previous stage will be used when sending a current letter.
 
@@ -201,7 +126,7 @@ $data.get('recommendations')
 
 For organizing cycle by this array, write the following.
 
-The name of `$item` variable can be arbitrary, but the field with the name _name_ needs to be contained for each element in the file with data, if you are going to address to it in the letter by such name.  
+The name of `$item` variable can be arbitrary, but the field with the name *name* needs to be contained for each element in the file with data, if you are going to address to it in the letter by such name.\
 Conditional operation can also be easily done:  
 
 ```json
@@ -226,80 +151,20 @@ From already available facilities for testing, we can offer the mailing for the 
 
 The result after substitution of dynamic content can look in the following way:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ee95d783627e753ff4e9b0cbefbe749ac54b462efe6f917851c31384bcdd07a5-prepr10.webp",
-        null,
-        "items_by_indexes"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/ee95d783627e753ff4e9b0cbefbe749ac54b462efe6f917851c31384bcdd07a5-prepr10.webp" />
 
 The letter in edit mode looks in the following way:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6b4cc616d929d8092b43f6a423c72a0656ac5bdae89c8ab0f10c116771468439-prepr11.webp",
-        null,
-        "items_by_indexes_result"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6b4cc616d929d8092b43f6a423c72a0656ac5bdae89c8ab0f10c116771468439-prepr11.webp" />
 
 ### Addressing elements in the cycle
 
 The letter in edit mode looks in the following way:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5523b178dd6def46c4e5b6b067fb2382400fe2fe31ca8c3e2bfe4eeec3b7967f-prepr12.webp",
-        null,
-        "items_by_foreach"
-      ],
-      "align": "center",
-      "sizing": "40% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="40% " src="https://files.readme.io/5523b178dd6def46c4e5b6b067fb2382400fe2fe31ca8c3e2bfe4eeec3b7967f-prepr12.webp" />
 
 The result after substitution the dynamic content can look in the following way:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/910a1eb61c4b59d2e2c45a4c61577514b488aaa40099773dd60379565e8dbdb8-prepr14.webp",
-        null,
-        "items_by_foreach_result"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/910a1eb61c4b59d2e2c45a4c61577514b488aaa40099773dd60379565e8dbdb8-prepr14.webp" />
 
 If you have problems with forming velocity-code in the letter, or you have more questions for more difficult examples of its use, then described in this section – address to our [technical support](mailto:support@yespo.io).
