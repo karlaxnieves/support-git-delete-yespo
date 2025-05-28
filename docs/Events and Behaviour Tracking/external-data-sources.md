@@ -25,10 +25,10 @@ Use [data from Google Sheets](https://docs.yespo.io/docs/how-import-external-dat
 
 [BigQuery integration](https://docs.yespo.io/docs/google-bigquery-integration) may be really useful in such situations:
 
-- you have CRM where you store a lot of contact data
-- you meet problems when creating multiple additional fields in the Yespo or supporting continuous updates of contact data
-- you want your data to be stored in one place instead of several databases to get rid of the constant need to store the same info in different places
-- you want to build custom reports
+* you have CRM where you store a lot of contact data
+* you meet problems when creating multiple additional fields in the Yespo or supporting continuous updates of contact data
+* you want your data to be stored in one place instead of several databases to get rid of the constant need to store the same info in different places
+* you want to build custom reports
 
 ## Connecting to PostgreSQL as an External Data Source
 
