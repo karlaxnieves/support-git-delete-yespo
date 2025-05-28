@@ -14,11 +14,11 @@ You can subscribe to In-App messages lifecycle.
 
 You get callbacks:
 
-- before In-App message is displayed
-- right after In-App message is displayed
-- before In-App message is closed
-- after In-App message is closed
-- if an error during displaying In-App message occurred
+* before In-App message is displayed
+* right after In-App message is displayed
+* before In-App message is closed
+* after In-App message is closed
+* if an error during displaying In-App message occurred
 
 In these callbacks you also receive a data model which contains information whether In-App message was displayed via display rules or push notification click, id or interaction id of In-App message and some other data which may be useful.
 
@@ -56,7 +56,7 @@ Reteno.onInAppMessageStatusChanged.listen((status) {
 
 ## Pause In-App Messages
 
-You can manage the display of In-App messages by pausing them when needed.  
+You can manage the display of In-App messages by pausing them when needed.\
 Pausing In-App messages can be useful to prevent interruptions during critical user flows such as registration or payment processes.
 
 All In-App messages that are supposed to be displayed during the pause period will be skipped and shown later when the display rules match.
