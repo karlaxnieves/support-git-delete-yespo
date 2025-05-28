@@ -16,7 +16,7 @@ next:
 Preprocessor is designed for sending mass mailings, but with unique content for each subscriber. At first, you need to generate a file with data in certain format and upload it in Yespo. During mailing, the system will take data from this file and substitute in messages. Usually it is used for sending mailing with personal goods recommendations, but one can use it to transfer any data, for example, promo code, instead of set of goods.
 
 > 📘 Note
-> 
+>
 > This method works only for emails. Learn more about preprocessor here.
 
 Mailing sending process using preprocessor looks like following:
@@ -51,18 +51,4 @@ It is necessary to substitute variable on the place of promo code. For a given e
 
 Also, it is necessary to attach the preliminarily uploaded file of preprocessor to this message. And then you can send the usual campaign.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e656ea06eca8b302274150269a517567e5436057220e7113d5a990d2a042a14e-3c344d6-promocodes9.webp",
-        null,
-        "Select preprocessor"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/e656ea06eca8b302274150269a517567e5436057220e7113d5a990d2a042a14e-3c344d6-promocodes9.webp" />
