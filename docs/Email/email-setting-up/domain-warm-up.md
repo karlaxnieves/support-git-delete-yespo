@@ -17,22 +17,7 @@ After [changing the DNS record](https://docs.yespo.io/docs/dns-record-change), w
 
 Domain warm-up is the gradual increase in the number of emails sent from a new domain to establish trust with email service providers (such as Gmail, Outlook, etc.) and avoid being flagged as spam.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f8a14ff705eb0bcb0562b9982085a0fb6cd382195337bd66c84c2c97cbade2fc-domain-warm-up-01.webp",
-        "Sender reputation",
-        "Sender reputation"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/f8a14ff705eb0bcb0562b9982085a0fb6cd382195337bd66c84c2c97cbade2fc-domain-warm-up-01.webp" />
 
 Yespo automatically warms up the domain for clients who have verified it.
 
@@ -42,8 +27,8 @@ Let's consider how the process is organized and how many days are required for d
 
 Create an email and [launch a campaign](https://docs.yespo.io/docs/launching-an-email-campaign):  
 
-- **First day campaign**. On the first day with a new domain, you can send up to 1000 emails; otherwise, the campaign may raise suspicions on email servers. Yespo will send the first 1000 emails, signing them with your DKIM, and the remaining 99,000 emails with the Yespo domain signature.
-- **Second day campaign**. On the second day, Yespo will send 2000 emails with your DKIM and 98,000 with the Yespo domain signature, and so on.
+* **First day campaign**. On the first day with a new domain, you can send up to 1000 emails; otherwise, the campaign may raise suspicions on email servers. Yespo will send the first 1000 emails, signing them with your DKIM, and the remaining 99,000 emails with the Yespo domain signature.
+* **Second day campaign**. On the second day, Yespo will send 2000 emails with your DKIM and 98,000 with the Yespo domain signature, and so on.
 
 Below is a table calculated for 25 days with a daily sending limit.
 
@@ -77,7 +62,7 @@ Below is a table calculated for 25 days with a daily sending limit.
 | 26  | unlimited |
 
 > 📘 Note
-> 
+>
 > The limits are the same for all campaigns, including trigger-based ones.
 
 Yespo's DKIM will sign each campaign regardless of the customer's domain. Initially, most emails will be sent with the Yespo signature, and then the number of emails sent with your domain signature will gradually increase.
@@ -86,127 +71,37 @@ When the new domain's warm-up reaches the required level, all emails will be sen
 
 In our example, with a daily sending limit of 100,000, it takes 11 days to warm up the domain.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6962f3e38ed0a4f889fd8370517da5577db4afaf27253768c76161af4e4f4c0a-domain-warm-up-02.webp",
-        "Domain Warm-up for 100,000 messages per day",
-        "Domain Warm-up for 100,000 messages per day"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6962f3e38ed0a4f889fd8370517da5577db4afaf27253768c76161af4e4f4c0a-domain-warm-up-02.webp" />
 
 ## Checking the Sending Limit
 
 There are two statuses of the daily sending limit:
 
-- Not reached
-- Has been reached/Has been reached for some domains
+* Not reached
+* Has been reached/Has been reached for some domains
 
-Go to _Settings → Domain verification_ and click _Daily sending limit_ to view your daily sending limits.
+Go to *Settings → Domain verification* and click *Daily sending limit* to view your daily sending limits.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c85cd9e8a3360fd307d902205fb1d9979e6e756c6f210b382f62503f990331c8-domain-warm-up-03.webp",
-        null,
-        "Settings → Domain verification"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/c85cd9e8a3360fd307d902205fb1d9979e6e756c6f210b382f62503f990331c8-domain-warm-up-03.webp" />
 
 ### The Sending Limit Has Not Been Reached
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2434d8ab4037cb07fc25e60d015af9d713556c23ef5085a780a2cf2cede5860f-domain-warm-up-04.webp",
-        "The sending limit has not been reached",
-        "The sending limit has not been reached"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/2434d8ab4037cb07fc25e60d015af9d713556c23ef5085a780a2cf2cede5860f-domain-warm-up-04.webp" />
 
 Hover over the progress bar next to the domain name, and a tooltip will appear showing the number of messages sent and the remaining messages.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/dd191352594158167549c474faf59cada9a4afe7300af342f7622c61787b0998-domain-warm-up-05.webp",
-        "Sending statistics",
-        "Sending statistics"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/dd191352594158167549c474faf59cada9a4afe7300af342f7622c61787b0998-domain-warm-up-05.webp" />
 
 ### The Sending Limit Has Been Reached
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fe5c31fee07f96978949894fcc309cffdf7b9728d48210d835657317a1543554-domain-warm-up-06.webp",
-        "The sending limit has been reached",
-        "The sending limit has been reached"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/fe5c31fee07f96978949894fcc309cffdf7b9728d48210d835657317a1543554-domain-warm-up-06.webp" />
 
 Domains that have reached daily limits are displayed in a separate list.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/416b1070d384a2af31cbd4a53aa778040bfc952ed2a0532942632273ac283d19-domain-warm-up-07.webp",
-        "Sending statistics the limit reached",
-        "Sending statistics the limit reached"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/416b1070d384a2af31cbd4a53aa778040bfc952ed2a0532942632273ac283d19-domain-warm-up-07.webp" />
 
 > 📘 Note
-> 
+>
 > Warm-up data is refreshed every day at 00:00
 
 If your domain has no strict DMARC policy, sending limit restrictions will not be displayed in your account. In that case, please contact our technical support to get information about warm-up.
@@ -217,32 +112,17 @@ A separate case worth noting is when a strict DMARC policy is enforced — a lim
 
 In DMARC settings, one of the following values may be specified:
 
-- **none** — takes no action on the email,
-- **quarantine** — places the email in spam,
-- **reject** — rejects the email.
+* **none** — takes no action on the email,
+* **quarantine** — places the email in spam,
+* **reject** — rejects the email.
 
-If the value is set to _none_, the warm-up proceeds as described above. However, if DMARC is set to _quarantine_ or _reject_, when the daily limit is reached during the warm-up period, no further emails are sent. Even if the emails are signed using the DKIM signature of the Yespo domain, they may still end up in spam or be rejected.
+If the value is set to *none*, the warm-up proceeds as described above. However, if DMARC is set to *quarantine* or *reject*, when the daily limit is reached during the warm-up period, no further emails are sent. Even if the emails are signed using the DKIM signature of the Yespo domain, they may still end up in spam or be rejected.
 
 Under a strict DMARC policy, it's advisable to manually limit the number of daily sends or set the value to none during the warm-up period.
 
 Use the <a rel="nofollow" href="https://mxtoolbox.com/dmarc.aspx" target="_blank"> MxToolbox </a> service to check DMARC domain settings. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/137650872c1c735668d79a3831755ff2c2fc1e14fdab010609de86878ba6028a-domain-warm-up-08.webp",
-        "DMARC settings checking",
-        "DMARC settings checking"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/137650872c1c735668d79a3831755ff2c2fc1e14fdab010609de86878ba6028a-domain-warm-up-08.webp" />
 
 When manually limiting the number of daily sends, use the following recommendations:
 
