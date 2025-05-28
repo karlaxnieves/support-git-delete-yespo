@@ -16,118 +16,43 @@ This access key authorizes all the requests sent from the mobile app through the
 
 ## Creating and Enabling the Access Key
 
-## 
+##
 
 To create the access key:
 
-1. Go to _your profile_ → _Settings_ (1) → _Mob Push_ (2).
+1. Go to *your profile* → *Settings* (1) → *Mob Push* (2).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a8d02ad-Settings.png",
-        "",
-        "Mob Push tab"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/a8d02ad-Settings.png" />
 
 2. Click on the name of your app. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/99e9704-edit_app.webp",
-        "",
-        "Click on the app name"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/99e9704-edit_app.webp" />
 
+3. Select the *Access Keys* tab and click *Add access key*.
 
-3. Select the _Access Keys_ tab and click _Add access key_.
+<Image align="center" width="80%" src="https://files.readme.io/73c8efe-Access_Key_1.png" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/73c8efe-Access_Key_1.png",
-        "AddKey.png",
-        "Access Keys"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+4. In the *Create access key* dialog box, enter the key description in the *Description* field and click *Create*.
 
-
-4. In the _Create access key_ dialog box, enter the key description in the _Description_ field and click _Create_.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d728f9c-key_description_and_create_eng.png",
-        "key_description_and_create_eng.png",
-        "Create access key"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/d728f9c-key_description_and_create_eng.png" />
 
 > 📘 Note
-> 
+>
 > Assigning the description for each mobile access key allows you to identify it and understand which integration it is associated with.
 
 5. To enable the access key, click the slide button on the left-hand side.
 
 > 📘 Note
-> 
+>
 > If you do not need to use the access key, disable it by clicking its slide button.
 
 ## Using the Key to Access Reteno SDK
 
 To use the access key to authenticate access to your Reteno mobile SDK:
 
-1. Go to _your profile_ → _Settings_ → _Mob Push_ and select your mobile app connected to Reteno.
-2. Select the _Access Keys_ tab and click the _Copy_ icon beside your key.
+1. Go to *your profile* → *Settings* → *Mob Push* and select your mobile app connected to Reteno.
+2. Select the *Access Keys* tab and click the *Copy* icon beside your key.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/67844bb-Access_Key_3.png",
-        "copy_key_eng1.png",
-        "Access Keys"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/67844bb-Access_Key_3.png" />
 
 3. Send your API key in X-Reteno-Access-Key HTTP header in every request.
