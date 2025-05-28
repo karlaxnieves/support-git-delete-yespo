@@ -17,22 +17,7 @@ Contact data collection is crucial for your marketing strategy's success. Theref
 
 [Choose the best widget option](https://docs.yespo.io/docs/widgets), build it in our drag-and-drop editor and install it on your site pages.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6fdd940c926586a887313cf65a5a98526e401e6cedb80e7b11c9a1c4a781f1a1-widget.png",
-        "",
-        "Subscriber Data Collection"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/6fdd940c926586a887313cf65a5a98526e401e6cedb80e7b11c9a1c4a781f1a1-widget.png" />
 
 Also, we have integration with the [Wix](https://docs.yespo.io/docs/wix-forms-integration) platform and special forms for the corresponding website. 
 
