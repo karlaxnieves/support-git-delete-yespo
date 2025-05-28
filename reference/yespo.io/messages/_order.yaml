@@ -38,3 +38,4 @@
 - updatetranslatedtelegrambotmessage
 - deletetranslatedtelegrambotmessage
 - registerinteractionstatus-1
+- getsms-1
