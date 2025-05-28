@@ -27,9 +27,9 @@ Let's explore how to set up In-App triggering to meet various business goals.
 
 The preparation of In-App campaigns consists of two parts: [design of the appearance of messages](https://docs.yespo.io/docs/creating-in-app-message) and setting their triggering rules. Triggering rules contain
 
-- selection of the event and its parameters that will trigger In-App,
-- definition of target segments,
-- display frequency settings.
+* selection of the event and its parameters that will trigger In-App,
+* definition of target segments,
+* display frequency settings.
 
 The main settings options are events and segments.
 
@@ -37,134 +37,44 @@ The main settings options are events and segments.
 
 Select the event that will trigger In-App in its triggering rules, such as completing a lesson or a game level.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/368a827bd7fa0af09ed7aec2cd5b4d7eec67ab0d439ee2cc6e80746ecb05dfe6-in-app-1.webp",
-        "Triggering by event",
-        "Triggering by event"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/368a827bd7fa0af09ed7aec2cd5b4d7eec67ab0d439ee2cc6e80746ecb05dfe6-in-app-1.webp" />
 
 You can detail settings by specifying additional event parameters, such as completed **5th** lesson or **5th** level.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/910050cfd6579ab7def59a798a6a751644c0e7c7220303078a0ba232a8f99a2b-in-app-2.webp",
-        "Event parameters",
-        "Event parameters"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/910050cfd6579ab7def59a798a6a751644c0e7c7220303078a0ba232a8f99a2b-in-app-2.webp" />
 
 > 📘 Important
-> 
+>
 > Only events from the [SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo) can trigger In-Apps
 
 ### Triggering by Segment
 
 To address the In-App campaign to a certain segment, specify the appropriate segment in message-triggering rules. For example, you can incentivize the first purchase in the segment of users who use the app for a week but do not use paid functionality. To do this, [create the segment](https://docs.yespo.io/docs/how-add-dynamic-segment) with appropriate conditions and specify it in the triggering rules of the In-App with a special offer.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ddce45721dfc6665c62c264c27d89c64dce76bba899ee738474c1b46c121b98a-in-app-3.webp",
-        "Triggering by segment",
-        "Triggering by segment"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/ddce45721dfc6665c62c264c27d89c64dce76bba899ee738474c1b46c121b98a-in-app-3.webp" />
 
 > 📘 Note
-> 
-> Combining the _After event_ and the _To whom_ triggering rules is possible. For instance, limit the In-App triggering after a specific event to certain countries.
+>
+> Combining the *After event* and the *To whom* triggering rules is possible. For instance, limit the In-App triggering after a specific event to certain countries.
 
 ## Using In-App in Omnichannel Workflows
 
-You can use the _Mobile Push_ and the _Add to segment_ blocks to trigger In-Apps within a workflow.
+You can use the *Mobile Push* and the *Add to segment* blocks to trigger In-Apps within a workflow.
 
 ### Mobile Push
 
-[Link an In-App to tap at a mobile push](https://docs.yespo.io/docs/linking-app-mobile-push), for example, to reveal more details about the offer contained in the push. Specify such a push in the _Mobile Push_ block settings, and users will see both messages within the workflow.
+[Link an In-App to tap at a mobile push](https://docs.yespo.io/docs/linking-app-mobile-push), for example, to reveal more details about the offer contained in the push. Specify such a push in the *Mobile Push* block settings, and users will see both messages within the workflow.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/de921e4c9215af3850c41fd702dc5e9adfa503a702ff99333ae4578ffb092680-in-app-4.webp",
-        "Mobile Push block settings",
-        "Mobile Push block settings"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/de921e4c9215af3850c41fd702dc5e9adfa503a702ff99333ae4578ffb092680-in-app-4.webp" />
 
 ### Add to Segment
 
-1. Specify a static segment (_List_) into which users will fall in the _Add to segment_ block settings.
+1. Specify a static segment (*List*) into which users will fall in the *Add to segment* block settings.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e44b8253addb111c4d038fa0470ce3539c63e66f9f73b188495db27fabd9d8e3-in-app-5.webp",
-        "Add to segment block settings",
-        "Add to segment block settings"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/e44b8253addb111c4d038fa0470ce3539c63e66f9f73b188495db27fabd9d8e3-in-app-5.webp" />
 
+Set the corresponding segment in the In-App triggering rules (*To whom*).
 
-Set the corresponding segment in the In-App triggering rules (_To whom_).
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d77300e47330c85617c0ac9c6abe1b8b5b23b9a094d82566fe395eb7e51aa221-in-app-6.webp",
-        "Set the segment",
-        "Set the segment"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/d77300e47330c85617c0ac9c6abe1b8b5b23b9a094d82566fe395eb7e51aa221-in-app-6.webp" />
 
 Adding a user to the segment in the workflow will trigger the In-App according to its triggering rules.
