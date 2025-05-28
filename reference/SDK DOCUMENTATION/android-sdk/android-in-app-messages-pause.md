@@ -53,5 +53,5 @@ reteno.setInAppMessagesPauseBehaviour(behaviour: InAppPauseBehaviour)
 
 "InAppPauseBehaviour" provides two possible strategies:
 
-- `SKIP_IN_APPS` - Skip all In-App messages until pause will be enabled.
-- `POSTPONE_IN_APPS` - Skip all In-App messages until pause will be enabled and show the first In-App (if it exists) when pause will be disabled.
+* `SKIP_IN_APPS` - Skip all In-App messages until pause will be enabled.
+* `POSTPONE_IN_APPS` - Skip all In-App messages until pause will be enabled and show the first In-App (if it exists) when pause will be disabled.
