@@ -21,5 +21,5 @@ RetenoSDK.LogScreenView("some_screen_name");
 ```
 
 > 📘 Note
-> 
+>
 > Set up [event-based segmentation](https://yespo.io/support/how-to-use-event-segmentation) to ensure custom events and their parameters are recorded in contact cards, enabling the creation of dynamic segments.
