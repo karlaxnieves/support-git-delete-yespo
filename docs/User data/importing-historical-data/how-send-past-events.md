@@ -14,17 +14,17 @@ next:
 ---
 If you have migrated from another service or just created an account in our platform, and you have a history of
 
-- offline orders,
-- contact activity,
-- subscriptions,
-- or other events you want to use for advanced segmentation,
+* offline orders,
+* contact activity,
+* subscriptions,
+* or other events you want to use for advanced segmentation,
 
-you can transfer the available data from your CRM or other data store to our system via the API resource _[Generate past events](https://docs.yespo.io/reference/sendhistoryevents_1)_.
+you can transfer the available data from your CRM or other data store to our system via the API resource *[Generate past events](https://docs.yespo.io/reference/sendhistoryevents_1)*.
 
 > 📘 Important
-> 
+>
 > Before importing events, enable segmentation for the types of events you want to download.
-> 
+>
 > If your tariff plan does not include segmentation by events, please submit a request to [sales@yespo.io](mailto:sales@yespo.io)
 
 [How to set up segmentation by events](https://docs.yespo.io/docs/how-to-use-event-segmentation)
@@ -35,8 +35,8 @@ For example, you have a certain number of orders over the past year, and you wan
 
 Convert these orders into a `JSON` format supported for API according to the specification, and send them to the system. You can send an array of up to 500 such events within one request. Specify the time of each event in the field `occurred`: 
 
-- format of date: `YYYY-MM-DD`;
-- format of date with the time: `YYYY-MM-DDTHH:mm`.
+* format of date: `YYYY-MM-DD`;
+* format of date with the time: `YYYY-MM-DDTHH:mm`.
 
 For example, you send an order of two mobile devices bought at a few years interval:
 
@@ -145,22 +145,7 @@ Apart from basic fields with the name, price, and link to a product, you can sen
 
 Based on the available datasets you can build dynamic segment:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a245deeec1607c00bb51551399a60366a254b8a074b860ed3936c4093e0f391c-add-dynamic-segment.webp",
-        "Add a dynamic segment",
-        "Adding a dynamic segment"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/a245deeec1607c00bb51551399a60366a254b8a074b860ed3936c4093e0f391c-add-dynamic-segment.webp" />
 
 You can also delete old or irrelevant events. To do this, send a request to the same resource, but using the method type [DELETE](https://docs.yespo.io/reference/removehistoryevents). Specify the time range to remove in the request body:
 
