@@ -17,8 +17,8 @@ The User Management module handles user data and permissions. It allows you to s
 
 ## How It Works
 
-- **SetUserAttributes**: Use this method to assign attributes to a registered user.
-- **SetAnonymousUserAttributes**: Use this method for users that are not registered.
+* **SetUserAttributes**: Use this method to assign attributes to a registered user.
+* **SetAnonymousUserAttributes**: Use this method for users that are not registered.
 
 ## Code Sample
 
@@ -54,5 +54,5 @@ public class UserExample : MonoBehaviour
 
 ### Additional Tips:
 
-- Unique Identifier: Always provide a unique external user ID for registered users.
-- Attribute Management: Keep user attributes up to date to improve personalization and analytics.
+* Unique Identifier: Always provide a unique external user ID for registered users.
+* Attribute Management: Keep user attributes up to date to improve personalization and analytics.
