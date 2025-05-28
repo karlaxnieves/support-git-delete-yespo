@@ -47,18 +47,18 @@ Our team performs the main stages of the behavior trigger setup process; your pa
 
 1. **Preparatory stage**
 
-- **[Add a web tracking script to your website](https://docs.yespo.io/docs/how-set-web-tracking-your-website)**. This code allows you to track user behavior, such as product views, adds to cart, and other key actions.
-- **[Upload a product feed](https://docs.yespo.io/docs/importing-product-feed) to Yespo.** This is a list of your products with descriptions, prices, availability, and other details needed to personalize recommendations.
-- **Set up tracking events** using [JavaScript](https://docs.yespo.io/docs/how-set-web-tracking-sending-events-java-scipt-request) or the [REST API](https://docs.yespo.io/docs/how-transfer-website-behavior-data-through-rest-api).
+* **[Add a web tracking script to your website](https://docs.yespo.io/docs/how-set-web-tracking-your-website)**. This code allows you to track user behavior, such as product views, adds to cart, and other key actions.
+* **[Upload a product feed](https://docs.yespo.io/docs/importing-product-feed) to Yespo.** This is a list of your products with descriptions, prices, availability, and other details needed to personalize recommendations.
+* **Set up tracking events** using [JavaScript](https://docs.yespo.io/docs/how-set-web-tracking-sending-events-java-scipt-request) or the [REST API](https://docs.yespo.io/docs/how-transfer-website-behavior-data-through-rest-api).
 
 2. **Our team's work**
 
 After completing the basic settings, our specialists will perform the following actions:
 
-- **Development of a product selection algorithm.** Based on the specifics of your business and customer behavior, we activate a model that automatically determines which products suit a specific trigger workflow.
-- **Preparation of message templates.** Dynamic code is embedded in the email template, allowing you to automatically substitute products according to the algorithm and user actions. Dynamic [Velocity variables](https://docs.yespo.io/docs/introduction-to-velocity) are specified in the templates of other media channels.
-- **Formation of trigger launch conditions.** Professional triggers are regularly triggered on contacts that match the dynamic segment settings. For example, for the **Abandoned Cart** trigger, a segment of users who added products to the cart but did not complete the purchase within N time is formed.
-- **Creation of a workflow.** The entire campaign is configured: the moment of sending, launch conditions, communication channels, etc.
+* **Development of a product selection algorithm.** Based on the specifics of your business and customer behavior, we activate a model that automatically determines which products suit a specific trigger workflow.
+* **Preparation of message templates.** Dynamic code is embedded in the email template, allowing you to automatically substitute products according to the algorithm and user actions. Dynamic [Velocity variables](https://docs.yespo.io/docs/introduction-to-velocity) are specified in the templates of other media channels.
+* **Formation of trigger launch conditions.** Professional triggers are regularly triggered on contacts that match the dynamic segment settings. For example, for the **Abandoned Cart** trigger, a segment of users who added products to the cart but did not complete the purchase within N time is formed.
+* **Creation of a workflow.** The entire campaign is configured: the moment of sending, launch conditions, communication channels, etc.
 
 As a result, you get ready-made trigger workflows that immediately start generating profit.
 
@@ -72,145 +72,40 @@ Once trigger workflows are activated, you can customize each campaign element ac
 
 [Workflows](https://docs.yespo.io/docs/introduction-to-workflows) are the basis for triggers. You can:
 
-- Adjust the conditions for starting and stopping the workflow, for example:
-  - Remind about a new abandoned cart no more than once every seven days;
-  - Stop the workflow if the contact is in the segment of those who have placed an order in the last 24 hours.
+* Adjust the conditions for starting and stopping the workflow, for example:
+  * Remind about a new abandoned cart no more than once every seven days;
+  * Stop the workflow if the contact is in the segment of those who have placed an order in the last 24 hours.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a5b7deb4f591feb0734b0484b82dcf5c723bd0d5e443d08cd669481483e9034e-triggers_1.webp",
-        "",
-        "Start/Stop Configuration"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/a5b7deb4f591feb0734b0484b82dcf5c723bd0d5e443d08cd669481483e9034e-triggers_1.webp" />
 
+* Add timers to increase or decrease the time interval between messages.
 
-- Add timers to increase or decrease the time interval between messages.
+<Image align="center" width="80% " src="https://files.readme.io/6161860064010084f114bdd338380b2c150bc8362dc35f32ea3dd3b59a8304bb-triggers_2.webp" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6161860064010084f114bdd338380b2c150bc8362dc35f32ea3dd3b59a8304bb-triggers_2.webp",
-        "",
-        "Timer"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+* Extend workflows with additional conditions and checks, such as whether a contact is in a particular segment. For example, if a contact is in a segment of those who have placed an order in the last 30 days, do not send them reminders.
 
+<Image align="center" width="80% " src="https://files.readme.io/1005f17642dec5021df0651e97c095190d945b3d57e0fcfc8b641a1f294b9325-triggers_3.webp" />
 
-- Extend workflows with additional conditions and checks, such as whether a contact is in a particular segment. For example, if a contact is in a segment of those who have placed an order in the last 30 days, do not send them reminders.
+* Integrate multiple channels into the workflow, such as Viber, SMS, Push, etc., to ensure maximum reach. Add the [One of Many](https://docs.yespo.io/docs/using-one-many-block) message block that automatically determines the most effective message option and prioritizes its use.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1005f17642dec5021df0651e97c095190d945b3d57e0fcfc8b641a1f294b9325-triggers_3.webp",
-        "",
-        "Additional conditions and checks"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/612b19bb3da8f77cdb5787875f1d8ca779432f5e66c0d41220ec47cf44a08254-triggers_4.webp" />
 
+* Conduct A/B testing of two workflow options with different timers, messages, segments, etc. (the [Split](https://docs.yespo.io/docs/blocks-description-conditions-group#split) block).
 
-- Integrate multiple channels into the workflow, such as Viber, SMS, Push, etc., to ensure maximum reach. Add the [One of Many](https://docs.yespo.io/docs/using-one-many-block) message block that automatically determines the most effective message option and prioritizes its use.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/612b19bb3da8f77cdb5787875f1d8ca779432f5e66c0d41220ec47cf44a08254-triggers_4.webp",
-        "",
-        "Integrate channels"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
-
-- Conduct A/B testing of two workflow options with different timers, messages, segments, etc. (the [Split](https://docs.yespo.io/docs/blocks-description-conditions-group#split) block).
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8a6a3c7bd5bc3750160326f69aa15cf1c52e4207ba3d74559c85c3da22bf7cd7-triggers_5.webp",
-        "",
-        "A/B testing"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/8a6a3c7bd5bc3750160326f69aa15cf1c52e4207ba3d74559c85c3da22bf7cd7-triggers_5.webp" />
 
 ### 2. Launch Condition
 
 [Dynamic segments](https://docs.yespo.io/docs/how-add-dynamic-segment) that trigger Professional plan triggers are formed based on user behavior and characteristics. You can add any filters to form an audience, such as geolocation, purchase history, interests, etc.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8c4d83d9dc3b46d1411a9ef3827e1d2d582fe2a1cd5901ecb405adb7ebc6a25a-triggers_6.webp",
-        "",
-        "Launch Condition"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/8c4d83d9dc3b46d1411a9ef3827e1d2d582fe2a1cd5901ecb405adb7ebc6a25a-triggers_6.webp" />
 
 ### 3. Messages
 
 In each email, [product blocks](https://docs.yespo.io/docs/product-blocks) with specific recommendation algorithms will be available, and they will be saved to the module library for easy editing. Then, you can simply drag such a module to any email and edit the display of product cards if necessary. The content of short messages (Viber, Mobile Push, etc.) can be easily changed in the corresponding editors.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9194f73049330f2ca775804a8f4b82ebebf6dbef071cff6a28bdec2306d41c4b-triggers_7.webp",
-        "",
-        "Editing product block"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/9194f73049330f2ca775804a8f4b82ebebf6dbef071cff6a28bdec2306d41c4b-triggers_7.webp" />
 
 > 👍 Get Started Today!
-> 
+>
 > Contact Sales at [sales@yespo.io](mailto:sales@yespo.io) to reserve funds for the **Professional** plan while we configure your triggers
