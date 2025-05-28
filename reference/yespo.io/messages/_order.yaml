@@ -34,3 +34,4 @@
 - addtelegrambotmessage
 - gettelegrambotmessage
 - updatebasetelegrambotmessage
+- deletetelegrambotmessage
