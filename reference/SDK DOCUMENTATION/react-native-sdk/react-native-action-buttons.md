@@ -16,31 +16,16 @@ next:
 
 When creating mobile push notifications, you can add several action buttons for greater interactivity. When a receiver touches the screen for an extended period of time (long pressing), it displays the actions assigned to your push notification.
 
-- iOS supports up to 4 buttons in a single notification.
-- Android OS supports up to 3 buttons in a single notification.
+* iOS supports up to 4 buttons in a single notification.
+* Android OS supports up to 3 buttons in a single notification.
 
 ### Adding Action Buttons
 
-1. In your account, select _Messages → Messages → Mobile Push_.
+1. In your account, select *Messages → Messages → Mobile Push*.
 2. Create a new mobile push notification or edit an existing one.
 3. In the `Buttons` section, enter all the parameters as shown below.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/734cb97-button.png",
-        "",
-        "Buttons"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/734cb97-button.png" />
 
 4. Click `+ Add Button` if you want to add more buttons.
 
