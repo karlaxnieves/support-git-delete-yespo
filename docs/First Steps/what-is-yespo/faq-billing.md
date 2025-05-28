@@ -23,18 +23,18 @@ The algorithm for starting the system depends on what functionality you plan to 
 
 If you want to start with promo campaigns, first [verify the domain](https://docs.yespo.io/docs/how-set-email-domain-authentication). After this, you can send out campaigns even without topping up your account — 2,500 free emails are available.
 
-If you activate CDP features, you need to make some additional settings. Please contact us for advice and support in connecting Extra features.
+If you activate CDP features, you need to make some additional settings. Please contact us for advice and support in connecting *Extra features*.
 
 To make omnichannel campaigns, prepare the following settings:
 
-* SMS – register an SMS sender ID or [enable processing](https://docs.yespo.io/docs/setting-up-sms-processing).
-* Viber – [add sender ID](https://docs.yespo.io/docs/how-add-sender-name-viber).
-* Web Push – [follow the instructions on the link](https://docs.yespo.io/docs/web-push).
-* Mobile Push – [integrate your mobile app with Yespo](https://docs.yespo.io/docs/mobile-push).
-* App Inbox – set up a channel for a [website](https://docs.yespo.io/docs/how-to-set-up-integration-for-app-inbox) and/or [mobile app](https://docs.yespo.io/docs/app-inbox-for-mobile-apps).
-* Web Widget – install script on website and [setting up widgets](https://docs.yespo.io/docs/setting-up-widgets-for-your-site).
-* In-App – [connect your mobile app to Yespo](https://docs.yespo.io/docs/connecting-mobile-apps) and [install SDK](https://docs.yespo.io/docs/in-app#step-2-install-sdk).
-* Telegram – integrating with [Telegram Bot](https://docs.yespo.io/docs/integrating-telegram-bot).
+* **SMS** – register an SMS sender ID or [enable processing](https://docs.yespo.io/docs/setting-up-sms-processing).
+* **Viber** – [add sender ID](https://docs.yespo.io/docs/how-add-sender-name-viber).
+* **Web Push** – [follow the instructions on the link](https://docs.yespo.io/docs/web-push).
+* **Mobile Push** – [integrate your mobile app with Yespo](https://docs.yespo.io/docs/mobile-push).
+* **App Inbox** – set up a channel for a [website](https://docs.yespo.io/docs/how-to-set-up-integration-for-app-inbox) and/or [mobile app](https://docs.yespo.io/docs/app-inbox-for-mobile-apps).
+* **Web Widget** – install script on website and [setting up widgets](https://docs.yespo.io/docs/setting-up-widgets-for-your-site).
+* **In-App** – [connect your mobile app to Yespo](https://docs.yespo.io/docs/connecting-mobile-apps) and [install SDK](https://docs.yespo.io/docs/in-app#step-2-install-sdk).
+* **Telegram** – integrating with [Telegram Bot](https://docs.yespo.io/docs/integrating-telegram-bot).
 
 After completing the settings, connect the appropriate channels on the *Pricing plans* tab.
 
