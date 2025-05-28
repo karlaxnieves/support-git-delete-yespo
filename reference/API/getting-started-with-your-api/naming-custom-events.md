@@ -22,9 +22,9 @@ Standardizing naming is following certain rules when naming events and their par
 
 With standardized naming, your data will be consistent and convenient to use and understand:
 
-- **Unification.** When all data types and events have consistent names across all platforms, it simplifies their utilization.
-- **Usability.** As your business grows, you will need to keep track of more and more new events. Standardized naming will simplify the implementation of their transferring and save time for your developers.
-- **Transparency.** Different teams work with the same data: developers, marketers, analysts, etc. Standardized names make it easy for everyone to understand an event and its parameters for further analysis, experimentation, and other actions.
+* **Unification.** When all data types and events have consistent names across all platforms, it simplifies their utilization.
+* **Usability.** As your business grows, you will need to keep track of more and more new events. Standardized naming will simplify the implementation of their transferring and save time for your developers.
+* **Transparency.** Different teams work with the same data: developers, marketers, analysts, etc. Standardized names make it easy for everyone to understand an event and its parameters for further analysis, experimentation, and other actions.
 
 ## ObjectAction Scheme
 
@@ -38,27 +38,12 @@ Use verbs in the past tense to underline that events created after actions happe
 
 The `ObjectAction` scheme of events’ naming will help you
 
-- To build a funnel for analyzing interactions with particular features of your site: you will see object-related actions in alphabetical order.
-- To easily find events in the event history.
+* To build a funnel for analyzing interactions with particular features of your site: you will see object-related actions in alphabetical order.
+* To easily find events in the event history.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/790b692-Event_naming_1.png",
-        "",
-        "Event history"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/790b692-Event_naming_1.png" />
 
-
-- To ensure an understanding of what events are recorded in analytics: it’s obvious that an event called `ProductAddedToWishlist` means a contact added product to a wishlist.
+* To ensure an understanding of what events are recorded in analytics: it’s obvious that an event called `ProductAddedToWishlist` means a contact added product to a wishlist.
 
 ## Event Parameters
 
@@ -68,29 +53,14 @@ Create a list of standard parameters for all events. For example, for the `CartA
 
 Standardized event parameters will allow you [to build dynamic segments](https://docs.yespo.io/docs/creating-dynamic-segment) based on contact behavior on your site for marketing analytics and target campaigns.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3de5949-Event_naming_2.gif",
-        "",
-        "Dynamic segment"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/3de5949-Event_naming_2.gif" />
 
 ## `CamelCase` Format
 
 Use exceptional `CamelCase` format:
 
-- Write the event name by capitalizing the first letter of each word and not using spaces, underlines, and other special characters: **`ProductPurchased`**.
-- Write the parameter name by making the first letter of the first word lowercase and every subsequent word capitalized, not using spaces, underlines, and other special characters: **`imageUrl`**.
+* Write the event name by capitalizing the first letter of each word and not using spaces, underlines, and other special characters: **`ProductPurchased`**.
+* Write the parameter name by making the first letter of the first word lowercase and every subsequent word capitalized, not using spaces, underlines, and other special characters: **`imageUrl`**.
 
 ## List of Standard Events and Parameters
 
@@ -100,7 +70,7 @@ Use exceptional `CamelCase` format:
 | `ContactCreated` | `externalCustomerId`, `email`, `phone`, `token`                                                |
 
 > 📘 Note
-> 
+>
 > All events should include standard information about devices and contacts
 
 [More on launching event tracking >](https://docs.yespo.io/reference/integrating-your-app-with-reteno#3-launch-event-tracking)
