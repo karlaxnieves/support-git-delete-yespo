@@ -17,7 +17,7 @@ next:
 
 By default, Reteno SDK will handle links in in-app message buttons by starting an activity with `Intent.ACTION_VIEW` intent.
 
-But you can put a map with key `customData` in button click action in your in-app layout.  
+But you can put a map with key `customData` in button click action in your in-app layout.\
 To receive this data in your application you have to extend a `BroadcastReceiver` class where you will receive custom data when button is clicked.
 
 ```kotlin
