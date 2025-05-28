@@ -17,14 +17,14 @@ Here is a list of supported events:
 | **Event type**         | **Description**                                                                                                                                |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | productViewed          | Track a product card a user is viewing to rank items / categories and send triggers for abandoned browses.                                     |
-| productCategoryViewed  | Track a product category a user is viewing for triggers like _Website visit with a category view_ and _Website visit without a category view_. |
+| productCategoryViewed  | Track a product category a user is viewing for triggers like *Website visit with a category view* and *Website visit without a category view*. |
 | productAddedToWishlist | Track adding product to a wishlist to calculate and display recoms and send triggers related to a wishlist.                                    |
 | cartUpdated            | Track updating a shopping cart for triggers.                                                                                                   |
 | orderCreated           | Create an order.                                                                                                                               |
 | orderUpdated           | Update an order.                                                                                                                               |
 | orderDelivered         | Change an existing order status to DELIVERED.                                                                                                  |
 | orderCancelled         | Change an existing order status to CANCELLED.                                                                                                  |
-| searchRequest          | Track search requests for triggers like _Abandoned search_.                                                                                    |
+| searchRequest          | Track search requests for triggers like *Abandoned search*.                                                                                    |
 
 Track activity via `Reteno.ecommerce().logEvent(type: Ecommerce.EventType, date: Date, forcePush: Bool)` method. Provide appropriate event type, event date and forcePush flag (if you want to send event immediatelly).
 
@@ -112,15 +112,15 @@ This event supports the following properties:
 
 `Ecommerce.ProductInCart` model parameters:
 
-| **Parameter** | **Type**             | **Comment**                                                                               |
-| ------------- | -------------------- | ----------------------------------------------------------------------------------------- |
-| productId     | String               | Product ID (required).                                                                    |
-| price         | Float                | Product price (required).                                                                 |
-| quantity      | Int                  | Product quantity (required).                                                              |
-| discount      | Float?               | Disount                                                                                   |
-| name          | String?              | Product name                                                                              |
-| category      | String?              | Product category                                                                          |
-| attributes    | \[String: [String]]? | Additional attributes, for example, \["size": ["23", "42"], "color": ["white", "orange"]] |
+| **Parameter** | **Type**             | **Comment**                                                                                 |
+| ------------- | -------------------- | ------------------------------------------------------------------------------------------- |
+| productId     | String               | Product ID (required).                                                                      |
+| price         | Float                | Product price (required).                                                                   |
+| quantity      | Int                  | Product quantity (required).                                                                |
+| discount      | Float?               | Disount                                                                                     |
+| name          | String?              | Product name                                                                                |
+| category      | String?              | Product category                                                                            |
+| attributes    | \[String: [String]]? | Additional attributes, for example, \["size": \["23", "42"], "color": \["white", "orange"]] |
 
 Example:
 
@@ -138,11 +138,11 @@ Fire this event when a user creates an order.
 
 This event supports the following properties:
 
-| **Parameter** | **Type**                 | **Comment**                                                                                                                                                             |
-| ------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| order         | Ecommerce.Order          | Required parameter                                                                                                                                                      |
-| currencyCode  | String?                  | Currency in [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If is not set then org's default is used |
-| parameters    | Array of Event.Parameter | Extend event parameters with non-standard order attributes if necessary.                                                                                                |
+| **Parameter** | **Type**                 | **Comment**                                                                                                                                                              |
+| ------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| order         | Ecommerce.Order          | Required parameter                                                                                                                                                       |
+| currencyCode  | String?                  | Currency in [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217 "\{rel='nofollow'}") format. Supported currencies: USD, EUR, UAH. If is not set then org's default is used |
+| parameters    | Array of Event.Parameter | Extend event parameters with non-standard order attributes if necessary.                                                                                                 |
 
 `Ecommerce.Order` model parameters:
 
@@ -150,7 +150,7 @@ This event supports the following properties:
 | ----------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | externalOrderId   | String                    | ID of order in the external system (required).                                                                                             |
 | totalCost         | Float                     | Total cost of order (required).                                                                                                            |
-| status            | Status                    | Order status (required). Possible values: DELIVERED, IN_PROGRESS, CANCELLED, INITIALIZED. Only DELIVERED orders are used in RFM analysis.  |
+| status            | Status                    | Order status (required). Possible values: DELIVERED, IN\_PROGRESS, CANCELLED, INITIALIZED. Only DELIVERED orders are used in RFM analysis. |
 | date              | Date                      | Order date and time (required).                                                                                                            |
 | cartId            | String?                   | Shopping cart ID. Allows to match an order with shopping cart actions.                                                                     |
 | email             | String?                   | Customer email address.                                                                                                                    |
