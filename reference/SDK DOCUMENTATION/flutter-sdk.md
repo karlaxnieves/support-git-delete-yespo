@@ -16,16 +16,16 @@ next:
 
 ### The SDK Supports:
 
-- Flutter 2.5 or later
-- iOS 12.0 or later
-- Android 8.0 or later (minSdk = 26)
+* Flutter 2.5 or later
+* iOS 12.0 or later
+* Android 8.0 or later (minSdk = 26)
 
 ## Getting Started with Reteno SDK / Setup Guide
 
-- [iOS](https://docs.yespo.io/reference/flutter-ios-sdk-setup)
-- [Android](https://docs.yespo.io/reference/flutter-android-sdk-setup)
-​
+* [iOS](https://docs.yespo.io/reference/flutter-ios-sdk-setup)
+* [Android](https://docs.yespo.io/reference/flutter-android-sdk-setup)\
+  ​
 
 ### Licence
 
-Reteno Plugin Flutter SDK is released under the MIT license. See [LICENSE](https://github.com/reteno-com/reteno-flutter/blob/main/LICENSE "{rel='nofollow'}") for details.
+Reteno Plugin Flutter SDK is released under the MIT license. See [LICENSE](https://github.com/reteno-com/reteno-flutter/blob/main/LICENSE "\{rel='nofollow'}") for details.
