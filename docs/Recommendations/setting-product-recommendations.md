@@ -17,9 +17,9 @@ Product recommendations increase the effectiveness of advertising communications
 
 To display recommended products, you can use the following:
 
-- [Any site pages](https://docs.yespo.io/docs/recommendations-overview)
-- [Mobile application](https://docs.yespo.io/docs/recommendations-in-mobile-app)
-- [All Yespo media channels](https://docs.yespo.io/docs/recommendations-in-media-channels)
+* [Any site pages](https://docs.yespo.io/docs/recommendations-overview)
+* [Mobile application](https://docs.yespo.io/docs/recommendations-in-mobile-app)
+* [All Yespo media channels](https://docs.yespo.io/docs/recommendations-in-media-channels)
 
 Before you start setting up recommendations:
 
@@ -30,9 +30,9 @@ Before you start setting up recommendations:
 
 In this section you will also find general instructions for working with recommendations:
 
-- [How to use analytics](https://docs.yespo.io/docs/recommendation-block-analytics)
-- [How to conduct A/B testing](https://docs.yespo.io/docs/testing-recommendation-blocks)
+* [How to use analytics](https://docs.yespo.io/docs/recommendation-block-analytics)
+* [How to conduct A/B testing](https://docs.yespo.io/docs/testing-recommendation-blocks)
 
 > 📘 Note
-> 
+>
 > If you encounter difficulties at any of the configuration steps, please contact our support at [support@yespo.io](mailto:support@yespo.io)
