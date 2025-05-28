@@ -12,22 +12,7 @@ next:
 ---
 During a Mobile Push creation in the Reteno account you can specify the Link field in the form. It might be either some web page url, or deep link to the application.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e9aefdd-add_link_to_push.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "720px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="720px" src="https://files.readme.io/e9aefdd-add_link_to_push.png" />
 
 By default Reteno SDK will open it via system method `UIApplication.shared.open(url, options: [:], completionHandler: nil)`
 
@@ -66,6 +51,7 @@ Reteno.addLinkHandler { [weak self] url, customData in
     self?.applicationFlowCoordinator.handleUniversalLink(linkItem)
 }
 ```
+
 Starting from Reteno SDK 2.0.2 onwards link handler has a single value in the closure `LinkHandler`. You can receive `url`, `customData`, and `source` - indicating from where the link handler was triggered. 
 
 ```swift
