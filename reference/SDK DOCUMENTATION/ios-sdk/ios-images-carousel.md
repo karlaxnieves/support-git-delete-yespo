@@ -12,97 +12,27 @@ next:
 ---
 The `UNNotificationContentExtension` protocol provides the entry point for a notification content app extension, which displays a custom interface for your app’s notifications.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/555a2e8-images_carousel.gif",
-        "images_carousel.gif",
-        888
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/555a2e8-images_carousel.gif" />
 
 Follow this guide to add an Images carousel to your push notification.
 
 ## Step 1. Add a Notification Content Extension
 
-In Xcode, select _File_ ➝ _New_ ➝ _Target_...
+In Xcode, select *File* ➝ *New* ➝ *Target*...
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4ddb5c8-add_new_target.png",
-        "add_new_target.png",
-        2012
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/4ddb5c8-add_new_target.png" />
 
 Select the Notification Content Extension
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/005ffaf-choose_template_for_extension.png",
-        "choose_template_for_extension.png",
-        1468
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/005ffaf-choose_template_for_extension.png" />
 
 Name it, for example `NotificationContentExtension`
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5b49fb3-choose_options_for_target.png",
-        "choose_options_for_target.png",
-        1468
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/5b49fb3-choose_options_for_target.png" />
 
 Select **Activate** to debug the new scheme.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4cb155b-activate_scheme_popup.png",
-        "activate_scheme_popup.png",
-        528
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/4cb155b-activate_scheme_popup.png" />
 
 ## Step 2. Import Reteno SDK to the Content Extension
 
@@ -135,42 +65,15 @@ end
 
 Otherwise import `Reteno` package in the project settings.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bfdace0-connect_package.png",
-        "connect_package.png",
-        1912
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/bfdace0-connect_package.png" />
 
 ## Step 3. Update Extension Files
 
 Remove created `MainInterface.storyboard`
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/aecfdad-created_storyboard.png",
-        "created_storyboard.png",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/aecfdad-created_storyboard.png" />
 
-Import `Reteno SDK` in the `NotificationViewController` and inherit it from the  
+Import `Reteno SDK` in the `NotificationViewController` and inherit it from the\
 `RetenoCarouselNotificationViewController`
 
 ```swift
@@ -202,27 +105,13 @@ Go to `NotificationContentExtension` ➝ `Info.plist` ➝ `Open as >` ➝ `Sourc
 </dict>
 ```
 
-For more about keys visit [UNNotificationContentExtension](https://developer.apple.com/documentation/usernotificationsui/unnotificationcontentextension "{rel='nofollow'}")
+For more about keys visit [UNNotificationContentExtension](https://developer.apple.com/documentation/usernotificationsui/unnotificationcontentextension "\{rel='nofollow'}")
 
 ## Step 5. Send Your Push Notification
 
 In Reteno account go to the `Messages` ➝ `Mobile Push` and configure notification:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c5bb419-configure_push_in_cabinet.png",
-        "configure_push_in_cabinet.png",
-        1974
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80%" src="https://files.readme.io/c5bb419-configure_push_in_cabinet.png" />
 
 **Send the Push**
 
@@ -256,18 +145,4 @@ If you correctly added the Notification Service Extension and the Notification C
 
 Select your main target → Build Phases → Embed App Extensions. Ensure "Copy only when installing" is NOT checked:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3efef20-small-build_phases_check.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/3efef20-small-build_phases_check.png" />
