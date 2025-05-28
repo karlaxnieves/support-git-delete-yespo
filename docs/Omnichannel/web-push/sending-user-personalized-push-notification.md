@@ -23,10 +23,10 @@ Push button notifications work like this:
 
 In our Push notification service, the process of this option implementation consists of the following stages:
 
-- Configuring your customers addresses (tokens) collecting process.
-- Configuring event transfer to the system
-- Creating a website Push notification
-- Creating and running a script
+* Configuring your customers addresses (tokens) collecting process.
+* Configuring event transfer to the system
+* Creating a website Push notification
+* Creating and running a script
 
 ## Configuring Your Customers Addresses (Tokens) Collecting Process.
 
@@ -43,10 +43,10 @@ function sendEventForToken(pushToken) {
 es('getPushToken', sendEventForToken);
 ```
 
-where  
-**eventTypeKey** – the name of the event;  
-**keyValue** - here we specify the value of push-token;  
-**param\_1, param\_2 … param\_n** – the of the event parameters we shall need in the system;  
+where\
+**eventTypeKey** – the name of the event;\
+**keyValue** - here we specify the value of push-token;\
+**param\_1, param\_2 … param\_n** – the of the event parameters we shall need in the system;\
 **value\_1, value\_2 … value\_n** – corresponding parameters value.
 
 ## How to Create Your Own Push Notification
@@ -75,30 +75,15 @@ es('sendEvent', 'sold', pushToken);
 es('getPushToken', sendEventForToken);
 ```
 
-Now build a workflow which will trigger with the _Abandoned Cart_ event and will include the following blocks:
+Now build a workflow which will trigger with the *Abandoned Cart* event and will include the following blocks:
 
-- Start
-- Timer (purchase event waiting time)
-- Check event (has a purchase been made?)
-- Web Push (pre-prepared reminder about an abandoned cart)
-- End (for both paths)
+* Start
+* Timer (purchase event waiting time)
+* Check event (has a purchase been made?)
+* Web Push (pre-prepared reminder about an abandoned cart)
+* End (for both paths)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7ed7df9be1759942a4cf8a435088d0327cb73991948f82e24957efa35f3c0800-workflow-scheme-en.webp",
-        "workflow for push notifications",
-        "workflow for push notifications"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/7ed7df9be1759942a4cf8a435088d0327cb73991948f82e24957efa35f3c0800-workflow-scheme-en.webp" />
 
 The script timer value is set depending on users behavioral characteristics on your website.
 
