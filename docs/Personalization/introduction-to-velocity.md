@@ -25,9 +25,9 @@ Dynamic content in messages is used to substitute the personalized data to send 
 
 Data for substitution in the message can be transmitted:
 
-- From the [user profile](https://docs.yespo.io/docs/user-profile) in the Yespo system
-- From the [external data sources](https://docs.yespo.io/docs/external-data-sources)
-- From the [event](https://docs.yespo.io/docs/events-and-behaviour-tracking)
+* From the [user profile](https://docs.yespo.io/docs/user-profile) in the Yespo system
+* From the [external data sources](https://docs.yespo.io/docs/external-data-sources)
+* From the [event](https://docs.yespo.io/docs/events-and-behaviour-tracking)
 
 No matter where you transfer data from, it enters the Yespo system in the same format: JSON object data with some parameters.
 
@@ -58,50 +58,20 @@ As an example, the object which is transmitted in the event by the smartsend API
 
 To display the transmitted values in a message, you have to use the velocity structure `$!data.get('discount')` and `$!data.get('link')` in the message, where:
 
-- `$!data.get` — command to extract data,
-- value in quotes and brackets indicates the field where to extract data from.
+* `$!data.get` — command to extract data,
+* value in quotes and brackets indicates the field where to extract data from.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f45e170922a003bad0190b00a01b67cefce35f3ffe0128d14fbfa662be28930c-cc2599e-Introduction_to_Velocity_1.webp",
-        null,
-        "Variables in messages"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/f45e170922a003bad0190b00a01b67cefce35f3ffe0128d14fbfa662be28930c-cc2599e-Introduction_to_Velocity_1.webp" />
 
 After data substitution when sending, the message will look as follows:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/aeedb73d384930f942a0ea373ea35969d10c1ebebcd0d60a532e2cf057f7dfa6-dc0b6b1-Introduction_to_Velocity_2.webp",
-        null,
-        "Message after data substitution"
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="80% " src="https://files.readme.io/aeedb73d384930f942a0ea373ea35969d10c1ebebcd0d60a532e2cf057f7dfa6-dc0b6b1-Introduction_to_Velocity_2.webp" />
 
-
-The value _“5%”_ substitutes the discount variable, and the value `https://site.com/items_for_sale` substitutes the link variable as the link for the button.
+The value *“5%”* substitutes the discount variable, and the value `https://site.com/items_for_sale` substitutes the link variable as the link for the button.
 
 For more information on how to use velocity variables, see the articles below:
 
-- [User Profile Variables and Velocity Features >](https://docs.yespo.io/docs/user-profile-variables-and-velocity-features)
-- [Using Velocity in Email >](https://docs.yespo.io/docs/using-velocity-email)
-- [Using Velocity in Mobile Push and other channels >](https://docs.yespo.io/docs/using-velocity-mobile-push)
-- [Adding data from external data sources to an email on the Google Spreadsheet example >](https://docs.yespo.io/docs/how-import-external-data-google-sheets)
+* [User Profile Variables and Velocity Features >](https://docs.yespo.io/docs/user-profile-variables-and-velocity-features)
+* [Using Velocity in Email >](https://docs.yespo.io/docs/using-velocity-email)
+* [Using Velocity in Mobile Push and other channels >](https://docs.yespo.io/docs/using-velocity-mobile-push)
+* [Adding data from external data sources to an email on the Google Spreadsheet example >](https://docs.yespo.io/docs/how-import-external-data-google-sheets)
