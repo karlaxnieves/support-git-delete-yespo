@@ -38,7 +38,7 @@ Enter your account details and allow access. In our system, the imported templat
 
 * **Transferring from a drag-and-drop editor.** You need to build a similar template in our email editor from scratch. You can use one of more than 1000+ ready templates or apply for a free template that’s available for new users.
 
-You can’t transfer push notifications, **SMS**, and **Viber** message templates. You need to create these messages anew.
+You can’t transfer push notifications, SMS, and Viber message templates. You need to create these messages anew.
 
 ## How Not to Get into SPAM?
 
