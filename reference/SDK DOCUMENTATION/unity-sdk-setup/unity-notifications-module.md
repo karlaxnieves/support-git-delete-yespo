@@ -40,5 +40,5 @@ public class NotificationExample : MonoBehaviour
 
 ### Additional Tips:
 
-- Permission Callbacks: Handle each callback to provide proper feedback to the user.
-- Data Handling: Use the optional onDataReceived callback to process any additional data returned by the native push service.
+* Permission Callbacks: Handle each callback to provide proper feedback to the user.
+* Data Handling: Use the optional onDataReceived callback to process any additional data returned by the native push service.
