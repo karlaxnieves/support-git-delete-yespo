@@ -40,84 +40,25 @@ cordova platform add ios
 
 ### Step 2: Set up your Firebase application for Firebase Cloud Messaging:
 
-- Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en)).
+* Download your `google-services.json` config file (see how [here](https://support.google.com/firebase/answer/7015592?hl=en)).
 
-- Add the above file to your root `app/` folder.
+* Add the above file to your root `app/` folder.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/401a279-google-services-json.png",
-        null,
-        "Firebase Cloud Messaging"
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/401a279-google-services-json.png" />
 
+* Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/), click the gear icon next to Overview.
 
-- Copy your FCM Server Key. In the [Firebase console](https://console.firebase.google.com/), click the gear icon next to Overview.
+<Image align="center" width="600px" src="https://files.readme.io/5a5bf7c-FirebaseConsole.png" />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5a5bf7c-FirebaseConsole.png",
-        null,
-        "FCM Server Key"
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
+Then click *Project Settings* → *Cloud Messaging* → *Manage Service Accounts*.
 
-
-Then click _Project Settings_ → _Cloud Messaging_ → _Manage Service Accounts_.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a74ba86-CloudConsole1.png",
-        null,
-        "Project Settings"
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="600px" src="https://files.readme.io/a74ba86-CloudConsole1.png" />
 
  Go to Service accounts to download `FirebaseAdminSdk` account's json key.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ca223b0-CloudConsole2.png",
-        null,
-        "FirebaseAdminSdk"
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="600px" src="https://files.readme.io/ca223b0-CloudConsole2.png" />
 
-
-- Follow this manual to [set up Reteno admin panel](https://docs.reteno.com/docs/connect-your-mobile-app) with your Firebase key.
+* Follow this manual to [set up Reteno admin panel](https://docs.reteno.com/docs/connect-your-mobile-app) with your Firebase key.
 
 Now you are ready to run your app and send a marketing push notification to your application.
 
@@ -175,7 +116,7 @@ Then go to `AppDelegate.m` and modify your code to contain `RetenoTransitionLaye
 
 ```
 
-If you get an "Use of undeclared identifier 'RetenoTransitionLayer'" error here, it means that you need to create a Bridging header file yourself, here's how to do that:  
+If you get an "Use of undeclared identifier 'RetenoTransitionLayer'" error here, it means that you need to create a Bridging header file yourself, here's how to do that:\
 In Xcode press File → New → File → Header File
 
 Save it with `YourProjectName-Bridging-Header.h` name, make sure to replace YourProjectName with your ios Xcode project name, in our example project, the header was created manually as `Bridging-Header.h`, the ".h" extension will be put automatically.
@@ -192,27 +133,12 @@ Finally, you need to import this header in your AppDelegate header file (AppDele
 #import "ExampleCordova-Swift.h"
 ```
 
-This is needed in order to use Objective-C and Swift files together in a single project.  
+This is needed in order to use Objective-C and Swift files together in a single project.\
 You can read more about [importing swift](https://developer.apple.com/documentation/swift/importing-swift-into-objective-c) and [bridging headers](https://developer.apple.com/documentation/swift/importing-objective-c-into-swift), [react-native docs](https://reactnative.dev/docs/native-modules-ios#exporting-swift) exporting swift section.
 
 If you get an "No known class method for selector `'setupForApplication:'`" error, or any other "No known class method for selector" error related to `RetenoTransitionLayer`:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2bb6f1d-Screenshot_2023-12-21_at_20.27.12.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "80% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80% " src="https://files.readme.io/2bb6f1d-Screenshot_2023-12-21_at_20.27.12.png" />
 
 You need to open your Project file, go to `Build Settings`, and in the search bar type: `Swift Compiler` and scroll down until you find `Swift Compiler - General` section.
 
@@ -228,43 +154,13 @@ The `NotificationServiceExtension` allows your iOS application to receive rich n
 
 **4.2** Select `Notification Service Extension` then press `Next`.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c5fad32-create_notification_service_extension.png",
-        "create_notification_service_extension.png",
-        "Notification Service Extension"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/c5fad32-create_notification_service_extension.png" />
 
 **4.3** Enter the product name as `NotificationServiceExtension` and press `Finish`.
 
 Do not select `Activate` on the dialog that is shown after selecting `Finish`.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9faf03c-choose_options_for_extension.png",
-        "choose_options_for_extension.png",
-        "Activate"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/9faf03c-choose_options_for_extension.png" />
 
 **4.4** Press `Cancel` on the Activate scheme prompt.
 
@@ -277,25 +173,10 @@ If you activate the prompt by accident, you can switch back to debugging your ap
 Check that the Deployment Target is set to the same value as your Main Application Target.
 
 > 📘 Note
-> 
+>
 > iOS versions under 10 will not be able to get Rich Media.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b1e7987-configure_target.png",
-        "configure_target.png",
-        "Main Application Target"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/b1e7987-configure_target.png" />
 
 **4.6** In the project navigator, select the `NotificationServiceExtension` folder and open the `NotificationService.swift`, then replace the entire file contents with the following code. Ignore any build errors at this point. We will import the Reteno module, which will resolve any errors.
 
@@ -314,41 +195,11 @@ More about Notification Service Extension [Modifying Content in Newly Delivered 
 
 **5.2** Click **"+ Capability"** if you do not have App Groups in your app yet.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1173533-add_group_main_target.png",
-        "add_group_main_target.png",
-        "Capability"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/1173533-add_group_main_target.png" />
 
 **5.3** Select App Groups.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/945e24e-app_groups_capability.png",
-        "app_groups_capability.png",
-        "App Groups"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/945e24e-app_groups_capability.png" />
 
 **5.4** Under App Groups click the **"+"** button.
 
@@ -356,22 +207,7 @@ More about Notification Service Extension [Modifying Content in Newly Delivered 
 
 **5.6** In the `NotificationServiceExtension` target and repeat steps **5.2** - **5.5** for extension target
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2875896-add_group_in_extension.png",
-        "add_group_in_extension.png",
-        "NotificationServiceExtension"
-      ],
-      "align": "center",
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="80%" src="https://files.readme.io/2875896-add_group_in_extension.png" />
 
 Note that group name structure should be `group.{bundle_id}.reteno-local-storage` where `bundle_id` is the same as your **Main App target** "Bundle Identifier". **Do Not Include** NotificationServiceExtension.
 
@@ -403,14 +239,14 @@ If you already use Firebase for Remote notifications or would like to use Fireba
 
 ## Run iOS version
 
-- **Run from command line**:
+* **Run from command line**:
 
 ```shell
 cordova run ios
 ```
 
-- **Run from Xcode**: Go to platforms/ios folder and open `Reteno Cordova Example.xcworkspace`
+* **Run from Xcode**: Go to platforms/ios folder and open `Reteno Cordova Example.xcworkspace`
 
 > 📘 Note
-> 
+>
 > [iOS Debug Mode](https://docs.yespo.io/reference/ios-debug-mode) enables you to ensure that all events and user properties are logged correctly.
