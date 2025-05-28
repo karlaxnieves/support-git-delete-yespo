@@ -18,14 +18,14 @@ next:
 
 ##### The SDK supports:
 
-- Cordova 10.2 or later
-- iOS 12.0 or later
-- Android 8.0 or later (minSdk = 26)
+* Cordova 10.2 or later
+* iOS 12.0 or later
+* Android 8.0 or later (minSdk = 26)
 
 ## Getting Started with Reteno SDK / Setup Guide
 
-- [iOS](https://docs.yespo.io/reference/cordova-ios-sdk-setup)
-- [Android](https://docs.yespo.io/reference/cordova-android-sdk-setup)  
+* [iOS](https://docs.yespo.io/reference/cordova-ios-sdk-setup)
+* [Android](https://docs.yespo.io/reference/cordova-android-sdk-setup)\
   ​
 
 ##### Licence
