@@ -17,7 +17,7 @@ Additional fields in contact cards are created to store specific information abo
 
 ## Additional Fields Tab
 
-Additional fields are listed in the account settings →  *Additional fields* tab (by default, there is only the *Personal* list with the *Birthday* and *Gender* fields).
+Additional fields are listed in the account settings →  **Additional fields** tab (by default, there is only the **Personal** list with the **Birthday** and **Gender** fields).
 
 <Image align="center" width="80% " src="https://files.readme.io/1c083612abc05df4f7de6bd2899ff817a26185b0b115b279ca1e730d7a31236a-additional-fields-1.webp" />
 
@@ -27,8 +27,8 @@ The list of additional fields displays:
 2. Field name.
 3. Variable for automatically inserting the contents of the field into the message and updating contact cards with event parameters via SDK.
 4. Field ID.
-5. *Edit field* button.
-6. *Delete* field button.
+5. **Edit field** button.
+6. **Delete** field button.
 
 <Image align="center" width="80% " src="https://files.readme.io/843a7f3f0334fd9c5d905f1362a9fffd5b5d6926eb2e95e8454de11ccdb951d3-additional-fields-2.webp" />
 
@@ -38,7 +38,7 @@ You can create lists and add fields to them.
 
 Creating lists allows you to group fields by a specific common value: personal data, product preferences, etc. The algorithm for creating a list of fields is as follows:
 
-1. Click the *New list of fields* button.
+1. Click the **New list of fields** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/302c23a22f4c4e3b98f1e4471330f851fd3e21f4f664da890a017b1a46eb153e-additional-fields-3.webp" />
 
@@ -50,7 +50,7 @@ Creating lists allows you to group fields by a specific common value: personal d
 
 <Image align="center" width="80% " src="https://files.readme.io/f1cdf82d7e02d11b40a57c94810a68914ae476f8e827914c8b12c8c54f21ac0c-additional-fields-777.webp" />
 
-4. Click *Save*.
+4. Click **Save**.
 
 <Image align="center" width="80% " src="https://files.readme.io/6094d22dc3bd0e85a5de0c26f6b7f1004458d23210e3ca92d5d3ed990f1eca77-additional-fields-6.webp" />
 
@@ -79,7 +79,7 @@ Depending on [the contact data type](https://docs.yespo.io/docs/how-import-and-
 
 * The **Text input** can contain up to a thousand characters, both letters and integers. Special characters are not supported. You can use this field type, for example, to record the name and address of a contact.
 * The **Text area** can contain up to five thousand characters, both letters and integers. Special characters are not supported. You can use this field type, for example, to record answers to detailed questions.
-* The **Number** can only contain integer values from -2147483647 to 2147483647 (order ID, number of bonuses, etc.)
+* The **Number** can only contain integer values from **-2147483647** to **2147483647** (order ID, number of bonuses, etc.)
 * The **Fractional number** can contain whole numbers and fractions (amount of orders, etc.)
 * The **Date** – values must be transmitted in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601 "\{rel='nofollow'}")  format. Date format: `YYYY-MM-DD`. The **Regular date** option is used to create [dynamic segments](https://docs.yespo.io/docs/how-add-dynamic-segment) for regular communication around recurring events such as anniversaries, [birthdays](https://docs.yespo.io/docs/how-set-automated-birthday-campaign), etc.
 
@@ -90,7 +90,7 @@ Depending on [the contact data type](https://docs.yespo.io/docs/how-import-and-
 
 Important
 
-Do not use the period symbol in the field name. For example, you can write *Marital status* separated by a space or underscore
+Do not use the period symbol in the field name. For example, you can write **Marital status** separated by a space or underscore
 
 <Image align="center" width="80% " src="https://files.readme.io/1ceaa4e5e2590de864ca2e622548bc2f4a3fe4343deee4008e60ed3eb6ce541f-additional-fields-11.webp" />
 
@@ -98,7 +98,7 @@ Do not use the period symbol in the field name. For example, you can write *Mari
 
 <Image align="center" width="80% " src="https://files.readme.io/539612dfc891d82305c04079f509eb09f537cf00a521b2b79332bda6e430cb89-additional-fields-12.webp" />
 
-To write or update a checkbox field using the [Add/update contacts](https://docs.yespo.io/reference/contactsbulkupdate-1) API method, pass the field ID (the numeric value specified in the list of fields) in the *fields* array and specify the value separated by commas:
+To write or update a checkbox field using the [Add/update contacts](https://docs.yespo.io/reference/contactsbulkupdate-1) API method, pass the field ID (the numeric value specified in the list of fields) in the **fields** array and specify the value separated by commas:
 
 ```json
 "fields": [{
@@ -115,7 +115,7 @@ Also, specify the `customFieldsIDs `object identifier, which lists additional fi
 
 ## Updating Custom Fields with Data from Custom Events via SDK
 
-Use contacts' fields variables without % characters as a key to update corresponding contact fields via SDK.
+Use contacts' fields variables without `%` characters as a key to update corresponding contact fields via SDK.
 
 <Image align="center" width="80% " src="https://files.readme.io/138d92a2ec7258d8cadd40878bec921a948a8b19406cda3244aa584723223a67-variable.webp" />
 
