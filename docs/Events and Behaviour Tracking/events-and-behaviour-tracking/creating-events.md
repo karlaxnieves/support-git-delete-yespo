@@ -53,9 +53,8 @@ Follow the steps below:
 
 <Image align="center" width="80% " src="https://files.readme.io/5625d2c16423ef1d81b65224df8bb5099b6cdbbd7778fda1fa603c71b5f2a352-event-10.webp" />
 
-1\. Fill in *Name* (required).
-
-2\. Fill in *Key* (required). A key is a unique event identifier that is registered in the system. You can fill in any text in Latin, with numbers allowed, for example, click, sale1, etc.
+1. Fill in *Name* (required).
+2. Fill in *Key* (required). A key is a unique event identifier that is registered in the system. You can fill in any text in Latin, with numbers allowed, for example, click, sale1, etc.
 
 > 📘 Note
 >
@@ -65,21 +64,20 @@ Follow the steps below:
 
 <Image align="center" width="80% " src="https://files.readme.io/162a6c0bfdc3b24b7a6c7aa9439cfaa509134c169933e1a216965ebb07f11dd2-event-8.webp" />
 
-4\. In *Category*, select the necessary event category.
-
-5\. If you're subscribed to [Segmentation by user events](https://docs.yespo.io/docs/how-to-use-event-segmentation), enable *Use event for contact segmentation*. Segmentation primarily applies to user-generated events sent via API.
+4. In *Category*, select the necessary event category.
+5. If you're subscribed to [Segmentation by user events](https://docs.yespo.io/docs/how-to-use-event-segmentation), enable *Use event for contact segmentation*. Segmentation primarily applies to user-generated events sent via API.
 
 Note
 
 To subscribe, please contact our sales team [sales@yespo.io](mailto:sales@yespo.io)
 
-6\. Enable *Validate parameters*.
+6. Enable *Validate parameters*.
 
 If the option is enabled, the system only accepts an event whose structure complies with the validation rules.
 
 [More about Validating Event parameters >](https://docs.yespo.io/docs/validating-event-parameters)
 
-7\. Click *Add*.
+7. Click *Add*.
 
 After this, a new event type appears in the *Event types* list.
 
@@ -103,7 +101,7 @@ Create a workflow that will be launched by the created event. For example:
 
 * [click in the message](https://docs.yespo.io/docs/how-add-scenario-button) (*Click*);
 * subscription (*Subscribe/Unsubscribe*);
-* import of new contacts (*Import*);
+* import of new contacts (\_Import\_);
 * migration of subscribers from active to passive (*RFM*);
 * website and app activity (*Other, Subscription, View*);
 * order (*initialized, in progress, delivered, canceled*).
@@ -281,9 +279,9 @@ To find a specific event, enter its name in the search bar.
 
 ## Event History
 
-You can view the events sent to the system in *Automation* → *Event history*.
+You can view the events sent to the system in **Automation** → **Event history**.
 
-<Image align="center" width="80% " src="https://files.readme.io/429bfe6d34625c4032076188c837a23277b50c58839d3a73d07c7e842c5e322e-3492499-launching-a-riggered-campaign-on-event-009.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/3cb74d317d516027a64ffd971d44eb4f77397d8bd18ed284305d028f7839d8cd-history_1.png" />
 
 If no events have been sent, the tab will be empty.
 
@@ -291,12 +289,16 @@ You can track events sent to Yespo, filter them by name and time, and search by 
 
 Event type, its key, linked workflow, the contact found (if event segmentation is used), and time when the event is registered, are displayed in the general list of events.
 
-<Image align="center" width="80% " src="https://files.readme.io/4606b4411fdf6c917cec9e21045c13aeabd6672a704509647c4776ba2aa860af-6dfc9c5-launching-a-riggered-campaign-on-event-010.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/2d071b0d5288cb1f819d82ab3f00d210390c28a74760f2337c072121255eb319-history_2.png" />
 
 Click the event to see its parameters.
 
-<Image align="center" width="80% " src="https://files.readme.io/f2154d9a1aaa61c2c8bc6653431a01cadaaca3611eaa0dc7f1de1bf9abbd5af3-68d9368-launching-a-riggered-campaign-on-event-011.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/321e68c33974ce4f483f743d2771f0e11f99a0691161283fc56d6137b2c4d143-history_4.png" />
 
 This information will allow you to monitor the workflow in progress.
+
+On the **With errors** tab, you can see relevant events, such as missing required parameters. Error examples will help you easily debug the sending of the necessary data.
+
+<Image align="center" width="80% " src="https://files.readme.io/7cc9d56e2fa20f2396a0e875c67eff422e886bb0419e9c6a034138e6de15c1e4-history_3.png" />
 
 If you have any questions, please contact to [support@yespo.io](mailto:support@yespo.io)
