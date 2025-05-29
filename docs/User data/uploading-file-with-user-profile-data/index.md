@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Contact Import is a feature that enables quick creation of a contact list for [SMS](https://docs.yespo.io/docs/creation-sms) or Email campaigns. It’s often used for manual mapping of the contact base from the internal CRM to the Reteno.
+Contact Import is a feature that enables quick creation of a contact list for [SMS](https://docs.yespo.io/docs/creation-sms) or Email campaigns. It’s often used for manual mapping of the contact base from the internal CRM to the Yespo.
 
 ## 1. File Preparation
 
