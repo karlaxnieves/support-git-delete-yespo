@@ -64,19 +64,19 @@ Domain reputation in Gmail. If it drops, it is necessary to analyze the mailings
 
 Following <a rel="nofollow" href="https://support.google.com/a/answer/6254652?hl=en&sjid=6029099505035535639-EU" target="_blank"> Google standards</a>, we transmit information about the campaign type, the sender’s organization ID in Yespo, the campaign ID, and the Sender ID in the Feedback-ID email header.
 
-* An example of Feedback-ID for a bulk campaign: b4502231:Yespo.io.
-* An example of Feedback-ID for a trigger campaign: t197398:Yespo.io.
-* An example of Feedback-ID for a single message: im14413670895:Yespo.io.
+* An example of Feedback-ID for a bulk campaign: `b4502231:Yespo.io`.
+* An example of Feedback-ID for a trigger campaign: `t197398:Yespo.io`.
+* An example of Feedback-ID for a single message:` im14413670895:Yespo.io`.
 
 **b** before the first number is the identifier of the bulk campaign; **t** is the identifier of the trigger campaign; **im** is the identifier of a single message.
 
 Long numbers are:
 
 * Callout ID of a bulk campaign.
-* ІМ-Callout ID of a trigger campaign via a workflow or the Smartsend method.
-* Instant Message ID (IMID) of a single test or sent via the v1/message/email method.
+* ІМ-Callout ID of a trigger campaign via a workflow or the **Smartsend** method.
+* Instant Message ID (IMID) of a single test or sent via the` v1/message/email method`.
 
-When email recipients with @gmail.com addresses report spam, the Spam Feedback Loop graph displays the complaints.
+When email recipients with `@gmail.com` addresses report spam, the Spam Feedback Loop graph displays the complaints.
 
 <Image align="center" width="80% " src="https://files.readme.io/804f513d801a2781fd1414f8067eaf02b8505f8f6c7ca138032764f9998d2327-postmaster-5.webp" />
 
@@ -84,13 +84,13 @@ Click any data point on the graph to see the IDs of campaign types and the corre
 
 ## Authentication Traffic
 
-The volume of traffic passing SPF, DKIM, and DMARC authentication.
+The volume of traffic passing **SPF**, **DKIM**, and **DMARC** authentication.
 
 <Image align="center" width="80% " src="https://files.readme.io/57691edd56c571c156cc8864f2d1f51669b18f28c1ced5826c06826b1afb84ff-postmaster-6.webp" />
 
 ## Encrypted Traffic 
 
-The volume of inbound and outbound traffic encrypted using the TLS (Transport Layer Security) protocol.
+The volume of inbound and outbound traffic encrypted using the **TLS** (Transport Layer Security) protocol.
 
 <Image align="center" width="80% " src="https://files.readme.io/904843253d2acd5e5b2692eb0a1aab044695b8a0ec6cb1fb6a287e23a4495597-postmaster-7.webp" />
 
@@ -98,8 +98,8 @@ The volume of inbound and outbound traffic encrypted using the TLS (Transport La
 
 2 types of errors are displayed:
 
-* SMTP Error 550: The recipient does not exist or is incorrectly specified.
-* SMTP Error 421: The message was not delivered due to temporary problems with the mail server or due to exceeding mail traffic limits.
+* `SMTP Error 550`: The recipient does not exist or is incorrectly specified.
+* `SMTP Error 421`: The message was not delivered due to temporary problems with the mail server or due to exceeding mail traffic limits.
 
 <Image align="center" width="80% " src="https://files.readme.io/b27e2ada5453b9c871a1426b1f12ce423e0b227e68cf8444c1049e3f03cef9a1-postmaster-8.webp" />
 
