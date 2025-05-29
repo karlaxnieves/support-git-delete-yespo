@@ -17,7 +17,7 @@ next:
 There is always a risk that some technical or human error will occur that will cause the processes you have automated to fail. To find out about such problems promptly, set up alerts about:
 
 * **Events** received during a specific period to ensure the correct functioning of workflows and segmentation by events. If the integration breaks, events stop flowing into the system, associated workflows do not run, and associated conditional segments are not updated.
-* **Messages with specific [tags](https://docs.yespo.io/docs/how-add-tags)** sent over a specific period to maintain the expected frequency of mailings. Message tracking helps control mailing failures that are not related to the arrival of events: for example, due to a lack of funds.
+* **Messages with specific** [tags](https://docs.yespo.io/docs/how-add-tags) sent over a specific period to maintain the expected frequency of mailings. Message tracking helps control mailing failures that are not related to the arrival of events: for example, due to a lack of funds.
 
 > 📘 Note
 >
@@ -27,7 +27,7 @@ There is always a risk that some technical or human error will occur that will c
 
 ## Creating Notification
 
-1. Go to your profile settings → *Notifications* and click *New notification*.
+1. Go to your profile settings → **Notifications** and click **New notification**.
 
 <Image align="center" width="80%" src="https://files.readme.io/dfe1d5b951f79659668978e8bd601ac08ee80974815d35e4a807dfa1d09cb35a-image2.webp" />
 
@@ -43,9 +43,9 @@ There is always a risk that some technical or human error will occur that will c
 
 > 📘 Note
 >
-> We recommend using both types of notifications — *Warnings* and *Alarms*. For example, you can set a warning when there are 500 promocodes left in the system, and there is still time to respond, and an alarm for 50, when you immediately need to load the next list of promocodes.
+> We recommend using both types of notifications — **Warnings** and **Alarms**. For example, you can set a warning when there are 500 promocodes left in the system, and there is still time to respond, and an alarm for 50, when you immediately need to load the next list of promocodes.
 
-3. Click *Create*.
+3. Click **Create**.
 
 You can set up as many notifications as you wish. But all of them will be transferred through one of the following event types:
 
@@ -56,78 +56,17 @@ You can set up as many notifications as you wish. But all of them will be transf
 
 The parameters of these events will contain the following data:
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        <div style={{ width: "250px" }}>Name</div>
-      </th>
-      <th>
-        Value
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        `alertLevel`
-      </td>
-      <td>
-        WARNING/ALARM
-      </td>
-    </tr>
-    <tr>
-      <td>
-        `periodDays`
-      </td>
-      <td>
-        The period selected for counting (only for tags and events)
-      </td>
-    </tr>
-    <tr>
-      <td>
-        `threshold`
-      </td>
-      <td>
-        The lower limit for tags/events/promocodes
-      </td>
-    </tr>
-    <tr>
-      <td>
-        `alertTrackingSourceType`
-      </td>
-      <td>
-        Notification type (TAG, EVENT, PROMOCODE)
-      </td>
-    </tr>
-    <tr>
-      <td>
-        `alertTrackingSourceName`
-      </td>
-      <td>
-        Tag or event title/promocode type
-      </td>
-    </tr>
-    <tr>
-      <td>
-        `actualCount`
-      </td>
-      <td>
-        The number of sent messages/events/promo codes in the account at the time the notification was sent
-      </td>
-    </tr>
-    <tr>
-      <td>
-        `organisationName`
-      </td>
-      <td>
-        Your account name
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| <div style={{ width: "250px" }}>Name</div> | Value                                                                                               |
+| :----------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| `alertLevel`                               | WARNING/ALARM                                                                                       |
+| `periodDays`                               | The period selected for counting (only for tags and events)                                         |
+| `threshold`                                | The lower limit for tags/events/promocodes                                                          |
+| `alertTrackingSourceType`                  | Notification type (TAG, EVENT, PROMOCODE)                                                           |
+| `alertTrackingSourceName`                  | Tag or event title/promocode type                                                                   |
+| `actualCount`                              | The number of sent messages/events/promo codes in the account at the time the notification was sent |
+| `organisationName`                         | Your account name                                                                                   |
 
-Create a message For each notification type – *Warning* and *Alarm* into which the parameter values from the event will be inserted, and a workflow through which this message will be sent.
+Create a message For each notification type – **Warning** and **Alarm** into which the parameter values from the event will be inserted, and a workflow through which this message will be sent.
 
 ## Substituting Event Parameters into the Message
 
@@ -152,9 +91,9 @@ Since events can transmit data about both events and tags or promocodes, message
 
 ## Setting Workflow
 
-Create 2 workflows – for the Warning and Alarm events – with the *Send obligatory (transactional) email* or the *Send transactional SMS tasks*.
+Create 2 workflows – for the Warning and Alarm events – with the **Send obligatory (transactional) email** or the **Send transactional SMS tasks**.
 
-Below is an example for the *Warning* workflow; the *Alarm* workflow should be done in the same way.
+Below is an example for the **Warning** workflow; the **Alarm** workflow should be done in the same way.
 
 Fill in block fields:
 
@@ -174,6 +113,6 @@ Fill in block fields:
 
 Connect events to workflows [according to the instructions](https://docs.yespo.io/docs/configuring-workflow-start-stop-conditions) and launch the workflows.
 
-<Image align="center" width="80%" src="https://files.readme.io/8d533cf6f8c8581726a04e020c5e909ac8cfd36ba4cfa049929ee412d63c3222-image7.webp" />
+<Image align="center" width="60% " src="https://files.readme.io/8d533cf6f8c8581726a04e020c5e909ac8cfd36ba4cfa049929ee412d63c3222-image7.webp" />
 
 Now, whenever an event occurs related to one or another notification you created, the workflow will launch and send messages with information about the corresponding issues that need attention.
