@@ -22,10 +22,10 @@ Setting up App Inbox for websites includes:
 1. Getting authentication token.
 2. Script installation and initialization.
 3. Integration of a widget displayed on the site.
-   <br />
-   > 📘 Note
-   >
-   > App Inbox functionality works only for users authorized on the site.
+
+> 📘 NoteApp
+>
+> Inbox functionality works only for users authorized on the site.
 
 ## Getting Authentication Token
 
@@ -86,10 +86,10 @@ Authenticate the request using one of the methods specified in the [API](https:/
 
       <td>
         `{  
-                        "email": string,  
-                        "phone": string,  
-                        "externalCustomerId": string  
-                        }`
+                                "email": string,  
+                                "phone": string,  
+                                "externalCustomerId": string  
+                                }`
       </td>
     </tr>
 
@@ -100,8 +100,8 @@ Authenticate the request using one of the methods specified in the [API](https:/
 
       <td>
         `{  
-                        “token”: “string”  
-                        }`
+                                “token”: “string”  
+                                }`
       </td>
     </tr>
 
