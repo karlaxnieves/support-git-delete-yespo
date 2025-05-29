@@ -14,8 +14,8 @@ Upload information about your customers or subscribers and use this data for tar
 
 ## File Uploading
 
-1. [Prepare a contact list](https://docs.yespo.io/docs/files-preparation) in one of the following formats: XLS, XLSX, CSV, or TXT. The file must include phone numbers or emails — identifier fields by which the system recognizes unique contacts.
-2. Go to the *Contacts → Import* tab and click *Upload file*.
+1. [Prepare a contact list](https://docs.yespo.io/docs/files-preparation) in one of the following formats: `XLS`, `XLSX`, `CSV`, or `TXT`. The file must include phone numbers or emails — identifier fields by which the system recognizes unique contacts.
+2. Go to the **Contacts → Import** tab and click **Upload file**.
 
 <Image align="center" width="80% " src="https://files.readme.io/2597bfd4fc9182beb9b9ef730320329e4cf2bbffadcf8b97c083f1ad16296ed5-image11.webp" />
 
@@ -37,9 +37,9 @@ You will move on to contact field mapping after downloading the file.
 >
 > We recommend setting the uniqueness of contacts using an external ID, which allows you to avoid duplicating contact profiles, collect all available data into a single profile, and obtain complete information about the contact’s interaction with your company. [More details >](https://docs.yespo.io/docs/external-id-creating-and-updating-users)
 >
-> When you assign the External ID value to a column in an imported file, the *Unique contact field by…*  line is automatically set to the External ID and cannot be changed.
+> When you assign the **External ID** value to a column in an imported file, the **Unique contact field by…**  line is automatically set to the **External ID** and cannot be changed.
 >
-> If the imported file column assigned as External ID contains empty values, the Yespo system runs a check and reports the number of errors before and after importing the file.
+> If the imported file column assigned as **External ID** contains empty values, the Yespo system runs a check and reports the number of errors before and after importing the file.
 
 2. Select whether to import empty values. If this option is enabled, filled contact fields will be replaced by empty values from the file when updated as a result of import.
 
@@ -49,7 +49,7 @@ You will move on to contact field mapping after downloading the file.
 
 <Image align="center" width="80% " src="https://files.readme.io/99468b11204f05d224cd20615ecc5b0ece83c2e5c4b96b26c0054fc1b967be0a-image9.webp" />
 
-4. Set the correspondence between the fields from the file and [additional fields](https://docs.yespo.io/docs/how-add-additional-contact-fields) in the contact card in Yespo. If you don't need information from a column, set it to *Ignore*.
+4. Set the correspondence between the fields from the file and [additional fields](https://docs.yespo.io/docs/how-add-additional-contact-fields) in the contact card in Yespo. If you don't need information from a column, set it to **Ignore**.
 
 <Image align="center" width="80% " src="https://files.readme.io/491f8f4089e92fb6f45d0a782dcae3b29322387b755af985bb05840a92e903c7-image3.webp" />
 
@@ -64,7 +64,7 @@ Contacts with errors are not saved or updated in the system, and fields with war
 
 The first 100 contacts from the file are available for viewing in the download window. The system automatically calculates the number of errors and warnings in the first hundred. This is done to ensure that the data in the import file is valid and can be loaded correctly into the selected fields.
 
-You can manually correct errors in the preview window (the *Start the search of errors* button) or immediately proceed to the next import stage (the *Next* button).
+You can manually correct errors in the preview window (the **Start the search of errors** button) or immediately proceed to the next import stage (the **Next** button).
 
 <Image align="center" width="80% " src="https://files.readme.io/1aa8dc807e7e3120212346b54ffabe0fceafa616fe9f2250bbac1d590fd01b86-image5.webp" />
 
@@ -88,7 +88,7 @@ You can manually correct errors in the preview window (the *Start the search of 
 
 <Image align="center" width="80% " src="https://files.readme.io/0ef102221dfdc6b853498c61e694eb0f2874d3aacccd1c2a85fe40c837efe527-image7.webp" />
 
-5. Click *Start Import*.
+5. Click **Start Import**.
 
 Once completed, the import will appear in the history, where you can see the segments into which the contacts were imported, the user who imported the file, and details regarding the imported contacts (number of new, updated, duplicates, etc.)
 
