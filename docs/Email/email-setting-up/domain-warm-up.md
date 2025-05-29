@@ -116,11 +116,11 @@ In DMARC settings, one of the following values may be specified:
 * **quarantine** — places the email in spam,
 * **reject** — rejects the email.
 
-If the value is set to **none**, the warm-up proceeds as described above. However, if **DMARC** is set to **quarantine** or **reject**, when the daily limit is reached during the warm-up period, no further emails are sent. Even if the emails are signed using the **DKIM** signature of the Yespo domain, they may still end up in spam or be rejected.
+If the value is set to **none**, the warm-up proceeds as described above. However, if DMARC is set to **quarantine** or **reject**, when the daily limit is reached during the warm-up period, no further emails are sent. Even if the emails are signed using the DKIM signature of the Yespo domain, they may still end up in spam or be rejected.
 
 Under a strict DMARC policy, it's advisable to manually limit the number of daily sends or set the value to none during the warm-up period.
 
-Use the <a rel="nofollow" href="https://mxtoolbox.com/dmarc.aspx" target="_blank"> MxToolbox </a> service to check DMARC domain settings. 
+Use the <a rel="nofollow" href="https://mxtoolbox.com/dmarc.aspx" target="_blank"> MxToolbox </a> service to check **DMARC** domain settings. 
 
 <Image align="center" width="80% " src="https://files.readme.io/137650872c1c735668d79a3831755ff2c2fc1e14fdab010609de86878ba6028a-domain-warm-up-08.webp" />
 
