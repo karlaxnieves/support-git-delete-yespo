@@ -33,7 +33,7 @@ Setting up App Inbox for websites includes:
 
 Send the request from your backend to eSputnik API to receive the authentication token (authToken).
 
-Authenticate the request using one of the methods specified in the [API](https://docs.esputnik.com/reference/getting-started-with-your-api)  instructions, for example, using an [API key](https://docs.esputnik.com/reference/api-keys) .
+Authenticate the request using one of the methods specified in the [API](https://docs.yespo.io/reference/getting-started-with-your-api)  instructions, for example, using an [API key](https://docs.yespo.io/reference/api-keys) .
 
 <Table align={["left","left"]}>
   <thead>
@@ -86,10 +86,10 @@ Authenticate the request using one of the methods specified in the [API](https:/
 
       <td>
         `{  
-        "email": string,  
-        "phone": string,  
-        "externalCustomerId": string  
-        }`
+                "email": string,  
+                "phone": string,  
+                "externalCustomerId": string  
+                }`
       </td>
     </tr>
 
@@ -100,8 +100,8 @@ Authenticate the request using one of the methods specified in the [API](https:/
 
       <td>
         `{  
-        “token”: “string”  
-        }`
+                “token”: “string”  
+                }`
       </td>
     </tr>
 
@@ -119,9 +119,7 @@ Authenticate the request using one of the methods specified in the [API](https:/
 
 The request has to contain the known contact fields: `email, phone, externalCustomerId` (at least one field is required). Those fields are used for searching a contact in eSputnik. Afterward, the script uses authToken in requests to the eSputnik server.
 
-You can find additional information about managing contacts in API methods for [adding contacts](https://docs.esputnik.com/reference/api-methods-for-adding-contacts) .
-
-<br />
+You can find additional information about managing contacts in API methods for [adding contacts](https://docs.yespo.io/docs/api-methods-adding-contacts) .
 
 > 📘 Important
 >
@@ -142,13 +140,9 @@ If you have installed the eSputnik script to work with web tracking, forms and r
 
 Example:
 
-<br />
-
 ```javascript
 eS('init', {getAuthTokenCallback: () => yourImplementationOfAuthCallback(),  language: 'en', });
 ```
-
-<br />
 
 > 📘 Important
 >
@@ -160,7 +154,7 @@ You can get the script by yourself in the *Settings > Web Tracking* section.
 
 <Image align="center" width="80% " src="https://files.readme.io/0bb74c50a8d1fdae6a9685cfdcc230f7358443c020222d91179a2a551e8ff84d-image5.webp" />
 
-You can learn how to set up a web tracking code [here](https://docs.esputnik.com/docs/how-to-set-up-web-tracking-for-your-website) .
+You can learn how to set up a web tracking code [here](https://docs.yespo.io/docs/how-set-web-tracking-your-website) .
 
 > 📘 Important
 >
@@ -210,12 +204,12 @@ Example of a script with initialization:
       </td>
 
       <td>
-        function yourImplementationOfAuthCallback() \{ &#x20;
-        &#x20; return new Promise((resolve, reject) => \{ &#x20;
-        &#x20;     //  place here code with your backend API request, parse token from response and pass it to \`resolve\` function call &#x20;
-        &#x20;     resolve('token should be placed here'); &#x20;
-        &#x20; }); &#x20;
-        } &#x20;
+        function yourImplementationOfAuthCallback() \{
+        return new Promise((resolve, reject) => \{
+        //  place here code with your backend API request, parse token from response and pass it to `resolve` function call
+        resolve('token should be placed here');
+        });
+        }
         Required
 
         type: () => Promise\<String>
@@ -251,7 +245,7 @@ To integrate the widget on the site, the user has to provide to our CDP:
 * <a rel="nofollow" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank"> CSS selector</a>
 * Insert type position relative to other element(s) (<a rel="nofollow" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML" target="_blank">insertAdjacentHTML</a> method is applied).
 
-In addition, you can submit an SVG file with the desired design of the notification icon (Bell button) and the design of notifications.
+In addition, you can submit an `SVG` file with the desired design of the notification icon (Bell button) and the design of notifications.
 
 > 📘 Note
 >
