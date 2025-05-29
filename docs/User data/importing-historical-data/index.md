@@ -21,7 +21,7 @@ Transfer historical data from your CRM or other data store to the Yespo via [Pu
 
 ## Adding New Users
 
-Use the **Add Contact** method [to create new user’s profile or update it](https://docs.yespo.io/docs/adding-new-users).
+Use the [Add Contact](https://docs.yespo.io/reference/addcontact-1) method [to create new user’s profile or update it](https://docs.yespo.io/docs/adding-new-users).
 
 ## Uploading Mobile Token Base
 
