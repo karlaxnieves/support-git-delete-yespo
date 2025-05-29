@@ -29,21 +29,21 @@ In our editor, you can add anchor links to the email in two ways:
 ## How to Add an Anchor Link in the HTML Editor
 
 1. Select the block the anchor will lead the reader to.
-2. Enable *Add an anchor link* and enter the anchor name (without a hashtag).
+2. Enable **Add an anchor link** and enter the anchor name (without a hashtag).
 
 <Image align="center" width="80% " src="https://files.readme.io/f479c2bb8472028237e9561ec03794c325570393d5b6b7df328dbf9b40304db3-Adding_Anchor_Links01.webp" />
 
 3. Select the element that will contain an anchor link.
-4. In *Link*, chose the anchor name with a hashtag.
+4. In **Link**, chose the anchor name with a hashtag.
 
 <Image align="center" width="80% " src="https://files.readme.io/4ddb0932a6046b26a00e59c361ee62aba3d377684f60c816194eec1145f90fcd-Adding_Anchor_Links02.webp" />
 
-5. Click *Save*.
+5. Click **Save**.
 
 ## How to Add an Anchor Link in the Code Editor
 
 1. Select the element that will contain an anchor link.
-2. Open *Code editor*.
+2. Open **Code editor**.
 
 <Image align="center" width="80% " src="https://files.readme.io/5d4eceadf3efc927858bf8fe3e238d30f334c5f614b7ff6ad23b58304374f5a5-Adding_Anchor_Links03.webp" />
 
