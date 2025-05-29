@@ -23,7 +23,7 @@ After signing up, you can test basic system features and send campaigns to up to
 
 Authentication with the Google Authenticator app will protect your account and its sensitive data from unauthorized access. Each time you log into your account, you will use a unique temporary password known only to you.
 
-MFA is a must-have to [manage user access](https://docs.yespo.io/docs/user-management) to your account. If you have several team members with different responsibilities, you can distribute access to account management among them. For example, restrict the rights to export contacts, manage campaigns, edit messages, etc.
+**MFA** is a must-have to [manage user access](https://docs.yespo.io/docs/user-management) to your account. If you have several team members with different responsibilities, you can distribute access to account management among them. For example, restrict the rights to export contacts, manage campaigns, edit messages, etc.
 
 **Useful tips for account management:**
 
