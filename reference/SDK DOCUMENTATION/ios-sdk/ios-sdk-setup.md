@@ -12,7 +12,7 @@ next:
 ---
 See the video manual on iOS SDK setup:
 
-<Embed url="https://www.youtube.com/watch?v=T-JboJcQBpw" title="Reteno IOS SDK Setup" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/T-JboJcQBpw/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=T-JboJcQBpw" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FT-JboJcQBpw%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DT-JboJcQBpw%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FT-JboJcQBpw%252Fhqdefault.jpg%26key%3D02466f963b9b4bb8845a05b53d3235d7%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+<Embed url="https://www.youtube.com/watch?v=T-JboJcQBpw" href="https://www.youtube.com/watch?v=T-JboJcQBpw" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FT-JboJcQBpw%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DT-JboJcQBpw%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FT-JboJcQBpw%252Fhqdefault.jpg%26key%3D02466f963b9b4bb8845a05b53d3235d7%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 ## Overview
 
@@ -31,7 +31,7 @@ Download and install SDK via **CocoaPods**.
 [CocoaPods](https://cocoapods.org/ "\{rel='nofollow'}") is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Reteno into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'Reteno', '2.5.4'
+pod 'Reteno', '2.5.6'
 ```
 
 > 📘 Note
@@ -369,12 +369,12 @@ Also, we recommend using [Debug Mode](https://docs.yespo.io/reference/ios-debug-
 ## Installing the SDK via Swift Package Manager
 
 The [Swift Package Manager](https://swift.org/package-manager/ "\{rel='nofollow'}") is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.\
-​\
+​
 Once you have your Swift package set up, adding Reteno as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/reteno-com/reteno-mobile-ios-sdk.git", .upToNextMajor(from: "2.5.4"))
+    .package(url: "https://github.com/reteno-com/reteno-mobile-ios-sdk.git", .upToNextMajor(from: "2.5.6"))
 ]
 ```
 
