@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-In the editor, you can add a table to your email in two ways: using a structure or a Text block.
+In the editor, you can add a table to your email in two ways: using a structure or a **Text** block.
 
 ## How to Add a Table Using a Structure
 
@@ -37,7 +37,7 @@ To add text to containers, select the corresponding option.
 
 <Image align="center" width="80% " src="https://files.readme.io/3b789a726d330792f4a60b45618cdb06dfcf5306bedfc7245a23f45522e8b694-image17.webp" />
 
-The container's appearance is set in the menu on the left. Select the color and width for the container borders in *Common*.
+The container's appearance is set in the menu on the left. Select the color and width for the container borders in **Common**.
 
 <Image align="center" width="80% " src="https://files.readme.io/12661aa5a12b526e17fffbb5ce6bbc2d3aeb7dc733cbbc1c0e73044e8d740092-image12.webp" />
 
@@ -55,7 +55,7 @@ To edit text, use the top menu:
 
 <Image align="center" width="80% " src="https://files.readme.io/0364cddc1aa639e9bbeefa8e2cbfbebd62663af0c25acea1bb52ddd88099a5e6-image14.webp" />
 
-Once you've set the appearance of the first structure, you can duplicate it by clicking *Copy*.
+Once you've set the appearance of the first structure, you can duplicate it by clicking **Copy**.
 
 <Image align="center" width="80% " src="https://files.readme.io/b0f35956be7e7e8c008bb9e14f08d703b918532b5b11f9ce117c63ab3aa1d2ef-image16.webp" />
 
@@ -63,15 +63,15 @@ If necessary, edit paddings of the structures: set 0 for the top and bottom padd
 
 <Image align="center" width="80% " src="https://files.readme.io/69774000c117f6beec8f4f3daaaf450e5454d827112ad9f5dce3b39256edf49a-image5.webp" />
 
-Once your table is ready, optimize it for mobile devices. For each structure, disable *Responsive structure*. This way, containers of the structure will be located in one row on mobile devices.
+Once your table is ready, optimize it for mobile devices. For each structure, disable **Responsive structure**. This way, containers of the structure will be located in one row on mobile devices.
 
 <Image align="center" width="80% " src="https://files.readme.io/1e9ba3674be5492f1dabcb6101ec8f2048b095c4b9fd84926166463323e26569-image7.webp" />
 
-Go to *Appearance → Mobile formatting* and set the font size for the mobile version. Most often, 14px is used for desktop versions, and 16px for mobile versions. For our template we select 14 pixels as this size is convenient for reading and keeps the original container display.
+Go to **Appearance → Mobile formatting** and set the font size for the mobile version. Most often, 14px is used for desktop versions, and 16px for mobile versions. For our template we select 14 pixels as this size is convenient for reading and keeps the original container display.
 
 <Image align="center" width="80% " src="https://files.readme.io/92aa88fe16962dc26d3edb05509a483053009b4cb195c71748712a8ac76222d3-Adding_a_Table_to_an_Email02.webp" />
 
-To see the email in both versions, click *View message.*
+To see the email in both versions, click **View message**.
 
 <Image align="center" width="80% " src="https://files.readme.io/485bfd78f8e3740b78e29f802013a104308b42a2d4d9c4aa009994737da94471-Adding_a_Table_to_an_Email03.webp" />
 
@@ -81,11 +81,11 @@ The table should look the same on both mobile and desktop.
 
 ## How to Add a Table Using a Text Block
 
-In *Content → Blocks* select *Text* and drag it to the template.
+In **Content → Blocks** select **Text** and drag it to the template.
 
 <Image align="center" width="50% " src="https://files.readme.io/e12233ddf4063eb869b6e30e5d9ade6c00bd8094c9c24eaaa03e11043e500667-image15.webp" />
 
-Click *Insert* in the top menu and select *Table*.
+Click **Insert** in the top menu and select **Table**.
 
 <Image align="center" width="80% " src="https://files.readme.io/440824dafe9cfeadc645e714a11eea15ff5495ac54e4099b38dac05b184a1428-image8.webp" />
 
@@ -99,6 +99,6 @@ Fill the created table with the corresponding text. You can apply to the text al
 
 > 🚧 Important
 >
-> The font size in tables created using the Text block is the same for desktop and mobile versions. You don’t need to disable *Responsive structure* and adjust *Mobile formatting*.
+> The font size in tables created using the Text block is the same for desktop and mobile versions. You don’t need to disable **Responsive structure** and adjust **Mobile formatting**.
 
 <Image align="center" width="80% " src="https://files.readme.io/360ef096b889b5470a164615b2a9eba35644a67386acdd2059a2c915316c803e-image4.webp" />
