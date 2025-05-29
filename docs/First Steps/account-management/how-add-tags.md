@@ -36,7 +36,7 @@ There are two types of tags in Yespo:
 
 <Image align="center" width="80% " src="https://files.readme.io/1e2fce5244268f0317b0839d3e89fff1ac7c55a64a7f02313ddf5c1756fbbe40-adding-tags-01.webp" />
 
-1. Select the tag type (**Communication** or **Segment**), click **+New tag** , enter a name, and click **Save**.
+1. Select the tag type (**Communication** or **Segment**), click **+New tag**, enter a name, and click **Save**.
 
 > 📘 Note
 >
