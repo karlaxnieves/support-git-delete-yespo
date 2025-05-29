@@ -31,20 +31,20 @@ In our platform, you can add it without code editing by adding a preheader to a 
 
 <Image align="center" width="80% " src="https://files.readme.io/c1656461aa00df0fcc33bf2141107d29a0b203da8c15b75e127d4143afc3c982-image2.webp" />
 
-1. Go to *Messages → Messages*.
+1. Go to **Messages → Messages**.
 2. Open the necessary email or create a new one and click its subject.
 
 <Image align="center" width="80% " src="https://files.readme.io/4b812ab0018cc9fa46ef2fc7f546e1dab10abb8b4ad006a47083c1a641dab284-image41.webp" />
 
-3. In *Hidden preheader*, enter your preheader text.
+3. In **Hidden preheader**, enter your preheader text.
 
 <Image align="center" width="80% " src="https://files.readme.io/dc48ecb709eeb63aaf0a9dd8a9683de1bff9f1c6ac3e19667aabc5854f3e955a-image1.webp" />
 
-4. To [optimize the text with AI](https://docs.yespo.io/docs/using-ai-email-editor), click *Improve with AI* and select one of the suggested options.
+4. To [optimize the text with AI](https://docs.yespo.io/docs/using-ai-email-editor), click **Improve with AI** and select one of the suggested options.
 
 <Image align="center" width="80% " src="https://files.readme.io/168029f43c44ba53e98304a937f7f9dde88621dcb26b3b705d9e13f3463d5ea8-image3.webp" />
 
-5. Optionally enable *Add white space*. It will separate the preheader from the rest of the copy in Inbox, making it look nice and professional.
+5. Optionally enable **Add white space**. It will separate the preheader from the rest of the copy in Inbox, making it look nice and professional.
 
 <Image align="center" width="80% " src="https://files.readme.io/6c776e62a8a13b399f24ba40ac1a4656eb89c4ffa9e34b20828391c66073b6f5-image21.webp" />
 
