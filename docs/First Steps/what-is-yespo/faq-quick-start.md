@@ -17,7 +17,7 @@ next:
 
 An email template is a set of typical email blocks, such as a menu, header, footer, etc. You can use the same template for different campaigns by simply filling it with new content.
 
-We offer 1000+ templates for different businesses and informational occasions that you can easily customize. In your account go to *Messages,* click the *New Email* button and choose your email option.
+We offer 1000+ templates for different businesses and informational occasions that you can easily customize. In your account go to **Messages**, click the **New Email** button and choose your email option.
 
 <Image align="center" width="80% " src="https://files.readme.io/2035a0d1dca5341b860ae6a4cf23a46cec4123089afa7a2bc6dae6d5b3294620-image001_en.webp" />
 
@@ -30,11 +30,11 @@ The article [Where to Get Email Templates for Your Marketing Campaigns](https://
 There are the following ways to download a template:
 
 * **Transferring HTML code.** If the template is created as `HTML` code and not in a drag-and-drop editor, you can download it as a file and upload it to the system.
-* **Automatic transferring Stripo templates.** Open the template in Stripo, and select *Export* in the top menu. In *Export to ESP*, click on our CDP.
+* **Automatic transferring Stripo templates.** Open the template in Stripo, and select **Export** in the top menu. In **Export to ESP**, click on our CDP.
 
 <Image align="center" width="80% " src="https://files.readme.io/2ac032973bd716ac188075ebedc0b9ab3d7f871d134d46e649e3a245d1e0459c-image3.webp" />
 
-Enter your account details and allow access. In our system, the imported template will appear in *Messages*.
+Enter your account details and allow access. In our system, the imported template will appear in **Messages**.
 
 * **Transferring from a drag-and-drop editor.** You need to build a similar template in our email editor from scratch. You can use one of more than 1000+ ready templates or apply for a free template that’s available for new users.
 
