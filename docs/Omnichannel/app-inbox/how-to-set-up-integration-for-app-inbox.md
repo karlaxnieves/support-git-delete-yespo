@@ -31,7 +31,7 @@ Setting up App Inbox for websites includes:
 
 <Image align="center" width="80% " src="https://files.readme.io/fc35ee3a98578a5a5af79e3246e7d45a325e3c365f98c373d6847d152cea1c0c-auth_token.png" />
 
-Send the request from your backend to eSputnik API to receive the authentication token (authToken).
+Send the request from your backend to Yespo API to receive the authentication token (authToken).
 
 Authenticate the request using one of the methods specified in the [API](https://docs.yespo.io/reference/getting-started-with-your-api)  instructions, for example, using an [API key](https://docs.yespo.io/reference/api-keys) .
 
@@ -65,7 +65,7 @@ Authenticate the request using one of the methods specified in the [API](https:/
       </td>
 
       <td>
-        `https://esputnik.com/v1/auth/contact/token`
+        `api/v1/auth/contact/token`
       </td>
     </tr>
 
@@ -86,10 +86,10 @@ Authenticate the request using one of the methods specified in the [API](https:/
 
       <td>
         `{  
-                "email": string,  
-                "phone": string,  
-                "externalCustomerId": string  
-                }`
+                        "email": string,  
+                        "phone": string,  
+                        "externalCustomerId": string  
+                        }`
       </td>
     </tr>
 
@@ -100,8 +100,8 @@ Authenticate the request using one of the methods specified in the [API](https:/
 
       <td>
         `{  
-                “token”: “string”  
-                }`
+                        “token”: “string”  
+                        }`
       </td>
     </tr>
 
@@ -117,14 +117,14 @@ Authenticate the request using one of the methods specified in the [API](https:/
   </tbody>
 </Table>
 
-The request has to contain the known contact fields: `email, phone, externalCustomerId` (at least one field is required). Those fields are used for searching a contact in eSputnik. Afterward, the script uses authToken in requests to the eSputnik server.
+The request has to contain the known contact fields: `email, phone, externalCustomerId` (at least one field is required). Those fields are used for searching a contact in Yespo. Afterward, the script uses authToken in requests to the Yespo server.
 
 You can find additional information about managing contacts in API methods for [adding contacts](https://docs.yespo.io/docs/api-methods-adding-contacts) .
 
 > 📘 Important
 >
 > * The token can become invalidated at any moment for security considerations, so you get it more than once. The script renews the token automatically by calling `getAuthTokenCallback`.
-> * If a contact is not in the eSputnik system, the token is not returned, and the following response comes back instead:
+> * If a contact is not in the Yespo system, the token is not returned, and the following response comes back instead:
 
 ```json
 {
@@ -136,7 +136,7 @@ You can find additional information about managing contacts in API methods for [
 
 Install and initialize the script on your frontend. Transmit `getAuthTokenCallback` in the parameters. This shall have the function calling your backend and returning the token.
 
-If you have installed the eSputnik script to work with web tracking, forms and recommendations, you don’t need to reinstall it. Just add parameters for App Inbox to the initialization call.
+If you have installed the Yespo script to work with web tracking, forms and recommendations, you don’t need to reinstall it. Just add parameters for App Inbox to the initialization call.
 
 Example:
 
@@ -148,9 +148,9 @@ eS('init', {getAuthTokenCallback: () => yourImplementationOfAuthCallback(),  lan
 >
 > Call the `'init'` initialization command one time at every page loading.
 
-If you have not installed the script before, contact the eSputnik support team to get it, indicating that you need it for App Inbox.
+If you have not installed the script before, contact the Yespo support team to get it, indicating that you need it for App Inbox.
 
-You can get the script by yourself in the *Settings > Web Tracking* section.
+You can get the script by yourself in the **Settings** → **Web Tracking** section.
 
 <Image align="center" width="80% " src="https://files.readme.io/0bb74c50a8d1fdae6a9685cfdcc230f7358443c020222d91179a2a551e8ff84d-image5.webp" />
 
