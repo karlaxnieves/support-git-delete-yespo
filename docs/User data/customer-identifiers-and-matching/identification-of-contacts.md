@@ -27,17 +27,17 @@ UTM tags are small snippets of code that you can add to the end of links that yo
 
 The script takes the contact ID\* from the UTM tag and uses it in the tracking events. Also, this contact ID is used for linking a web push token to the existing contact.
 
-*\*The contact ID is the identifier of a customer, whose data you store in the system.*
+\***The contact ID is the identifier of a customer, whose data you store in the system**.
 
-A contact is identified by the *contactId* parameter when navigating from a message to a website. We get the *contactId* from UTM tags according to the following priority:
+A contact is identified by the `contactId` parameter when navigating from a message to a website. We get the `contactId` from UTM tags according to the following priority:
 
-1. *etm\_term* – if the tag is configured.
-2. *utm\_content=Yespo-$contactId* — transmission of the *contactId* is configured by default.
-3. *utm\_source=Yespo-$type* + *utm\_content=$contactId* – if the *Yespo* value is specified in *utm\_source* (it can be changed if necessary, *contactId* will be transferred from tags with higher priority).
+1. `etm_term` – if the tag is configured.
+2. `utm_content=Yespo-$contactId` — transmission of the `contactId` is configured by default.
+3. `utm_source=Yespo-$type` + `utm_content=$contactId` – if the Yespo value is specified in `utm_source` (it can be changed if necessary, `contactId` will be transferred from tags with higher priority).
 
 > ❗️ Important
 >
-> For the script to work properly, do not change the default values of the *utm\_content* tag
+> For the script to work properly, do not change the default values of the `utm_content` tag
 
 ## Web Push
 
@@ -49,7 +49,7 @@ In this case, we connect the contact ID of the existing contact and the web push
 
 > 📘 Note
 >
-> You have to enable the Enable UTM tags for all language versions option when configuring your web push notifications. Read [this information](https://docs.yespo.io/docs/how-create-and-manage-web-push-notifications#additional-settings) to learn more.
+> You have to enable the **Enable UTM tags** for all language versions option when configuring your web push notifications. Read [this information](https://docs.yespo.io/docs/how-create-and-manage-web-push-notifications#additional-settings) to learn more.
 
 ## Subscription Form
 
