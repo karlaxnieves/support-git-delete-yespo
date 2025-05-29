@@ -166,7 +166,7 @@ If you use personalization in the email, you can check in the preview window (1)
 
 <Image align="center" width="80% " src="https://files.readme.io/70dded9b87e71b39c5007c8f6a76030283127897b3d07a59146d9029c7ee1807-image2.webp" />
 
-We also recommend testing your email in special services like Litmus or Email on Acid. This is especially important if you use non-standard designs or transfer HTML code to the editor.
+We also recommend testing your email in special services like Litmus or Email on Acid. This is especially important if you use non-standard designs or transfer `HTML` code to the editor.
 
 ## Step 6. Saving
 
