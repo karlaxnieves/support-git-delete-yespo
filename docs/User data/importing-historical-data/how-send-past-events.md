@@ -19,7 +19,7 @@ If you have migrated from another service or just created an account in our plat
 * subscriptions,
 * or other events you want to use for advanced segmentation,
 
-you can transfer the available data from your CRM or other data store to our system via the API resource *[Generate past events](https://docs.yespo.io/reference/sendhistoryevents_1)*.
+you can transfer the available data from your CRM or other data store to our system via the API resource \_[Generate past events](https://docs.yespo.io/reference/sendhistoryevents_1).
 
 > 📘 Important
 >
@@ -33,7 +33,7 @@ To assign events to contacts, [pre-import](https://docs.yespo.io/docs/uploading-
 
 For example, you have a certain number of orders over the past year, and you want to [build a segment](https://docs.yespo.io/docs/how-to-use-event-segmentation) with customers interested in a certain type of products or services, get statistics on the average check, or segment contacts by geodata (if applicable).
 
-Convert these orders into a `JSON` format supported for API according to the specification, and send them to the system. You can send an array of up to 500 such events within one request. Specify the time of each event in the field `occurred`: 
+Convert these orders into a `JSON` format supported for API according to the specification, and send them to the system. You can send an array of up to 500 such events within one request. Specify the time of each event in the field `occurred`:
 
 * format of date: `YYYY-MM-DD`;
 * format of date with the time: `YYYY-MM-DDTHH:mm`.
