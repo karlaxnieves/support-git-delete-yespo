@@ -102,19 +102,17 @@ There are other restrictions:
 Typically, a hosting provider has guidelines for basic SPF record setup. Make these settings. Some hosting providers automatically add the correct SPF record to the DNS when setting up mail for your domain.\
 If you see something like this in your SPF record:
 
-\_“v=spf1 redirect=*spf.google.com”*
+`“v=spf1 redirect=_spf.google.com”`
 
-replace it with the option without using the *“redirect=” construction (*which links to another record*):*
-
-\_“v=spf1 include:*spf.google.com \~all”*
+replace it with the option without using the `“redirect=” construction (which links to another record): “v=spf1 include:_spf.google.com ~all”`
 
 Depending on the connection option for your domain on our service ([Full/Full+/Subdomain](https://docs.yespo.io/docs/dns-record-change)), you must make some additions to your SPF record.
 
-The minimum addition that we recommend when sending mailings through our service, even for the basic option, is to add the insert *“include:spf2.esputnik.com”* inside the already existing SPF string of your domain, which address you plan to use in the *Sender* field of your emails.
+The minimum addition that we recommend when sending mailings through our service, even for the basic option, is to add the insert `“include:spf2.esputnik.com”` inside the already existing SPF string of your domain, which address you plan to use in the **Sender** field of your emails.
 
 Record example:
 
-\_esputnik.com.    IN    TXT    "v=spf1 include:*spf.google.com include:spf2.esputnik.com \~all"*
+`esputnik.com.    IN    TXT    "v=spf1 include:_spf.google.com include:spf2.esputnik.com ~all"`
 
 ### DKIM Technology
 
@@ -143,14 +141,14 @@ Example of a public key record:
 
 An example of a public key record when working with our service for the example.com domain:
 
-\_esputnik.*domainkey.example.com.     IN    CNAME    dkim.esputnik.com.*
+`esputnik._domainkey.example.com.     IN    CNAME    dkim.esputnik.com.`
 
 ### DMARC Technology
 
 DMARC technology identifies emails by SPF and DKIM and determines what to do if the mailing is sent from IPs or domains not specified in these signatures: none, quarantine or reject.\
-We recommend implementing a strict DMARC policy *"v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto:postmaster@ yourdomain.com".*
+We recommend implementing a strict DMARC policy `"v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto:postmaster@ yourdomain.com"`.
 
-You should start with the email quarantine policy ***p=quarantine pct=5*** and use the pct parameter to set the percentage of messages to which the DMARC rule is applied, gradually increasing the percentage to ***pct=100***. Then, set a strict policy with the initial value of the percentage of rejected emails ***p=reject pct=5*** and progressively increase the ***pct*** parameter's value to 100%. Provided you carry out regular mailings, you can increase the percentage (***pct***) of filtered emails every few days. The rua tag allows you to specify an address to receive reports about deploying DMARC rules in your domain. Enter your email address in this setting, or create a new one. To send reports to multiple addresses, separate them by comma.
+You should start with the email quarantine policy `p=quarantine pct=5` and use the pct parameter to set the percentage of messages to which the DMARC rule is applied, gradually increasing the percentage to `pct=100`. Then, set a strict policy with the initial value of the percentage of rejected emails `p=reject pct=5` and progressively increase the `pct` parameter's value to 100%. Provided you carry out regular mailings, you can increase the percentage (`pct`) of filtered emails every few days. The rua tag allows you to specify an address to receive reports about deploying DMARC rules in your domain. Enter your email address in this setting, or create a new one. To send reports to multiple addresses, separate them by comma.
 
 > ❗️ Note
 >
@@ -158,11 +156,11 @@ You should start with the email quarantine policy ***p=quarantine pct=5*** and u
 
 Example DMARC records:
 
-\_*dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto:`postmaster@yourdomain.com`*
+`dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto: postmaster@yourdomain.com`
 
 Example of a minimal DMARC entry (meaning “DMARC defined as disabled”):
 
-\_*dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=none;"*
+`dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=none;"`
 
 > 📘 Note
 >
@@ -174,7 +172,7 @@ BIMI (Brand Indicators for Message Identification) is a sender identification me
 
 <Image align="center" width="80% " src="https://files.readme.io/325cac4cf3b45b7312c11480a7c42e3f309442583e4d925277dfaf53e7d210d1-bimi.webp" />
 
-Only senders with configured SPF, DKIM, and DMARC signatures with a strict policy ("p=quarantine" or "p=reject") can implement BIMI. In addition, the logo display depends on the domain reputation, the volume and regularity of mailings, and the postal service. [Learn more about setting up BIMI >](https://yespo.io/blog/how-create-svg-logo-bimi)
+Only senders with configured SPF, DKIM, and DMARC signatures with a strict policy (`p=quarantine` or `p=reject`) can implement BIMI. In addition, the logo display depends on the domain reputation, the volume and regularity of mailings, and the postal service. [Learn more about setting up BIMI >](https://yespo.io/blog/how-create-svg-logo-bimi)
 
 ## How Is the Reputation of the Sender Formed?
 
@@ -200,7 +198,7 @@ Therefore, you should gradually increase the number of emails sent from your dom
 >
 > a gradual increase in the number of emails sent. The better the domain is warmed up, the faster and more significant the number of contacts you can send a campaign.
 
-If you send large mailings without warming up, you will receive errors from contacts located on the servers of large mail providers: “You are sending too quickly,” “Too many messages from your server,” etc. The reputation of your domain and the mail server that sent the mail may also deteriorate. Then, large mailers can reject even regular emails and campaigns.
+If you send large mailings without warming up, you will receive errors from contacts located on the servers of large mail providers: **You are sending too quickly**, **Too many messages from your server**, etc. The reputation of your domain and the mail server that sent the mail may also deteriorate. Then, large mailers can reject even regular emails and campaigns.
 
 We care about the reputation and warming up of your email domain by limiting the sending speed and the number of emails sent daily with your domain's DKIM signature.
 
@@ -212,7 +210,7 @@ It looks like this in practice
 
 > 📘 Note
 >
-> To see the daily limit of mailings from your domain to various mail services, go to account settings → *Domain verification → Daily sending limit* ([Follow the link >](https://my.yespo.io/settings-ui/#/domain-verification)).
+> To see the daily limit of mailings from your domain to various mail services, go to account settings → **Domain verification → Daily sending limit** ([Follow the link >](https://my.yespo.io/settings-ui/#/domain-verification)).
 
 ## How Do I Check if Mail Is Working on My Domain?
 
@@ -230,20 +228,20 @@ If you received both emails, everything is configured correctly. If not, there i
 
 Email header fields contain much technical information not normally shown to the recipient. Typically, the recipient sees only two parameters:
 
-* who the email came from (*From:* or *Sender:* fields of the email header)
-* with what subject (*Subject field:* email header).
+* who the email came from (**From:** or **Sender:** fields of the email header)
+* with what subject (**Subject field:** email header).
 
-To see the rest of the email header fields, you need to find a button or menu item in your email client that shows all the email headers or the entire message along with the headers. For example, in Gmail, you need to select *Show original* from the drop-down list in the open email menu:
+To see the rest of the email header fields, you need to find a button or menu item in your email client that shows all the email headers or the entire message along with the headers. For example, in Gmail, you need to select **Show original** from the drop-down list in the open email menu:
 
 <Image align="center" width="80% " src="https://files.readme.io/d27f9f96da25f14ab7c62bb9f1b6f12a82bda060c7960dcd20ec7a2d64608f85-dns-5.webp" />
 
 Basic Fields Used in the Email Header
 
-* **From:** — the field contains the sender's address, i.e., your address (the *Sender* value from the email editor);
+* **From:** — the field contains the sender's address, i.e., your address (the **Sender** value from the email editor);
 * **Sender:** — technical email sender (here we put the technical address in our domain with the basic connection option to improve deliverability to mail servers running on Microsoft software);
-* **Reply-to:** — the address to which the response will be sent if the recipient of this email clicks the *Reply* button (the field is filled in only if you specify the reply address in the email editor);
+* **Reply-to:** — the address to which the response will be sent if the recipient of this email clicks the **Reply** button (the field is filled in only if you specify the reply address in the email editor);
 * **To:** — the address of the email recipient (the address of the recipient from your contact list is entered here when sending the email);
-* **Subject:** — email subject (the *Subject* value from the email editor);
+* **Subject:** — email subject (the **Subject** value from the email editor);
 * **Date:** — date and time of email creation (entered by our system at the time the email is generated and sent to the recipient);
 * **Message-ID:** — unique email identifier in our system;
 * **X-Mailer:** — the name of the specialized software of our service that sends email and the number of the server block through which the sending was made;
@@ -257,22 +255,22 @@ Basic Fields Used in the Email Header
 
 Email clients can render email header information differently to make it easier for the recipient to read.
 
-For example, you can see additional information under the sender's name in Gmail — *mailed-by:* and *signed-by:*, which is extracted from the *Return-Path:* and *DKIM-Signature* fields.
+For example, you can see additional information under the sender's name in Gmail — **mailed-by:** and **signed-by:**, which is extracted from the **Return-Path:** and **DKIM-Signature** fields.
 
 <Image align="center" width="80% " src="https://files.readme.io/e0391b6874bd1d8a02066325b6c2771b2bd1879a9f362d00c98464adb806b205-subject.webp" />
 
-Most mail services do not visualize the *Sender:* field. The exception is email services and Microsoft products, where the *Sender:* field has higher priority and, if present, is shown as Sender instead of the value from the *From:* field.
+Most mail services do not visualize the **Sender:** field. The exception is email services and Microsoft products, where the **Sender:** field has higher priority and, if present, is shown as Sender instead of the value from the **From:** field.
 
 ## What Will My Subscribers See Depending on the Option of Connecting My Domain to Your Service?
 
 For example, you have a domain called stopfake.org. You want to send emails on behalf of the info mailbox in this domain. Then, the title will be\
-*From:`info@example.org`.*
+**From:**`info@example.org`
 
 Email is formed like this under normal (standard) conditions:
 
-* field *From:* — your address `info@stopfake.org`,
-* field *To:* — recipient’s address,
-* *Sender:* and *Return-Path:* fields — our technical address, which catches delivery errors and is used to process some spam complaints.
+* field **From:** — your address `info@stopfake.org`,
+* field **To:** — recipient’s address,
+* **Sender:** and **Return-Path:** fields — our technical address, which catches delivery errors and is used to process some spam complaints.
 
 <Image align="center" width="80% " src="https://files.readme.io/de1c3b6656caf68c262fed6276edbf5148a5e80bdea722abf60bfeacea907acf-dns-6.webp" />
 
@@ -280,10 +278,10 @@ DKIM of our domain signs an email.
 
 Header template:
 
-*Mail From (envelope):`bounce+XXX@m11.esputnik.com`\
-From: `name@yourdomain.com`
-Sender: `bounce+XXX@m11.esputnik.com`
-Return-Path:`bounce+XXX@m11.esputnik.com`*
+**Mail From (envelope):**`bounce+XXX@m11.esputnik.com`\
+**From:** `name@yourdomain.com`
+**Sender:** `bounce+XXX@m11.esputnik.com`
+**Return-Path:**`bounce+XXX@m11.esputnik.com`
 
 where XXX is the email recipient's address, VERP-encoded to increase the chances of our service to identify the recipient of the email when analyzing email notifications about delivery errors and spam complaints.
 
@@ -291,14 +289,14 @@ This is the basic option. It connects to everyone by default.
 
 The following information will be visible in Gmail:
 
-**mailed-by:** esputnik.com,\
-**signed-by:** esputnik.com.
+**mailed-by:**` esputnik.com`,\
+**signed-by:** `esputnik.com`.
 
-We recommend that when working with our service using the basic connection option, add our insert to the SPF string of your domain “*include:spf2.esputnik.com*”.
+We recommend that when working with our service using the basic connection option, add our insert to the SPF string of your domain `include:spf2.esputnik.com`.
 
 For example, like this:
 
-*stopfake.org.        IN    TXT    "v=spf1 +a +mx include:spf2.esputnik.com -all"*
+`stopfake.org.        IN    TXT    "v=spf1 +a +mx include:spf2.esputnik.com -all"`
 
 When you set up your email signature, emails will begin to be signed with your domain key.
 
