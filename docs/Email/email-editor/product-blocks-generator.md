@@ -14,7 +14,7 @@ next:
 ---
 A smart container is a template element consisting of basic blocks (image, text, button), the content of which is automatically inserted from the site. 
 
-If your website uses Open Graph (OG) tags that provide structured data about the content of the web page, it allows the system to automatically insert information about products into the email.
+If your website uses Open Graph (**OG**) tags that provide structured data about the content of the web page, it allows the system to automatically insert information about products into the email.
 
 When data from the website is not supplied, or additional product parameters need to be displayed, you must manually add parameters to existing cards.
 
@@ -24,7 +24,7 @@ This guide will cover how to check if the content card autofill is functioning a
 
 You only need to copy the product's URL and paste the link into the container to implement this method. After that, the system will automatically fill in the corresponding data in the email.
 
-1. Go to *Messages → Messages → Email*. Open an email or create a new one.
+1. Go to **Messages → Messages → Email**. Open an email or create a new one.
 
 <Image align="center" width="80% " src="https://files.readme.io/4accb860dba089f7880910889effdd6562f851f219c8cc3e7c6b69fbbdbd2d03-setting-up-smart-containers-01.webp" />
 
@@ -32,7 +32,7 @@ You only need to copy the product's URL and paste the link into the container to
 >
 > When using an email with a [custom design](https://docs.yespo.io/docs/designing-your-email), the design styles are immediately applied to all objects added from the module library.
 
-2. Go to *Modules → Advanced*. Select the *Product Cards* category and add the ready-made module.
+2. Go to **Modules → Advanced**. Select the **Product Cards** category and add the ready-made module.
 
 <Image align="center" width="80% " src="https://files.readme.io/67fad87babe9bc20dbc117971347a9ed880eb9ceef410d399db77089751795ea-setting-up-smart-containers-02.webp" />
 
@@ -55,7 +55,7 @@ For example, let's take a module with cards containing:
 
 <br />
 
-2. Click *Smart-Container → Data → Smart* in the menu on the left and paste the copied URL in the *Link* field.
+2. Click **Smart-Container → Data → Smart** in the menu on the left and paste the copied URL in the **Link** field.
 
 <Image align="center" width="80% " src="https://files.readme.io/f97d00f0e5335a62680f019a91273df303cf989bbe47cd85a54e5305527c0365-setting-up-smart-containers-05.webp" />
 
@@ -87,12 +87,12 @@ Let's consider an example where you need to add information about the availabili
 
 ### Editing HTML Code
 
-1. Add a *Text block* with the “Product availability​​” text to the container. 
-2. Click on the *Smart-Container* located at the top of the container.
+1. Add a **Text block** with the **Product availability​​** text to the container. 
+2. Click on the **Smart-Container** located at the top of the container.
 
 <Image align="center" width="80% " src="https://files.readme.io/60b9eec185e540022bc5937aefebee01e5fb807e34d1b6f38fb2296fd32e2c04-setting-up-smart-containers-09.webp" />
 
-3. Click the *Code* icon on the editor panel and open the code for this block.
+3. Click the **Code** icon on the editor panel and open the code for this block.
 
 <Image align="center" width="80% " src="https://files.readme.io/1ddffa7e019f595fd1c5c0f2acba78453e58b324689f1520bd8564440e66222b-setting-up-smart-containers-10.webp" />
 
@@ -102,19 +102,19 @@ Let's consider an example where you need to add information about the availabili
 
 ### Adding Variables and Matching Rules
 
-1. Go to \_Data → Smart → Configuratio\_n in the container settings.
+1. Go to**Data → Smart → Configuration** in the container settings.
 
 <Image align="center" width="80% " src="https://files.readme.io/f7da83febc9b8458f167218119626e93eaa473b081def9e36a20e59b4f79714e-setting-up-smart-containers-12.webp" />
 
-2. Click  *\+→ Variable var* .
+2. Click  **+→ Variable var** .
 
 <Image align="center" width="80% " src="https://files.readme.io/80608af37eda701fd9291315fae150014405c128cd55bd6314bf194fd35fc233-setting-up-smart-containers-13.webp" />
 
-3. Add the *p\_availability* variable and name it *Availability*.
+3. Add the **p\_availability** variable and name it **Availability**.
 
 <Image align="center" width="80% " src="https://files.readme.io/f6e6fc7900efcc7e775dd57df71799fd28c7b9a36aeab89218e01e662f6d8b31-setting-up-smart-containers-14.webp" />
 
-4. Go to the *Matching rules* section, select the *Internal* tab, and, specify the “**.Availability**” selector -  for the *p\_availability* variable. Leave the *Attribute* field empty.
+4. Go to the **Matching rules** section, select the **Internal** tab, and, specify the **Availability** selector -  for the `p_availability` variable. Leave the **Attribute** field empty.
 
 > 🚧 Important
 >
@@ -122,7 +122,7 @@ Let's consider an example where you need to add information about the availabili
 
 <Image align="center" width="80% " src="https://files.readme.io/2cddeceb7f4ea5b6f4f53d4fad9d8dd2c7d84c82edf25735e5c37b94e6e349ec-setting-up-smart-containers-15.webp" />
 
-5. Go to the *Appearance* tab. If everything is done correctly, the *Availability* field should appear.
+5. Go to the **Appearance** tab. If everything is done correctly, the **Availability** field should appear.
 
 <Image align="center" width="80% " src="https://files.readme.io/7e1d31b542c6350a19dbd0887ec195ae089dc4a829492fcc070a422db7be9fd2-setting-up-smart-containers-16.webp" />
 
@@ -134,24 +134,24 @@ Let's consider an example where you need to add information about the availabili
 >
 > The example covers the basic way of inspecting elements on a web page using DevTools in Google Chrome for Windows. If you use another browser or operating system, refer to the documentation for using DevTools and inspecting elements specific to that platform.
 
-2.  Press *Ctrl + Shift + I* or F12 on your keyboard to open *DevTools* and Inspect the page element.
-3. Press *Ctrl + Shift + C* or click the cursor icon in the top left corner of the *DevTools* panel to select the *Inspect Element* option.
+2.  Press **Ctrl + Shift + I** or **F12** on your keyboard to open **DevTools** and Inspect the page element.
+3. Press **Ctrl + Shift + C** or click the cursor icon in the top left corner of the **DevTools** panel to select the **Inspect Element** option.
 
 <Image align="center" width="80% " src="https://files.readme.io/3a86dc6805b60ce28617d7bcc6e50998ddae7117818af723e29076de26aa3670-setting-up-smart-containers-17.webp" />
 
-4. Select an element on the page by clicking the left mouse button. In our case, it is *In stock*.
+4. Select an element on the page by clicking the left mouse button. In our case, it is **In stock**.
 
 <Image align="center" width="80% " src="https://files.readme.io/321a0b9c75148c521cda953a429531d2ca4ba86fb5b9d348d3a4e6e81823a424-setting-up-smart-containers-18.webp" />
 
-5. In the code editor, right-click and select *Copy selector* from the drop-down menu.
+5. In the code editor, right-click and select **Copy selector** from the drop-down menu.
 
 <Image align="center" width="80% " src="https://files.readme.io/1d712e8841c2246f312cf827f08592840d0cac4c009bc25d5599cb0c5ebad103-setting-up-smart-containers-19.gif" />
 
-6. Go to the *Matching rules* section in the smart container and select the *External* tab.
+6. Go to the **Matching rules** section in the smart container and select the **External** tab.
 
 <Image align="center" width="80% " src="https://files.readme.io/9a277e24cf9e910bc94f8a247bda9372a81bbcc8c201e0b8a4762f8241e22888-setting-up-smart-containers-20.webp" />
 
-7. For the *p\_availability* variable, paste the copied selector into the *CSS selector* field. Leave the *Attribute* field empty.
+7. For the `p_availability` variable, paste the copied selector into the **CSS selector** field. Leave the **Attribute** field empty.
 
 Information about the availability from the product page will be inserted into the container.
 
@@ -161,6 +161,6 @@ Information about the availability from the product page will be inserted into t
 >
 > Websites usually use standard CSS selector names. Setting up smart containers should work for most pages following CSS standards. However, some pages may have unique selector names and attributes. These might need advanced settings or creating new smart containers.
 
-The steps to set up a new container will be similar to those outlined in the [*Adding Parameters to Existing Cards*](https://docs.yespo.io/docs/product-blocks-generator#adding-parameters-to-existing-cards) section. However, adding variables and mapping rules need to be specified for each element.
+The steps to set up a new container will be similar to those outlined in the [Adding Parameters to Existing Cards](https://docs.yespo.io/docs/product-blocks-generator#adding-parameters-to-existing-cards) section. However, adding variables and mapping rules need to be specified for each element.
 
 If you have questions about setting up smart containers, please contact us at [support@yespo.io](mailto:support@yespo.io).
