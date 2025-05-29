@@ -27,15 +27,15 @@ Edit the contact’s subscription and assign additional fields. Read this [artic
 
 ## Viewing the Contact’s Profile
 
-To open the list of your contacts in our system, go to *Contacts → All contacts*.
+To open the list of your contacts in our system, go to **Contacts → All contacts**.
 
 <Image align="center" width="80% " src="https://files.readme.io/36ea6c0d31908122bf47edd858a4ceddd6f09bf9c23c4b69a03ced62a4a689d0-all-contacts.webp" />
 
 To open the contact’s profile window:
 
-* Click the *Contact preview* icon on the right-hand side of the table. \
-  Or,\
-  Click any *blank space* in the corresponding contact row. The contact profile window opens.
+* Click the **Contact preview** icon on the right-hand side of the table. \
+  Or,
+  Click any **blank space** in the corresponding contact row. The contact profile window opens.
 
 <Image align="center" width="80% " src="https://files.readme.io/4fe4a638c3c96d85aa0759e87649a653b9c816348536ffdfffd44e9631de6e46-contact-preview-icon.webp" />
 
@@ -104,7 +104,7 @@ The following table lists the information type displayed on the ‘Contact infor
       </td>
 
       <td>
-        Applications that the contact installed on their devices.\
+        Applications that the contact installed on their devices.
         Point to the application name to view IDs and connected devices.
       </td>
     </tr>
@@ -228,13 +228,13 @@ To view the activities that occurred during a specific period, expand the period
 
 > 📘 Note
 >
-> For the *Orders* category, the history is available for the entire contact activity period.
+> For the **Orders** category, the history is available for the entire contact activity period.
 
 Each activity contains the following information:
 
-* Sent message, date, and status – *Campaigns* category.
-* Event names and assigned workflows – *Events* category.
-* External ID, amount, date, and order status – *Orders* category.
+* Sent message, date, and status – **Campaigns** category.
+* Event names and assigned workflows – **Events** category.
+* External ID, amount, date, and order status – **Orders** category.
 
 <Image align="center" width="80% " src="https://files.readme.io/9e7506675ffbf3e7ddf9b7b8eec2899a7579919ee658ce3186a2f8f3a9cf4511-activity-003.webp" />
 
@@ -270,16 +270,16 @@ Expand the Address and Location sections and enter or edit information in their 
 >
 > You can use geotargeting to get and update the information about contact’s location. To learn more, read [Setting Up Geotargeting](https://docs.yespo.io/docs/setting-up-geotargeting).
 
-In the *Regional settings* section, expand the following dropdown menus and select the values from them:
+In the **Regional settings** section, expand the following dropdown menus and select the values from them:
 
-* *Time zone*.
-* *Language*. Read this [article](https://docs.yespo.io/docs/adding-the-preferred-language-to-the-user-profile) to learn more about setting the contact’s language.
+* **Time zone**.
+* **Language**. Read this [article](https://docs.yespo.io/docs/adding-the-preferred-language-to-the-user-profile) to learn more about setting the contact’s language.
 
 <Image align="center" width="80% " src="https://files.readme.io/dd99cd08e92f9279f07584403aaa8db930ad31bb2a63ff3adefefd7949bbea39-managing-contact-profiles-05.webp" />
 
 To add a contact to one or several segments:
 
-1. Click the *plus* icon in the top bar on the right-hand side.
+1. Click the **plus** icon in the top bar on the right-hand side.
 
 <Image align="center" width="80% " src="https://files.readme.io/d192cb4eacbf6b9f6cb30d46370100b9a203ab473e6ecb1fd91bd24cc981e4b7-managing-contact-profiles-06.webp" />
 
@@ -287,11 +287,11 @@ To add a contact to one or several segments:
 
 <Image align="center" width="80% " src="https://files.readme.io/5002378efd20d04c65e54b91f6a7ef24725dcc36514fe7afa0ba8cc02720a590-add-segments-select-save.webp" />
 
-3. Click *Save*.
+3. Click **Save**.
 
 To edit the contact information in additional fields:
 
-1. Expand the list of fields by selecting the *upward-pointing arrow* icon.
+1. Expand the list of fields by selecting the **upward-pointing arrow** icon.
 2. Add or select the values for the contact fields in the list.
 
 <Image align="center" width="80% " src="https://files.readme.io/62172d3586ccab443bc69e5773f406b0555adc605ff94eaf5ee823a666fa005f-managing-contact-profiles-07.webp" />
