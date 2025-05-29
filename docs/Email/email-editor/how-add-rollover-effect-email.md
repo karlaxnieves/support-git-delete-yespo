@@ -23,7 +23,7 @@ In email campaigns, rollover helps implement interactivity and can make the mess
 
 <Image align="center" width="80% " src="https://files.readme.io/83a5167b705a72ad4aa6caf903e4969ebc1a00020004b1e074cdae19750c82a1-adding-a-rollover-001.webp" />
 
-Prepare two images in PNG, JPG or GIF format. Not more than 3 MB or 4000 x 4000 px.
+Prepare two images in `PNG`, `JPG` or `GIF` format. Not more than 3 MB or 4000 x 4000 px.
 
 > 📘 Important
 >
@@ -33,11 +33,11 @@ One of the two images will be displayed independently of the cursor's position, 
 
 <Image align="center" width="80% " src="https://files.readme.io/ce48aa8d77710e63a70acc288559bac50e9f096cc3f6b9ffaef0889c07f44359-adding-a-rollover-002.gif" />
 
-3. Clik on the *Image* block and upload the main image, which will be displayed without hovering over and in static emails. 
+3. Clik on the **Image** block and upload the main image, which will be displayed without hovering over and in static emails. 
 
 <Image align="center" width="80% " src="https://files.readme.io/98b5a9ff605fc77bfaeba4d0d143e1dea604e794f98695d421d4b7a500669189-adding-a-rollover-003.webp" />
 
-4. Activate the *Rollover effect* switcher.
+4. Activate the **Rollover effect** switcher.
 
 <Image align="center" width="80% " src="https://files.readme.io/e7baaee5dc65ebeab6d18e9fea82073499866bdfc6bb31baecae6062b33813e2-adding-a-rollover-004.webp" />
 
@@ -45,7 +45,7 @@ One of the two images will be displayed independently of the cursor's position, 
 
 <Image align="center" width="80% " src="https://files.readme.io/faa316da17302baca0c8fb23d77878251f1b69fe498051770f1a4bbba5d8d2c7-adding-a-rollover-005.webp" />
 
-6. Add a required link, alt text, and other settings for the *Image* block.
+6. Add a required link, alt text, and other settings for the **Image** block.
 
 <Image align="center" width="80% " src="https://files.readme.io/ebdac142072955d2567f72ff3557f6c638eb5002d64de267ef1307c1cdbc61e0-adding-a-rollover-006.webp" />
 
