@@ -13,17 +13,17 @@ metadata:
 next:
   description: ''
 ---
-Working in the responsive Yespo editor frees you from routine and saves time for segmentation, analytics, and personalization of communication. No knowledge of HTML code is required to create emails in our system. The layout is carried out by simply dragging and dropping blocks.
+Working in the responsive Yespo editor frees you from routine and saves time for segmentation, analytics, and personalization of communication. No knowledge of `HTML` code is required to create emails in our system. The layout is carried out by simply dragging and dropping blocks.
 
 Let's look at the capabilities of the drag-and-drop editor.
 
 ## Creating Template
 
-Go to *Messages → Messages* and click *New Email*.
+Go to **Messages** → **Messages** and click **New Email**.
 
 <Image align="center" width="80% " src="https://files.readme.io/de7b4a35a0f7e9155b4df049d642c96e232cfdd91811876b3e87f6b7391da67a-email-editor-1.webp" />
 
-The template gallery will open with the *Basic*, *Gallery*, and *Saved* tabs. Choose the template that best matches your campaign intent.
+The template gallery will open with the **Basic**, **Gallery**, and **Saved** tabs. Choose the template that best matches your campaign intent.
 
 <Image align="center" width="80% " src="https://files.readme.io/63620473e9b926c1fc2ddd21bbf24228814879e2ca5ad39245b7e3bdf9220c0a-email-editor-2.webp" />
 
@@ -32,7 +32,7 @@ The selected template will open in the editor. On the left is the main panel for
 * Appearance (learn more about working with this tab [by following the link](https://docs.yespo.io/docs/designing-your-email)).
 * Content.
 
-The *Content* tab contains 3 sections:
+The **Content** tab contains 3 sections:
 
 * Structures are containers for placing elements.
 * Blocks – menu, banner, video, social networks, etc.
@@ -93,11 +93,11 @@ You can use containers to create product cards, describe blog posts, announce ev
 
 ### Blocks
 
-*Blocks* tab contains all content blocks. With their help, you can fill out the content of the email.
+**Blocks** tab contains all content blocks. With their help, you can fill out the content of the email.
 
 <Image align="center" width="80% " src="https://files.readme.io/3bb6c34de8840bec49b86403d0f9327bef732854f9f5ef26399b614ef6b925ad-email-editor-11.webp" />
 
-Let's look at the elements of the *Blocks* tab.
+Let's look at the elements of the **Blocks** tab.
 
 #### Image
 
@@ -121,17 +121,17 @@ The spacer helps visually separate different content blocks. In the block settin
 
 #### Video
 
-Since HTML5 is not supported by all mailers, the video does not play in the email itself. The video file will open on the resource where it is posted (YouTube, Vimeo) by clicking the video button in the email.
+Since `HTML5` is not supported by all mailers, the video does not play in the email itself. The video file will open on the resource where it is posted (YouTube, Vimeo) by clicking the video button in the email.
 
 To add a video to an email, you need to:
 
-1. Add a structure and place the *Video* block in it.
-2. Add video URL (YouTube, Vimeo) in the *Link to video* field.
+1. Add a structure and place the **Video** block in it.
+2. Add video URL (YouTube, Vimeo) in the **Link to video** field.
 
 <Image align="center" width="80% " src="https://files.readme.io/abe93c82e2bdddb4f26d420469cd88b44fce9af9ee954e93d85314e115b988c6-email-editor-14.webp" />
 
 3. Add a title image — this is an optional step since the system automatically pulls the cover image from the video. Alternative text for the video will also be added.
-4. Select the *Play* button.
+4. Select the **Play** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/bb0b44c0b776fae8af3719c9eb6dae42e9530528253018b8bdd90d5915b02469-email-editor-15.webp" />
 
@@ -175,12 +175,12 @@ You can edit such a banner after converting it into an image. For example, repla
 
 To do this, you need:
 
-* Select *Text*;
+* Select **Text**;
 
 <Image align="center" width="80% " src="https://files.readme.io/a8c8a50c455ca66839bd272371d692e95c73a862616915562099fd23d2ac8eb0-email-editor-21.webp" />
 
 * Select a font (220 fonts are available in the system, there is a search function);
-* Write text on the banner and click *Apply → Save*.
+* Write text on the banner and click **Apply → Save**.
 
 <Image align="center" width="80% " src="https://files.readme.io/203127034ff02eaa1eacbe4ab8d4f46fc000ea44e56591a0f50c2f5eeec4bbdd-email-editor-22.webp" />
 
@@ -218,7 +218,7 @@ After the end of the countdown, you can replace the timer with an image. This op
 
 #### Menu
 
-The *Menu* block is placed in almost all emails. You can add it both in the header and the footer. The menu is an easy way to add small CTAs if, for example, the user is not interested in the campaign offer but knows what they want to see on the site. Usually, the block from campaign to campaign stays the same.
+The **Menu** block is placed in almost all emails. You can add it both in the header and the footer. The menu is an easy way to add small CTAs if, for example, the user is not interested in the campaign offer but knows what they want to see on the site. Usually, the block from campaign to campaign stays the same.
 
 There are 3 types of menus in Yespo: links, icons, icons and links.
 
@@ -248,13 +248,13 @@ You can add personalized recommendations to your emails without using code with 
 
 #### Columns
 
-The *Columns* block allows you to populate a two-column frame inside a container or a smart container.
+The **Columns** block allows you to populate a two-column frame inside a container or a smart container.
 
 <Image align="center" width="600px" src="https://files.readme.io/927acaa4137afc3eeae61f907a320ef386af733cfc1fa4bf4d590a34fc0e1700-add_columns.gif" />
 
 The columns have equal widths that cannot be changed.
 
-The block’s menu is accessible after clicking the *Columns* tab, and contains the following options:
+The block’s menu is accessible after clicking the **Columns** tab, and contains the following options:
 
 * Background color
 * Rounding corners
@@ -262,7 +262,7 @@ The block’s menu is accessible after clicking the *Columns* tab, and contains 
 
 <Image align="center" width="600px" src="https://files.readme.io/3bacd60b8aecc954274cc05155ad568fb470176bc7ed5869ed12b6f048001d89-columns_menu.png" />
 
-Practically, it can be used to position the *Price* and *Button* blocks horizontally inside the *[Product](https://docs.yespo.io/docs/using-the-products-block)* block.
+Practically, it can be used to position the **Price** and **Button** blocks horizontally inside the [Product](https://docs.yespo.io/docs/using-the-products-block) block.
 
 <Image align="center" width="600px" src="https://files.readme.io/cf23538ae036fc6cc5f595ffa2e768f9ce9063743a5d42d12ed372567f5e3124-columns_nested.png" />
 
