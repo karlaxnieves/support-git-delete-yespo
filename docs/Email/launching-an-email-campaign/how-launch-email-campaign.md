@@ -16,11 +16,11 @@ Once you [create an email](https://docs.yespo.io/docs/adaptive-email-builder-rev
 
 ## Choose the Email
 
-1. Go to *Messages → Messages*. Choose the message you want to send and click the *Create campaign* button. You can also use this button inside an email.
+1. Go to **Messages → Messages**. Choose the message you want to send and click the **Create campaign** button. You can also use this button inside an email.
 
 <Image align="center" width="80% " src="https://files.readme.io/be431b50f74d621355513be7354964f9460836ddc2bc35cd02f17d7d4e1e247d-sending-email-1.webp" />
 
-2. In the pop-up window, choose segments or contacts for the campaign and click on *Go to campaign*.
+2. In the pop-up window, choose segments or contacts for the campaign and click on **Go to campaign**.
 
 <Image align="center" width="80% " src="https://files.readme.io/c89e02289503cc04ad81fd307bdab6b85263f1144b29513e7960cb39bfeab976-sending-email-2.webp" />
 
@@ -28,15 +28,15 @@ You’ll be forwarded to the campaign scheduling with the following information.
 
 ## Scheduling Details
 
-1. **Campaign name.** The name is generated automatically. It includes the message name and the segment name. You can edit the campaign name if necessary. You can find a campaign by its name in *Reports* and *Scheduled campaigns*.
+1. **Campaign name.** The name is generated automatically. It includes the message name and the segment name. You can edit the campaign name if necessary. You can find a campaign by its name in **Reports** and **Scheduled campaigns**.
 2. **Recalculate contacts.** Click on it to see the number of contacts to whom the email will be sent.
-3. **Included in campaign:** segments selected for the campaign. Click on *Edit* to add or change segments.
-4. **Excluded from campaign:** contact segments excluded from the campaign. Click on *Select segments* or *Edit* to exclude other segments from the campaign.
+3. **Included in campaign:** segments selected for the campaign. Click on **Edit** to add or change segments.
+4. **Excluded from campaign:** contact segments excluded from the campaign. Click on **Select segments** or **Edit** to exclude other segments from the campaign.
 
 <Image align="center" width="80% " src="https://files.readme.io/26ab9673d571abef1bf2edd513c2a0c5148fccc5313a173f6e0175cff9777070-sending-email-3.webp" />
 
 5. **Multilanguage.** For [multilingual campaigns](https://docs.yespo.io/docs/multilanguage-overview), you can see the number of email language versions. You can switch between languages in one click to see the corresponding copy.
-6. **Message name:** the name you set when creating the message. This name is automatically set as the *UTM tag* in *utm\_campaign*.
+6. **Message name:** the name you set when creating the message. This name is automatically set as the **UTM tag** in **utm\_campaign**.
 7. **Tags.** Each message can be attributed with [tags](https://docs.yespo.io/docs/how-add-tags) for better search and filter.
 8. **Subscriptions categories.** You can create [subscription categories](https://docs.yespo.io/docs/how-use-subscription-category) in the profile settings and use them for more accurate campaign personalization.
 9. **Subject:** the subject line of the message. If it isn’t specified, you’ll see a corresponding notification. Go back to the email editor to specify the subject line. Messages without subject lines cannot be sent.
@@ -52,7 +52,7 @@ Here, you can configure the following options:
 
 ### 1. Batching
 
-You can choose the *As soon as possible* option or limit the speed by specifying the number of messages sent in a particular time (minute, hour, day, week). Rate limiting is required, for example, if there are limitations related to [domain warming up](https://yespo.io/blog/first-campaigns-new-domain-how-warm-right).
+You can choose the **As soon as possible** option or limit the speed by specifying the number of messages sent in a particular time (minute, hour, day, week). Rate limiting is required, for example, if there are limitations related to [domain warming up](https://yespo.io/blog/first-campaigns-new-domain-how-warm-right).
 
 <Image align="center" width="80% " src="https://files.readme.io/948bb3ecbdda5df5851b3dc3bd63ce5b3b70a3a17701eb9a649b7a40b4f97d63-send-options-1.webp" />
 
@@ -74,7 +74,7 @@ Send yourself a message to check it's correct.
 
 ### 4. Schedule
 
-Click *Schedule* to set the date, time, and frequency of sending the campaign.
+Click **Schedule** to set the date, time, and frequency of sending the campaign.
 
 ### 5. Use Contact’s Time Zone
 
@@ -94,13 +94,13 @@ Campaigns scheduled by time zones are marked with a special icon on the report t
 
 <Image align="center" width="80% " src="https://files.readme.io/d4742cc1ea2e19a42c7bfa9554374351623f3e7ff8b03791aab503d0483f71fb-send-options-6.webp" />
 
-To cancel sending a scheduled campaign based on your contacts' time zone, go to the *Campaigns →  Scheduled campaigns* section, click on the campaign name, and turn off the *Use contact's time zone* switch. The campaign will be sent to all contacts in the account's time zone when the scheduled time arrives.
+To cancel sending a scheduled campaign based on your contacts' time zone, go to the **Campaigns →  Scheduled campaigns** section, click on the campaign name, and turn off the **Use contact's time zone** switch. The campaign will be sent to all contacts in the account's time zone when the scheduled time arrives.
 
 <Image align="center" width="80% " src="https://files.readme.io/0e21af6b97e8ccfbe36e51f1f9a851af85671c5d4305eadf49c2bcd93d469163-i3.gif" />
 
-If the campaign is scheduled for a time that has already arrived in one of the time zones, it will immediately go to the *Reports* section as active and will begin to be sent as soon as contacts appear from the time zone in which the scheduled time occurs. It will not appear in the *Scheduled campaigns* section.
+If the campaign is scheduled for a time that has already arrived in one of the time zones, it will immediately go to the **Reports** section as active and will begin to be sent as soon as contacts appear from the time zone in which the scheduled time occurs. It will not appear in the **Scheduled campaigns** section.
 
-If the scheduled time has not yet arrived anywhere, after scheduling, such a campaign will be displayed in the scheduled ones until the specified time arrives in the first time zone (UTC+14), after which it will move to the *Reports* section as active.
+If the scheduled time has not yet arrived anywhere, after scheduling, such a campaign will be displayed in the scheduled ones until the specified time arrives in the first time zone (UTC+14), after which it will move to the **Reports** section as active.
 
 Contacts in a time zone where the campaign start time has already passed will receive the message the next day at the same time.
 
@@ -110,7 +110,7 @@ Contacts in a time zone where the campaign start time has already passed will re
 
 ### 6. Start Immediately
 
-Click *Start immediately* to send the campaign immediately after passing the moderation.
+Click **Start immediately** to send the campaign immediately after passing the moderation.
 
 <Image align="center" width="80% " src="https://files.readme.io/0a572e40d53ab4f3485bb0024646c8dc894b4d8d8f85605a315ff8e783ae3411-send-options-8.webp" />
 
@@ -125,4 +125,4 @@ After launching or planning, the campaign will be sent for moderation. Moderatio
 * **Blocked:** the campaign has been rejected by a moderator. The email with the reasons for blocking will be sent to your email address.
 * **Confirmed:** the campaign has been approved by a moderator and is waiting for the sending.
 
-Immediately before sending the campaign automatically transferred to *Campaigns → Reports*. Here, you can see the information on the sending and the statistics.
+Immediately before sending the campaign automatically transferred to **Campaigns → Reports**. Here, you can see the information on the sending and the statistics.
