@@ -63,22 +63,22 @@ Our team tested several popular messenger protocols to assess their compatibilit
       </td>
 
       <td>
-        Apple Mail\
-        Outlook\
-        Spark\
-        EdisonMail\
-        Airmail\
-        CanaryMail\
+        Apple Mail
+        Outlook
+        Spark
+        EdisonMail
+        Airmail
+        CanaryMail
         SamsungMail
       </td>
 
       <td>
-        iOS, macOS\
-        macOS, Windows\
-        macOS, Android\
-        iOS, Android\
-        iOS, macOS\
-        macOS, Android\
+        iOS, macOS
+        macOS, Windows
+        macOS, Android
+        iOS, Android
+        iOS, macOS
+        macOS, Android
         Android
       </td>
     </tr>
@@ -89,22 +89,22 @@ Our team tested several popular messenger protocols to assess their compatibilit
       </td>
 
       <td>
-        Apple Mail\
-        Outlook\
-        Spark\
-        EdisonMail\
-        Airmail\
-        CanaryMail\
+        Apple Mail
+        Outlook
+        Spark
+        EdisonMail
+        Airmail
+        CanaryMail
         SamsungMail
       </td>
 
       <td>
-        iOS, macOS\
-        macOS, Windows\
-        macOS, Android\
-        iOS, Android\
-        iOS, macOS\
-        macOS, Android\
+        iOS, macOS
+        macOS, Windows
+        macOS, Android
+        iOS, Android
+        iOS, macOS
+        macOS, Android
         Android
       </td>
     </tr>
@@ -115,26 +115,26 @@ Our team tested several popular messenger protocols to assess their compatibilit
       </td>
 
       <td>
-        Gmail\
-        Apple Mail\
-        Ukr.net\
-        Outlook\
-        Spark\
-        EdisonMail\
-        Airmail\
-        CanaryMail\
+        Gmail
+        Apple Mail
+        Ukr.net
+        Outlook
+        Spark
+        EdisonMail
+        Airmail
+        CanaryMail
         SamsungMail
       </td>
 
       <td>
-        Web, Android\
-        iOS, macOS\
-        Web, iOS\
-        Web, Windows, macOS, iOS, Android\
-        iOS, macOS, Android\
-        iOS, macOS, Android\
-        iOS, macOS\
-        iOS, Android\
+        Web, Android
+        iOS, macOS
+        Web, iOS
+        Web, Windows, macOS, iOS, Android
+        iOS, macOS, Android
+        iOS, macOS, Android
+        iOS, macOS
+        iOS, Android
         Android
       </td>
     </tr>
@@ -145,26 +145,26 @@ Our team tested several popular messenger protocols to assess their compatibilit
       </td>
 
       <td>
-        Apple Mail\
-        Yahoo\
-        Aol\
-        Outlook\
-        Spark\
-        EdisonMail\
-        iOS, macOS\
-        CanaryMail\
+        Apple Mail
+        Yahoo
+        Aol
+        Outlook
+        Spark
+        EdisonMail
+        iOS, macOS
+        CanaryMail
         SamsungMail
       </td>
 
       <td>
-        iOS, macOS\
-        Web\
-        Web\
-        macOS, Windows\
-        iOS, macOS, Android\
-        iOS, Android\
-        iOS, macOS\
-        Android\
+        iOS, macOS
+        Web
+        Web
+        macOS, Windows
+        iOS, macOS, Android
+        iOS, Android
+        iOS, macOS
+        Android
         Android
       </td>
     </tr>
@@ -175,22 +175,22 @@ Our team tested several popular messenger protocols to assess their compatibilit
       </td>
 
       <td>
-        Apple Mail\
-        Outlook\
-        Spark\
-        EdisonMail\
-        Airmail\
-        CanaryMail\
+        Apple Mail
+        Outlook
+        Spark
+        EdisonMail
+        Airmail
+        CanaryMail
         SamsungMail
       </td>
 
       <td>
-        iOS, macOS\
-        macOS, Windows\
-        macOS, Android\
-        iOS, Android\
-        iOS, macOS\
-        macOS, Android\
+        iOS, macOS
+        macOS, Windows
+        macOS, Android
+        iOS, Android
+        iOS, macOS
+        macOS, Android
         Android
       </td>
     </tr>
@@ -201,28 +201,28 @@ Our team tested several popular messenger protocols to assess their compatibilit
       </td>
 
       <td>
-        Apple Mail\
-        Outlook\
-        Spark\
-        EdisonMail\
-        Airmail\
-        CanaryMail\
+        Apple Mail
+        Outlook
+        Spark
+        EdisonMail
+        Airmail
+        CanaryMail
         SamsungMail
       </td>
 
       <td>
-        iOS, macOS\
-        macOS, Windows\
-        macOS, Android\
-        iOS, Android\
-        iOS, macOS\
-        macOS, Android\
+        iOS, macOS
+        macOS, Windows
+        macOS, Android
+        iOS, Android
+        iOS, macOS
+        macOS, Android
         Android
       </td>
     </tr>
   </tbody>
 </Table>
 
-*Based on June 2021.*
+**Based on June 2021**.
 
-*Tested on iOS 14.6, Android 10, 11 and MS Office2019.*
+**Tested on iOS 14.6, Android 10, 11 and MS Office2019**.
