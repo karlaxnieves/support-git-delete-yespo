@@ -18,9 +18,9 @@ Complete the following steps before starting a campaign.
 
 ## Step 1. Selecting and Creating Template
 
-Go to the *Messages → Messages* section and select a template from one of the three tabs:
+Go to the **Messages → Messages** section and select a template from one of the three tabs:
 
-* **Basic** — templates of the most common types: plain text, promo, triggers, greetings, etc. The last template on this tab is for using your own HTML code.
+* **Basic** — templates of the most common types: plain text, promo, triggers, greetings, etc. The last template on this tab is for using your own `HTML` code.
 * **Gallery** — templates for various industries and information purposes.
 * **Saved** — your templates.
 
@@ -38,7 +38,7 @@ The name for internal identification of messages and reports.
 
 <Image align="center" width="80% " src="https://files.readme.io/a1fb8cd54a39af5a254fff1d16fa87e5c3124894be887824e8601b9d2c78f230-image1.webp" />
 
-Recipients can only see this name in the email's UTM tag if the default settings are used (*utm\_campaign=message name*). To set UTM tags manually, read the instructions [at the link](https://docs.yespo.io/docs/how-transfer-utm-parameter).
+Recipients can only see this name in the email's UTM tag if the default settings are used (`utm_campaign=message name`). To set UTM tags manually, read the instructions [at the link](https://docs.yespo.io/docs/how-transfer-utm-parameter).
 
 If you do not specify the name of the email when saving, the subject of the campaign will be automatically inserted into this field.
 
@@ -54,7 +54,7 @@ To test the effectiveness of different subject options, add them using the appro
 
 > 📘 Note
 >
-> You can [use AI](https://docs.yespo.io/docs/using-ai-email-editor) to optimize your email's subject line, preheader, and body. Click the *Improve with AI* button and choose the best option.
+> You can [use AI](https://docs.yespo.io/docs/using-ai-email-editor) to optimize your email's subject line, preheader, and body. Click the **Improve with AI** button and choose the best option.
 
 ### Hidden Preheader
 
@@ -70,7 +70,7 @@ The sender's name is created by default based on the account user's data.
 
 <Image align="center" width="80% " src="https://files.readme.io/da23ed1bc03b1733467504326d93e14c6392ba73247b6c370a41a4424a3ac7ca-image5.webp" />
 
-To use a branded sender name, you need to add it according \[to the instructions]\(http\://Mailing from public addresses is impossible, so you must add a sender before sending.).
+To use a branded sender name, you need to add it according \[to the instructions]\([http://Mailing](http://Mailing) from public addresses is impossible, so you must add a sender before sending.).
 
 > 📘 Note
 >
@@ -87,7 +87,7 @@ By default, all replies are accepted to the sender's address. If addresses like 
 Tags allow you to group messages, segments, reports, and workflows with common marketing goals. In addition, tags are used
 
 * When building a [campaign frequency strategy](https://docs.yespo.io/docs/how-make-campaign-using-optimal-messaging-frequency-strategy),
-* In the *[One from many](https://docs.yespo.io/docs/using-one-many-block)* workflow block, which automates A/B testing, diversifies communication, and determines the most effective version of the message.
+* In the [One from many](https://docs.yespo.io/docs/using-one-many-block) workflow block, which automates A/B testing, diversifies communication, and determines the most effective version of the message.
 
 <Image align="center" width="80% " src="https://files.readme.io/aa46a16705505a46d86211a498f86d0b95f6f8c252d9bb5b8104a8896a1def18-image13.webp" />
 
@@ -152,7 +152,7 @@ We also recommend paying attention to the special features of the editor:
 
 ## Step 5. Preview and Test
 
-While creating a message, you can easily preview how it will look on desktop and mobile devices. To do this, click the *View message* icon on the top panel of the editor.
+While creating a message, you can easily preview how it will look on desktop and mobile devices. To do this, click the **View message** icon on the top panel of the editor.
 
 <Image align="center" width="80% " src="https://files.readme.io/b17c48a5994764a941ade3cd2b54ffa545c4326d3ac522ae1e7d13f3366f9b9f-image18.webp" />
 
@@ -160,9 +160,9 @@ If you use personalization in the email, you can check in the preview window (1)
 
 <Image align="center" width="80% " src="https://files.readme.io/1632a862bfa71da17362bf4f7dc85f374982901ad3a6342c7cd6a4e07e52bfa3-image9.webp" />
 
-* Click the TEST icon on the top panel of the editor (1).
-* Specify the email address to which you want to send the test email (2),
-* Click the *Send* button (3).
+* Click the **TEST** icon on the top panel of the editor (**1**).
+* Specify the email address to which you want to send the test email (**2**),
+* Click the **Send** button (**3**).
 
 <Image align="center" width="80% " src="https://files.readme.io/70dded9b87e71b39c5007c8f6a76030283127897b3d07a59146d9029c7ee1807-image2.webp" />
 
@@ -170,7 +170,7 @@ We also recommend testing your email in special services like Litmus or Email on
 
 ## Step 6. Saving
 
-When you click the *Save* button (1), the Email will be created or updated in the *Messages → Messages* section. Select *Save as template* (2) if you want to use the created message as a template for further campaigns (*Saved* tab). 
+When you click the **Save** button (**1**), the Email will be created or updated in the **Messages → Messages** section. Select **Save as template** (**2**) if you want to use the created message as a template for further campaigns (**Saved** tab). 
 
 <Image align="center" width="80% " src="https://files.readme.io/82f18b0abf67011e1d628bb767b74722bec06c51a1453640f5712274981ca58f-image16.webp" />
 
