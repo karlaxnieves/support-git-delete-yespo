@@ -13,8 +13,8 @@ next:
   description: ''
 ---
 > 📘 Note
-
-> Web push token collection is only available for HTTPS protocol websites.
+>
+> Web push token collection is only available for `HTTPS` protocol websites.
 
 ## Selecting a Subscription Type
 
@@ -28,7 +28,7 @@ next:
 * **Single Opt-in**. Allows users to subscribe with just one button click, without additional confirmation.
 
 > ❗️ Note
-
+>
 > Google Chrome may block [intrusive subscription windows](https://yespo.io/blog/google-chrome-will-now-block-abusive-browser-notifications). To avoid potential limitations, select the *Double Opt-in* subscription.
 
 <Image align="center" width="80%" src="https://files.readme.io/12cbbe1cc3b4e8b6427fe593301977def35a04418b7dabbc3daec3f8661f78b4-adding-website-to-account-002.gif" />
@@ -54,7 +54,7 @@ The *Service Worker* configuration includes three fields (filled in automaticall
 * **Scope** — the scope within which the Service Worker can interact with the website content. It defines on which pages or in which directories of the website this Service Worker will be active.
 
 > ❗️ Important
-
+>
 > * When using a ***web push Service Worker*** together with a ***PWA (Progressive Web App) Service Worker***, it is necessary to separate their scopes to avoid conflicts. A typical setup is to place the *PWA Service Worker* in the root directory of the website and the *web push Service Worker* in any other directory.
 > * The scope of the *web push Service Worker* is not limited to the pages where the script is active. It works on all pages of your website, even if they are not within the specified scope.
 
@@ -63,7 +63,7 @@ The *Service Worker* configuration includes three fields (filled in automaticall
 If you need to place the file in a different directory on the website, change the path to the Service Worker file.
 
 > 📘 Note
-
+>
 > The file path and scope must have the same base path, starting and ending with a slash “/”. For example, if the path is `/push/reteno/`, then the scope must also start and end the same way, meaning it should also be `/push/reteno/`.
 
 ## Web Push Certificates
@@ -77,7 +77,7 @@ If you already have a subscriber base, enter public and private keys in the corr
 Follow the [link](https://docs.yespo.io/docs/how-set-web-pushes-safari) to configure Web Push subscriptions on Safari versions below 16.
 
 > 📘 Note
-
+>
 > Sending Web Push notifications in Safari is only available in the *Advanced* plan
 
 <Image align="center" width="80%" src="https://files.readme.io/51c3817518077cc13bca64f5e3cb92b801ac1ea64b02a4d62e4e5cbec4a78852-adding-website-to-account-25032025-04.webp" />
@@ -99,7 +99,7 @@ Click *Generate script* and follow these steps:
 
 1. Download the Service Worker installation file below and copy it to the `/push/yespo/` directory on your website or to the directory specified in the File path field in the Service Worker settings.
 2. Copy the generated code and insert it into the section of your website's HTML pages.
-3. <a rel="nofollow" href="https://web.dev/articles/add-manifest" target="_blank">Create a manifest file</a> and place it in the root directory to enable sending messages to devices with iOS/iPadOS.
+3. [Create a manifest file](https://web.dev/articles/add-manifest) and place it in the root directory to enable sending messages to devices with iOS/iPadOS.
 
 <Image align="center" width="80%" src="https://files.readme.io/7874523d4311e0f38d991edb33d7724439711d37252c82bbc4484792f45e643e-adding-website-to-account-25032025-09-yespo.webp" />
 
@@ -115,10 +115,10 @@ The *Website connected* status should appear in the settings. From this moment o
 
 Check the settings you’ve made if you see *Script not installed*.
 
-![Script not installed](https://cdn.yespo.io/photos/shares/Support/Images/Adding-website-to-account/adding-website-to-account-011.webp "Script not installed")
+<Image align="center" width="80% " src="https://files.readme.io/0e0fe75edb1f11685ba09d3f30832cb120838708e7fb00082ac85c5bae6cc433-adding-website-to-account-011.webp" />
 
 > ❗️ Note
-
+>
 > Sometimes, the website status may not be displayed due to the website provider’s security policy. If the script is installed, ignore this status.
 
 To enable Web Push notifications support on iOS/iPadOS devices in PWA (Progressive Web Apps), make sure the manifest file is placed in the root directory of your website.
@@ -126,7 +126,7 @@ To enable Web Push notifications support on iOS/iPadOS devices in PWA (Progressi
 <Image align="center" width="80%" src="https://files.readme.io/74c4bbe1646eacc303563250e07cac7d7b03ea10ee08adc6ff823aea49de2178-adding-website-to-account-2-011.webp" />
 
 > 📘 Note
-
+>
 > If support is not required, simply ignore the *Manifest not found* status.
 
 Click *Set up subscription* to go to the appearance settings of the subscription window, or *Back* to return to the general settings tab.
