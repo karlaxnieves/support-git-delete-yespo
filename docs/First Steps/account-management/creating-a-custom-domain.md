@@ -16,11 +16,11 @@ Yespo uses the `esclick.me` domain for link wrapping by default. However, you ca
 
 ## Creating a Custom Domain
 
-1. Go to your account settings → *Links → Short links* tab and click *New custom domain*.
+1. Go to your account settings → **Links → Short links** tab and click **New custom domain**.
 
 <Image align="center" width="80% " src="https://files.readme.io/e3572cc61e60f37ed317208b49cf9d410554107ebc2da7315a8b23d6e9c233a9-short_links_1.webp" />
 
-2. Enter your domain name and click *Done*. The type, host, target, and SSL certificate are generated automatically; you only need to set up a DNS CNAME record pointing to our secure server.
+2. Enter your domain name and click **Done**. The type, host, target, and `SSL` certificate are generated automatically; you only need to set up a **DNS CNAME** record pointing to our secure server.
 
 <Image align="center" width="80% " src="https://files.readme.io/ff0ca9c2ef0a6a348770d2bc3fa5e30e2a112ed40dadf2071fda468af00694a7-short_links_2.webp" />
 
@@ -28,14 +28,14 @@ Yespo uses the `esclick.me` domain for link wrapping by default. However, you ca
 
 If you need the links to direct users to specific content in the app, create a destination domain.
 
-1. Click *New destination domain*.
+1. Click **New destination domain**.
 
 <Image align="center" width="80% " src="https://files.readme.io/82774d71b0777df42d6f1f1d5715141cf837e19350cb483999f5a4f5a0aae925-short_links_3.webp" />
 
 2. Enter the domain name and upload the associated files:
 
-* **For iOS:** a TXT file (no larger than 128 KB) containing data in JSON format.
-* **For Android:** a JSON file (no larger than 128 KB).
+* **For iOS:** a `TXT `file (no larger than **128 KB**) containing data in `JSON` format.
+* **For Android:** a `JSON` file (no larger than **128 KB**).
 
 <Image align="center" width="80% " src="https://files.readme.io/8cad89e3e4f84270aba6f02b30da51cb3e33b0205babeafd5b7f08d61472ebd9-short_links_4.webp" />
 
@@ -62,7 +62,7 @@ Paths for opening links in iOS applications can also be added to the association
 
 **Paths examples**
 
-You can use the **\*** symbol instead of the domain name — then the path will work for all destination domains created in your account.
+You can use the \*\*\*\*\* symbol instead of the domain name — then the path will work for all destination domains created in your account.
 
 | Example               | Description                                                                                                                                   |
 | :-------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
