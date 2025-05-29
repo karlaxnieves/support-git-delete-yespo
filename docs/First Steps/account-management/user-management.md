@@ -20,7 +20,7 @@ Owners of Yespo organizations can invite or block managers and manage their acce
 * **Admin:** access to all account features with the right to add, block, and delete users and manage their roles.
 * **Marketer:** access to all account features without user management rights.
 * **Marketer without contacts export:** access to all account features without the rights to manage users and export contacts.
-* **Marketer\[no view and export contacts data]\:** access to all account features without the right to export and view emails and phone numbers.
+* **Marketer\[no view and export contacts data]:** access to all account features without the right to export and view emails and phone numbers.
 * **Designer:** access to create, edit, and delete messages and workflows.
 * **Content Creator:** access to create, edit, delete, and send messages.
 * **Auditor:** access to view the account without the right to edit, delete, and export.
@@ -32,17 +32,17 @@ Owners of Yespo organizations can invite or block managers and manage their acce
 ## Inviting a New User
 
 1. Log in to your account using administrator credentials.
-2. Go to settings → *Users* and click the *Invite user* button.
+2. Go to settings → **Users** and click the **Invite user** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/dab605d7893ddc603f016d1849727e40a7d0b0e43bf0ad06256a55c8aa96853b-managing-users-1.webp" />
 
-3\. Enter the user's email and select a role (for example, Marketer). Optionally, add the name and surname of the invitee at the bottom of the page. Click *Invite*.
+3. Enter the user's email and select a role (for example, Marketer). Optionally, add the name and surname of the invitee at the bottom of the page. Click **Invite**.
 
 <Image align="center" width="80% " src="https://files.readme.io/e02df1c1b6c29eb79d3d7072640c1fd01028cd11b9bce50d6391ae3434867274-managing-users-2.webp" />
 
 4. The invited user will receive an email with a link to activate their account.
 5. By clicking on the link from the email, the user will go to a registration page.
-6. After this, the invited user will be activated in the provided role and appear in the *Users* tab.
+6. After this, the invited user will be activated in the provided role and appear in the **Users** tab.
 
 <Image align="center" width="80% " src="https://files.readme.io/c2717f1a863e6f4524dc6dbd7ec8b5e2fdbe9a174008f313cf807c9fc18226b8-managing-users-3.webp" />
 
