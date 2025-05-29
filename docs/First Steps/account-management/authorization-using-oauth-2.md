@@ -42,90 +42,90 @@ Methods from this group do not require special permissions; only Yespo account a
 
 #### 1.1 Protocol version information:
 
-* GET version
+* `GET version`
 
 #### 1.2 Account information:
 
-* GET account/info
-* GET balance
-* GET subscriptions
-* GET addressbooks
+* `GET account/info`
+* `GET balance`
+* `GET subscriptions`
+* `GET addressbooks`
 
 #### 1.3 Message management
 
-* POST messages/email
-* GET messages/email
-* GET messages/email/\{id}
-* DELETE messages/email/\{id}
-* PUT messages/email/\{id}
-* DELETE messages/email/\{id}/\{language}
-* PUT messages/email/\{id}/\{language}
-* GET messages/email/\{id}/viewLink
-* GET messages/sms
-* GET messages/sms/\{id}
+* `POST messages/email`
+* `GET messages/email`
+* `GET messages/email/{id}`
+* `DELETE messages/email/{id}`
+* `PUT messages/email/{id}`
+* `DELETE messages/email/{id}/{language}`
+* `PUT messages/email/{id}/{language}`
+* `GET messages/email/{id}/viewLink`
+* `GET messages/sms`
+* `GET messages/sms/{id}`
 
 #### 1.4 Interface management
 
-* GET interfaces/email
-* GET interfaces/sms
+* `GET interfaces/email`
+* `GET interfaces/sms`
 
 #### 1.5 Statistics
 
-* GET callouts/sms
-* GET contact/token/activated/\{app\_uuid}/\{token\_id}
-* PUT contact/token/activated/\{app\_uuid}/\{token\_id}
-* PUT interactions/\{interaction\_id}/status
+* `GET callouts/sms`
+* `GET contact/token/activated/{app_uuid}/{token_id}`
+* `PUT contact/token/activated/{app_uuid}/token_id}`
+* `PUT interactions/{interaction_id}/status`
 
 ### 2. Methods for Updating Contacts and Segments
 
 Typically, integration involves updating contacts rather than reading them. Therefore, you can limit access rights only to updating contacts to avoid data leakage.
 
-* POST contacts
-* POST contacts/upload
-* GET importstatus/\{sessionId}
-*  POST contact
-* PUT contact/\{id}
-* DELETE contact/\{id}
-* PUT contact/\{id}/subscriptions
-* POST contact/subscribe
-* POST emails/unsubscribed/add
-* POST emails/unsubscribed/delete
-* POST group/\{id}/contacts/detach
+* `POST contacts`
+* `POST contacts/upload`
+* `GET importstatus/{sessionId}`
+* ` POST contact`
+* `PUT contact/{id}`
+* `DELETE contact/{id}`
+* `PUT contact/{id}/subscriptions`
+* `POST contact/subscribe`
+* `POST emails/unsubscribed/add`
+* `POST emails/unsubscribed/delete`
+* `POST group/{id}/contacts/detach`
 
 ### 3. Methods for Reading Contacts and Segments
 
-* GET contacts
-* GET contact/\{id}
-* GET contacts/email
-* GET contact/\{id}/subscriptions
-* GET groups
-* GET group/\{id}/contacts
+* `GET contacts`
+* `GET contact/{id}`
+* `GET contacts/email`
+* `GET contact/{id}/subscriptions`
+* `GET groups`
+* `GET group/{id}/contacts`
 
 ### 4. Methods for Obtaining Contact Activity Data
 
-* GET contacts/activity
+* `GET contacts/activity`
 
 ### 5. Methods for Managing Events
 
-* POST event
-* POST past\_events
-* DELETE past\_events
+* `POST event`
+* `POST past_events`
+* `DELETE past_events`
 
 ### 6. Methods for Managing Messages
 
-* POST message/\{id}/smartsend
-* POST message/\{id}/send OLD
-* GET message/status
-* POST message/email
-* GET message/email/status OLD
-* POST message/sms
-* GET message/sms/status OLD
-* POST message/viber
-* GET message/viber/status OLD
-* POST broadcast
-* GET broadcast/\{broadcast\_id}
-* DELETE broadcast/\{broadcast\_id}
-* GET broadcasts
+* `POST message/{id}/smartsend`
+* `POST message/{id}/send OLD`
+* `GET message/status`
+* `POST message/email`
+* `GET message/email/status OLD`
+* `POST message/sms`
+* `GET message/sms/status OLD`
+* `POST message/viber`
+* `GET message/viber/status OLD`
+* `POST broadcast`
+* `GET broadcast/{broadcast_id}`
+* `DELETE broadcast/{broadcast_id}`
+* `GET broadcasts`
 
 ## Registering, Editing, and Deleting an App in Yespo
 
@@ -133,11 +133,11 @@ Before you start integrating using OAuth 2.0, register your app with Yespo.
 
 ### App Registration
 
-1. Click on your organization name in the upper right corner and select the *For partners* tab.
+1. Click on your organization name in the upper right corner and select the **For partners** tab.
 
 <Image align="center" width="80% " src="https://files.readme.io/c82278cc953e051448768738ed01a5fe65fb72c919faaf1253488f4e8761026c-oauth-1.webp" />
 
-2. Click *Register app*.
+2. Click **Register app**.
 
 <Image align="center" width="80% " src="https://files.readme.io/73b7acadc54eba8a05c71fe08373a29b01db2f661035706d1dd1bedb091da466-oauth-2.webp" />
 
@@ -149,7 +149,7 @@ Before you start integrating using OAuth 2.0, register your app with Yespo.
 
 <Image align="center" width="80% " src="https://files.readme.io/f804a2c615f3cf847d39c955bb82a5b7650e8717c75648477e448eb37f0a574b-oauth-3.webp" />
 
-4. Click *Register*. 
+4. Click **Register**. 
 
 <Image align="center" width="80% " src="https://files.readme.io/4262f7093a277b33e76a4e4f3c9dd3d3c3eca39f6bd7ad8a3a5fcc89838b4230-oauth-4.webp" />
 
@@ -159,13 +159,13 @@ After registering, the app will be assigned a Client ID and Client Secret. Write
 
 5. Customize the appearance of the authorization form:
 
-* Click *Edit*;
+* Click **Edit**;
 
 <Image align="center" width="80% " src="https://files.readme.io/3a78ab7a003f1233f8c3e8ae1a952a6de93e9940f3484c1d1bb7b83bc359d50e-oauth-6.webp" />
 
-* Go to the *Authorization form* tab;
+* Go to the **Authorization form** tab;
 * Enter the app name if needed;
-* Upload logo: maximum JPG, GIF, or PNG size is 1 MB; recommended aspect ratio is 1:1 (96×96px); larger images will be cropped to 100% width and center-aligned (you can create an app without a logo and upload it later).
+* Upload logo: maximum `JPG`, `GIF`, or `PNG` size is **1 MB**; recommended aspect ratio is 1:1 (96×96px); larger images will be cropped to 100% width and center-aligned (you can create an app without a logo and upload it later).
 
 <Image align="center" width="80% " src="https://files.readme.io/4c14e7e3e5748e7bceb4c140d388114d9ce0076eb6730bf81c9360d66ccf7acf-oauth-7.webp" />
 
@@ -197,7 +197,7 @@ Enter your Yespo login and password, and confirm access.
 
 The request will be redirected to the Callback URL with the code used to obtain tokens.
 
-> `HTTP/1.1 302 Found
+> `HTTP/1.1 302 Found  
 > Location: http://awesome_host/callback?code=YOUR_CODE`
 
 ### 2. Obtaining Access and Refresh Tokens
