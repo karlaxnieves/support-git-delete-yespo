@@ -23,20 +23,20 @@ Let’s create an email campaign that offers email subscribers to subscribe to 
 >
 > You can choose any channels instead of Email and Web Push, depending on those you use for communication with customers.
 
-1. Go to *Contacts → Segments*, click *Add segment* and select *Dynamic*.
+1. Go to **Contacts → Segments**, click **Add segment** and select **Dynamic**.
 
 <Image align="center" width="80% " src="https://files.readme.io/86fb4c44d18d252cbf8b1477c23942732a8d7f77fd9edaf51c58a94c5c36f37a-creating_conditional_segment_en.webp" />
 
 2. Enter the segment name and optionally purpose and tags.
-3. In *Include*, click *Add condition*. Go to *Channels → Email domain* and select *All contacts with email*.
+3. In **Include**, click **Add condition**. Go to **Channels → Email domain** and select **All contacts with email**.
 
 <Image align="center" width="80% " src="https://files.readme.io/d0307c0a5d2be641a761fc940ff9e9a039aea2df733b6b7ab3f987e31f913022-collecting-contact-data-from-campaigns-001.webp" />
 
-4. In *Exclude*, click *Add condition*. Go to *Channels*, select the domain of a website you use for the web push subscriptions, and select *All contacts with sitename.com*.
+4. In **Exclude**, click **Add condition**. Go to **Channels**, select the domain of a website you use for the web push subscriptions, and select **All contacts with sitename.com**.
 
 <Image align="center" width="80% " src="https://files.readme.io/0462a6d4522fcac2053df4a3f8b3863555fb0f58dc9b2501a9e414ba739510c9-collecting-contact-data-from-campaigns-005.webp" />
 
-5. Your segment have to look as follows. Click *Done*.
+5. Your segment have to look as follows. Click **Done**.
 
 <Image align="center" width="80% " src="https://files.readme.io/58d72bf7c0d1c5ea2d80786e7c7366168352c3c3f682a9c0d9ba98d33f4a263c-collecting-contact-data-from-campaigns-004.webp" />
 
@@ -50,7 +50,7 @@ Let’s create an email campaign that offers email subscribers to subscribe to 
 
 <Image align="center" width="80% " src="https://files.readme.io/9fca2d833a10366cf0920efaa3d92749ce3c05102ba34e35bac10e247b52cc87-collecting-contact-data-from-campaigns-003.webp" />
 
-2. Left-click the block and click *Code editor*.
+2. Left-click the block and click **Code editor**.
 
 <Image align="center" width="80% " src="https://files.readme.io/1617ad091ac6c9cebfc12ebbd13eff7b47491bff76e378230d185a339617942e-collecting-contact-data-from-campaigns-002.webp" />
 
@@ -75,11 +75,11 @@ Let’s create an email campaign that offers email subscribers to subscribe to 
 
 <Image align="center" width="80% " src="https://files.readme.io/d49432e3fba2a907bec1c7b37a824eb493f37ae5abc2d059dcbd01b71b042f71-image2.webp" />
 
-5. Go to *Automation → Workflows* and create a new workflow that consists of the following blocks:
+5. Go to **Automation → Workflows** and create a new workflow that consists of the following blocks:
 
 * Start;
 * Task Get contact;
-* Email. Select the created email in *Message*;
+* Email. Select the created email in **Message**;
 * End.
 
 <Image align="center" width="80% " src="https://files.readme.io/62d73751a249983b6c4eb2898d0528cc516fa375b2459f35bf7edeb9e127033a-collecting-contact-data-from-campaigns-01.webp" />
@@ -88,7 +88,7 @@ This way, all subscribers receive the email, but the block with the invitation i
 
 > 📘 Note
 >
-> To collect web push tokens, use only the task Get contact; otherwise, the Velocity block won't display.
+> To collect web push tokens, use only the task **Get contact**; otherwise, the Velocity block won't display.
 
 ### Option 2. Send different emails.
 
@@ -106,7 +106,7 @@ You can either create two different emails: one for email subscribers with a tok
 
 ## Sending Bulk Campaigns with Velocity Code to Collect Phone Numbers
 
-To engage users who have not provided their phone number, you can send an email with a block asking for the number and permission to send SMS. Add the corresponding Velocity code to the email code, and it will hide the permission block for users who already receive your SMS.
+To engage users who have not provided their phone number, you can send an email with a block asking for the number and permission to send **SMS**. Add the corresponding Velocity code to the email code, and it will hide the permission block for users who already receive your **SMS**.
 
 In the block code, add before the table:
 
@@ -116,7 +116,7 @@ In the block code, add before the table:
 <!-- #if(!$sms) -->
 ```
 
-Add the following code at the end of the table before closing td:
+Add the following code at the end of the table before closing `td`:
 
 ```Text Apache
 <!--#end-->
