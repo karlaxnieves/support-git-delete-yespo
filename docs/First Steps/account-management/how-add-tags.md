@@ -17,7 +17,7 @@ Tags are a tool for conveniently managing elements of marketing campaigns, such 
 
 Tags are labels that help you to:
 
-* Filter and search for items by categories (for example, **promo**, **trigger**).
+* Filter and search for items by categories (for example, `promo`, `trigger`).
 * Create categories for contact segments and track their relevance.
 * Filter reports to preview statistics on a particular category by channel (for example, email).
 * Setup a [frequency strategy for bulk campaigns](https://docs.yespo.io/docs/how-make-campaign-using-optimal-messaging-frequency-strategy).
