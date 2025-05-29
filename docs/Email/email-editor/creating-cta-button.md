@@ -27,21 +27,21 @@ A structure that contains only a block with CTA will not be rebuilt relative to 
 
 ### Button in a Container
 
-1. Go to the *Blocks* item in the *Content* tab on the left sidebar.
-2. Select the *Button* block and drag it into the desired container.
+1. Go to the **Blocks** item in the **Content** tab on the left sidebar.
+2. Select the **Button** block and drag it into the desired container.
 
 <Image align="center" width="80% " src="https://files.readme.io/b10e9cca76818da18a96bcacc3e41548a04d1f0909b9309c646375fdf2a1ef09-cta-2.webp" />
 
 ### Button in a Separate Structure
 
-1. Open the *Structures* tab in the side menu on the left, under the *Content* tab.
-2. Drag the structure to the template, then select the *Button* content type.
+1. Open the **Structures** tab in the side menu on the left, under the **Content** tab.
+2. Drag the structure to the template, then select the **Button** content type.
 
 <Image align="center" width="80% " src="https://files.readme.io/9c84d0317850eaf537ecea34e281093ca9b9e1cbd0cdf7b83f211a29a77570a8-cta-3.webp" />
 
 ## Editing Button Design
 
-By default, the button is created without a link, with the text *Button* in Arial 18 font, the button color is green #31cb4b, and the text color is white #ffffff.
+By default, the button is created without a link, with the text **Button** in Arial 18 font, the button color is green `#31cb4b`, and the text color is white `#ffffff`.
 
 <Image align="center" width="80% " src="https://files.readme.io/a108585b1e89a7866a7261ed341266cb2315ea6180089b47c11ce59405c2830f-cta-4.webp" />
 
@@ -64,7 +64,7 @@ Click the block with the button. A menu will appear on the left, in which you ca
 
 <Image align="center" width="80% " src="https://files.readme.io/8cadc89bbdccfd0baa1ef72b6d8fed03f2df6356bda95111be297641a6641762-cta-5.webp" />
 
-7. Border radius. To enable the Border-radius property in Outlook, please activate the *Support of Outlook* option in the *Appearance* tab/*Button* section.
+7. Border radius. To enable the Border-radius property in Outlook, please activate the **Support of Outlook** option in the **Appearance** tab **Button** section.
 8. Alignment (to set alignment settings on a mobile device, click the phone icon).
 9. Fixed height (the button's height will not change depending on the device type).
 10. Button with an icon (you can download an icon that will be displayed inside the button).
@@ -80,7 +80,7 @@ Click the block with the button. A menu will appear on the left, in which you ca
 
 15. Add an anchor link, clicking on which will take the reader to the specified section of the email.
 16. Hide element on different types of devices. By default, the button is always displayed. To disable it on your desktop or phone, click the corresponding device icon.
-17. Include in different types of email. Enable/disable the element for HTML and AMP versions of the email.
+17. Include in different types of email. Enable/disable the element for `HTML` and `AMP` versions of the email.
 18. Event type. [Specify an event](https://docs.yespo.io/docs/how-add-scenario-button) that will trigger some action, for example, by clicking a button to send a message.
 
 <Image align="center" width="80% " src="https://files.readme.io/5a6d2dd599d3c85c84ea2895f5b9141fa836b0348d7cd5c600a08cc301a7953b-cta-8.webp" />
