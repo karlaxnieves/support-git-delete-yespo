@@ -17,11 +17,11 @@ In the new email builder, the whole process of newsletter design is simplified. 
 
 <Image align="center" width="80% " src="https://files.readme.io/e9f2510eaf8dc9f4cd0113fff92353c26fd7f8ba3c882213618f90e376252375-appearance.webp" />
 
-Menu items are updated with a new “Adaptivity” section.  
+Menu items are updated with a new **Adaptivity** section.  
 
 <Image align="center" width="40% " src="https://files.readme.io/2d37fd7cf531b9259abf5a921ad8ceef739a8cde0e648b903e310be5a0be73ae-pasted_image_0_1_1.webp" />
 
-## ”Common” section
+## Common section
 
 In this section, you can set the message width, specify common indents, background and content colors: 
 
@@ -47,9 +47,9 @@ If email client doesn’t support non-standard fonts, a regular font will be dis
 
 <Image align="center" width="80% " src="https://files.readme.io/bf3cab8d6e6158c1d5ce50c10d816e0102f93559c59ef87f0afc1360314d0db3-pasted_image_0_5_0.webp" />
 
-*The parameters specified here will be more important than in design theme.*
+**The parameters specified here will be more important than in design theme.**
 
-In "Common" section you can add the background image for the whole email:
+In **Common** section you can add the background image for the whole email:
 
 <Image align="center" width="40% " src="https://files.readme.io/329ea4ca637edf365f27c2c4c9052d9f4c49ebc57773a339cd99a4fd9794ada5-pasted_image_0_6_0.webp" />
 
@@ -63,7 +63,7 @@ One more feature added to the new online newsletter maker is adaptivity function
 
 This is caused by the Gmail App built-in functionality to adapt emails for mobile devices; the problem is that app doesn’t support real adaptivity with media queries. Because of this limitation we added a special coding to create a reduced desktop version of email for mobile devices. By default, this option is enabled.
 
-## ”Headings” section
+## Headingssection
 
 You can change email headers design in this drag and drop editor section by editing of required parameters for each header:
 
@@ -73,25 +73,25 @@ To highlight the email header line, you can change it in this section using the 
 
 <Image align="center" width="40% " src="https://files.readme.io/dfff2891380badaeebb2250f37fc5277cd764c270eff90cab327fc8e9b225ad2-pasted_image_0_10_0.webp" />
 
-## ”Footer” section
+## Footer section
 
 Our newsletter creator allows you to edit email footer just like header, by changing of content, text and links background color: 
 
 <Image align="center" width="40% " src="https://files.readme.io/356761c840ba5ce618e9b5761c73a0f8a0b3ab25aabb4daa6aabc0fe46bb0726-pasted_image_0_11_0.webp" />
 
-## ”Button” section
+## Button section
 
 Feel free to modify buttons as you wish: change button color, size and font, add roundings and strokes.
 
 <Image align="center" width="40% " src="https://files.readme.io/35c4516704166016a01ab33ac5564b4bc4d40e3322d11402caa394c38a500b28-pasted_image_0_12_0.webp" />
 
-Button link and name are added in "Content" tab:
+Button link and name are added in **Content** tab:
 
 <Image align="center" width="80% " src="https://files.readme.io/d6fc890b67ab8b2d2cf364ba6d5b2a4f8ed4af969b7eaef4b3905becdca124ac-adding_buttons.webp" />
 
-Activating the *Secure Link* option prevents automatic or bulk access to a link and protects against unwanted activity, such as spam.
+Activating the **Secure Link** option prevents automatic or bulk access to a link and protects against unwanted activity, such as spam.
 
-## ”Adaptivity” section
+## Adaptivity section
 
 These settings work when message is viewed on mobile devices that support adaptivity except of some Android versions.
 
@@ -99,7 +99,7 @@ These settings work when message is viewed on mobile devices that support adapti
 
 > 📘 Important
 >
-> On mobile devices, the font size you set in "Common" section will be displayed as default font in links.
+> On mobile devices, the font size you set in **Common** section will be displayed as default font in links.
 
 With adaptivity, email builder will redesign your message displaying from desktop version 
 
