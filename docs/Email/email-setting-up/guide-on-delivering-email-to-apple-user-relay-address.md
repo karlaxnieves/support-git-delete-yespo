@@ -33,7 +33,7 @@ Before sending emails to Apple’s relay addresses, ensure:
 
 <Image align="center" width="40% " src="https://files.readme.io/dd79e1999ef4ae1014f2d582108b44e00feca8af99d85c2f33cdc3b7235b01fe-Apple_1.png" />
 
-3. Click **+** next to *Email Sourses*.
+3. Click **+** next to **Email Sources**.
 
 <Image align="center" width="80% " src="https://files.readme.io/94bdf74ccd025324fd127e7dd8f188b20bb88fce3299f994ac050517e9079565-Apple_2.png" />
 
