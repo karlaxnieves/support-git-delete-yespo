@@ -31,7 +31,7 @@ This setting affects **only how time is displayed** in the user interface for yo
 
 For example:
 
-* If a campaign is scheduled to start at 18:00 AM Kyiv time (GMT+2), and your profile is set to GMT+4, you will see the scheduled time as 8:00 PM in the UI. The actual send time won’t change — only how you see it.
+* If a campaign is scheduled to start at **18:00 AM** Kyiv time (GMT+2), and your profile is set to GMT+4, you will see the scheduled time as **8:00 PM** in the UI. The actual send time won’t change — only how you see it.
 
 <Image align="center" width="80% " src="https://files.readme.io/c63575cd679e117b25826ba1ddbd6f7b1c9bb36c6da01ba1f9fb8b019fc88217-tz_3.png" />
 
@@ -39,7 +39,7 @@ For example:
 
 This is the **default time zone** used
 
-* In the [regular workflows *Start time* configuration](https://docs.yespo.io/docs/configuring-workflow-startstop-conditions#regular-workflow-start-configuration)
+* In the [regular workflows Start time configuration](https://docs.yespo.io/docs/configuring-workflow-startstop-conditions#regular-workflow-start-configuration)
 
 <Image align="center" width="80% " src="https://files.readme.io/28066d017dab94a5c0dd35cc074ec2809f7f87e2cff30326353662afbd02dab3-tz_4.png" />
 
