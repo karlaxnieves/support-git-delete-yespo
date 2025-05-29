@@ -33,7 +33,7 @@ If you send frequent (daily) campaigns to different segments that can include th
 >
 > Annoyance Level is applicable to emails and mobile push notifications. To manage the sending limit for all channels, set up [Campaign Frequency](https://yespo.io/blog/how-to-develop-effective-email-frequency-strategy) and [Subscription Categories](https://docs.yespo.io/docs/how-use-subscription-category).
 
-1. Go to your personal profile → *Settings* → *Laboratory* and enable *Annoyance Level*.
+1. Go to your personal profile → **Settings** → **Laboratory** and enable **Annoyance level**.
 
 <Image align="center" width="80% " src="https://files.readme.io/693975e3a9901817312ff5cf30da0a6d0c6e3b765f7ebd1ebc78457eed816f3c-Settings_rtn.webp" />
 
@@ -45,26 +45,26 @@ The annoyance level consists of the daily and weekly limit credits you assign to
 
 ## Credit Calculation
 
-The key with assigned daily limit credits resets every day at 00:00 UTC. The key with weekly credits resets on Sunday until 11:59 pm UTC.
+The key with assigned daily limit credits resets every day at **00:00 UTC**. The key with weekly credits resets on Sunday until **11:59 pm UTC**.
 
 ## How to Assign Credits
 
 **Email**
 
-* In *Messages* → *Messages* → *Email*, open the necessary email or create one.
+* In **Messages** → **Messages** → **Email**, open the necessary email or create one.
 * Click the subject to open its sender info settings.
-* In *Annoyance level*, enter the necessary credit.
+* In **Annoyance level**, enter the necessary credit.
 
 <Image align="center" width="80% " src="https://files.readme.io/9abbf269baf2b8dc81b3febd59b7769183c37a481f5fa5f489ef00b4c28a2130-How_to_assign_credits_to_an_email.webp" />
 
 **Mob Push**
 
-* In *Messages* → *Messages* → *Mob Push*, open the necessary push notification or create one.
-* Enable *Annoyance level* and enter the necessary credit.
+* In **Messages** → **Messages** → **Mob Push**, open the necessary push notification or create one.
+* Enable **Annoyance level** and enter the necessary credit.
 
 <Image align="center" width="80% " src="https://files.readme.io/cec227656d6cd3004416b35eda6c4cf0e8cc1ee3d28818722be0f7a2ff085cf6-How_to_assign_credits_to_a_mob_push.webp" />
 
-You can also set up the annoyance level in *Send options* when you schedule a campaign.
+You can also set up the annoyance level in **Send options** when you schedule a campaign.
 
 <Image align="center" width="80% " src="https://files.readme.io/dc241ae858d0fd0647d1e2f77aa8ea88f36d4d19ef05aadd35ee2e647bb401f2-Send_options.webp" />
 
@@ -98,7 +98,7 @@ Say that the weekly annoyance limit is 10 credits.
 
 If today is Thursday, and the user has already received several messages and reached 8 credits, till the end of the week they can receive either one message assigned with 2 credits or two messages assigned with 1 credit each.
 
-The system won’t send campaigns to contacts with exceeded limits. Such messages will fall to *Errors*.
+The system won’t send campaigns to contacts with exceeded limits. Such messages will fall to **Errors**.
 
 <Image align="center" width="80% " src="https://files.readme.io/9dee91b9c045fd4fead65b349a01356894ceac2e5b96f97c8eff5defcc689ef1-Error_status.webp" />
 
