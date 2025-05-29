@@ -14,7 +14,7 @@ Contact Import is a feature that enables quick creation of a contact list for [S
 
 ## 1. File Preparation
 
-Contact List is a file with all the information about clients organized in rows and columns. The file formats that are supported for import are: xlsx, xls, csv, and txt. [Details>](https://docs.yespo.io/docs/files-preparation)
+Contact List is a file with all the information about clients organized in rows and columns. The file formats that are supported for import are: `xlsx`, `xls`, `csv`, and `txt`. [Details>](https://docs.yespo.io/docs/files-preparation)
 
 ## 2. Field Mapping
 
