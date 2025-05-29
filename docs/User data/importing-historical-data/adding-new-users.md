@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-To add a new contact use data streaming in JSON format via Public API.
+To add a new contact use data streaming in `JSON` format via Public API.
 
 Use the [Add Contact](https://docs.yespo.io/reference/addcontact-1) method to create the user's profile to an account or update an existing one.
 
