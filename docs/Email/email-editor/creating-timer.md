@@ -19,12 +19,12 @@ In the Yespo editor, you can add a countdown timer to your email. This block is 
 
 ## Adding Timer to Template
 
-1. Create an email or open a ready-made one in the *Messages → Messages* section.
+1. Create an email or open a ready-made one in the **Messages → Messages** section.
 
 <Image align="center" width="80% " src="https://files.readme.io/ddfb491f97537dda04539a97e6d120ae8b5005459f88544830df6f0cd3bc1306-image3.webp" />
 
-2. Go to the *Blocks* tab in the *Content* tab on the left sidebar. 
-3. Drag the block with a timer from the *Blocks* tab into the template.
+2. Go to the **Blocks**tab in the **Content** tab on the left sidebar. 
+3. Drag the block with a timer from the **Blocks** tab into the template.
 
 <Image align="center" width="80% " src="https://files.readme.io/8d47f71033ba440a607e1d6f713ddc4646296fdb58efef18078881677304a658-image4.webp" />
 
@@ -38,7 +38,7 @@ Click the timer in the template to open its settings.
 2. Select the time zone according to which the time will be displayed in the timer.
 3. Set the font, color, and size for the numbers.
 4. Specify the timer background color.
-5. Select whether to display days. The timer will be in HH:MM:SS format without displaying days.
+5. Select whether to display days. The timer will be in `HH:MM:SS` format without displaying days.
 6. Select a separator between numbers (the default is colon).
 
 <Image align="center" width="80% " src="https://files.readme.io/15531fa45168e27ae648c16d2ca752d02fcf3fcc7f76827f8fd64e9744f52490-image6.webp" />
@@ -52,13 +52,13 @@ Click the timer in the template to open its settings.
 
 <Image align="center" width="80% " src="https://files.readme.io/f086f2f8c4dab75ab5267d62799aaf1ff3ff06d2e7c80f2e5c37ea8cf3dddebf-image2.webp" />
 
-13. Alignment is set to left/right or center for desktop and mobile versions. To set the alignment for the mobile version, turn off image responsiveness in the settings below and full-width buttons on the *Appearance → Mobile Formatting* tab.
+13. Alignment is set to left/right or center for desktop and mobile versions. To set the alignment for the mobile version, turn off image responsiveness in the settings below and full-width buttons on the **Appearance → Mobile Formatting** tab.
 
 <Image align="center" width="80% " src="https://files.readme.io/2f3c5a1eca3aec5e586c772dc38b434c5a7b5cca7635c9db4d455b609ba6854e-image7.webp" />
 
 14. Set the block width and height parameters in pixels.
 15. You can adjust the timer to the email width.
-16. When the *Responsive image* option is activated, the timer will adapt to the width of the mobile device.
+16. When the **Responsive image** option is activated, the timer will adapt to the width of the mobile device.
 17. We'll look at advanced timer settings in more detail below.
 
 <Image align="center" width="80% " src="https://files.readme.io/e93b4984b96ef2562c1db2bdd1be4f0b1d73e0707e17d7104d275859407c07ba-image11.webp" />
