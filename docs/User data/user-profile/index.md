@@ -15,11 +15,11 @@ next:
 ---
 After integration with Yespo, the system automatically creates the user profile for each person who fills out forms on your website, downloads your app, etc. Here you can collect all user information, preferences, behaviors and use these data for personalization or segmentation.
 
-To see a full contact profile, click on any blank space in the corresponding contact line in the *Contacts* → *All contacts* tab.
+To see a full contact profile, click on any blank space in the corresponding contact line in the **Contacts** → **All contacts** tab.
 
 <Image align="center" width="80% " src="https://files.readme.io/6626b7e38b95d5a4f670f9423cdb9ad0d57aa9b073ccbbee1bdcea251ef37222-user-profile-01.webp" />
 
-The information in the profile is divided into two tabs: *Contact information* and *Contact activity*.
+The information in the profile is divided into two tabs: **Contact information** and **Contact activity**.
 
 <Image align="center" width="80% " src="https://files.readme.io/102efb5858d01ac9deea3772056ea71744f8d7c3aeb1b7a2832ee5a034a0954c-user-profile-02.webp" />
 
@@ -52,4 +52,4 @@ This tab contains a history of user actions in your app, messages, or website. Y
 
 <Image align="center" width="80% " src="https://files.readme.io/735fb5b0dafe36839a31a4daceb4464fbdcd4e324176496be4208cf23d98ac99-user-profile-06.webp" />
 
-Apart from *Delivered*, *Read* and *Clicked*, the status field can also contain the *Undelivered* and *Unsubscribed* statuses.
+Apart from **Delivered**, **Read** and **Clicked**, the status field can also contain the **Undelivered** and **Unsubscribed** statuses.
