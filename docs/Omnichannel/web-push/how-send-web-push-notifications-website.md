@@ -98,7 +98,7 @@ Let's take a closer look at these steps
 Click *Generate script* and follow these steps:
 
 1. Download the Service Worker installation file below and copy it to the `/push/yespo/` directory on your website or to the directory specified in the File path field in the Service Worker settings.
-2. Copy the generated code and insert it into the <head> section of your website's HTML pages.
+2. Copy the generated code and insert it into the section of your website's HTML pages.
 3. <a rel="nofollow" href="https://web.dev/articles/add-manifest" target="_blank">Create a manifest file</a> and place it in the root directory to enable sending messages to devices with iOS/iPadOS.
 
 <Image align="center" width="80%" src="https://files.readme.io/7874523d4311e0f38d991edb33d7724439711d37252c82bbc4484792f45e643e-adding-website-to-account-25032025-09-yespo.webp" />
