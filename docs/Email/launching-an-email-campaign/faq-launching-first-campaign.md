@@ -15,17 +15,17 @@ next:
 ---
 ## How to Launch a Campaign from the Saved templates?
 
-There is no way to start a campaign in the *Saved* templates section.
+There is no way to start a campaign in the **Saved** templates section.
 
 <Image align="center" width="80% " src="https://files.readme.io/612c8b02a634b025909cf64a5445c9b176dd96e0df3f84536b29d1f4a7eb7ef6-image3.webp" />
 
-To send an email saved as a template, go to the *Messages* section, click *Create Email* and go to the *Saved* tab.
+To send an email saved as a template, go to the **Messages** section, click **Create Email**and go to the **Saved** tab.
 
 <Image align="center" width="80% " src="https://files.readme.io/a5932c7ee688b69892fe7e629c39224295bd459d9c89d291bcde99ed59488f90-image1.webp" />
 
-Open the desired template — it contains the *Create campaign* button. Click it and schedule a campaign.
+Open the desired template — it contains the **Create campaign** button. Click it and schedule a campaign.
 
-To make the template appear as a regular email in the general list, go to it and click *Save*. The email will be in the saved templates and the general list.
+To make the template appear as a regular email in the general list, go to it and click **Save**. The email will be in the saved templates and the general list.
 
 <Image align="center" width="80% " src="https://files.readme.io/7901f64c7293ac14604c4ae719f9609056eeb368a1a257ae0b93d521c0b93d89-image2.webp" />
 
