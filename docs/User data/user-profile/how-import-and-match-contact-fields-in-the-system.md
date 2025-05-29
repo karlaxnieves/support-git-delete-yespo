@@ -32,7 +32,7 @@ When importing contacts into Yespo, map the columns in your import file with the
 
 ## Viewing a Contact Card
 
-Go to *Contacts* → *All contacts* and select the contact or click *New contact* to create a new one.
+Go to **Contacts → All contacts** and select the contact or click **New contact** to create a new one.
 
 <Image align="center" width="80% " src="https://files.readme.io/533a40e632f31001e061a647c9efffd7da4523e296ea23d78a13864025abd98c-contact-fields-in-the-system-201.webp" />
 
@@ -58,7 +58,7 @@ It is allowed to use 3 words of more than 3 characters and 3 words of a maximum 
 
 ### Last Name
 
-The validation rules of the Last name field are the same as for the *First name*, except that any number of words of any length are allowed (but not more than 40 characters in total).
+The validation rules of the Last name field are the same as for the **First name**, except that any number of words of any length are allowed (but not more than 40 characters in total).
 
 <Image align="center" width="80% " src="https://files.readme.io/d203246eec8bc480a9142ea697ead98af8fd9210f574146d4ae45c5537dc58ae-contact-fields-in-the-system-203.webp" />
 
@@ -72,19 +72,19 @@ One email line available for each contact. Ensure the email address has no spell
 
 ### Phone Number
 
-Use phone numbers to send SMS and Viber messages.
+Use phone numbers to send **SMS** and **Viber** messages.
 
 <Image align="center" width="80% " src="https://files.readme.io/0a9deecc98a0255ea46419d3fdf579951e6e7384cb19ac6fd9be9903707d8e4f-contact-fields-in-the-system-205.webp" />
 
 If your contact database contains different country codes, enter the phone number in the international format: 
 
-\+380955547708
+`+380955547708`
 
-\+447911123456
+`+447911123456`
 
-\+0207183 8750
+`+0207183 8750`
 
-\+1229501112325
+`+1229501112325`
 
 You cannot add text or special characters to the field.
 
@@ -98,7 +98,7 @@ You cannot add text or special characters to the field.
 * Postcode
 * Description
 
-Use the *Address* field to record the contact's address. 
+Use the **Address** field to record the contact's address. 
 
 <Image align="center" width="80% " src="https://files.readme.io/e57237fa7cb0e85af529a475d0994af78a8aa66ef929e4e5c08272d20bd0fdb5-contact-fields-in-the-system-206.webp" />
 
@@ -110,7 +110,7 @@ Use the *Address* field to record the contact's address. 
 
 ### Language
 
-Use the *Language* field for segmentation and [multilingual campaigns](https://docs.yespo.io/docs/creating-multilingual-campaigns). 
+Use the **Language** field for segmentation and [multilingual campaigns](https://docs.yespo.io/docs/creating-multilingual-campaigns). 
 
 <Image align="center" width="80% " src="https://files.readme.io/4cf67b751ee3c08902be7cf93167e96d614e31fac89c72118c666c96fd581362-contact-fields-in-the-system-009.webp" />
 
@@ -125,7 +125,7 @@ Language supports text coded according to the international standard of  <a rel=
 
 ### Contact key
 
-The *Contact key* field is designed for external contact identifiers. Use contact key when you import a database and want to save the contact ID from the original database.
+The **Contact key** field is designed for external contact identifiers. Use contact key when you import a database and want to save the contact ID from the original database.
 
 <Image align="center" width="80% " src="https://files.readme.io/d74159fd5f82e9b0736d71db1fcad4248a071d53f8ecf615ca4b414f95ef63e1-contact-fields-in-the-system-011.webp" />
 
@@ -141,17 +141,17 @@ If standard fields are not enough, you can add the necessary fields yourself.
 
 ### Text Input
 
-Can include up to 1,000 characters, both text and integer numbers. Special characters (for example, % ^ \* | \~ \{) are not supported.
+Can include up to **1,000** characters, both text and integer numbers. Special characters (for example, `% ^ * | ~ \{`) are not supported.
 
 <Image align="center" width="80% " src="https://files.readme.io/b426cb435bc32d9bdeb17033b7723f2f98dcb224f5dc247b0349a8d5b62e56d3-contact-fields-in-the-system-013.webp" />
 
 ### Text Area
 
-You can include a large amount of data of up to 5,000 characters, both text and integer numbers. Special characters are not supported.
+You can include a large amount of data of up to **5,000** characters, both text and integer numbers. Special characters are not supported.
 
 <Image align="center" width="80% " src="https://files.readme.io/b8f680d1281d74bf67cd4da65c4cc60aa37a0b9cd8b6d89e9c87b3f0c0e519ab-contact-fields-in-the-system-014.webp" />
 
-Use *Text input* and *Text area* to specify:
+Use **Text input** and **Text area** to specify:
 
 * position, workplace, etc.;
 * number of employees, number of positions;
@@ -159,7 +159,7 @@ Use *Text input* and *Text area* to specify:
 
 ### Number
 
-Supports only integer numbers in the range from - 2147483648 to 2147483647. Set a range to validate the values you will pass in this field.
+Supports only integer numbers in the range from `- 2147483648` to `2147483647`. Set a range to validate the values you will pass in this field.
 
 You can use numbers for email personalization and segmentation, for example, by basing the amount of bonuses a customer has.
 
@@ -173,29 +173,29 @@ If there is a way for customers to rate or rank their rating, satisfaction level
 
 ### Date
 
-The *Date* field in the contact card usually contains any date related to the contact: birthday, anniversary, registration date, etc.
+The **Date** field in the contact card usually contains any date related to the contact: birthday, anniversary, registration date, etc.
 
 > 📘 Important
 >
-> When manually importing or transferring a contact via the API, follow the corresponding date format: **yyyy-MM-dd, dd/MM/yyyy, dd.MM.yy, dd.MM.yyyy.**
+> When manually importing or transferring a contact via the API, follow the corresponding date format: `yyyy-MM-dd`, `dd/MM/yyyy`, `dd.MM.yy`, `dd.MM.yyyy.`
 
 <Image align="center" width="80% " src="https://files.readme.io/98df7a1fd36591caa5663f7e654641893a4eef05fad6942ff1e38ff91e2f3b07-contact-fields-in-the-system-017.webp" />
 
-Use *Regular date* option when creating *Date field* for formation dynamic segments.
+Use **Regular date** option when creating **Date field** for formation dynamic segments.
 
 <Image align="center" width="80% " src="https://files.readme.io/4e52a44228dd5e110bd85d9ac9d64eb6a0811d64c4298031f9bd3118a53f8859-contact-fields-in-the-system-018.webp" />
 
 ### Date with Time
 
-Use the *Date with Time field* to record the exact date and time of events or actions. For example, changing the status of an order.
+Use the **Date with time** field to record the exact date and time of events or actions. For example, changing the status of an order.
 
-Unlike the *Date field*, you can make a record more accurate and detailed.
+Unlike the **Date field**, you can make a record more accurate and detailed.
 
 <Image align="center" width="80% " src="https://files.readme.io/e0a6dee6c2cf4c41e22d6cd22a18495687886e62dad6c024a303d28272caa655-contact-fields-in-the-system-019.webp" />
 
 > 📘 Important
 >
-> When manually importing or transferring a contact via the API, follow the corresponding date format: **YYYY-MM-DDTHH:MM.**
+> When manually importing or transferring a contact via the API, follow the corresponding date format: `YYYY-MM-DDTHH:MM`.
 
 ### Dropdown
 
@@ -203,7 +203,7 @@ The field with predefined values. For example, a person's gender.
 
 <Image align="center" width="80% " src="https://files.readme.io/bf12e6b6716eb430c613efef69793a361a1b3abeefc3ae0dcf084bcb673f471b-contact-fields-in-the-system-020.webp" />
 
-You can choose only one option from the *Dropdown field* when creating a contact profile.
+You can choose only one option from the **Dropdown field** when creating a contact profile.
 
 ### Checkbox
 
@@ -211,7 +211,7 @@ The field with predefined values. For example, subscription categories or client
 
 <Image align="center" width="80% " src="https://files.readme.io/fa99ac9d259bae76bece34a96eb1aebc0f10fa381515546794675f7fcf7ea7f7-contact-fields-in-the-system-021.webp" />
 
-Unlike the *Dropdown field*, you can choose several parameter values in the *Checkbox field*.
+Unlike the **Dropdown field**, you can choose several parameter values in the **Checkbox field**.
 
 ## System Fields
 
