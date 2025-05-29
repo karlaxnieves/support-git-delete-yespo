@@ -16,7 +16,7 @@ Yespo uses the `esclick.me` domain for link wrapping by default. However, you ca
 
 ## Creating a Custom Domain
 
-1. Go to your account settings → **Links → Short links** tab and click **New custom domain**.
+1. Go to your account settings → **Links → Short links** tab and click **+ New custom domain**.
 
 <Image align="center" width="80% " src="https://files.readme.io/e3572cc61e60f37ed317208b49cf9d410554107ebc2da7315a8b23d6e9c233a9-short_links_1.webp" />
 
