@@ -13,9 +13,9 @@ metadata:
 next:
   description: ''
 ---
-The system automatically links events to user with the help of an event parameter that contains user identifier. If user ID is not specified in the event, the system searches the *ContactId* event parameter by default.
+The system automatically links events to user with the help of an event parameter that contains user identifier. If user ID is not specified in the event, the system searches the **ContactId** event parameter by default.
 
-If you pass the identifier in the *External ID* field to the event, you do not need to configure the mapping additionally. But if this ID is passed in a field with a different name, it must be correlated with the *External ID* system field.
+If you pass the identifier in the **External ID** field to the event, you do not need to configure the mapping additionally. But if this ID is passed in a field with a different name, it must be correlated with the **External ID** system field.
 
 ## What is the External ID
 
@@ -29,12 +29,12 @@ Check out [5 best segmentation practices](https://yespo.io/blog/advanced-segment
 
 ## Mapping Settings
 
-1. Go to your account *Settings* → *Events*.
+1. Go to your account **Settings** → **Events**.
 
 <Image align="center" width="80% " src="https://files.readme.io/ed1cfc056b0763fb291d73493037eb041ef5e16cdf9253e0a1d00d73268172bd-events.png" />
 
-2. Enable *Use custom parameter for event assignment* switcher. Set your parameter name and select the *External ID* contact field.
+2. Enable **Use custom parameter for event assignment** switcher. Set your parameter name and select the **External ID** contact field.
 
 <Image align="center" width="80% " src="https://files.readme.io/e92a05d982ffe6f34275e854c6f5c923c925dd2dd38319901625b5a928a6f1ef-events_2.png" />
 
-3. Click *Save*.
+3. Click **Save**.
