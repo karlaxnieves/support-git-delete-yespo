@@ -21,11 +21,11 @@ Please note: responsibility only works on devices and email clients that support
 
 ## General Responsive Email Design Settings
 
-In the *Appearance* tab, you can set the mobile formatting of the text sizes, buttons, and indents for the entire template.
+In the **Appearance** tab, you can set the mobile formatting of the text sizes, buttons, and indents for the entire template.
 
 <Image align="center" width="80% " src="https://files.readme.io/d3cea66ab336674f2985801d421f25b8563d222fafd0852859ca7122e814dcc9-image11.webp" />
 
-Enable *Responsive design* in the *Appearance → General Settings* section to make general mobile formatting available.
+Enable **Responsive design** in the **Appearance → General Settings** section to make general mobile formatting available.
 
 <Image align="center" width="80% " src="https://files.readme.io/1a1f3a99238f3f43e56286933e20e48941fde332a4de69dcaf5c1bf2c818a2c1-image6.webp" />
 
