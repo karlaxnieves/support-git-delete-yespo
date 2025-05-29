@@ -22,8 +22,8 @@ All our users have the Yespo favicon added by default, but you can replace it.
 
 ## How to Add Custom Favicon to the Email’s Web Version
 
-1. Go to your account settings → *Laboratory* tab.
-2. Click the *Upload favicon* button in the *Favicon* section. Upload image in .ico format, 16x16 pixels.
+1. Go to your account settings → **Laboratory** tab.
+2. Click the **Upload favicon** button in the **Favicon** section. Upload image in .ico format, 16x16 pixels.
 
 <Image align="center" width="80% " src="https://files.readme.io/b1582751b6efd5b9c02296a22e982ff4e296ee7c2583da3e68ae63be6efd1917-2-favicon.webp" />
 
