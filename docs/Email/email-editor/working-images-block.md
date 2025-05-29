@@ -13,15 +13,15 @@ metadata:
 next:
   description: ''
 ---
-Using images in marketing messages enhances their effectiveness by making them more attractive, informative, and emotionally charged. Let's look at how to work with the *Image* block in the Yespo email editor.
+Using images in marketing messages enhances their effectiveness by making them more attractive, informative, and emotionally charged. Let's look at how to work with the **Image** block in the Yespo email editor.
 
 ## Adding Image to Email
 
-1. Open your email or create a new one (the *Messages → Messages* section).
+1. Open your email or create a new one (the **Messages → Messages** section).
 
 <Image align="center" width="80% " src="https://files.readme.io/e83956332379f21051ceeb005f680921c2156ce91e92b0763a312023dfcd0a90-1-3.webp" />
 
-2. Drag the *Image* block into the template.
+2. Drag the **Image** block into the template.
 
 <Image align="center" width="80% " src="https://files.readme.io/caee11bef2793d7c31e13156f811d0f963931ae71b1fd7ed7cf3f2d7d7ca9c0b-1-10.webp" />
 
@@ -42,11 +42,11 @@ Choose from four ways to add an image:
 
 > 📘 Note
 >
-> The *Common* folder stores pictures that are available in all messages. The *Prepared* folder contains only images used in a specific email.
+> The **Common** folder stores pictures that are available in all messages. The **Prepared** folder contains only images used in a specific email.
 
 ### Downloading from PC
 
-On the *Prepared* tab, click the download icon and select the desired file on your PC. The system supports images in PNG, JPG, and GIF formats. For pictures to load quickly in the newsletter, their weight should not exceed 3 MB.
+On the **Prepared** tab, click the download icon and select the desired file on your PC. The system supports images in `PNG`, `JPG`, and `GIF` formats. For pictures to load quickly in the newsletter, their weight should not exceed 3 MB.
 
 <Image align="center" width="80% " src="https://files.readme.io/30f6b548f4943cce474c3190f450300b6865bbe513f9239cea09a3625baf897e-1-15.webp" />
 
@@ -62,7 +62,7 @@ Downloading from an external source significantly saves time. The disadvantage o
 
 ### Image Bank
 
-Go to the *Bank* tab, select *Images* or *Icons* and enter a keyword into the search engine, then choose the image that best matches the intent of your campaign.
+Go to the **Bank** tab, select **Images** or **Icons** and enter a keyword into the search engine, then choose the image that best matches the intent of your campaign.
 
 <Image align="center" width="80% " src="https://files.readme.io/64b44abe4c8852d39e9937e8aed9930c47f6a8a447cd576051673b9116481592-1-16.webp" />
 
@@ -88,7 +88,7 @@ You can also change the radius of the corners, set the background of the canvas,
 
 <Image align="center" width="80% " src="https://files.readme.io/1905b24d991e2073f9ba7f5836e0c3438caf9b59e535ab08022a62468615ffa2-1-6.webp" />
 
-After making changes to the image, click *Apply → Save* to apply the changes to the image in the email.
+After making changes to the image, click **Apply → Save** to apply the changes to the image in the email.
 
 <Image align="center" width="80% " src="https://files.readme.io/35722ae31f2ec1508c91cc83f5e62dac145d27ad1ddab542006327827943868f-1-11.webp" />
 
