@@ -34,13 +34,10 @@ The mandatory use of corporate mail is due to several factors:
 
 Benefits of using a corporate address:
 
-1\. Increasing the mailing trust: recipients understand which company they received the email from and are likelier to open it.
-
-2\. Consistent communication: branded emails promote consistency in marketing campaigns, improve brand awareness, and build trust with the target audience.
-
-3\. The ability to verify a domain and thereby protect your campaigns from fakes and your subscribers from scammers. In addition, since 2018, domain verification has been a mandatory requirement for marketing mailings, and as of 02.01.2024, some additional requirements for Gmail came into force, which you can find <a rel="nofollow" href="https://support.google.com/a/answer/81126?sjid=14347483634280966708-EU&visit_id=638421161616941524-1172099074&rd=1#ip&zippy=%2C%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%B2%D1%81%D0%B5%D1%85-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%2Crequirements-for-all-senders" target="_blank"> here</a>.
-
-4\. Formation of sender reputation: mail servers analyze the history of subscribers’ interactions with company emails and contribute to high delivery rates, mark emails as important, etc.
+1. Increasing the mailing trust: recipients understand which company they received the email from and are likelier to open it.
+2. Consistent communication: branded emails promote consistency in marketing campaigns, improve brand awareness, and build trust with the target audience.
+3. The ability to verify a domain and thereby protect your campaigns from fakes and your subscribers from scammers. In addition, since 2018, domain verification has been a mandatory requirement for marketing mailings, and as of 02.01.2024, some additional requirements for Gmail came into force, which you can find <a rel="nofollow" href="https://support.google.com/a/answer/81126?sjid=14347483634280966708-EU&visit_id=638421161616941524-1172099074&rd=1#ip&zippy=%2C%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%B2%D1%81%D0%B5%D1%85-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%2Crequirements-for-all-senders" target="_blank"> here</a>.
+4. Formation of sender reputation: mail servers analyze the history of subscribers’ interactions with company emails and contribute to high delivery rates, mark emails as important, etc.
 
 ## Why Do I Need DNS Settings?
 
@@ -78,8 +75,8 @@ There may be several such records. In addition to the server, the MX record indi
 
 Record example:
 
-*esputnik.com.    IN    MX    1 aspmx.l.google.com.\
-esputnik.com.    IN    MX    5 alt1.aspmx.l.google.com.*
+**esputnik.com.    IN    MX    1 aspmx.l.google.com.**\
+**esputnik.com.    IN    MX    5 alt1.aspmx.l.google.com.**
 
 You already have MX records if mail is configured correctly on your domain. There is no need to change or add anything.
 
@@ -93,7 +90,7 @@ If an email passes the SPF check, the rating restrictions of a specific mail sys
 >
 > Postmasters are services that some postal services have developed to provide detailed statistics and analytics on authentication standards such as SPF, DKIM, DMARC, and mailing metrics such as delivery statuses, unsubscribes, spam complaints, and more. The most popular postmasters are <a rel="nofollow" href="https://www.gmail.com/postmaster/" target="_blank"> Google Postmaster Tools</a>, <a rel="nofollow" href="https://senders.yahooinc.com/complaint-feedback-loop/" target="_blank"> Yahoo! Feedback Loop</a>, <a rel="nofollow" href="https://sendersupport.olc.protection.outlook.com/pm/" target="_blank"> Outlook.com Postmaster</a>.
 
-According <a rel="nofollow" href="http://www.openspf.org/SPF_Record_Syntax" target="_blank"> to the current standard</a>, the SPF record is entered into the DNS with the TXT type, must begin with “v=spf1...” and be unique for each mail domain.
+According <a rel="nofollow" href="http://www.openspf.org/SPF_Record_Syntax" target="_blank"> to the current standard</a>, the SPF record is entered into the DNS with the TXT type, must begin with **v=spf1...** and be unique for each mail domain.
 
 There are other restrictions:
 
@@ -105,11 +102,11 @@ There are other restrictions:
 Typically, a hosting provider has guidelines for basic SPF record setup. Make these settings. Some hosting providers automatically add the correct SPF record to the DNS when setting up mail for your domain.\
 If you see something like this in your SPF record:
 
-*“v=spf1 redirect=\_spf.google.com”*
+\_“v=spf1 redirect=*spf.google.com”*
 
-replace it with the option without using the *“redirect=” construction (\_which links to another record*):\_
+replace it with the option without using the *“redirect=” construction (*which links to another record*):*
 
-*“v=spf1 include:\_spf.google.com \~all”*
+\_“v=spf1 include:*spf.google.com \~all”*
 
 Depending on the connection option for your domain on our service ([Full/Full+/Subdomain](https://docs.yespo.io/docs/dns-record-change)), you must make some additions to your SPF record.
 
@@ -117,7 +114,7 @@ The minimum addition that we recommend when sending mailings through our service
 
 Record example:
 
-*esputnik.com.    IN    TXT    "v=spf1 include:\_spf.google.com include:spf2.esputnik.com \~all"*
+\_esputnik.com.    IN    TXT    "v=spf1 include:*spf.google.com include:spf2.esputnik.com \~all"*
 
 ### DKIM Technology
 
@@ -146,12 +143,12 @@ Example of a public key record:
 
 An example of a public key record when working with our service for the example.com domain:
 
-*esputnik.\_domainkey.example.com.     IN    CNAME    dkim.esputnik.com.*
+\_esputnik.*domainkey.example.com.     IN    CNAME    dkim.esputnik.com.*
 
 ### DMARC Technology
 
 DMARC technology identifies emails by SPF and DKIM and determines what to do if the mailing is sent from IPs or domains not specified in these signatures: none, quarantine or reject.\
-We recommend implementing a strict DMARC policy *"v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto\:postmaster@ yourdomain.com".*
+We recommend implementing a strict DMARC policy *"v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto:postmaster@ yourdomain.com".*
 
 You should start with the email quarantine policy ***p=quarantine pct=5*** and use the pct parameter to set the percentage of messages to which the DMARC rule is applied, gradually increasing the percentage to ***pct=100***. Then, set a strict policy with the initial value of the percentage of rejected emails ***p=reject pct=5*** and progressively increase the ***pct*** parameter's value to 100%. Provided you carry out regular mailings, you can increase the percentage (***pct***) of filtered emails every few days. The rua tag allows you to specify an address to receive reports about deploying DMARC rules in your domain. Enter your email address in this setting, or create a new one. To send reports to multiple addresses, separate them by comma.
 
@@ -161,11 +158,11 @@ You should start with the email quarantine policy ***p=quarantine pct=5*** and u
 
 Example DMARC records:
 
-*\_dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto\:`postmaster@yourdomain.com`*
+\_*dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto:`postmaster@yourdomain.com`*
 
 Example of a minimal DMARC entry (meaning “DMARC defined as disabled”):
 
-*\_dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=none;"*
+\_*dmarc.esputnik.com.    IN    TXT    "v=DMARC1; p=none;"*
 
 > 📘 Note
 >
@@ -284,8 +281,8 @@ DKIM of our domain signs an email.
 Header template:
 
 *Mail From (envelope):`bounce+XXX@m11.esputnik.com`\
-From: `name@yourdomain.com`\
-Sender: `bounce+XXX@m11.esputnik.com`\
+From: `name@yourdomain.com`
+Sender: `bounce+XXX@m11.esputnik.com`
 Return-Path:`bounce+XXX@m11.esputnik.com`*
 
 where XXX is the email recipient's address, VERP-encoded to increase the chances of our service to identify the recipient of the email when analyzing email notifications about delivery errors and spam complaints.
