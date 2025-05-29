@@ -20,23 +20,23 @@ Use different sender names to separate different types of emails and let subscri
 
 You can add or change a sender in a few ways:
 
-Important
-
-Before configuration, you must add [email authentication](https://docs.yespo.io/docs/email-setting-up).
+> ❗️ Important
+>
+> Before configuration, you must add [email authentication](https://docs.yespo.io/docs/email-setting-up).
 
 ## Adding a Sender in the Email Editor
 
 ### Static Sender Address
 
-1. Go to *Messages* → *Messages* → *Email* → open the email or create new one.
+1. Go to **Messages** → **Messages** → **Email** → open the email or create new one.
 
 <Image align="center" width="80% " src="https://files.readme.io/3cb5847851145299d685b56147390210eea9c99ad74046477b378ff7b79c1f0c-image1.webp" />
 
-2. Click the *Title* or *Subject* of the message to open the settings.
+2. Click the **Title** or **Subject** of the message to open the settings.
 
 <Image align="center" width="80% " src="https://files.readme.io/d18290447176d6cde42c515a820d582b9ebe4709f7d061f0d657763caeffaf99-image2.webp" />
 
-3. Click  *\+New sender* .
+3. Click  **+New sender** .
 
 <Image align="center" width="80% " src="https://files.readme.io/8927cd3cf87a10cc50727c6c8eddecb53d493c7099e82ed01482c70bde28cfdf-image4.webp" />
 
@@ -51,7 +51,7 @@ Before configuration, you must add [email authentication](https://docs.yespo.io/
 > * `marketing@yourcompany.com`
 > * `support@yourcompany.com`
 
-After clicking *Add*, the system will send a confirmation email to the specified email. Confirm the request in the email from Yespo Support.
+After clicking **Add**, the system will send a confirmation email to the specified email. Confirm the request in the email from Yespo Support.
 
 <Image align="center" width="80% " src="https://files.readme.io/21adf256a762170f00362108f63da61b3286ec16f5b54e1de1db7c94165e4be9-image5_y.webp" />
 
@@ -68,11 +68,11 @@ Use this option to send a bulk campaign with different senders. For example, whe
 
 To add a dynamic sender address, follow the next steps in the email editor.
 
-1. Click on *Sender*.
+1. Click on **Sender**.
 
 <Image align="center" width="80% " src="https://files.readme.io/9597b185fee2a54fa31595fd577d71ce1a77aee7224f3cc757a4c066c5cef92b-image3.webp" />
 
-2. Go to *Dynamic address*.
+2. Go to **Dynamic address**.
 
 > 📘 Important
 >
@@ -82,27 +82,27 @@ To add a dynamic sender address, follow the next steps in the email editor.
 
 To substitute the sender from the event parameters, specify the velocity structure in the corresponding field. For example, `$!data.get(‘yoursender_address’)`, where `yoursender_address` – variable from the event.
 
-To substitute the sender from the contact card, click on the person icon  and select the appropriate contact field. The variable will be automatically added to the field.
+To substitute the sender from the contact card, click on the **person icon**  and select the appropriate contact field. The variable will be automatically added to the field.
 
 <Image align="center" width="80% " src="https://files.readme.io/9a76dc6945f84e6fb2e5624e6fe38930b77f1930c80db49aac3f04171da6920c-image9.webp" />
 
-3\. Click the Save button.
+3. Click the **Save** button.
 
 ## Adding a Sender Via Account Settings
 
-Go to your account → *Settings* → *Senders*  → *New sender*.
+Go to your account → **Settings** → **Senders**  → **New sender**.
 
 <Image align="center" width="80% " src="https://files.readme.io/ae22b4c4f15a3d439b82a223c858c87056fc4431f1bcf80aa031db6f36feb464-image10.webp" />
 
-2\. Enter a new sender name and email address.
+2. Enter a new sender name and email address.
 
 <Image align="center" width="80% " src="https://files.readme.io/1ee5b220c1b7c7a8b6b76b0f0383189d8a5cbc880fcb07dfbfdfd8fbb49e63f9-image11.webp" />
 
-After clicking *Add*, the system will send a confirmation email to the specified email. 
+After clicking **Add**, the system will send a confirmation email to the specified email. 
 
 3. Confirm the sender name in the email from Yespo Support.
 
-After confirmation, the sender receives the status “Available”. The status “Awaiting confirmation” will be displayed until you click the link from the email. In the “Sender name” tab, you can see a list of all senders with their statuses. For sender names awaiting confirmation you can resend request:
+After confirmation, the sender receives the status **Available**. The status **Awaiting confirmation** will be displayed until you click the link from the email. In the **Sender name** tab, you can see a list of all senders with their statuses. For sender names awaiting confirmation, you can resend request:
 
 <Image align="center" width="80% " src="https://files.readme.io/ecc484ac5544902a132bdbea5699d35778551f781ee1ee6a7623774567932171-image12.webp" />
 
@@ -120,20 +120,20 @@ The reply address is added in the same way as the sender name.
 
 ## Deleting a Sender
 
-Go to your account settings →  *Senders → Email* tab. Click on the cross in the spacer with the sender you want to delete (if there is only one sender in the account, you cannot delete it).
+Go to your account settings →  **Senders → Email** tab. Click on the cross in the spacer with the sender you want to delete (if there is only one sender in the account, you cannot delete it).
 
 <Image align="center" width="80% " src="https://files.readme.io/f7767890d5d9ba01e279c0613a47cecc5af795820419ceb8933d1eee96fe701d-image12.webp" />
 
-If the sender is not used in any messages, click *Delete*, after which the system will delete it from your account.
+If the sender is not used in any messages, click **Delete**, after which the system will delete it from your account.
 
 <Image align="center" width="80% " src="https://files.readme.io/876dbbe67ce9a9de711ffd513172c0f5953fab3556771910b242ce8a01f0ab44-image41.webp" />
 
 If the sender is used in messages, the system will prompt you to select a different one.
 
-Select a new sender to apply to these messages and click *Delete* to remove the old sender from your account.
+Select a new sender to apply to these messages and click **Delete** to remove the old sender from your account.
 
 <Image align="center" width="80% " src="https://files.readme.io/485f05b9c197c576df22442ea657c0082d201383eb66a4f898474d8efaaeaf10-image31.webp" />
 
-If you select the *Leave without sender* option, the system cannot send these messages until you specify a new sender.
+If you select the **Leave without sender** option, the system cannot send these messages until you specify a new sender.
 
 <Image align="center" width="80% " src="https://files.readme.io/7e108803b913fd1a65cbec6502e9bcff1dd0e439eaa74421a0a0de86d17b111d-image22.webp" />
