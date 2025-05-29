@@ -99,7 +99,7 @@ Add user attributes like time zone and language by the following method:
 Reteno.updateUserAttributes(externalUserId: "USER_ID", userAttributes: UserAttributes, subscriptionKeys: [String], groupNamesInclude: [String], groupNamesExclude: [String])
 ```
 
-The *UserAttributes* object example:
+The **UserAttributes** object example:
 
 ```swift
 func saveUser() {
@@ -127,7 +127,7 @@ Reteno.setUserAttributes(String externalUserId, User user)
 Reteno.setUserAttributes(externalUserId: String, user: User?)
 ```
 
-The *userAttributes* object example:
+The **userAttributes** object example:
 
 ```java
 fun setLanguageTimeZone() {
@@ -164,7 +164,7 @@ setUserAttributes({
 })
 ```
 
-The *userAttributes* object example:
+The **userAttributes** object example:
 
 ```typescript
 setUserAttributes({
