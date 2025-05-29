@@ -20,7 +20,7 @@ Contact fields are used to store and gather information about your subscribers a
 
 Before uploading the database into the system, please check the following:
 
-1. The imported file must be in one of the following formats: `xlsx`,` xls`, `csv` or `txt`, and up to **300 MB**.
+1. The imported file must be in one of the following formats: `xlsx`,` xls`, `csv` or `txt`, and up to 300 MB.
 2. Contact base must contain emails and/or phone numbers for import.
 3. You must save all contacts in one worksheet (Excel) and organize them into columns. If the file contains two or more worksheets, the system will not process them: only the contacts from the first worksheet will be imported.
 
