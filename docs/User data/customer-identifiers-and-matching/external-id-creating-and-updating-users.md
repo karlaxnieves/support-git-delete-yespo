@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-The external ID is a [unique contact identifier](https://docs.yespo.io/docs/customer-identifiers-and-matching) generated in your system. We recommend using an external ID as the main identifier in the API request field *externalCustomerId* (or *user\_id* in [Mobile SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo)). It will help you avoid duplicating contact profiles, collect all available data into a single contact profile, and get complete information about their interaction with your company.
+The external ID is a [unique contact identifier](https://docs.yespo.io/docs/customer-identifiers-and-matching) generated in your system. We recommend using an external ID as the main identifier in the API request field **externalCustomerId** (or **user\_id** in [Mobile SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo)). It will help you avoid duplicating contact profiles, collect all available data into a single contact profile, and get complete information about their interaction with your company.
 
 ## Identifier Types
 
@@ -49,11 +49,11 @@ To better understand how contact data enters the system and how to optimize cont
 5. Your system assigns this contact a unique ID and passes it along with other IDs to Yespo ([Add/update a contact](https://docs.yespo.io/reference/addcontact-1) or [Subscribe contact](https://docs.yespo.io/reference/subscribecontact-1)).
 6. Yespo saves the contact with all transferred identifiers and adds their previous history of interaction with your site (cookies).
 
-After a contact profile has been created in Yespo with the External ID field, we recommend making each profile’s update by this field — for example, at login ([Add/update a contact](https://docs.yespo.io/reference/addcontact-1)) or creating order ([Add orders](https://docs.yespo.io/reference/ordersbulkinsert-1) or [Generate event](https://docs.yespo.io/reference/registerevent_1)). In this way, you will be able to constantly maintain the relevance of all contact data since external ID is unique and immutable, while other identifiers, even conditionally constant ones, can change.
+After a contact profile has been created in Yespo with the **External ID** field, we recommend making each profile’s update by this field — for example, at login ([Add/update a contact](https://docs.yespo.io/reference/addcontact-1)) or creating order ([Add orders](https://docs.yespo.io/reference/ordersbulkinsert-1) or [Generate event](https://docs.yespo.io/reference/registerevent_1)). In this way, you will be able to constantly maintain the relevance of all contact data since external ID is unique and immutable, while other identifiers, even conditionally constant ones, can change.
 
 > 📘 Note
 >
-> If your system does not assign IDs to contacts, you can use Yespo's system ID (*contactId*) and save it on your side as a contact ID. However, using the external ID is a better option because this identification 100% prevents the creation of duplicates.
+> If your system does not assign IDs to contacts, you can use Yespo's system ID (**contactId**) and save it on your side as a contact ID. However, using the external ID is a better option because this identification 100% prevents the creation of duplicates.
 
 ## External ID in Single Contact API Methods
 
@@ -90,7 +90,7 @@ Updated logic of bulk API methods:
 
 ### [Search contacts](https://docs.yespo.io/reference/searchcontacts-1)
 
-You can set the uniqueness of the contact search by the externalCustomerId field. In this case, you cannot set other search parameters.
+You can set the uniqueness of the contact search by the **externalCustomerId** field. In this case, you cannot set other search parameters.
 
 ### [Add/update contacts](https://docs.yespo.io/reference/contactsbulkupdate-1)
 
@@ -98,14 +98,14 @@ When importing contacts to Yespo, you can use any field to define their uniquene
 
 ## Export External ID to BigQuery and PostgreSQL
 
-Export external IDs to BigQuery and PostgreSQL — they will appear in the corresponding column in the contacts table. By default, this option is available for all new exports. If you need to create one for existing exports, please contact our support team.
+Export external IDs to **BigQuery** and **PostgreSQL** — they will appear in the corresponding column in the contacts table. By default, this option is available for all new exports. If you need to create one for existing exports, please contact our support team.
 
 ## Finding Empty External IDs in Yespo Account
 
 Create the dynamic segment to find all your contacts with empty external IDs.
 
-1. Go to *Contacts → Segments → Add Segment* and create the dynamic segment.
-2. Add condition: *Fields → External ID → is empty* and click *Done*.
+1. Go to **Contacts → Segments → Add Segment** and create the dynamic segment.
+2. Add condition: **Fields → External ID → is empty** and click **Done**.
 
 <Image align="center" width="80% " src="https://files.readme.io/c20f8b32597e8bf7a7f27bf1ca1cb0b47cb3b0e3739557c028140ea5a9573537-External_ID.webp" />
 
