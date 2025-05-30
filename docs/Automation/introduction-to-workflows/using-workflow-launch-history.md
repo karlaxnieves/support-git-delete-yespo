@@ -51,13 +51,13 @@ The following tabs are displayed on the left:
 
 3. The **Workflow's launch view** window will open.
 
-<Image align="center" width="80% " src="https://files.readme.io/44b7112fe589e4f2b1046f883d6c850b3aaeb2e945947ef0a0f10c57488e590f-history_5.png" />
+<Image align="center" width="80% " src="https://files.readme.io/667c65e3ac5937db122bebb01c408ab5abd141d1f5031aef27ecdf7c2fb6aeee-preview.png" />
 
 The execution path for that launch is highlighted in blue.
 
 Click the three-dot icon to view the campaign reports.
 
-<Image align="center" width="80% " src="https://files.readme.io/5d8ed595a57da9d8149959241ee058eea4260ad1a5e8d56b2e1e79dbe8cea3ff-history_6.png" />
+<Image align="center" width="80% " src="https://files.readme.io/c92088d99528549f31f24444e91d5abc27cc2ad0267c9af6cc139a68272e99fe-report.png" />
 
 > 📘 Note
 >
