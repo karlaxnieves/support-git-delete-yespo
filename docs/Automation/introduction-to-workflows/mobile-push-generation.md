@@ -70,59 +70,20 @@ Generated suggestions are displayed in the right sidebar, where you can review t
 
 2. Once the suggestions are generated, you can edit their content in the right column. If the suggestion is multilingual, you can edit its main version and automatically update the language versions by clicking the **Update translations** button.
 
-   \[block:image] &#x20;
-   \{
-   &#x20; "images": \[
-   &#x20;   \{
-   &#x20;     "image": \[
-   &#x20;       "https\://files.readme.io/b896693cf185bdace0a6d29844726b14c776d687dce7f8b15704da933d0a37bf-update.png",
-   &#x20;       "",
-   &#x20;       "Update translations"
-   &#x20;     ],
-   &#x20;     "align": "center",
-   &#x20;     "sizing": "80% "
-   &#x20;   }
-   &#x20; ]
-   }
-   \[/block]
-3. To save a suggestion for use in a block, select it and click **Publish messages**; to reject it, click **Discard**. You can also select all suggestions at once and accept or reject them.
+<Image align="center" width="80% " src="https://files.readme.io/54edff0bef4718111793dbf3074f7731d363e482f7c95256abf3d9bd5f24614f-update.png" />
 
-   \[block:image] &#x20;
-   \{
-   &#x20; "images": \[
-   &#x20;   \{
-   &#x20;     "image": \[
-   &#x20;       "https\://files.readme.io/88b019e943fce27337ebf35f8c54bb091b8f1f25510be6d3c9726e615a2bd312-AI\_5.png",
-   &#x20;       "",
-   &#x20;       "Publish or discard"
-   &#x20;     ],
-   &#x20;     "align": "center",
-   &#x20;     "sizing": "80% "
-   &#x20;   }
-   &#x20; ]
-   }
-   \[/block]
+2. To save a suggestion for use in a block, select it and click **Publish messages**; to reject it, click **Discard**. You can also select all suggestions at once and accept or reject them.
+
+<Image align="center" width="80% " src="https://files.readme.io/7796ea74ee55a3c732b15c5fb45cf61c672e827ad8f30de8f63e8488ebb3b24e-88b019e943fce27337ebf35f8c54bb091b8f1f25510be6d3c9726e615a2bd312-AI_5.png" />
 
 After accepting or rejecting a suggestion, the option to cancel the selected action will be available for a few seconds.
 
-\[block:image] &#x20;
-\{
-&#x20; "images": \[
-&#x20;   \{
-&#x20;     "image": \[
-&#x20;       "https\://files.readme.io/ac4cee80a7eb87b529195fef6c2274f7a3aae2e970e97be4b30b9d4e5997d8ee-undo.png",
-&#x20;       "",
-&#x20;       "Undo"
-&#x20;     ],
-&#x20;     "align": "center",
-&#x20;     "sizing": "80% "
-&#x20;   }
-&#x20; ]
-}
-\[/block]
+<Image align="center" width="80% " src="https://files.readme.io/3e0eddbe2c1e461ce80dbe84dd8769eca1213aad15ab545241c10c22df131429-undo.png" />
 
 4. Save the workflow to apply the changes.
 
 > 📘 Note
 >
-> You can save the workflow even if not all suggestions are accepted or rejected — they are saved as drafts. The next time you open the workflow, you can return to review and finish moderating the remaining options. \[block:image]\{"images":\[\{"image":\["https\://files.readme.io/ad2b90c8d42b83824bba2bb55e9eacf09725d73d4617b2eb14e0d1f0118d570b-AI\_6.png","","Publish or discard"],"align":"center","sizing":"80% "}]}\[/block]
+> You can save the workflow even if not all suggestions are accepted or rejected — they are saved as drafts. The next time you open the workflow, you can return to review and finish moderating the remaining options.
+>
+> <Image align="center" width="80% " src="https://files.readme.io/c5a2c5f2e86eb1dfa57348347ffe2bebf504ae29ffd3dbad8604d2ca0733354e-ad2b90c8d42b83824bba2bb55e9eacf09725d73d4617b2eb14e0d1f0118d570b-AI_6.png" />
