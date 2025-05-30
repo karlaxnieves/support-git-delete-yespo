@@ -33,35 +33,35 @@ The data must be in the [XML, RSS 2.0 format](https://support.google.com/merchan
 
 ### Required Attributes
 
-Columns layout="auto">
-&#x20; \<Column>
-&#x20;   \*\*Advanced\*\* &#x20;
-&#x20;   \`\<g:id>\` &#x20;
-&#x20;   \`\<g:title>\` &#x20;
-&#x20;   \`\<g:brand>\` &#x20;
-&#x20;   \`\<g:google\_product\_category>\` &#x20;
-&#x20;   \`\<g:description>\` &#x20;
-&#x20;   \`\<g:link>\` &#x20;
-&#x20;   \`\<g:image\_link>\` &#x20;
-&#x20;   \`\<g:availability>\` &#x20;
-&#x20;   \`\<g:price>\` &#x20;
-&#x20; \</Column>
+<Columns layout="auto">
+  <Column>
+    **Advanced**\
+    `<g:id>`\
+    `<g:title>`\
+    `<g:brand>`\
+    `<g:google_product_category>`\
+    `<g:description>`\
+    `<g:link>`\
+    `<g:image_link>`\
+    `<g:availability>`\
+    `<g:price>`
+  </Column>
 
-&#x20; \<Column>
-&#x20;   \*\*Pro\*\* &#x20;
-&#x20;   \`\<g:id>\` &#x20;
-&#x20;   \`\<g:title>\` &#x20;
-&#x20;   \`\<g:brand>\` &#x20;
-&#x20;   \`\<g:google\_product\_category>\` &#x20;
-&#x20;   \`\<g:description>\` &#x20;
-&#x20;   \`\<g:link>\` &#x20;
-&#x20;   \`\<g:image\_link>\` &#x20;
-&#x20;   \`\<g:availability>\` &#x20;
-&#x20;   \`\<g:price>\` &#x20;
-&#x20;   \`\<g:sale\_price>\` &#x20;
-&#x20;   \`\<g:new>\` &#x20;
-&#x20; \</Column>
-\</Columns>
+  <Column>
+    **Pro**\
+    `<g:id>`\
+    `<g:title>`\
+    `<g:brand>`\
+    `<g:google_product_category>`\
+    `<g:description>`\
+    `<g:link>`\
+    `<g:image_link>`\
+    `<g:availability>`\
+    `<g:price>`\
+    `<g:sale_price>`\
+    `<g:new>`
+  </Column>
+</Columns>
 
 ## Feed Uploading
 
