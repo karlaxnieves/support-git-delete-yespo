@@ -30,7 +30,7 @@ You can overcome them with the resource [Generate event](https://docs.yespo.io/r
 
 For example, you can set up identification by unique token. The order will not be saved until these parameters are transmitted to the system. If you don’t set your own parameters, the system will search the identifier based on default parameters (email, phone, etc.).
 
-<Image width="80%" src="https://files.readme.io/c40816a-order1.png" />
+<Image align="center" width="80%" src="https://files.readme.io/c40816a-order1.png" />
 
 You can use [Generate event](https://docs.yespo.io/reference/registerevent_1) only for the existing contact. To send the order for a new contact, first import this contact into the system via:
 
@@ -50,39 +50,39 @@ To send an order, you need to specify the event type. Choose the type from the b
 
 To create an order, name the parameters as indicated here and fill in the required parameters. If any of the required parameters isn’t filled, the event is ignored and the order will not be sent.
 
-<Image width="80%" src="https://files.readme.io/1f39f72-Required_field.png" />
+<Image align="center" width="80%" src="https://files.readme.io/1f39f72-Required_field.png" />
 
 Example:
 
 ```json
 {
-    "eventTypeKey": "orderCreated",
-    "keyValue": "380501234567",
-    "params": [
+	"eventTypeKey": "orderCreated",
+	"keyValue": "380501234567",
+	"params": [{
+		"name": "phone",
+		"value": "380501234567"
+	}, {
+		"name": "externalOrderId",
+		"value": "12345679"
+	}, {
+		"name": "externalCustomerId",
+		"value": "AV13760"
+	}, {
+		"name": "totalCost",
+		"value": "258.0"
+	}, {
+		"name": "status",
+		"value": "INITIALIZED"
+	}, {
+		"name": "date",
+		"value": "2020-05-14T10:11:00"
+	}, {
+		"name": "currency",
+		"value": "UAH"
+	}, {
+    "name": "items",
+    "value": [
         {
-            "name": "phone",
-            "value": "380501234567"
-        },{
-            "name": "externalOrderId",
-            "value": "12345679"
-        }, {
-            "name": "externalCustomerId",
-            "value": "AV13760"
-        }, {
-            "name": "totalCost",
-            "value": "258.0"
-        }, {
-            "name": "currency",
-            "value": "USD"
-        }, {
-            "name": "status",
-            "value": "INITIALIZED"
-    }, {
-        "name": "date",
-        "value": "2020-05-14T10:11:00"
-    }, {
-        "name": "items",
-        "value": [{
             "externalItemId": "200600",
             "name": "Super Device",
             "category": "devices",
@@ -91,8 +91,10 @@ Example:
             "url": "http://example.com/item/200600",
             "imageUrl": "http://example.com/item/200600/image.png",
             "description": "High quality"
-        }]
-    }]
+        }
+    ]
+    }
+    ]           
 }
 ```
 
