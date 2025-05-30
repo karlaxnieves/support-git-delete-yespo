@@ -54,6 +54,10 @@ We are constantly working to improve our SDK. Here you’ll find the change log 
 
 * inability to update device immediately after init of SDK
 
+<a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-ios-sdk/tree/2.5.6" target="_blank"> Read more </a>
+
+***
+
 <h2 id="2-5-5">iOS SDK 2.5.5 Release</h2>
 
 ✔️ **Fixed**
@@ -177,7 +181,7 @@ We are constantly working to improve our SDK. Here you’ll find the change log 
 
 <h2 id="2-0-18">iOS SDK 2.0.18 Release</h2>
 
- :rocket: **Added**
+:rocket: **Added**
 
 * New parameter `status` for App Inbox messages
 
