@@ -403,9 +403,7 @@ iOS SDK 2.0.4 Release
 
 ***
 
-<h2 id="2-0-3">
-
-iOS SDK 2.0.3 Release</h2>
+<h2 id="2-0-3" iOS SDK 2.0.3 Release</h2>
 
 :rocket: **Added**
 
