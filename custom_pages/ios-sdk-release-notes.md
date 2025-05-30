@@ -48,17 +48,13 @@ We are constantly working to improve our SDK. Here you’ll find the change log 
 
 ***
 
-<h2 id="2-5-6">
-iOS SDK 2.5.6 Release
-</h2>
+<h2 id="2-5-6">iOS SDK 2.5.6 Release</h2>
 
 ✔️ **Fixed**
 
 * inability to update device immediately after init of SDK
 
-<h2 id="2-5-5">
-iOS SDK 2.5.5 Release
-</h2>
+<h2 id="2-5-5">iOS SDK 2.5.5 Release</h2>
 
 ✔️ **Fixed**
 
@@ -69,9 +65,7 @@ iOS SDK 2.5.5 Release
 
 ***
 
-<h2 id="2-5-4">
-iOS SDK 2.5.4 Release
-</h2>
+<h2 id="2-5-4">iOS SDK 2.5.4 Release</h2>
 
 ✔️ **Fixed**
 
@@ -82,8 +76,7 @@ iOS SDK 2.5.4 Release
 
 ***
 
-<h2 id="2-5-3">
-iOS SDK 2.5.3 Release
+<h2 id="2-5-3">iOS SDK 2.5.3 Release
 </h2>
 
 ✔️ **Fixed**
@@ -106,8 +99,7 @@ iOS SDK 2.5.2 Release
 
 ***
 
-<h2 id="2-5-1">
-iOS SDK 2.5.1 Release
+<h2 id="2-5-1">iOS SDK 2.5.1 Release
 </h2>
 
 :rocket: **Added**
@@ -122,8 +114,7 @@ iOS SDK 2.5.1 Release
 
 ***
 
-<h2 id="2-5-0">
-iOS SDK 2.5.0 Release
+<h2 id="2-5-0">iOS SDK 2.5.0 Release
 </h2>
 
 :rocket: **Added**
@@ -139,8 +130,7 @@ iOS SDK 2.5.0 Release
 
 ***
 
-<h2 id="2-0-23">
-iOS SDK 2.0.23 Release
+<h2 id="2-0-23">iOS SDK 2.0.23 Release
 </h2>
 
 ✔️ **Fixed**
@@ -151,8 +141,7 @@ iOS SDK 2.0.23 Release
 
 ***
 
-<h2 id="2-0-22">
-iOS SDK 2.0.22 Release
+<h2 id="2-0-22">iOS SDK 2.0.22 Release
 </h2>
 
 ✔️ **Fixed**
@@ -163,8 +152,7 @@ iOS SDK 2.0.22 Release
 
 ***
 
-<h2 id="2-0-21">
-iOS SDK 2.0.21 Release
+<h2 id="2-0-21">iOS SDK 2.0.21 Release
 </h2>
 
 ✔️ **Fixed**
@@ -175,8 +163,7 @@ iOS SDK 2.0.21 Release
 
 ***
 
-<h2 id="2-0-20">
-iOS SDK 2.0.20 Release
+<h2 id="2-0-20">iOS SDK 2.0.20 Release
 </h2>
 
 ✔️ **Fixed**
@@ -187,8 +174,7 @@ iOS SDK 2.0.20 Release
 
 ***
 
-<h2 id="2-0-19">
-iOS SDK 2.0.19 Release
+<h2 id="2-0-19">iOS SDK 2.0.19 Release
 </h2>
 
 ✔️ **Fixed**
@@ -199,8 +185,7 @@ iOS SDK 2.0.19 Release
 
 ***
 
-<h2 id="2-0-18">
-iOS SDK 2.0.18 Release
+<h2 id="2-0-18">iOS SDK 2.0.18 Release
 </h2>
 
  :rocket: **Added**
@@ -216,8 +201,7 @@ iOS SDK 2.0.18 Release
 
 ***
 
-<h2 id="2-0-17">
-iOS SDK 2.0.17 Release
+<h2 id="2-0-17">iOS SDK 2.0.17 Release
 </h2>
 
 ✔️ **Fixed**
@@ -228,8 +212,7 @@ iOS SDK 2.0.17 Release
 
 ***
 
-<h2 id="2-0-16">
-iOS SDK 2.0.16 Release
+<h2 id="2-0-16">iOS SDK 2.0.16 Release
 </h2>
 
 ✔️ **Fixed**
@@ -241,8 +224,7 @@ iOS SDK 2.0.16 Release
 
 ***
 
-<h2 id="2-0-15">
-iOS SDK 2.0.15 Release
+<h2 id="2-0-15">iOS SDK 2.0.15 Release
 </h2>
 
 ✔️ **Fixed**
@@ -254,8 +236,7 @@ iOS SDK 2.0.15 Release
 
 ***
 
-<h2 id="2-0-14">
-iOS SDK 2.0.14 Release
+<h2 id="2-0-14">iOS SDK 2.0.14 Release
 </h2>
 
 ✔️ **Fixed**
@@ -266,8 +247,7 @@ iOS SDK 2.0.14 Release
 
 ***
 
-<h2 id="2-0-13">
-iOS SDK 2.0.13 Release
+<h2 id="2-0-13">iOS SDK 2.0.13 Release
 </h2>
 
 :rocket: **Added**
@@ -282,8 +262,7 @@ iOS SDK 2.0.13 Release
 
 ***
 
-<h2 id="2-0-12">
-iOS SDK 2.0.12 Release
+<h2 id="2-0-12">iOS SDK 2.0.12 Release
 </h2>
 
 :rocket: **Added**
@@ -298,8 +277,7 @@ iOS SDK 2.0.12 Release
 
 ***
 
-<h2 id="2-0-11">
-iOS SDK 2.0.11 Release
+<h2 id="2-0-11">iOS SDK 2.0.11 Release
 </h2>
 
 :rocket: **Added**
@@ -314,8 +292,7 @@ iOS SDK 2.0.11 Release
 
 ***
 
-<h2 id="2-0-10">
-iOS SDK 2.0.10 Release
+<h2 id="2-0-10">iOS SDK 2.0.10 Release
 </h2>
 
 :rocket: **Added**
@@ -326,8 +303,7 @@ iOS SDK 2.0.10 Release
 
 ***
 
-<h2 id="2-0-9">
-iOS SDK 2.0.9 Release
+<h2 id="2-0-9">iOS SDK 2.0.9 Release
 </h2>
 
 :rocket: **Added**
@@ -338,8 +314,7 @@ iOS SDK 2.0.9 Release
 
 ***
 
-<h2 id="2-0-8">
-iOS SDK 2.0.8 Release
+<h2 id="2-0-8">iOS SDK 2.0.8 Release
 </h2>
 
 ✔️ **Fixed**
@@ -350,8 +325,7 @@ iOS SDK 2.0.8 Release
 
 ***
 
-<h2 id="2-0-7">
-iOS SDK 2.0.7 Release
+<h2 id="2-0-7">iOS SDK 2.0.7 Release
 </h2>
 
 🚀 **Added**
@@ -362,8 +336,7 @@ iOS SDK 2.0.7 Release
 
 ***
 
-<h2 id="2-0-6">
-iOS SDK 2.0.6 Release
+<h2 id="2-0-6">iOS SDK 2.0.6 Release
 </h2>
 
 🔆 **Improved**
@@ -375,8 +348,7 @@ iOS SDK 2.0.6 Release
 
 ***
 
-<h2 id="2-0-5">
-iOS SDK 2.0.5 Release
+<h2 id="2-0-5">iOS SDK 2.0.5 Release
 </h2>
 
 🔆 **Improved**
@@ -387,8 +359,7 @@ iOS SDK 2.0.5 Release
 
 ***
 
-<h2 id="2-0-4">
-iOS SDK 2.0.4 Release
+<h2 id="2-0-4">iOS SDK 2.0.4 Release
 </h2>
 
 :rocket: **Added**
@@ -403,7 +374,7 @@ iOS SDK 2.0.4 Release
 
 ***
 
-<h2 id="2-0-3" iOS SDK 2.0.3 Release</h2>
+<h2 id="2-0-3">iOS SDK 2.0.3 Release</h2>
 
 :rocket: **Added**
 
