@@ -8,6 +8,7 @@ metadata:
 ---
 We are constantly working to improve our SDK. Here you’ll find the change log for the Android SDK and related details.
 
+* [Android SDK 2.6.5 Release](#2-6-5)
 * [Android SDK 2.6.4 Release](#2-6-4)
 * [Android SDK 2.6.3 Release](#2-6-3)
 * [Android SDK 2.6.2 Release](#2-6-2)
@@ -47,8 +48,21 @@ We are constantly working to improve our SDK. Here you’ll find the change log 
 
 ***
 
+<h2 id="2-6-5">
+  Android SDK 2.6.5 Release
+</h2>
+
+🔆 **Improved**
+
+* Moved heavy operation to background
+* `PushNotificationSubsribed/Unsubscribed` emitted only on state change
+
+<a rel="nofollow" href="https://github.com/reteno-com/reteno-mobile-android-sdk/releases/tag/2.6.5" target="_blank"> Read more </a>
+
+***
+
 <h2 id="2-6-4">
-Android SDK 2.6.4 Release
+  Android SDK 2.6.4 Release
 </h2>
 
 ✔️ **Fixed**
@@ -62,7 +76,7 @@ Android SDK 2.6.4 Release
 ***
 
 <h2 id="2-6-3">
-Android SDK 2.6.3 Release
+  Android SDK 2.6.3 Release
 </h2>
 
 ✔️ **Fixed**
@@ -78,7 +92,7 @@ Android SDK 2.6.3 Release
 ***
 
 <h2 id="2-6-2">
-Android SDK 2.6.2 Release
+  Android SDK 2.6.2 Release
 </h2>
 
 ✔️ **Fixed**
@@ -90,7 +104,7 @@ Android SDK 2.6.2 Release
 ***
 
 <h2 id="2-6-1">
-Android SDK 2.6.1 Release
+  Android SDK 2.6.1 Release
 </h2>
 
 ✔️ **Fixed**
@@ -102,7 +116,7 @@ Android SDK 2.6.1 Release
 ***
 
 <h2 id="2-6-0">
-Android SDK 2.6.0 Release
+  Android SDK 2.6.0 Release
 </h2>
 
 :rocket: **Added**
@@ -115,7 +129,7 @@ Android SDK 2.6.0 Release
 ***
 
 <h2 id="2-5-1">
-Android SDK 2.5.1 Release
+  Android SDK 2.5.1 Release
 </h2>
 
 ✔️ **Fixed**
@@ -127,10 +141,10 @@ Android SDK 2.5.1 Release
 ***
 
 <h2 id="2-5-0">
-Android SDK 2.5.0 Release
+  Android SDK 2.5.0 Release
 </h2>
 
- :rocket: **Added**
+:rocket: **Added**
 
 * Backward compatibility for initialization process
 * New In-App types: Slideup, Bottom bar, Popup
@@ -144,7 +158,7 @@ Android SDK 2.5.0 Release
 ***
 
 <h2 id="3-0-3">
-Android SDK 3.0.0-beta01 Release
+  Android SDK 3.0.0-beta01 Release
 </h2>
 
 :rocket: **Added**
@@ -160,7 +174,7 @@ Android SDK 3.0.0-beta01 Release
 ***
 
 <h2 id="3-0-2">
-Android SDK 3.0.0-alpha02 Release
+  Android SDK 3.0.0-alpha02 Release
 </h2>
 
 🔆 **Improved**
@@ -172,7 +186,7 @@ Android SDK 3.0.0-alpha02 Release
 ***
 
 <h2 id="3-0-0">
-Android SDK 3.0.0-alpha01 Release
+  Android SDK 3.0.0-alpha01 Release
 </h2>
 
 🔆 **Improved**
@@ -184,7 +198,7 @@ Android SDK 3.0.0-alpha01 Release
 ***
 
 <h2 id="2-0-20">
-Android SDK 2.0.20 Release
+  Android SDK 2.0.20 Release
 </h2>
 
 ✔️ **Fixed**
@@ -197,7 +211,7 @@ Android SDK 2.0.20 Release
 ***
 
 <h2 id="2-0-19">
-Android SDK 2.0.19 Release
+  Android SDK 2.0.19 Release
 </h2>
 
 ✔️ **Fixed**
@@ -209,7 +223,7 @@ Android SDK 2.0.19 Release
 ***
 
 <h2 id="2-0-18">
-Android SDK 2.0.18 Release
+  Android SDK 2.0.18 Release
 </h2>
 
 🔆 **Improved**
@@ -221,7 +235,7 @@ Android SDK 2.0.18 Release
 ***
 
 <h2 id="2-0-17">
-Android SDK 2.0.17 Release
+  Android SDK 2.0.17 Release
 </h2>
 
 🔆 **Improved**
@@ -241,7 +255,7 @@ Android SDK 2.0.17 Release
 ***
 
 <h2 id="2-0-16">
-Android SDK 2.0.16 Release
+  Android SDK 2.0.16 Release
 </h2>
 
 🔆 **Improved**
@@ -254,7 +268,7 @@ Android SDK 2.0.16 Release
 ***
 
 <h2 id="2-0-15">
-Android SDK 2.0.15 Release
+  Android SDK 2.0.15 Release
 </h2>
 
 ✔️ **Fixed**
@@ -272,7 +286,7 @@ Android SDK 2.0.15 Release
 ***
 
 <h2 id="2-0-14">
-Android SDK 2.0.14 Release
+  Android SDK 2.0.14 Release
 </h2>
 
 ✔️ **Fixed**
@@ -284,7 +298,7 @@ Android SDK 2.0.14 Release
 ***
 
 <h2 id="2-0-13">
-Android SDK 2.0.13 Release
+  Android SDK 2.0.13 Release
 </h2>
 
 🔆 **Improved**
@@ -296,7 +310,7 @@ Android SDK 2.0.13 Release
 ***
 
 <h2 id="2-0-12">
-Android SDK 2.0.12 Release
+  Android SDK 2.0.12 Release
 </h2>
 
 :rocket: **Added**
@@ -308,7 +322,7 @@ Android SDK 2.0.12 Release
 ***
 
 <h2 id="2-0-11">
-Android SDK 2.0.11 Release
+  Android SDK 2.0.11 Release
 </h2>
 
 🔆 **Improved**
@@ -320,7 +334,7 @@ Android SDK 2.0.11 Release
 ***
 
 <h2 id="2-0-10">
-Android SDK 2.0.10 Release
+  Android SDK 2.0.10 Release
 </h2>
 
 🔆 **Improved**
@@ -333,7 +347,7 @@ Android SDK 2.0.10 Release
 ***
 
 <h2 id="2-0-9">
-Android SDK 2.0.9 Release
+  Android SDK 2.0.9 Release
 </h2>
 
 ✔️ **Fixed**
@@ -352,7 +366,7 @@ Android SDK 2.0.9 Release
 ***
 
 <h2 id="2-0-8">
-Android SDK 2.0.8 Release
+  Android SDK 2.0.8 Release
 </h2>
 
 ✔️ **Fixed**
@@ -364,7 +378,7 @@ Android SDK 2.0.8 Release
 ***
 
 <h2 id="2-0-7">
-Android SDK 2.0.7 Release
+  Android SDK 2.0.7 Release
 </h2>
 
 ✔️ **Fixed**
@@ -380,7 +394,7 @@ Android SDK 2.0.7 Release
 ***
 
 <h2 id="2-0-6">
-Android SDK 2.0.6 Release
+  Android SDK 2.0.6 Release
 </h2>
 
 ✔️ **Fixed**
@@ -392,7 +406,7 @@ Android SDK 2.0.6 Release
 ***
 
 <h2 id="2-0-5">
-Android SDK 2.0.5 Release
+  Android SDK 2.0.5 Release
 </h2>
 
 :rocket: **Added**
@@ -413,7 +427,7 @@ Android SDK 2.0.5 Release
 ***
 
 <h2 id="2-0-4">
-Android SDK 2.0.4 Release
+  Android SDK 2.0.4 Release
 </h2>
 
 :rocket: **Added**
@@ -431,7 +445,7 @@ Android SDK 2.0.4 Release
 ***
 
 <h2 id="2-0-3">
-Android SDK 2.0.3 Release
+  Android SDK 2.0.3 Release
 </h2>
 
 :rocket: **Added**
@@ -453,7 +467,7 @@ Android SDK 2.0.3 Release
 ***
 
 <h2 id="2-0-2">
-Android SDK 2.0.2 Release
+  Android SDK 2.0.2 Release
 </h2>
 
 :rocket: **Added**
@@ -471,7 +485,7 @@ Android SDK 2.0.2 Release
 ***
 
 <h2 id="2-0-1">
-Android SDK 2.0.1 Release
+  Android SDK 2.0.1 Release
 </h2>
 
 :rocket: **Added**
@@ -487,7 +501,7 @@ Android SDK 2.0.1 Release
 ***
 
 <h2 id="1-7-2">
-Android SDK 1.7.2 Release
+  Android SDK 1.7.2 Release
 </h2>
 
 :rocket: **Added**
@@ -507,7 +521,7 @@ Android SDK 1.7.2 Release
 ***
 
 <h2 id="1-7-1">
-Android SDK 1.7.1 Release
+  Android SDK 1.7.1 Release
 </h2>
 
 :rocket: **Added**
@@ -524,7 +538,7 @@ Android SDK 1.7.1 Release
 ***
 
 <h2 id="1-7-0">
-Android SDK 1.7.0 Release
+  Android SDK 1.7.0 Release
 </h2>
 
 :high_brightness:**Improved**
@@ -540,7 +554,7 @@ Android SDK 1.7.0 Release
 ***
 
 <h2 id="1-6-9">
-Android SDK 1.6.9 Release
+  Android SDK 1.6.9 Release
 </h2>
 
 :rocket: **Added**
@@ -562,7 +576,7 @@ Android SDK 1.6.9 Release
 ***
 
 <h2 id="1-6-8">
-Android SDK 1.6.8 Release
+  Android SDK 1.6.8 Release
 </h2>
 
 :white_check_mark: **Fixed**
@@ -574,7 +588,7 @@ Android SDK 1.6.8 Release
 ***
 
 <h2 id="1-6-7">
-Android SDK 1.6.7 Release
+  Android SDK 1.6.7 Release
 </h2>
 
 :rocket: **Added**
