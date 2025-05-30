@@ -72,7 +72,7 @@ Generated suggestions are displayed in the right sidebar, where you can review t
 
 <Image align="center" width="80% " src="https://files.readme.io/54edff0bef4718111793dbf3074f7731d363e482f7c95256abf3d9bd5f24614f-update.png" />
 
-2. To save a suggestion for use in a block, select it and click **Publish messages**; to reject it, click **Discard**. You can also select all suggestions at once and accept or reject them.
+3. To save a suggestion for use in a block, select it and click **Publish messages**; to reject it, click **Discard**. You can also select all suggestions at once and accept or reject them.
 
 <Image align="center" width="80% " src="https://files.readme.io/7796ea74ee55a3c732b15c5fb45cf61c672e827ad8f30de8f63e8488ebb3b24e-88b019e943fce27337ebf35f8c54bb091b8f1f25510be6d3c9726e615a2bd312-AI_5.png" />
 
