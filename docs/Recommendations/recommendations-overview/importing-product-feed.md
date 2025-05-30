@@ -35,31 +35,31 @@ The data must be in the [XML, RSS 2.0 format](https://support.google.com/merchan
 
 <Columns layout="auto">
   <Column>
-    **Advanced**\
-    `<g:id>`\
-    `<g:title>`\
-    `<g:brand>`\
-    `<g:google_product_category>`\
-    `<g:description>`\
-    `<g:link>`\
-    `<g:image_link>`\
-    `<g:availability>`\
-    `<g:price>`
+    > **Advanced**\
+    > `<g:id>`\
+    > `<g:title>`\
+    > `<g:brand>`\
+    > `<g:google_product_category>`\
+    > `<g:description>`\
+    > `<g:link>`\
+    > `<g:image_link>`\
+    > `<g:availability>`\
+    > `<g:price>`
   </Column>
 
   <Column>
-    **Pro**\
-    `<g:id>`\
-    `<g:title>`\
-    `<g:brand>`\
-    `<g:google_product_category>`\
-    `<g:description>`\
-    `<g:link>`\
-    `<g:image_link>`\
-    `<g:availability>`\
-    `<g:price>`\
-    `<g:sale_price>`\
-    `<g:new>`
+    > **Pro**\
+    > `<g:id>`\
+    > `<g:title>`\
+    > `<g:brand>`\
+    > `<g:google_product_category>`\
+    > `<g:description>`\
+    > `<g:link>`\
+    > `<g:image_link>`\
+    > `<g:availability>`\
+    > `<g:price>`\
+    > `<g:sale_price>`\
+    > `<g:new>`
   </Column>
 </Columns>
 
