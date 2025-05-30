@@ -75,53 +75,45 @@ Example:
 
 ```json
 {
-    "eventTypeKey": "orderCreated",
-    "keyValue": "380501234567",
-    "params": [
+	"eventTypeKey": "orderCreated",
+	"keyValue": "380501234567",
+	"params": [{
+		"name": "phone",
+		"value": "380501234567"
+	}, {
+		"name": "externalOrderId",
+		"value": "12345679"
+	}, {
+		"name": "externalCustomerId",
+		"value": "AV13760"
+	}, {
+		"name": "totalCost",
+		"value": "258.0"
+	}, {
+		"name": "status",
+		"value": "INITIALIZED"
+	}, {
+		"name": "date",
+		"value": "2020-05-14T10:11:00"
+	}, {
+		"name": "currency",
+		"value": "UAH"
+	}, {
+    "name": "items",
+    "value": [
         {
-            "name": "phone",
-            "value": "380501234567"
-        },
-        {
-            "name": "externalOrderId",
-            "value": "12345679"
-        },
-        {
-            "name": "externalCustomerId",
-            "value": "AV13760"
-        },
-        {
-            "name": "totalCost",
-            "value": "258.0"
-        },
-        {
-            "name": "status",
-            "value": "INITIALIZED"
-        },
-        {
-            "name": "date",
-            "value": "2020-05-14T10:11:00"
-        },
-        {
-            "name": "currency",
-            "value": "UAH"
-        },
-        {
-            "name": "items",
-            "value": [
-                {
-                    "externalItemId": "200600",
-                    "name": "Super Device",
-                    "category": "devices",
-                    "quantity": 1,
-                    "cost": 990,
-                    "url": "http://example.com/item/200600",
-                    "imageUrl": "http://example.com/item/200600/image.png",
-                    "description": "High quality"
-                }
-            ]
+            "externalItemId": "200600",
+            "name": "Super Device",
+            "category": "devices",
+            "quantity": 1,
+            "cost": 990,
+            "url": "http://example.com/item/200600",
+            "imageUrl": "http://example.com/item/200600/image.png",
+            "description": "High quality"
         }
     ]
+    }
+    ]           
 }
 ```
 
@@ -129,51 +121,11 @@ Example:
 >
 > To save the event assigned to the contact, you need to know what event parameter contains the identifier. By default, the system searches for the following parameters excluding the register: ContactId, Contact\_id, Email, EmailAddress, UserEmail, ContactEmail, Phone, SMS, PhoneNumber, PushToken, ContactKey, Contact\_key. All values, except for the email address, are mapped including the register.
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Field
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        status
-      </td>
-
-      <td>
-        Can take one of the following values: `INITIALIZED`, `IN_PROGRESS`, `DELIVERED`, `CANCELLED`, `ABANDONED_SHOPPING_CART`.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        date
-      </td>
-
-      <td>
-        The date format is YYYY-MM-ddTHH:mm:ss, according to <a rel="nofollow" href="https://en.wikipedia.org/wiki/ISO_8601" target="_blank"> ISO 8601</a>. Example: 2020-05-14T10:11:00.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        items
-      </td>
-
-      <td>
-        Items from the order (optional). If you use this field, the required fields must be specified for the orderItem method. Pass the values of items as a JSON string. We support nesting up to the second level inclusive. This means that if another array or object is passed in the items array, it will remain serialized (escaped). We do not ignore such data, but since it will be a string, it is impossible to work with it.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Field  | Description                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status | Can take one of the following values: `INITIALIZED`, `IN_PROGRESS`, `DELIVERED`, `CANCELLED`, `ABANDONED_SHOPPING_CART`.                                                                                                                                                                                                                                                                                                           |
+| date   | The date format is YYYY-MM-ddTHH:mm:ss, according to <a rel="nofollow" href="https://en.wikipedia.org/wiki/ISO_8601" target="_blank"> ISO 8601</a>. Example: 2020-05-14T10:11:00.                                                                                                                                                                                                                                                  |
+| items  | Items from the order (optional). If you use this field, the required fields must be specified for the orderItem method. Pass the values of items as a JSON string. We support nesting up to the second level inclusive. This means that if another array or object is passed in the items array, it will remain serialized (escaped). We do not ignore such data, but since it will be a string, it is impossible to work with it. |
 
 ### orderUpdated
 
