@@ -90,7 +90,7 @@ You can also use the [Get organization billing history](https://docs.yespo.io/re
 
 ## How Can I Add a Billing Address for Invoice Display?
 
-To add a billing address, click **Pricing plans** on the account homepage, go to the **Billing address** tab, and fill in your organization’s details. All fields are required except for *Additional information*.
+To add a billing address, click **Pricing plans** on the account homepage, go to the **Billing address** tab, and fill in your organization’s details. All fields are required except for **Additional information**.
 
 <Image align="center" width="80% " src="https://files.readme.io/28945908d65bb6a5171dd86932fcddeb1ae6825e1b57bf710b040413bf390733-billing-address-en.webp" />
 
