@@ -4,6 +4,10 @@ deprecated: false
 hidden: false
 metadata:
   title: NPS/Rating Widget Components | Yespo Guide
+  description: >-
+    The document covers using NPS and Rating widgets to gather website feedback,
+    with settings to store data in contact fields or events and customize look
+    and behavior.
   robots: index
 ---
 **NPS** (Net Promoter Score) and **Rating** widget components are used to collect feedback from website visitors and assess customer loyalty to your brand or company.
