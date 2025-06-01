@@ -60,14 +60,14 @@ To set the event parameter:
 
 <Image align="center" width="80% " src="https://files.readme.io/768e1e5772be0b26ba7e45f1469bdba31a83788d24d6a18cfb92af94d4399349-nps-rating-05.webp" />
 
-**Note**
+> 📘 Note
+>
+> You can use multiple components in a widget simultaneously and assign the same or different event types to each. If the form contains two components, two events will be created:
+>
+> * The first event will include all contact data and the value of the first component (for example, rating the order processing speed);
+> * The second event will include the same contact data and the value of the second component (for example, rating the quality of support service consultation).
 
-You can use multiple components in a widget simultaneously and assign the same or different event types to each. If the form contains two components, two events will be created:
-
-* The first event will include all contact data and the value of the first component (for example, rating the order processing speed);
-* The second event will include the same contact data and the value of the second component (for example, rating the quality of support service consultation).
-
-1. Specify the name of the event parameter in which the component’s value will be sent, or leave the default name, then click **Save**.
+2. Specify the name of the event parameter in which the component’s value will be sent, or leave the default name, then click **Save**.
 
 <Image align="center" width="80% " src="https://files.readme.io/e90c8a6d98b24f4ec18dd6e3a3276a8b05c38e66cf5a8ca4082b58a56966b4ac-nps-rating-06.webp" />
 
