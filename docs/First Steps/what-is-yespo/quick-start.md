@@ -33,7 +33,7 @@ This section manages contacts and stores information about them — first name, 
 
 ## Messages
 
-In this section, you can create and send different types of messages: **Email**, **SMS**, **Web Push**, **Mobile Push**, **Viber**, **App Inbox**, **In-App**, **Telegram**. Save messages as templates for quick future reference. Statistics in the *Messages* section displays information about the number of sent and read messages, and clicks on the links.
+In this section, you can create and send different types of messages: **Email**, **SMS**, **Web Push**, **Mobile Push**, **Viber**, **App Inbox**, **In-App**, **Telegram**. Save messages as templates for quick future reference. Statistics in the **Messages** section displays information about the number of sent and read messages, and clicks on the links.
 
 <Image align="center" width="80% " src="https://files.readme.io/f263d9f562d89cfcf8202b0929ac9eafe0d38651c06eb9a668e0f19b8ab23e97-sections-overview-message.webp" />
 
@@ -41,7 +41,7 @@ In this section, you can create and send different types of messages: **Email**,
 
 ## Campaigns
 
-In this section, you can view scheduled campaigns and information about previously sent bulk or single messages. It also displays the unsubscribe reasons. *Frequency strategy* will help you set up contact list segmentation and create a campaign schedule.
+In this section, you can view scheduled campaigns and information about previously sent bulk or single messages. It also displays the unsubscribe reasons. **Frequency strategy** will help you set up contact list segmentation and create a campaign schedule.
 
 <Image align="center" width="80% " src="https://files.readme.io/08997572a6a7d9759a70e41cacf3c10edce4fe9c088240c61b46d45197f2c6b4-image04.webp" />
 
@@ -71,8 +71,8 @@ All the functionality for automating campaigns is available here: 
 
 The personal account consists of the following subsections:
 
-* *Switch account*. The option is available if you work with several accounts.
-* *My profile*. Settings and information associated with your system account: 
+* **Switch account.** The option is available if you work with several accounts.
+* \*\*My profile. \*\*Settings and information associated with your system account: 
 
   * Personal data such as first name, last name, phone number, password. 
   * Setting up notifications, for example, notifications about the renewal of the pricing plan or about the lack of funds in the account.
@@ -82,10 +82,10 @@ The personal account consists of the following subsections:
 
 [Go to My profile settings >](https://my.yespo.io/settings-ui/#/account)
 
-* *Settings*: options for campaigns customization, integrations and account management.
+* **Settings**: options for campaigns customization, integrations and account management.
 
 <Image align="center" width="80% " src="https://files.readme.io/587245edd79a523089c3053955d4451b15f2732259d2eb4bd411eef4c2765190-startpageen.webp" />
 
-To see all system *Settings* —  [follow the link >](https://my.yespo.io/settings-ui/#/organisation)
+To see all system **Settings** —  [follow the link >](https://my.yespo.io/settings-ui/#/organisation)
 
 If you have any additional questions, please contact us at [support@yespo.io](mailto:support@yespo.io)
