@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-In accordance with [GDPR](https://docs.yespo.io/docs/gdpr-overview), we’ve added an additional layer of security to protect your account - multi-factor authentication. In \***Settings**, turn on **MFA** once, and log in to your account with a one-time password available for you only. The procedure takes no more than 4 minutes.
+In accordance with [GDPR](https://docs.yespo.io/docs/gdpr-overview), we’ve added an additional layer of security to protect your account - multi-factor authentication. In **Settings**, turn on **MFA** once, and log in to your account with a one-time password available for you only. The procedure takes no more than 4 minutes.
 
 1. In your account settings, go to **Your organization** → **My Profile**.
 
