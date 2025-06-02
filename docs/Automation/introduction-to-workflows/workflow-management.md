@@ -40,17 +40,21 @@ Each workflow contains the required blocks:
 * [Start](https://docs.yespo.io/docs/start-block). This block is automatically added at the beginning of a workflow.
 * [End](https://docs.yespo.io/docs/popular-blocks#end). Place this block at the end of a workflow branch.
 
-4. After adding all the necessary workflow blocks, choose the following actions:
+4. After adding all the necessary blocks, save the workflow by selecting one of the following options:
 
-* Save
-* Save and exit
-* Save and launch one time
+From the dropdown menu:
 
-<Image align="center" width="80% " src="https://files.readme.io/6ca39b150191c6cb9a7e42f2480905627052584928f388c20a9ae6c916097162-building-workflows-02.webp" />
+* **Save** — without exiting the editor.
+* **Save and exit** — returns you to the list of workflows.
+* **Save and launch one time** — runs the workflow one time.
 
-The new workflow will appear in the list of workflows after saving.
+<Image align="center" width="80% " src="https://files.readme.io/a493b970367b7179b8593750848d9b820d170759ce08b9a244edd8b6720f4b1c-image001.webp" />
 
-<Image align="center" width="80% " src="https://files.readme.io/8c6d346fd841cef702a3fcacfc0e0806b028f77a84ca37148d13f41fa615cd30-building-and-editing-workflows-201.webp" />
+On the top toolbar:
+
+**Save and launch test** — performs a test run of the workflow.
+
+<Image align="center" width="80% " src="https://files.readme.io/912ac1b1b1bdc5c334f89814cf1d70895afbda5f47daa638a38bab237a16db7b-image002.webp" />
 
 ## Managing Blocks
 
