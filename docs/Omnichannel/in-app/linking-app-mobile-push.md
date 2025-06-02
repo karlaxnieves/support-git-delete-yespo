@@ -25,7 +25,7 @@ Here we will look at the second method — how to link an In-App with a mobile p
 
 1. [Create an In-App](https://docs.yespo.io/docs/creating-in-app-message).
 2. Create or open a [mobile push notification](https://docs.yespo.io/docs/how-to-create-mobile-push-notifications).
-3. Activate the *Open in-app by clicking* switcher, and select In-App message.
+3. Activate the **Open in-app by clicking** switcher, and select In-App message.
 
 <Image align="center" width="80% " src="https://files.readme.io/4743ddf0131f4a658737100ed1c40662a2460e842af4e2c6cd12d716180d9c3c-creating-in-app-message-30.webp" />
 
@@ -33,7 +33,7 @@ Here we will look at the second method — how to link an In-App with a mobile p
 >
 > The link and buttons are unavailable for mobile pushes with linked In-App messages.
 
-Mobile pushes with linked In-App messages marked with the *chain* icon in the system. Hover over the icon to see the name of the linked message.
+Mobile pushes with linked In-App messages marked with the **chain** icon in the system. Hover over the icon to see the name of the linked message.
 
 <Image align="center" width="80% " src="https://files.readme.io/56a64a9d807f0d3a65c9f8b9857070bdae9ffdc5e45797e856e1d359ca4b6366-creating-in-app-message-31.webp" />
 
@@ -44,7 +44,7 @@ Mobile pushes with linked In-App messages marked with the *chain* icon in the sy
 
 <Image align="center" width="80% " src="https://files.readme.io/505ba487c3c9849897dc0f7115bf5b13634f1e705f2c177d1b0b2a1b55569ccd-creating-in-app-message-32.webp" />
 
-3. Select the application in the *Send Test Message* window, to which the push notification will be sent. If you have only one application, it will be automatically chosen by default.
+3. Select the application in the **Send Test Message** window, to which the push notification will be sent. If you have only one application, it will be automatically chosen by default.
 4. Enter the email, contact ID, or phone number into the Search field to specify the contact for the push notification.
 
 <Image align="center" width="80% " src="https://files.readme.io/214cae4d494874d7f6ab2ad894a73cff6c6940d4855f24e9b06d0d731aef99eb-creating-in-app-message-33.webp" />
