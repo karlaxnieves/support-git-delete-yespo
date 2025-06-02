@@ -20,23 +20,23 @@ Webhook workflows allow working with parameters from [events](https://docs.yesp
 This request uploads and sends the contact’s data from Yespo to other systems and contrariwise collects data into Yespo from external systems. Using this as a part of a workflow, you can:
 
 1. Address your own resource, which will process the request and return data for [personalization](https://docs.yespo.io/docs/personalization-and-dynamic-variables) (for example, a personal promo code or a token for authorization) in the message.
-2. Send data from an event or from the contact’s card (for example, order id, [additional field](https://docs.yespo.io/docs/how-add-additional-contact-fields) “contact’s id in messenger” or “Birthday”) to an external resource.
+2. Send data from an event or from the contact’s card (for example, order id, [additional field](https://docs.yespo.io/docs/how-add-additional-contact-fields) **contact’s id in messenger** or **Birthday**) to an external resource.
 
 > 📘 Note
 >
-> Only the contact’s data (fields + additional fields) and the parameters from an event that triggered a workflow with a webhook can be sent through a webhook. In most cases, data transfer in webhooks is configured in  **JSON**format, but **XML** and **text** formats are also available.
+> Only the contact’s data (fields + additional fields) and the parameters from an event that triggered a workflow with a webhook can be sent through a webhook. In most cases, data transfer in webhooks is configured in   `JSON` format, but `XML` and `text` formats are also available.
 
 ## Creating a Webhook in a Workflow
 
-1. Go to *Automation → Workflows* and click the *New workflow* button.
+1. Go to **Automation → Workflows** and click the **New workflow** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/96aa05808243a5e794db8712dea288a3ce7dae418457737199fbe1366eeabb30-webhooks-in-workflows-002.webp" />
 
-2. Open the *Other* tab on the left panel, and select *Webhook*.
+2. Open the **Other** tab on the left panel, and select **Webhook**.
 
 <Image align="center" width="80% " src="https://files.readme.io/8cea7b6d5b833fb9a2c8939902af094c9be67a7ee2d94670c7118a652ed7939b-webhooks-in-workflows-303.webp" />
 
-3. Click the *Create webhook* button on the *Settings* panel on the right side.
+3. Click the **Create webhook** button on the **Settings** panel on the right side.
 
 <Image align="center" width="80% " src="https://files.readme.io/86598eea6a8ee5f4ff7b35e46067d45d2572acc78d285361de35a0e8fd0b03c2-webhooks-in-workflows-304.webp" />
 
@@ -46,7 +46,7 @@ This request uploads and sends the contact’s data from Yespo to other systems 
 
 ## Working with GET Request
 
-Use this request type when you want to request data on an external resource using the link to use the data in a workflow and insert it inside the workflow. The data is transmitted to an URL as “name-value” pairs.
+Use this request type when you want to request data on an external resource using the link to use the data in a workflow and insert it inside the workflow. The data is transmitted to an URL as **name-value** pairs.
 
 <Image align="center" width="80% " src="https://files.readme.io/2a60711c0dbf377e73906defa2d4238fbc857670ad2d3b4b7687575d54654a43-webhooks-in-workflows-006.webp" />
 
@@ -54,7 +54,7 @@ In order to configure the webhook:
 
 1. Enter the webhook name using any symbols (required field) and description (optional field).
 2. Enter the resource’s URL through secured `HTTPS` protocol (if you enter `HTTP` the system does not save the link). Type in variables you want to return after the interrogation symbol. In this example, we transmit the email parameter’s value from an event triggering the workflow and address the EMAIL field related to the contact’s card on the resource to which we sent the `GET` request.
-3. If your resource reads parameters from headers, enable *Pass parameters in headers* slide button and enter corresponding variables and values you want to address.
+3. If your resource reads parameters from headers, enable **Pass parameters in headers** slide button and enter corresponding variables and values you want to address.
 
 <Image align="center" width="80% " src="https://files.readme.io/481fde795ffcfe48b037b9278662065646d0f685a9bdef964f8807730c6f257c-en-webhook-workf-001.webp" />
 
@@ -77,8 +77,8 @@ Below are examples of parameter names and their values that can be used:
 >
 > For` $workflowInstanceId`, the character case matters, while for contact fields, it does not.
 
-4. Enable *Authentication* slide button and select authentication connector. If you need to configure a new one, click the *New connector* button to open the *Create connector* window.
-5. In *Create connector* window enter the following details:
+4. Enable **Authentication** slide button and select authentication connector. If you need to configure a new one, click the **New connector** button to open the **Create connector** window.
+5. In **Create connector** window enter the following details:
 
 <Image align="center" width="80% " src="https://files.readme.io/80bdb7697a61a8d1bb74da50e168f05d27a72a72c7fc26538f11a708b7cd7bf0-webhooks-in-workflows-007.webp" />
 
@@ -86,23 +86,23 @@ Below are examples of parameter names and their values that can be used:
 * Authentication type from the drop-down list: Basic, Bearer token, API key.
 * Enter login and password/token/key.
 
-Click the *Done* button to apply the new connector in the webhook automatically.
+Click the **Done** button to apply the new connector in the webhook automatically.
 
 ### GET-request Testing
 
-1. Click the *Send test* button.
+1. Click the **Send test** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/be685f66ebbd81d077aa63ef37109d3b125fe4e9af11e6db38a9089de0c7d35c-webhooks-in-workflows-008.webp" />
 
-2. Select a contact from the list or find it through the search and click *Next*.
+2. Select a contact from the list or find it through the search and click **Next**.
 
 <Image align="center" width="80% " src="https://files.readme.io/8902f3c12a721eec7eda8bc1cbf7930db498841c9f0e2135d80f358884f7d225-webhooks-in-workflows-009.webp" />
 
-To find contacts in a segment, select *Preview contacts from the selected segment*.
+To find contacts in a segment, select **Preview contacts from the selected segment**.
 
 <Image align="center" width="80% " src="https://files.readme.io/a3ef7b88aab6e0a6d7fc9b7e0db9e778947383b6b9f840dbc6619f48e5c16dc1-webhooks-in-workflows-010.webp" />
 
-3. Click *Send request*.
+3. Click **Send request**.
 
 <Image align="center" width="80% " src="https://files.readme.io/9bb1db05e5457221edcdc417b1327f4cd85f46cc3982c75eecb04950401fee0c-webhooks-in-workflows-011.webp" />
 
@@ -110,13 +110,13 @@ To find contacts in a segment, select *Preview contacts from the selected segme
 
 <Image align="center" width="80% " src="https://files.readme.io/f9ac8814ac792b19bf3306ac27ed413a0a3af0fce3ea1ce00b9b58d7c60ddf31-webhooks-in-workflows-012.webp" />
 
-Click the *Back* arrow in the top left corner of the dialog window, and click the *Done* button.
+Click the **Back** arrow in the top left corner of the dialog window, and click the **Done** button.
 
 Now the new webhook is available for selection in your workflow.
 
 <Image align="center" width="80% " src="https://files.readme.io/a883d048f37b767152f3c0b47e7239b3a94790edf74afe4b4892b6c0b8c5b882-webhooks-in-workflows-014.webp" />
 
-Now you can show the received data in a message using the expression in [Velocity language](https://docs.yespo.io/docs/introduction-to-velocity). Go to *Messages* → *Messages* → *New Email* or choose your template.
+Now you can show the received data in a message using the expression in [Velocity language](https://docs.yespo.io/docs/introduction-to-velocity). Go to **Messages** → **Messages** → **New Email** or choose your template.
 
 <Image align="center" width="80% " src="https://files.readme.io/99caccbf5a41f92bee1e4e68ea90de20d9541802cd679ad6b0c3f463075a459b-webhooks-in-workflows-030.webp" />
 
@@ -138,15 +138,15 @@ Let’s see the example of when it is necessary to send the data about the conta
 
 Follow the steps below to configure a webhook with the `POST` request:
 
-1. In the webhook block settings, click the *Create webhook* button.
+1. In the webhook block settings, click the **Create webhook** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/a92de745666a355e780dc0a3ddc19bd34299a3a68c78d39ecb601ed4d7df83c0-webhooks-in-workflows-016.webp" />
 
-2. In the *Webhook configuration* window, enter the webhook name and select the `POST` request type. Enter the URL of a resource using the secure `HTTPS `protocol. In this link, you can use variables calling event parameters or contact fields. In the example, we call `TOWN `– the standard contact field in Yespo.
+2. In the **Webhook configuration** window, enter the webhook name and select the `POST` request type. Enter the URL of a resource using the secure `HTTPS `protocol. In this link, you can use variables calling event parameters or contact fields. In the example, we call `TOWN `– the standard contact field in Yespo.
 
 <Image align="center" width="80% " src="https://files.readme.io/9db8518c4bcb90ef11e99eaaf889d76bca4149365f0129d0ee5d26cffcfaa243-webhooks-in-workflows-017.webp" />
 
-3. If your application reads parameters from headers, enable the *Pass parameters in headers* slide button. Enter corresponding variables and their values.
+3. If your application reads parameters from headers, enable the **Pass parameters in headers** slide button. Enter corresponding variables and their values.
 
 <Image align="center" width="80% " src="https://files.readme.io/6d8547a4892a100dcbfe471f36459bd893968e490387a5ea3f18874de4bc41ba-webhooks-in-workflows-018.webp" />
 
@@ -158,22 +158,22 @@ Follow the steps below to configure a webhook with the `POST` request:
 >
 > For` $workflowInstanceId`, the character case matters, while for contact fields, it does not.
 
-4. Enable the *Authentication* slide button to configure authentication parameters. Select from existing connectors or create a new one.
+4. Enable the **Authentication** slide button to configure authentication parameters. Select from existing connectors or create a new one.
 
 <Image align="center" width="80% " src="https://files.readme.io/da77fb80d0645d37c2a9b24524916895b36aecf171d805ebf20fd992f50f5c82-webhooks-in-workflows-019.webp" />
 
-If you need to configure a new one, click the *New connector* button to open the *Create connector* window.\
-In *Create connector* window:
+If you need to configure a new one, click the **New connector** button to open the **Create connector** window.\
+In **Create connector** window:
 
 * Enter the Connector name.
-* Select *Authentication type* from the dropdown list: *Basic, Bearer token, API key*.
+* Select **Authentication type** from the dropdown list: **Basic**, **Bearer token**, **API key**.
 * Enter login and password/token/key.
 
-Click the *Done* button.
+Click the **Done** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/b1fd6c1eb5a31f004de6dcc73f47de37899f2341e981752619ec07ae72a92db5-webhooks-in-workflows-020.webp" />
 
-In the body of the `POST` request, you can send a random amount of data. For that, enable the corresponding slide button, select the format of the data to be inserted and insert it below. Available formats: JSON, XML, text.
+In the body of the `POST` request, you can send a random amount of data. For that, enable the corresponding slide button, select the format of the data to be inserted and insert it below. Available formats: `JSON`, `XML`, `text`.
 
 <Image align="center" width="80% " src="https://files.readme.io/c0f03b62c529e0d76820d6598249a721306be1e9dcabdad3845a85fb37f0a198-en-webhook-workf-002.webp" />
 
@@ -191,7 +191,7 @@ Displaying the value of `$workflowInstanceId` in the event parameters:
 
 ### POST-request Testing
 
-1. Click the *Send test* button.
+1. Click the **Send test** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/5f2839a959071996b239478a587c7966c849d08cafbd918c8023e932abd6e77e-webhooks-in-workflows-022.webp" />
 
@@ -205,7 +205,7 @@ Since in our example we indicate addressing to the contact field, then it is nec
 
 You can choose another contact (**1**) or view the selected one (**2**).
 
-Upon pressing the *Next* and *Send request* buttons you receive the response with *Headers* and *Body*:
+Upon pressing the **Next** and **Send request** buttons you receive the response with **Headers** and **Body**:
 
 <Image align="center" width="80% " src="https://files.readme.io/636b8d7a4cce0796d4f6a23030d10a6bd7444e64f8cc6157bb5d00471e8fcd43-webhooks-in-workflows-025.webp" />
 
@@ -230,7 +230,7 @@ The block contains advanced parameters, and the cases for filling them out are d
 
 ## Webhook Management
 
-Press *Manage Webhook* in the webhook block settings. The window containing the list of webhooks opens. There you can:
+Press **Manage Webhook** in the webhook block settings. The window containing the list of webhooks opens. There you can:
 
 * create a new webhook
 * edit existing webhooks
