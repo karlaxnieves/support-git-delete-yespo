@@ -127,7 +127,7 @@ To send a welcome series, you need to supplement your *Confirm contact* workfl
 3. Click *Apply*.
 4. Activate workflows.
 
-<Image align="center" width="80% " src="https://files.readme.io/42733037e346c099e57639904e781122973fc96d064fe89d38606f2a290e02e4-setting-up-double-opt-in-203.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/74437e6cb20dd1742ed1927be16f6f6b6e32f0fa1a8c16e2ac0d5f663b89dde2-222.png" />
 
 If needed, set up processing unique events(1 hour by default). You can opt that the contacts who fill in the subscription form several times a day still receive only one confirmation email. In case of re-subscribe, another event - *subscribeUpdateFromApi* - will be sent. The confirmation email won't be sent, and contact data will be updated.
 
