@@ -20,9 +20,9 @@ Before you start sending push notifications in your mobile app using our CDP, yo
 
 To connect your mobile app with Yespo:
 
-1. Go to *Account  → Settings*.
-2. Click *Mob Push* in the left-hand side menu.
-3. Click *Connect mobile app* on the *Mobile apps* page.
+1. Go to **Account  → Settings**.
+2. Click **Mob Push** in the left-hand side menu.
+3. Click **Connect mobile app** on the **Mobile apps** page.
 
 <Image align="center" width="80% " src="https://files.readme.io/8b56cc70a6a94752cb8a500285e9cd930c1719b64258e449fd4964b7459c3fd5-image.webp" />
 
@@ -32,7 +32,7 @@ To connect your mobile app with Yespo:
 
 ## Step 1. App Name
 
-Type the application name in the *Application name* field.
+Type the application name in the **Application name** field.
 
 <Image align="center" width="80% " src="https://files.readme.io/870f0e2c7050334033f80ea2f74fd5492bf30c54a13a4378b34ce1028f4dcc22-mob-push-1.webp" />
 
@@ -46,13 +46,13 @@ Select whether you need to set up Android and iOS mobile notifications.
 
 Depending on your choice in Step 2, you will have the following setting options:
 
-1. Firebase Cloud Messaging (FCM) for all platforms. 
-2. Apple Push Notification Service (APN) for iOS.
+1. Firebase Cloud Messaging (**FCM**) for all platforms. 
+2. Apple Push Notification Service (**APN**) for iOS.
 3. FCM for Android and APN for iOS.
 
 ### FCM
 
-1. Click *Upload file*.
+1. Click **Upload file**.
 
 <Image align="center" width="80% " src="https://files.readme.io/f783267d6a3aea16e0e37696ba1b714b25c0688b0566befe79c05937ded7dacb-mob-push-3.webp" />
 
@@ -64,7 +64,7 @@ Depending on your choice in Step 2, you will have the following setting options:
 >
 > See the <a rel="nofollow" href="https://firebase.google.com/docs/admin/setup#initialize-sdk" target="_blank"> Firebase documentation </a> for details on how to generate a private key file in Firebase.
 
-3. Click *Done* on the top right of the window.
+3. Click **Done** on the top right of the window.
 
 ### APN
 
@@ -80,11 +80,11 @@ See the Apple Developer documentation for details on how to <a rel="nofollow" hr
 
 #### Using tokens
 
-1. Click *Upload file*.
+1. Click **Upload file**.
 
 <Image align="center" width="80% " src="https://files.readme.io/20b80805af7f386ff60b353bc332b9da5d7bad4486412fb12d94c1eee568bb8a-mob-push-5.webp" />
 
-2. Click on the field and upload the Apple push notification authentication key in P8 format from your computer, or drag your P8 file and drop it in the field.
+2. Click on the field and upload the Apple push notification authentication key in `P8` format from your computer, or drag your `P8` file and drop it in the field.
 
 <Image align="center" width="80% " src="https://files.readme.io/42cec296a2edb612ed3da8ca54967e4bf48b629f2c4465bebdcbc2f0aecfa59e-mob-push-6.webp" />
 
@@ -92,31 +92,31 @@ See the Apple Developer documentation for details on how to <a rel="nofollow" hr
 
 * **Key ID** — the 10-character key identifier you obtained from your developer account.
 * **Team ID** —  the issuer key, the value for which is the 10-character Team ID you use for developing your company’s apps. Obtain this value from your developer account.
-* **Topic** — a unique identifier that causes the notification to arrive in the corresponding app on a user's device. Most often, the *Topic* is the app bundle identifier.
+* **Topic** — a unique identifier that causes the notification to arrive in the corresponding app on a user's device. Most often, the **Topic** is the app bundle identifier.
 
 <Image align="center" width="80% " src="https://files.readme.io/0e35b084c2a55328f710d0b2c01e08d9ba88824424665f8c2af15aafb8c582c6-mob-push-7.webp" />
 
 <a rel="nofollow" href="https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html" target="_blank"> Read more about these fields ></a>
 
-4. Click *Done* on the top right of the window.
+4. Click **Done** on the top right of the window.
 
 #### Using certificates
 
-1. Click *Upload file*.
+1. Click **Upload file**.
 
 <Image align="center" width="80% " src="https://files.readme.io/b0dd4013bbfdf2d66770f63deea60ea1a02ef78954014a333659dbe33402c279-mob-push-8.webp" />
 
-2. Click on the field and upload the Apple certificate file in P12 format from your computer, or drag your P12 file and drop it in the field.
+2. Click on the field and upload the Apple certificate file in `P12` format from your computer, or drag your `P12` file and drop it in the field.
 
 <Image align="center" width="80% " src="https://files.readme.io/62a73e508302cdb05f747fab74e2895532f1df25bc18d329f6ccdcfe1ba6a0d9-mob-push-9.webp" />
 
-3. Enter the *Password* and *Topic* in the corresponding fields.
+3. Enter the **Password** and **Topic** in the corresponding fields.
 
 <Image align="center" width="80% " src="https://files.readme.io/1f81f00ac69126f4667a73fb88c15c594656935278e8f3f1ec9f6a9447e86b9e-mob-push-10.webp" />
 
 <a rel="nofollow" href="https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html" target="_blank"> Read more about these fields ></a>
 
-4. Click *Done* on the top right of the window.
+4. Click **Done** on the top right of the window.
 
 If everything is configured correctly, you will see a corresponding notification.
 
