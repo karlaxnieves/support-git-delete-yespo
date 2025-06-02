@@ -19,7 +19,7 @@ Use this feature if:
 * your website is not integrated with our system, and contacts are added via [import](https://docs.yespo.io/docs/file-uploading);
 * you don't have a website subscription form, but you have a contact list and want to launch messages for these contacts.
 
-## 1\. Creating a Workflow
+## 1. Creating a Workflow
 
 1. Go to *Automation → Workflows* and click *New workflow*.
 
@@ -35,7 +35,7 @@ Use this feature if:
 3. Save the workflow.
 4. Go to *Start/Stop configuration*
 
-<Image align="center" width="80% " src="https://files.readme.io/6692c505c8f7b0e73d0c72724df1dfd3fec1d0c5f904b396e07edc30e4d3cba5-launching-a-workflow-after-a-contact-import-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/116e4114968e8f67b0a51d0943e5a8e2dfa96cf071f5243569217c1f3e15e518-Workflows.png" />
 
 5. In *Start configuration*, select *Event-based* and select the event *Imported new contacts* in *Event*. Set up processing unique events each time. Click *Apply*.
 
@@ -43,9 +43,9 @@ Use this feature if:
 
 6. Click the *Activate* icon and start the workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/c30b896b9367a1f20fb25a4a70fe2a7b054ffa5522fb230b4cc719fd7b4adf7e-launching-a-workflow-after-a-contact-import-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/4de233210fa6669c480e178c029d17d14e77524357d1cd4c8d39630ae1ceb43b-Workflows-.png" />
 
-## 2\. Contact Import
+## 2. Contact Import
 
 To start an import:
 
@@ -62,7 +62,7 @@ The workflow will be launched after the import is finished.
 
 ## FAQ
 
-**1\. Why my workflow doesn’t start?**
+**1. Why my workflow doesn’t start?**
 
 The workflow launch may fail if:
 
@@ -77,5 +77,5 @@ To test the created workflow, import a test contact list including several conta
 
 Once a moderator approves it, the emails will be sent.
 
-**2\. Can I use other messages (SMS, push notifications) in my workflow?**\
+**2. Can I use other messages (SMS, push notifications) in my workflow?**\
 Yes, you can. The procedure is the same as for email. Create the necessary message templates, insert the corresponding blocks ([Message to Segment](https://docs.yespo.io/docs/message-to-segment-blocks)) and select the created message from the dropdown menu in the block settings.
