@@ -130,6 +130,6 @@ The workflow will look like this:
 
 The workflow status will change to active. The first message will be sent when all the conditions specified for the segment are met.
 
-To track the workflow launch history, click the **Launches** icon. For more details, see the article.
+To track the workflow launch history, click the **Launches** icon. For more details, see the [article](https://docs.yespo.io/docs/using-workflow-launch-history#/).
 
 <Image align="center" width="80% " src="https://files.readme.io/e6d3cea89b2525ca17504d4cdf38ce237803bbe104026f8a08bff8de74ac1ea0-image003.webp" />
