@@ -20,7 +20,7 @@ You can create an AMP-powered carousel in the [email template editor](https://do
 
 ## How to Create an AMP-Powered HTML Carousel
 
-1. Go to *Messages* and choose any template you want to edit. Go to *Blocks → AMP-Carousel*.
+1. Go to **Messages** and choose any template you want to edit. Go to **Blocks** → **AMP-Carousel**.
 
 <Image align="center" src="https://files.readme.io/39d233a830aeb8689681469fb9fcbef7b1e5c618f6b0e8291e6e43f7f861814b-AMP-Carousel.gif" />
 
@@ -28,7 +28,7 @@ You can create an AMP-powered carousel in the [email template editor](https://do
 
 <Image align="center" width="80% " src="https://files.readme.io/fdaaa2dab3138648732ab427557d52d85395260fd98caa7d041594293d975546-amp2.gif" />
 
-This block is “⚡HTML” tagged by default, as an AMP element is displayed only in email clients that support the AMP technology (Gmail, Mail.ru as for now). In other email clients, this block will be hidden: below there is provided an alternative option for such emails.
+This block is **⚡HTML** tagged by default, as an **AMP element** is displayed only in email clients that support the AMP technology (Gmail, Mail.ru as for now). In other email clients, this block will be hidden: below there is provided an alternative option for such emails.
 
 3. Double-click on the block to start editing.
 
@@ -40,7 +40,7 @@ This block is “⚡HTML” tagged by default, as an AMP element is displayed on
 
 <Image align="center" width="40% " src="https://files.readme.io/18df2893ee279ccea646b854b5f7a0776a4a639e6f64c72d8d5aee1d28b6d188-amp4.webp" />
 
-* Enable *Display preview* and click on *Message view* to see how your carousel will be displayed in an email on different devices.
+* Enable **Display preview** and click on **Message view** to see how your carousel will be displayed in an email on different devices.
 
 <Image align="center" width="80% " src="https://files.readme.io/75459f9aba99e1985bcbde6b101578af016aa223ea0c147b820f88e49e06d2dc-amp5.gif" />
 
@@ -48,7 +48,7 @@ This block is “⚡HTML” tagged by default, as an AMP element is displayed on
 >
 > Use images of the same height for smooth slide switching.
 
-If the uploaded images are of different sizes, you can edit them in a built-in image editor. On the left of the slide image, click on *Edit image → Crop*, and set the necessary parameters.
+If the uploaded images are of different sizes, you can edit them in a built-in image editor. On the left of the slide image, click on **Edit image → Crop**, and set the necessary parameters.
 
 <Image align="center" width="80% " src="https://files.readme.io/b09f6c1b85a7934022c6ac32fe8c520e59ba5f7a425676c4da5b7cd7f74757ac-amp6.gif" />
 
@@ -60,7 +60,7 @@ AMP-supported blocks will be displayed only for Gmail users. To make it visible
 
 <Image align="center" width="80% " src="https://files.readme.io/ca1a193656141e957a3b2e35a898178b0530154043d66cff15a984357be808a9-how-to-create-dynamic-carousel.webp" />
 
-* If needed, add extra images by clicking on *More images*.
+* If needed, add extra images by clicking on **More images**.
 
 <Image align="center" width="80% " src="https://files.readme.io/2bd9b74ed310f1cffe3bbc85d7347bba5f73d3f9fed7470a5eadc6a4c340be30-how-to-add-more-images.webp" />
 
@@ -94,40 +94,39 @@ Now you need to **transfer the carousel block**.
 
 <Image align="center" width="80% " src="https://files.readme.io/740a33530bf6c6bad4a84a50d4093f1f23369796b3516a61de3392ae0c89f84b-amp15.webp" />
 
-* Click on the *Code editor* icon to close the editor.
+* Click on the **Code editor** icon to close the editor.
 
 <Image align="center" width="80% " src="https://files.readme.io/ee099fcf405e61ab0a86f8a244db60a81a7a84d309260d47a64790c75043d1af-amp16.gif" />
 
-* Click on the added carousel, go to *Include in* and click on *HTML*.
+* Click on the added carousel, go to **Include in** and click on **HTML**.
 
 <Image align="center" width="80% " src="https://files.readme.io/4436cb20cd4427ae2266f91bc5710fadb0ac18b4cad7157c742fb919a397098c-amp17.webp" />
 
-* Click on *Message view* to see how both blocks look on different devices.
+* Click on **Message view** to see how both blocks look on different devices.
 
 <Image align="center" width="80% " src="https://files.readme.io/3ea353b004bfa0b585799d113f15597f70f1fe76595a694530c2b2ef2ce51271-look-on-different-devices.gif" />
 
 > 📘 Important
 >
-> * When you enable *Include in HTML*, the selected element will be displayed in all email clients that support only classic HTML-mime protocol.
-> * When you enable *Include in AMPHTML* (⚡HTML), the selected element will be displayed in all email clients that support AMPHTML-mime protocol (text-x-amphtml).
-> * If you enable *Include in both* (set by default), the selected element will be displayed in all email clients.
+> * When you enable **Include in HTML**, the selected element will be displayed in all email clients that support only classic HTML-mime protocol.
+> * When you enable**Include in AMPHTML** (⚡HTML), the selected element will be displayed in all email clients that support AMPHTML-mime protocol (text-x-amphtml).
+> * If you enable **Include in both** (set by default), the selected element will be displayed in all email clients.
 > * If the email client doesn't support the format of the selected element, the recipient will only see the first image.
 
 **A few more tips:**
 
-* Instead of an interactive HTML carousel, you can add a regular product card and enable *Include in HTML*. It will be displayed only in those clients that don’t support the AMP technology.
+* Instead of an interactive HTML carousel, you can add a regular product card and enable **Include in HTML**. It will be displayed only in those clients that don’t support the AMP technology.
 
 <Image align="center" width="80% " src="https://files.readme.io/ea4b7dbb0879af538ef99cf6c00fa1362dcb8ee93561d9611e909f6280819242-amp19.webp" />
 
 * You can edit carousel images in the built-in image editor:
-
-\- add text;\
-\- edit size;\
-\- add a button, etc.
+* add text;
+  * edit size;
+    * add a button, etc.
 
 <Image align="center" width="80% " src="https://files.readme.io/68b19578189ff1bca3632e3f60df223bd434a3e297f56dbbdee5aded4f33f9b0-amp20.webp" />
 
-* To check the AMP email for errors, click *View message.*
+* To check the AMP email for errors, click **View message**.
 
 <Image align="center" width="80% " src="https://files.readme.io/7e90658ef0c305482b9dbb2d462f93e5998f15923665a321d187e75c58de98f6-Email_message_-_Google_Chromeghbtv.webp" />
 
