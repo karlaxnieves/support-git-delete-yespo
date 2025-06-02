@@ -113,14 +113,14 @@ To send a welcome series, you need to supplement your *Confirm contact* workfl
 
 1. Go to *Start/stop* *configuration* of created workflows.
 
-<Image align="center" width="80% " src="https://files.readme.io/3a9b3e88dce73f3e589672a2a254ca68b01bf283a734f31adc5324a49153005c-setting-up-double-opt-in-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/cf26b35e5a3f40a36792e2b7ca19542ea6f0c760c5926bc777fb6af84e26426d-0.png" />
 
 2. Select the following events:
 
 * *subscribeFromApi*: Filled form workflow
 * *Confirm contact*: Confirm contact workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/061faf72468c969ece11b5f155fc15703ba800c2d6fddb5127a2221d884dcfad-setting-up-double-opt-in-011.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/b90ed46896253a0b9e3f3aedff5c408e826a80b8d452aa1bcf05ce0d12ca450c-111.png" />
 
 [Learn more about creating events >](https://docs.yespo.io/docs/creating-events#creating-an-event-type)
 
