@@ -46,7 +46,7 @@ Set the distance between the price and old price in pixels. The maximum value is
 
 <Image align="center" width="80% " src="https://files.readme.io/2daec15911a279f3b32d863d1843a392adf75f3aa626c75b63064244ec550e03-distance-between-prices-en.png" />
 
-When selecting the *Maximum* option, the prices within the block will be spaced as far apart as possible.
+When selecting the **Maximum** option, the prices within the block will be spaced as far apart as possible.
 
 <Image align="center" width="80% " src="https://files.readme.io/1f2ca508658a7e4227d1d5dfef504ab12d2b6384c1aa43d5d065f3d643b9a73d-prices-max-distance-en.png" />
 
@@ -58,7 +58,7 @@ Set the alignment of the prices: left, center or right.
 
 #### Price
 
-You can set the following options in the *Price* and *Old price* sections:
+You can set the following options in the **Price** and **Old price** sections:
 
 1. Color, size, and font style.
 
@@ -76,25 +76,25 @@ Specify the font size separately in pixels, or match it to the price size.
 
 > 📘 Note
 >
-> If the prices' text sizes are different, changes to the currency font will only apply to the *Price*.
+> If the prices' text sizes are different, changes to the currency font will only apply to the **Price**.
 
 #### Paddings
 
-The *Paddings* options allow adjustment of space around the desktop or mobile versions.
+The **Paddings** options allow adjustment of space around the desktop or mobile versions.
 
 You can set all margin values at once or individually for each side of the block. The maximum value is 40 px. 
 
-To set up the individual value for each side of the block, enable the *More* toggle and set the value.
+To set up the individual value for each side of the block, enable the **More** toggle and set the value.
 
 <Image align="center" width="80% " src="https://files.readme.io/d062f7dcd61a4f0c7601c2e3ac2c13a97b67774bfe0811fcb5f74706cd6895a7-price-puddings-en.png" />
 
-Click on the *smartphone* icon to set the paddings for the mobile version.
+Click on the **smartphone** icon to set the paddings for the mobile version.
 
 <Image align="center" width="80% " src="https://files.readme.io/647f2fcbd94b444a617bba17d39bfd653a5fd0f5f9a52548ccaca5378aca4341-price-puddings-mobile-en.png" />
 
 ### Discount Block
 
-Changing the settings is similar to the *Price* block.
+Changing the settings is similar to the **Price** block.
 
 You can configure the following block settings:
 
