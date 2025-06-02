@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-Use the *Products* block to configure and visualize recommended products in the email.
+Use the **Products** block to configure and visualize recommended products in the email.
 
 Before working with the block, you need to:
 
@@ -27,7 +27,7 @@ Before working with the block, you need to:
 
 ## Block Configuration
 
-To add the *Products* block to the email content, drag and drop it to the content area.
+To add the **Products** block to the email content, drag and drop it to the content area.
 
 > 📘 Note
 >
@@ -57,21 +57,21 @@ Set the number of products to display in a single row (1 to 4).
 
 To set the number of products in a row for the mobile version:
 
-1. Click the *Mobile version* button.
+1. Click the **Mobile version** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/862a340bebffa6ed91482bb6ffe46227a54c2a06491ba50662f57a6ea2bdfce5-mob-version-products-in-row.png" />
 
-2. Select the *number of products* to display in one row (from 1 to 3) for the mobile version.
+2. Select the **number of products** to display in one row (from 1 to 3) for the mobile version.
 
 <Image align="center" width="80% " src="https://files.readme.io/a19450a159115bd0578faa69223ed772afa51353f93bd11f46f720ba05d3849d-mob-version-products-in-row-select.png" />
 
 > 📘 Note
 >
-> The message preview in the editor is displayed only for the desktop version. To see how the message will be displayed in the mobile version, click the *View message* button on the top panel.
+> The message preview in the editor is displayed only for the desktop version. To see how the message will be displayed in the mobile version, click the **View message** button on the top panel.
 
 #### Number of rows
 
-Enter the number of rows with products in the *Up to* parameter.
+Enter the number of rows with products in the **Up to** parameter.
 
 > 📘 Note
 >
@@ -79,7 +79,7 @@ Enter the number of rows with products in the *Up to* parameter.
 
 <Image align="center" width="80% " src="https://files.readme.io/790e14fad73d98c0404e5e81ce8cf2d20e7e4758b11ff20159a920b7c82a0a2a-up-to-rows-en2.png" />
 
-To show all the products available in the data source, select the *Show all products* radio button.
+To show all the products available in the data source, select the **Show all products** radio button.
 
 <Image align="center" width="80% " src="https://files.readme.io/f9ec3d99aa3f194a77de11998f7d0a19ad3c26f020e4435d1260bdcf4f357990-show-a11-en.png" />
 
@@ -87,7 +87,7 @@ To show all the products available in the data source, select the *Show all prod
 
 Choose one of the options:
 
-* **Don't show partially filled row**: If the last row of product cards contains fewer cards than the value you selected in the Number of products in a row section, then this row is not displayed for the recipient.
+* **Don't show partially filled row**: If the last row of product cards contains fewer cards than the value you selected in the **Number of products in a row** section, then this row is not displayed for the recipient.
 
 <Image align="center" width="80% " src="https://files.readme.io/b0871fd70ac40befd09aaca70b425ba5b25007cea8b22368abaa0042da46056e-partially-filled-dontshow-en.png" />
 
@@ -106,7 +106,7 @@ In this case, choose one of these options:
 
 <Image align="center" width="80% " src="https://files.readme.io/18a184f1e5298397203e55b1b5e24b323e61bd3441f63723e51ee629045b44b9-products-08.webp" />
 
-If the message contains multiple *Products* blocks, you can set separate conditions for each block.
+If the message contains multiple **Products** blocks, you can set separate conditions for each block.
 
 For example, the first block shows items in the abandoned cart, and the second one shows recommendations based on the items in the cart. If you select the Hide product list option for the second block, it will not be displayed in the message if there are no recommendations. The header and the footer of this block will not be displayed as well.
 
@@ -118,7 +118,7 @@ Set indents between cards and rows.
 
 #### Row background and rounding
 
-Select the *background color* for the rows from the palette, or enter the *hexadecimal code* that corresponds to the desired color. By default, the row background is transparent.
+Select the **background color** for the rows from the palette, or enter the **hexadecimal code** that corresponds to the desired color. By default, the row background is transparent.
 
 <Image align="center" width="80% " src="https://files.readme.io/14d1ff0d18ff5c8d064335f366ab81f1ba5551502efd012eacc86692d056cf01-row-background.png" />
 
@@ -128,7 +128,7 @@ Enter the row rounding value for all rows. The maximum value is 50.
 
 To select the rounding value for each corner separately:
 
-1. Enable the *Separately* slide button.
+1. Enable the **Separately** slide button.
 2. Enter or select the required value for each corner. The maximum value is 50.
 
 <Image align="center" width="80% " src="https://files.readme.io/79105572479a51b4e4dafd48518e56549f391a510495c41a50c9839c31e8ab09-row-rounding-separately.png" />
@@ -141,11 +141,11 @@ By default, the block background is transparent. To change it, click the corresp
 
 #### Products paddings
 
-Set up paddings around the *Products* block content for the desktop and mobile versions.
+Set up paddings around the **Products** block content for the desktop and mobile versions.
 
 You can set all the padding at once, or configure each side of the block individually.
 
-Activate the *More toggle* button to set individual values and specify the desired parameters.
+Activate the **More toggle** button to set individual values and specify the desired parameters.
 
 <Image align="center" width="80% " src="https://files.readme.io/1703e3bb00daaf9b25a2b7d3bd7cbd18f15c08e467c73817afdcf478ca4fe34b-product-paddings.png" />
 
@@ -161,9 +161,9 @@ Click on the smartphone icon to set the padding around the block for the mobile 
 
 Configure the display or replace headers, footers, and product cards.
 
-The principle for changing elements in the tab is the same. For example, let's consider replacing *Product cards*.
+The principle for changing elements in the tab is the same. For example, let's consider replacing **Product cards**.
 
-1. Click the *Replace* button.
+1. Click the **Replace** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/cfd58b394e4ed763bc73717aa36c5e5931030765e6db320029f5ff0553421910-modules-replace-en.png" />
 
@@ -171,9 +171,9 @@ The principle for changing elements in the tab is the same. For example, let's c
 
 <Image align="center" width="80% " src="https://files.readme.io/7a2b048fd32744945c954025d241ab2a615578b2d004a5e8e194133333ca5487-products-14.webp" />
 
-Headers and footers are optional elements of the *Products* block, so they can be hidden by deactivating the corresponding switches.
+Headers and footers are optional elements of the **Products** block, so they can be hidden by deactivating the corresponding switches.
 
-*Header before product* cards is enabled by default.
+**Header before product** cards is enabled by default.
 
 <Image align="center" width="80% " src="https://files.readme.io/7a49bd2d15fecd5a4c75ea6e2c1e218dc44a4248c19c6bd7b3fa3792665ae2f4-headers-footers-en.png" />
 
@@ -187,32 +187,32 @@ Headers and footers are optional elements of the *Products* block, so they can b
 
 Select a data source and configure the automation for displaying products in the message.
 
-There are two types of data sources for the *Products* block:
+There are two types of data sources for the **Products** block:
 
 * Recommendations based on contact data
 * General recommendation algorithms
 
-The *Bestseller type algorithm* is set in the *Products* block by default. If there is no *Bestseller type algorithm*, any of the general recommendation algorithms will be applied. If no general recommendation algorithms are available, then the algorithms based on contact data recommendations are set.
+The **Bestseller type algorithm** is set in the **Products** block by default. If there is no **Bestseller type algorithm**, any of the general recommendation algorithms will be applied. If no general recommendation algorithms are available, then the algorithms based on contact data recommendations are set.
 
-To replace the data source, click the *Replace* button and select the necessary one.
+To replace the data source, click the **Replace** button and select the necessary one.
 
 <Image align="center" width="80% " src="https://files.readme.io/9b2911fa55d85a549b71a512b9c0152518726505a5eec80a945199b55132b278-datasource-replace-en.png" />
 
 > 📘 Note
 >
-> When you change the data source, the changes are not applied in the editor. To view the actual message, select the *View message* icon on the top panel.
+> When you change the data source, the changes are not applied in the editor. To view the actual message, select the **View message** icon on the top panel.
 
 <Image align="center" width="80% " src="https://files.readme.io/419457c1b3bad7dcbb5db73829c7a409735913450e069dd004c19b4229f8d4c0-view-message-en.png" />
 
-Click the *Go to* *data sources* button to create a new one.
+Click the **Go to data sources** button to create a new one.
 
 <Image align="center" width="80% " src="https://files.readme.io/0e94edfd087c9ecb61974fc90ea0bcabc7de281e2f6a3f4728d0abebaa4726a6-goto-datasources-en.png" />
 
-Click the *Save* button on the editor's top panel to save the email changes.
+Click the **Save** button on the editor's top panel to save the email changes.
 
 <Image align="center" width="80% " src="https://files.readme.io/9e40689b9d69acec934f634f8694d45aea4e8217132a4cd6bd6cd2d9179b6c7b-products-19.webp" />
 
 > 📘 Note
 >
-> * To display the product's old and new costs in the cards, we recommend using [the additional *Price* component](https://docs.yespo.io/docs/using-the-price-block), which synchronizes the price data from the site with the data in the email.
+> * To display the product's old and new costs in the cards, we recommend using [the additional Price component](https://docs.yespo.io/docs/using-the-price-block), which synchronizes the price data from the site with the data in the email.
 > * [This instruction](https://docs.yespo.io/docs/editing-cards-products-block) describes editing and saving product cards of blocks in the module library.
