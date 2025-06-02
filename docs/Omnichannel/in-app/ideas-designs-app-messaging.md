@@ -79,7 +79,7 @@ Let’s create the In-App with the announcement about a new social network for c
 * Font family — Montserrat.
 * Font weight — Bold 700.
 * Font size — 16.
-* Text color — #000000.
+* Text color — `#000000`.
 * Text align — center.
 * Line spacing — normal.
 
