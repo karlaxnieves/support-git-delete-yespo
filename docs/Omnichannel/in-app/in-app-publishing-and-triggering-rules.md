@@ -26,16 +26,16 @@ Before publishing In-App messages, subscribe to a pricing plan.
 
 > 📘 Note
 >
-> * The number of contacts in a subscription is calculated based on *deviceId*.
+> * The number of contacts in a subscription is calculated based on **deviceId**.
 > * If the number of contacts in an In-App channel exceeds the plan’s limit, messages will not be displayed to contacts above the limit.
 
 ## Publishing and Scheduling
 
-Select the *Published* option from the list and save the changes to display the message to app users according to the rules below.
+Select the **Published** option from the list and save the changes to display the message to app users according to the rules below.
 
 <Image align="center" width="80% " src="https://files.readme.io/288d5c42e59751b48f76e97bcaaae68bb3f365f2db1eaa1728e6f12f2cd5be82-in-app-1.webp" />
 
-Select *Unpublished* to stop the message from displaying, then save your changes.
+Select **Unpublished** to stop the message from displaying, then save your changes.
 
 You can also specify the In-App display schedule by clicking the calendar icon.
 
@@ -58,13 +58,13 @@ Message statuses are displayed in the general In-App list:
 
 ## Editing
 
-Click *Edit* on the *Appearance* tab to return to editing the message. 
+Click **Edit** on the **Appearance** tab to return to editing the message. 
 
 <Image align="center" width="80% " src="https://files.readme.io/c3a7bfed6615a6674ca9f6641f6b26418ebc2789cd9f33f7635e5f9cc8b73a14-in-app-4.webp" />
 
 ## In-App Triggering Settings
 
-The *Show Only once* rule is activated by default. Click *Edit* to change the display rules.
+The **Show only once** rule is activated by default. Click **Edit** to change the display rules.
 
 <Image align="center" width="80% " src="https://files.readme.io/f3cf0492d195557cb1e57bbfeaa2f2caa3044a75755920a8e8a88b9c3f7185bb-in-app-5.webp" />
 
@@ -72,7 +72,7 @@ The *Show Only once* rule is activated by default. Click *Edit* to change the di
 >
 > In-App can be sent only [through a tap on a mobile push message](https://docs.yespo.io/docs/linking-app-mobile-push) without setting triggering rules.  Configure triggering rules to display In-App messages as separate entities.
 
-1. You can choose the following options in the *Display frequency* section:
+1. You can choose the following options in the **Display frequency** section:
 
 * Do not limit (the message will be shown once after the session starts unless additional conditions are set)
 * Only once (the message will be shown once during the app’s life on the device)
@@ -82,7 +82,7 @@ The *Show Only once* rule is activated by default. Click *Edit* to change the di
 
 <Image align="center" width="40% " src="https://files.readme.io/2726409a553415a1349a72d31dac78f519f282ff9bc4487be89ea9c3476d8e67-in-app-6.webp" />
 
-2. You can choose the following options in the *When to display* section: 
+2. You can choose the following options in the **When to display** section: 
 
 * On app open
 * When any condition is met:
@@ -91,11 +91,11 @@ The *Show Only once* rule is activated by default. Click *Edit* to change the di
 
 <Image align="center" width="40% " src="https://files.readme.io/ea57cdb518f8d5b0c72b388ba7a54130e04c4659949771e495b6c2801c37076b-in-app-7.webp" />
 
-When you activate the *Show after event type* option, you can add one or more event parameters and their values to be checked (the parameter can contain, be equal to, or start with a value).
+When you activate the **Show after event type** option, you can add one or more event parameters and their values to be checked (the parameter can contain, be equal to, or start with a value).
 
 <Image align="center" width="40% " src="https://files.readme.io/beb34a328f4b7617935d172040d16fee31fa18aa7365cc6315356f99f052402b-in-app-8.webp" />
 
-3. You can choose static and dynamic segments from which contacts should be shown messages in the *To whom* section (*deviceId* identifies contacts).
+3. You can choose static and dynamic segments from which contacts should be shown messages in the **To whom** section (**deviceId** identifies contacts).
 
 <Image align="center" width="40% " src="https://files.readme.io/9a9b8ba82531cf8dd44533f6f6cbfa8ae146c636ae1b86cf2ca03ecb1d1f7c00-in-app-9.webp" />
 
