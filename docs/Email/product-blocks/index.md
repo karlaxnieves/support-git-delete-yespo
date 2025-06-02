@@ -25,7 +25,7 @@ After this, you can customize the display of bestsellers or recommendations base
 
 <Image align="center" width="80% " src="https://files.readme.io/12efe5d4f26c7803731204ddee5679070e4356f5199cf2e0cd76d257b2128e72-product-blocks.webp" />
 
-Product blocks consist of the following elements:
+**Product blocks** consist of the following elements:
 
 * [Products](https://docs.yespo.io/docs/using-the-products-block) is the main block that displays recommended offers.
-* [Price and Discount](https://docs.yespo.io/docs/using-the-price-block) are additional components that show the prices of products and are part of the *Products* block.
+* [Price and Discount](https://docs.yespo.io/docs/using-the-price-block) are additional components that show the prices of products and are part of the **Products block**.
