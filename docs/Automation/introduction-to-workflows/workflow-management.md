@@ -193,7 +193,18 @@ Paste the event parameters in JSON format into the appropriate field and click *
 
 <Image align="center" width="80% " src="https://files.readme.io/cf4fc71c273581535210b26a16632e68f4b05fbbea04e02b14befb2773f9fe1a-testing_5.png" />
 
+If the workflow includes a **Timer** block, you can skip it to speed up testing by clicking the **Skip waiting** button.\
+To exit the testing menu, click the **Close** button or select **Stop workflow** to stop it.
+
+<Image align="center" width="80% " src="https://files.readme.io/1d579f4dad537e37a70c06debd965b28f53579063e7a656c32237e0cca523277-image007.webp" />
+
 After a workflow test run, check [the history of its launches](https://docs.yespo.io/docs/using-workflow-launch-history) and/or the messages received through the workflow.
+
+> 📘 Note
+>
+> All test launches are marked with the **TEST** icon.
+
+<Image align="center" width="80% " src="https://files.readme.io/5d456c3e206b7b3bb865058a500b67833c8e4e06b89f176f2951fe755abb20b6-image008.webp" />
 
 ## Activating and Deactivating Workflows
 
