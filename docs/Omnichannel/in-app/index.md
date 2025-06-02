@@ -14,7 +14,7 @@ metadata:
 next:
   description: ''
 ---
-In-App messages appear directly in the mobile app during an active session. In-App notifications guide users, encourage them to take targeted actions, improve user experience, and ultimately increase retention and lifetime value (LTV).
+In-App messages appear directly in the mobile app during an active session. In-App notifications guide users, encourage them to take targeted actions, improve user experience, and ultimately increase retention and lifetime value (**LTV**).
 
 <Image align="center" width="40% " src="https://files.readme.io/db359a3e45f64bb436d98c6dc9d5f3f209ec369774a01b6dd6c12aaeb1922b49-eng.webp" />
 
