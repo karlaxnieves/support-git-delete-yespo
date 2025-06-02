@@ -22,8 +22,20 @@ Track statistics on the number of workflow launches and check for errors in its 
 * Completed
 * With errors
 * Last 7 days
+* Launch statuses per segment (available only in [regular workflows for a segment](https://docs.yespo.io/docs/how-launch-regular-workflow-segment-support#/)).
 
-<Image align="center" width="80% " src="https://files.readme.io/e5e1a5c9b919f96db0d8d2bbae714511f91698bad6c82b028b1a83b696c02c38-launches.png" />
+<Image align="center" width="80% " src="https://files.readme.io/1c6b8282f8bda694b83073c333b4caa4b1acd148175338c374eebd03425fdb02-image001.webp" />
+
+When you select the **Launch statuses per segment** option, a side panel will open with information:
+
+* Group ID
+* Workflow launch date and time
+* Number of contacts in the segment
+* Launch status
+
+<Image align="center" width="80% " src="https://files.readme.io/cc15059fe355fbf9573dbbca74bd8fde9e4f4a99856b0f638271a07d543d09ba-image002.webp" />
+
+To view the contacts included in the segment, click the **preview** icon.
 
 ## Launch History
 
