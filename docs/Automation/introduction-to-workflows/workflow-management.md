@@ -154,19 +154,18 @@ Read [Configuring Workflow Start/Stop Conditions](https://docs.yespo.io/docs/co
 
 There are two ways to check the correctness of the workflow:
 
-A. When saving it:
+A. In the editor while creating or editing a workflow (the **Save and launch test** button):
 
-<Image align="center" width="80% " src="https://files.readme.io/3778708a5c0f90373958b4dd82fa40e5dd9fdfa589b38724f643a9e920d3c965-testing_4.png" />
+<Image align="center" width="80% " src="https://files.readme.io/f73d070ae8a5f3fe0cd7ba2a9ebf2c1f6f61a751a0081df7589617693e62a07d-image004.webp" />
 
-B. In the general workflow list:
+B. In the general workflow list (the **Launch test** option):
 
-<Image align="center" width="80% " src="https://files.readme.io/759166cc7d7ff83a3d418c33b43195680d0e2c774979663485b61898065580f7-testing_2.png" />
+<Image align="center" width="80% " src="https://files.readme.io/1d723144489513b98ecc81ecf34e7a0d7fbe4788a206972d9f369748d6afb423-image003.webp" />
 
-1. Select the **(Save and) launch one time** option.
+After selecting the way, select one of the testing options:
 
-2. Select one of the testing options:
-   * Start for a contact
-   * Start with event
+* Start for a contact
+* Start with event
 
 <Image align="center" width="80% " src="https://files.readme.io/922753a128faefb388acb44c66ccb53fd7910bca4d9acdea7bdab6c2a601d1e2-testing_8.png" />
 
