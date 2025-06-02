@@ -25,11 +25,11 @@ Yespo offers a drag-and-drop builder for building workflows. The builder uses pr
 
 To create a new workflow:
 
-1. Go to *Automation → Workflows* and click *New workflow*.
+1. Go to **Automation → Workflows** and click **New workflow**.
 
 <Image align="center" width="80% " src="https://files.readme.io/77f7c614b97d978b1878d3ec9e5a882d02840781bd6826598499a26d1370253d-building-and-editing-workflows-001.webp" />
 
-2. Enter the workflow *name* (required) and add *[tags](https://docs.yespo.io/docs/how-add-tags)* (optional).
+2. Enter the workflow **name** (required) and add [tags](https://docs.yespo.io/docs/how-add-tags) (optional).
 
 <Image align="center" width="80% " src="https://files.readme.io/b13bd1ebf63e937a8325ad68170f7331ae57ad65d1e559ce0155b09a62e1dfcc-building-workflows-01.webp" />
 
@@ -37,8 +37,8 @@ To create a new workflow:
 
 Each workflow contains the required blocks:
 
-* **[Start](https://docs.yespo.io/docs/start-block)**. This block is automatically added at the beginning of a workflow.
-* **[End](https://docs.yespo.io/docs/popular-blocks#end)**. Place this block at the end of a workflow branch.
+* [Start](https://docs.yespo.io/docs/start-block). This block is automatically added at the beginning of a workflow.
+* [End](https://docs.yespo.io/docs/popular-blocks#end). Place this block at the end of a workflow branch.
 
 4. After adding all the necessary workflow blocks, choose the following actions:
 
@@ -67,24 +67,24 @@ You can add blocks to your workflow in two ways:
 
 ### Deleting Blocks
 
-To delete a block, select it and click the trash icon above it or in the top panel. You can also press *Delete* on your keyboard.
+To delete a block, select it and click the trash icon above it or in the top panel. You can also press **Delete** on your keyboard.
 
 <Image align="center" width="80% " src="https://files.readme.io/1f33df7aa64613e7e9f9514c44f08a01e97cc299f25ade88c5cb115a5fe9bf01-building-workflows-03.webp" />
 
-To delete a connection between blocks, select it (the color of the connection points changes to blue) and press *Delete* on the keyboard.
+To delete a connection between blocks, select it (the color of the connection points changes to blue) and press **Delete** on the keyboard.
 
 <Image align="center" width="80% " src="https://files.readme.io/5b87a34ae3eae0cee2225aa5a3855b89b5e20617b0a2167d1fe4f1e4c8f25ae6-building-workflows-04.webp" />
 
-To select a few blocks and connections, press the *Shift* key on the keyboard and select the necessary workflow fragment.
+To select a few blocks and connections, press the **Shift** key on the keyboard and select the necessary workflow fragment.
 
-To select all blocks and connections, press *Ctrl+A* on the keyboard.
+To select all blocks and connections, press **Ctrl+A** on the keyboard.
 
 ### Undo Actions
 
 To undo the previous action or redo the undone action, click the arrow icons on the top panel or press on the keyboard:
 
-* *Ctrl + Z* — undo the previous action.
-* *Ctrl + Y* — redo the undone action.
+* **Ctrl + Z** — undo the previous action.
+* **Ctrl + Y** — redo the undone action.
 
 <Image align="center" width="80% " src="https://files.readme.io/4f6f54c4533774e4bed1489415a8eacf8c65148090cd9579602d53f79515db3f-building-workflows-05.webp" />
 
@@ -94,7 +94,7 @@ The blocks requiring additional settings have an orange alert label mark. Select
 
 <Image align="center" width="80% " src="https://files.readme.io/fa813f167d80499c349145090479871bc7273da8c35362c8542b974fee2f699e-building-workflows-06.webp" />
 
-To expand or collapse the block panel, click *"\["* on the keyboard or *angle brackets* icon in the drag-and-drop builder.
+To expand or collapse the block panel, click **\[** on the keyboard or **angle brackets** icon in the drag-and-drop builder.
 
 <Image align="center" width="80% " src="https://files.readme.io/0a05a45a0eca53ffce0a668bba3ebbeb15edb3b118ef8bad979c1d83b90e0f35-building-workflows-07.webp" />
 
@@ -102,7 +102,7 @@ To expand or collapse the block panel, click *"\["* on the keyboard or *angle
 
 The description of a workflow in the system helps mark workflows with brief information about their purpose and key actions.
 
-Click the *Workflow description* icon and add the necessary information.
+Click the **Workflow description** icon and add the necessary information.
 
 <Image align="center" width="80% " src="https://files.readme.io/76736fbe70c20ba48a28b3693fcf6c5ef32bc4b7e038218b8aa4f81e50f7c627-building-workflows-09.webp" />
 
@@ -116,21 +116,21 @@ You can duplicate blocks in a workflow so that a duplicated block has the same c
 
 You can also copy selected blocks from one workflow to another and create a new workflow containing the blocks from an existing workflow.
 
-To duplicate a block, select the block and click the Copy icon above it or in the top panel. You can use *Ctrl + C / Ctrl + V* combinations on your keyboard.
+To duplicate a block, select the block and click the Copy icon above it or in the top panel. You can use **Ctrl + C / Ctrl + V** combinations on your keyboard.
 
 <Image align="center" width="80% " src="https://files.readme.io/b757d7ccfc5cc7568fbf11ec437daa332b42f855dd8c120d9cfec62af5a025f6-building-workflows-08.webp" />
 
 To copy the selected blocks from one workflow to another:
 
 1. Open two workflows in different tabs.
-2. Using your mouse, select the blocks in the workflow you want to copy or press *Ctrl + C* on your keyboard.
-3. Go to another workflow and paste the copied blocks by pressing *Ctrl + V* on your keyboard.
+2. Using your mouse, select the blocks in the workflow you want to copy or press **Ctrl + C** on your keyboard.
+3. Go to another workflow and paste the copied blocks by pressing **Ctrl + V** on your keyboard.
 
 To copy workflow:
 
-1. Go to *Automation* → *Workflows*.
+1. Go to **Automation** → **Workflows**.
 2. Select the ellipses (three dots) icon beside the workflow you want to copy.
-3. Select *Copy* from the dropdown list.
+3. Select **Copy** from the dropdown list.
 
 A new workflow window appears containing the blocks from the copied workflow. You can edit and save it.
 
@@ -138,7 +138,7 @@ A new workflow window appears containing the blocks from the copied workflow. Yo
 
 > 📘 Note
 >
-> For more convenient selection and copying of blocks, you can use the *Ctrl/command* keys
+> For more convenient selection and copying of blocks, you can use the **Ctrl/command** keys
 
 ## Setting up Workflow Start/Stop Configuration
 
@@ -158,7 +158,7 @@ B. In the general workflow list:
 
 <Image align="center" width="80% " src="https://files.readme.io/759166cc7d7ff83a3d418c33b43195680d0e2c774979663485b61898065580f7-testing_2.png" />
 
-1. Select the *(Save and) launch one time* option.
+1. Select the **(Save and) launch one time** option.
 
 2. Select one of the testing options:
    * Start for a contact
@@ -168,7 +168,7 @@ B. In the general workflow list:
 
 ### Start for a Contact
 
-Click *Select contact* and select the contact from the list.
+Click **Select contact** and select the contact from the list.
 
 <Image align="center" width="80% " src="https://files.readme.io/c141abc11bcb250024c5d3d6eb2842c655b209eb6556391115af3e4dcf2108ca-testing_7.png" />
 
@@ -180,13 +180,13 @@ If variables are specified in the workflow blocks, specify their values ​​in
 
 <Image align="center" width="80% " src="https://files.readme.io/2892f8594bf72792ff46c52d989bd5c3bec51bd7460161bf3db4d335d0188858-testing_6.png" />
 
-Click *Launch*.
+Click **Launch**.
 
 <Image align="center" width="80% " src="https://files.readme.io/6201fe21a81c3c100259b217828819a4f6619fb1aff424ac5520c08b9b13b620-testing_3.png" />
 
 ### Start with Event
 
-Paste the event parameters in JSON format into the appropriate field and click *Launch*.
+Paste the event parameters in JSON format into the appropriate field and click **Launch**.
 
 <Image align="center" width="80% " src="https://files.readme.io/cf4fc71c273581535210b26a16632e68f4b05fbbea04e02b14befb2773f9fe1a-testing_5.png" />
 
@@ -198,23 +198,23 @@ You need to activate your workflow, so it can start automatically in accordance 
 
 To activate a workflow:
 
-1. Go to *Automation → Workflows*, and select *Not Active* in the menu on the left-hand side.
+1. Go to **Automation → Workflows**, and select **Not active** in the menu on the left-hand side.
 
 <Image align="center" width="80% " src="https://files.readme.io/ba3ca17a25ffe4e27469640e746661a9e352f3546b62f3a20eadd0a2d9570895-building-and-editing-workflows-203.webp" />
 
-2. Click the *Activate* icon beside the workflow you want to activate.
+2. Click the **Activate** icon beside the workflow you want to activate.
 
 <Image align="center" width="80% " src="https://files.readme.io/f48cc30ef884b32f7ae0497e49358e4039e557107b85db33d9472f5e4f0b4250-building-and-editing-workflows-204.webp" />
 
 To deactivate a workflow:
 
-Go to *Automation → Workflows* *→ Active* and click the *Deactivate* icon beside the workflow you want to deactivate.
+Go to **Automation** → **Workflows** → **Active** and click the **Deactivate** icon beside the workflow you want to deactivate.
 
 <Image align="center" width="80% " src="https://files.readme.io/c65b4b45cec9d8d3fc9f060bf86eeb1e1a3f3d87dae459098f43e1b1f3854188-building-and-editing-workflows-205.webp" />
 
 ## Viewing Workflow Statistics
 
-The *Statistics* icon beside a workflow opens a dropdown list of options. You can choose the following options:
+The **Statistics** icon beside a workflow opens a dropdown list of options. You can choose the following options:
 
 * **In progress**. This item opens the list of all the currently running workflows.
 * **Completed**. This item opens the list of all the completed workflows.
