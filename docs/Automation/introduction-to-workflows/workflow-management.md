@@ -218,10 +218,11 @@ The *Statistics* icon beside a workflow opens a dropdown list of options. You 
 
 * **In progress**. This item opens the list of all the currently running workflows.
 * **Completed**. This item opens the list of all the completed workflows.
+* **With errors**. The workflows during which an error occurred.
 * **Launched per 7 days**. This item opens the list of the workflows launched during the last 7 days.
-* **Statuses of launches to segment**. This item opens the details of workflows launched for the segments of contacts.
+* **Launched statuses per segment**. This item opens the details of workflows launched for the segments of contacts.
 
-<Image align="center" width="80% " src="https://files.readme.io/e045ff5dbe00ae8e8a32232d02a2506cc6c1b34aca8303ad21fcfb84c792eb59-building-and-editing-workflows-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/4fe446675e41ca8057d3962af0fd69cb27edf19fb329e33512cbe729e1863cdc-image004.webp" />
 
 When you select one of the first three items, you can view the launch history of your workflows and check for any errors in their blocks. You can also preview the workflows. Read [Using Workflow Launch History](https://docs.yespo.io/docs/using-workflow-launch-history) to learn more.
 
