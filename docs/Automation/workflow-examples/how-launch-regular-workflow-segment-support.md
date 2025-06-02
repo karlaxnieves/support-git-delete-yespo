@@ -22,7 +22,7 @@ An important condition for launching a regular workflow for a segment is that yo
 
 In this article, we will describe the process of creating a regular workflow for contacts who show certain activity/inactivity in your messages.
 
-You can build both single-channel or multichannel workflows with any type of message in an unlimited number – Email, Web push, Mob push, SMS, Viber or App inbox.
+You can build both single-channel or multichannel workflows with any type of message in an unlimited number – **Email**, **Web push**, **Mob push**, **SMS**, **Viber** or **App inbox**.
 
 Messages in workflow work together to accomplish a particular goal. It can be
 
@@ -129,3 +129,7 @@ The workflow will look like this:
 <Image align="center" width="80% " src="https://files.readme.io/797dd7e4d8f7431f6f1c5df44517e8b340efb80ddde6d489024afd03cc94797b-Workflows-06-02-2025_01_24_PM.png" />
 
 The workflow status will change to active. The first message will be sent when all the conditions specified for the segment are met.
+
+To track the workflow launch history, click the **Launches** icon. For more details, see the article.
+
+<Image align="center" width="80% " src="https://files.readme.io/e6d3cea89b2525ca17504d4cdf38ce237803bbe104026f8a08bff8de74ac1ea0-image003.webp" />
