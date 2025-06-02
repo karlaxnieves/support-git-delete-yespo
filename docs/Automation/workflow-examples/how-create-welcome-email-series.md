@@ -89,15 +89,15 @@ This event signifies to the system that the subscriber has given their consent t
 
 To assign the [event](https://docs.yespo.io/docs/creating-events) to the workflow, go to *Automation* → *Workflows*, select the necessary workflow and click *Start/Stop configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/5f8f4ad55b8679602626891ef12dd7f59bbbb63291dc9271aafd7c0939f8e793-creating-a-welcome-email-series-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/a5da95d096b35d4baca2325f71361926c14ad282e8ec0c8942a3047064fb2f53-Workflows-06-02-2025_12_16_PM.png" />
 
 1. In *Start/Stop configuration* window activate *Start configuration* switcher.
 2. Select *Event-based* and *Confirmed subscription* event.
 
-<Image align="center" width="80% " src="https://files.readme.io/2b5a707e0d0d9440c8b9d4f92fda1b712a859625eaba57b98a7df2f1319749fa-creating-a-welcome-email-series-009.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/5468770f1a8759a4eb384c5dd99fed3a94a7ca4bf80bf09fe4868ecb3e11d579-Workflows-06-02-2025_12_21_PM.png" />
 
 3. Click *Apply*.
 
 Click *Activate* to launch the workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/aab040162fe5a898f2de3703b2697dac1ceef951122aa75045c3aab38fe31aac-creating-a-welcome-email-series-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/6e543f791c7fcc53f20fe3d9a5e0e5d0ce51118361a2d5cd22b131e6c2ea26bf-Workflows-06-02-2025_12_24_PM.png" />
