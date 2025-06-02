@@ -20,7 +20,7 @@ An accordion is a block that allows you to open/hide some pieces of the content 
 
 <Image align="center" width="30% " src="https://files.readme.io/a6ec239b5404c7976ecf2758f07bd4a44a332a3cd1f480fa23adb05621849524-image5_5.gif" />
 
-1. Create a custom email or use one of the ready templates. Enter it, and go to *Content > Blocks > Accordion*.
+1. Create a custom email or use one of the ready templates. Enter it, and go to **Content → Blocks → Accordion**.
 
 <Image align="center" width="80% " src="https://files.readme.io/270db4de231b79da2fcb3d321a33a367085777d5eae4f87d61ffd59cde2f2737-how-to-create-amp.webp" />
 
@@ -28,7 +28,7 @@ An accordion is a block that allows you to open/hide some pieces of the content 
 
 <Image align="center" width="80% " src="https://files.readme.io/e9b8cb9394848cca503c42d8ab26462ca9c5f9f7ad88ba8ef7b122987366e836-image9_8.gif" />
 
-3. Fill *Section 1* with the necessary content ([image](https://docs.yespo.io/docs/working-with-images), text, button, video, social media icons).
+3. Fill **Section 1** with the necessary content ([image](https://docs.yespo.io/docs/working-with-images), text, button, video, social media icons).
 
 <Image align="center" width="80% " src="https://files.readme.io/5d75936d74933b2b591f5ddece18adfa6968e99b9ba7fc371cdbb5ea8825ca63-image1_10.gif" />
 
@@ -60,7 +60,7 @@ An accordion is a block that allows you to open/hide some pieces of the content 
 
 <Image align="center" width="80% " src="https://files.readme.io/9d4924e816a9b1be057cafed543518816c057f14fa8163c14e3688a303c1eca2-image12_43.webp" />
 
-**4) Outline.** You can configure outline width, line type, and color. Enable *show more* to configure outline settings individually for each side (left, right, top, bottom).
+**4) Outline.** You can configure outline width, line type, and color. Enable **show more** to configure outline settings individually for each side (left, right, top, bottom).
 
 <Image align="center" width="80% " src="https://files.readme.io/d0ee38a239767de38e5adbb9e03d67264ae512d2f83c37b73681a0d8e372a87e-image4_76.webp" />
 
@@ -84,25 +84,24 @@ To remove the section, click on the trash bin icon next to it.
 
 <Image align="center" width="80% " src="https://files.readme.io/c80c0a96ae8ad91d5e688fcc2c2c910d7468c8d518cfb8f60dd78934f2f3de37-image8_55.webp" />
 
-6. Once the editing is done, click *Message view* to preview how the message would look on a desktop and smartphone. The AMPHTML version is previewed first by default, but you can switch to HTML in one click.
+6. Once the editing is done, click **Message view** to preview how the message would look on a desktop and smartphone. The AMP/HTML version is previewed first by default, but you can switch to HTML in one click.
 
 <Image align="center" width="80% " src="https://files.readme.io/254f180b0414489d95c6a22f541660dfcd800b0e511595ec11a752daa77bb72f-message-preview.gif" />
 
 > 📘 Important
 >
-> 1\. The AMP-supported accordion will only be displayed in the email clients that support the AMP technology. By far, these are
+> 1. The AMP-supported accordion will only be displayed in the email clients that support the AMP technology. By far, these are
 >
 > * Gmail:
 > * Mail.ru;
 > * Outlook.
 
-2\. The AMP-supported accordion will only be displayed if you have allowed dynamic emails in your mail settings and registered with Google as a dynamic sender. (See [How to Apply for Sending AMP-Powered Emails within Gmail](https://yespo.io/blog/how-apply-sending-amp-powered-emails-within-gmail)).
-
-3\. Create an alternative block with an HTML element. It will be displayed instead of the AMP accordion in those email clients that don't support AMP.
+2. The AMP-supported accordion will only be displayed if you have allowed dynamic emails in your mail settings and registered with Google as a dynamic sender. (See [How to Apply for Sending AMP-Powered Emails within Gmail](https://yespo.io/blog/how-apply-sending-amp-powered-emails-within-gmail)).
+3. Create an alternative block with an HTML element. It will be displayed instead of the AMP accordion in those email clients that don't support AMP.
 
 <Image align="center" width="80% " src="https://files.readme.io/7a67dfa3c49a9a5c4f2f626f51d7959a298a1be63c112cd3dcba782723abdda5-image10_56.webp" />
 
-4\. To check the AMP emails for errors, click *View message*.
+4. To check the AMP emails for errors, click **View message**.
 
 <Image align="center" width="80% " src="https://files.readme.io/63f73aa9316121e4628295e1023acb57c645efc1af062536cb7f12cef8ed1499-Email_message_-_Google_Chrome67.webp" />
 
