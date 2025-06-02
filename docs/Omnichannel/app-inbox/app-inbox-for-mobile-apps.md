@@ -40,52 +40,12 @@ Send the request from your server to our platform's API to receive the user aut
 
 The request has to contain the known contact fields: email, phone, externalCustomerId (at least one field is required). Those fields are used for searching contacts in our system.
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Request method
-      </th>
-      <th>
-        POST
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        Request URL
-      </td>
-      <td>
-        api/v1/auth/contact/token
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Request header
-      </td>
-      <td>
-        Content-Type: application/json
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Request body
-      </td>
-      <td>
-        `{"email": string, "phone": string, "externalCustomerId": string}`
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Response
-      </td>
-      <td>
-        `{"token": string}`
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Request method | POST                                                               |
+| :------------- | :----------------------------------------------------------------- |
+| Request URL    | api/v1/auth/contact/token                                          |
+| Request header | Content-Type: application/json                                     |
+| Request body   | `{"email": string, "phone": string, "externalCustomerId": string}` |
+| Response       | `{"token": string}`                                                |
 
 Afterward, `authToken` is used for authentication of all App Inbox requests. Pass it in the header of the `ES-TOKEN` request. The current token becomes invalidated after each request, and the `ES-TOKEN` response header passes the new one used in the following request.
 
@@ -95,52 +55,12 @@ If you receive status code 401 as a response to any App Inbox request, resubmit 
 
 The request permits you to get information about unread messages in the client’s mobile app. You can send this request on a regular basis.
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Request method
-      </th>
-      <th>
-        GET
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        Request URL
-      </td>
-      <td>
-        appinbox/v1/messages/count
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Request header
-      </td>
-      <td>
-        ES-TOKEN: authToken
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Response header
-      </td>
-      <td>
-        ES-TOKEN: newAuthToken
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Response
-      </td>
-      <td>
-        `{"count": int}`
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Request method  | GET                        |
+| :-------------- | :------------------------- |
+| Request URL     | appinbox/v1/messages/count |
+| Request header  | ES-TOKEN: authToken        |
+| Response header | ES-TOKEN: newAuthToken     |
+| Response        | `{"count": int}`           |
 
 If `count` > 0, you shall see the indicator of unread messages.
 
@@ -160,76 +80,15 @@ The request permits to get in the response the list of messages in the mobile ap
 * category;
 * custom data.
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Request method
-      </th>
-      <th>
-        GET
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        Request URL
-      </td>
-      <td>
-        appinbox/v1/messages?page=`{pageNumber}`&pageSize=`{pageSize}`&status=`{status}`
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Request header
-      </td>
-      <td>
-        ES-TOKEN: authToken
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Response header
-      </td>
-      <td>
-        ES-TOKEN: newAuthToken
-      </td>
-    </tr>
-    <tr>
-      <td>
-        page
-      </td>
-      <td>
-        minimum value 0
-      </td>
-    </tr>
-    <tr>
-      <td>
-        pageSize
-      </td>
-      <td>
-        minimum value 1
-      </td>
-    </tr>
-    <tr>
-      <td>
-        status
-      </td>
-      <td>
-        OPENED/UNOPENED
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Response
-      </td>
-      <td>
-        `{"list": [{"id": string, "createdDate": long, "title": text, "content": text, "image": string, "link": string, "newMessage": boolean, "status": OPENED}], "totalPages": int}`
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Request method  | GET                                                                                                                                                                            |
+| :-------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Request URL     | appinbox/v1/messages?page=`{pageNumber}`\&pageSize=`{pageSize}`\&status=`{status}`                                                                                             |
+| Request header  | ES-TOKEN: authToken                                                                                                                                                            |
+| Response header | ES-TOKEN: newAuthToken                                                                                                                                                         |
+| page            | minimum value 0                                                                                                                                                                |
+| pageSize        | minimum value 1                                                                                                                                                                |
+| status          | OPENED/UNOPENED                                                                                                                                                                |
+| Response        | `{"list": [{"id": string, "createdDate": long, "title": text, "content": text, "image": string, "link": string, "newMessage": boolean, "status": OPENED}], "totalPages": int}` |
 
 If `page`, `status` or `pageSize` is not set then return all actual messages.
 
@@ -245,49 +104,60 @@ Using this request, you also can change the status of all messages from "unread"
       <th>
         Request method
       </th>
+
       <th>
         POST
       </th>
     </tr>
   </thead>
+
   <tbody>
     <tr>
       <td>
         Request URL
       </td>
+
       <td>
         appinbox/v1/messages/status
       </td>
     </tr>
+
     <tr>
       <td>
         Request header
       </td>
+
       <td>
         ES-TOKEN: authToken
       </td>
     </tr>
+
     <tr>
       <td>
         Response header
       </td>
+
       <td>
         ES-TOKEN: newAuthToken
       </td>
     </tr>
+
     <tr>
       <td>
         Request body
       </td>
+
       <td>
         `{"status": "OPENED", "ids": [string]}`
         `{"status": "OPENED", "ids": null}`
       </td>
     </tr>
+
     <tr>
       <td>
         Response
       </td>
+
       <td>
         none
       </td>
@@ -299,7 +169,7 @@ Using this request, you also can change the status of all messages from "unread"
 
 All contacts that enter Yespo through the [SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo#1-install-sdk-and-connect-communication-channels) have Device IDs. This means you can send them App Inbox messages.
 
-To select all contacts with Device IDs in your database, create a [dynamic segment](https://docs.yespo.io/docs/how-add-dynamic-segment) and include the *All contacts with device* condition.
+To select all contacts with Device IDs in your database, create a [dynamic segment](https://docs.yespo.io/docs/how-add-dynamic-segment) and include the **All contacts with device** condition.
 
 <Image align="center" width="80%" src="https://files.readme.io/89c8a10a49aa280330ea1a604d7f2da4e38f0b576d05f18c3af515177c5d9404-en.webp" />
 
