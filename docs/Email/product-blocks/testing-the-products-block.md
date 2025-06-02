@@ -20,29 +20,29 @@ You can test the block for an individual contact or a segment of contacts:
 * If you are going to use the product block in a promo campaign, select a list of recipient contacts.
 * If you are going to use the product block in a trigger campaign, select the dynamic segment on which the workflow with this email will be launched.
 
-Consider an example of testing the *Products* block for *Abandoned view* workflow. 
+Consider an example of testing the **Products** block for **Abandoned view** workflow. 
 
 ## How to find out which segment is used in the workflow
 
-1. Go to *Automation* → *Workflows*, select the *Abandoned view* workflow, and go to the *Start/Stop configuration*.
+1. Go to **Automation** → **Workflows**, select the **Abandoned view** workflow, and go to the **Start/Stop configuration**.
 
 <Image align="center" width="80% " src="https://files.readme.io/44ac98c5be27b2d317fe9c3c5cfe4f2d38ed819af9d60de1caa2a69f21276f7b-testing-the-products-block-201.webp" />
 
-2. Copy the segment’s name or its *ID* in the *Segment* parameter.
+2. Copy the segment’s name or its **ID** in the **Segment** parameter.
 
 <Image align="center" width="80% " src="https://files.readme.io/61da29888becbe80899be0b73b3b32f05cd358d68927ab559d248c46e429509b-testing-the-products-block-02.webp" />
 
 ## Block Testing
 
-1. Open the email in the editor and click *View message*.
+1. Open the email in the editor and click **View message**.
 
 <Image align="center" width="80% " src="https://files.readme.io/0634f2e9caeb960cbd2d8de739ec71371edf5687d817edea5eab60501a9c1907-testing-the-products-block-03.webp" />
 
-2. Click *Select contact*.
+2. Click **Select contact**.
 
 <Image align="center" width="80% " src="https://files.readme.io/e241c24a592cf6e571ac76f7efa199ba0c2e9f430f499f1889c2e79c44579d42-testing-the-products-block-04.webp" />
 
-3. Select *Preview contacts from selected segment* and paste the name or ID of the segment into the search field.
+3. Select **Preview contacts from selected segment** and paste the name or ID of the segment into the search field.
 
 <Image align="center" width="80% " src="https://files.readme.io/b0500297acfe24c154d91833ecce7da61d105e0a006f5885a2a9a79a81603246-testing-the-products-block-05.webp" />
 
@@ -72,12 +72,12 @@ In this case, there are two possible options:
 
 > 📘 Note
 >
-> The display of the first or second option depends on the [If there are no products to show](https://docs.yespo.io/docs/using-the-products-block#if-there-are-no-products-to-show) setting in the *Products block*
+> The display of the first or second option depends on the [If there are no products to show](https://docs.yespo.io/docs/using-the-products-block#if-there-are-no-products-to-show) setting in the **Products** block.
 
-If you deactivate the *Message for* switcher, the recommendations will always display bestsellers from the general recommendation algorithms.
+If you deactivate the **Message for** switcher, the recommendations will always display bestsellers from the general recommendation algorithms.
 
 <Image align="center" width="80% " src="https://files.readme.io/0c038e80aca7474198dfd336e32ffd3f367597e941ab0baa2692174282b557de-testing-the-products-block-10.webp" />
 
-Click the *Back* button to return to the editor window.
+Click the **Back** button to return to the editor window.
 
 <Image align="center" width="80% " src="https://files.readme.io/7304e988e7953c51ab9b52390f66eef98a334abb63d77f83cda6eb9629917b91-testing-the-products-block-11.webp" />
