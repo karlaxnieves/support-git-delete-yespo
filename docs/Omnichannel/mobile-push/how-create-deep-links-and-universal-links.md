@@ -14,15 +14,15 @@ metadata:
 next:
   description: ''
 ---
-A deep link is a uniform resource identifier (URI) that links to a specific location within a website, app, or app store. You can use 3 deep link types in Yespo’s mobile push notifications:
+A deep link is a uniform resource identifier (**URI**) that links to a specific location within a website, app, or app store. You can use 3 deep link types in Yespo’s mobile push notifications:
 
-* **Traditional links** (*`app-name://category/screenX`*),
-* **Web deep links** (*`https://www.example.com/products`*)
-* **Universal links** (*`https://www.example.com/products`*)
+* **Traditional links** (`app-name://category/screenX`),
+* **Web deep links** (`https://www.example.com/products`)
+* **Universal links** (`https://www.example.com/products`)
 
 ## Traditional Deep Links
 
-Traditional deep links lead to the app or any of its screens.Add your application name instead of the HTTP protocol to create the traditional deep link. The traditional link may look as follows:
+Traditional deep links lead to the app or any of its screens. Add your application name instead of the `HTTP` protocol to create the traditional deep link. The traditional link may look as follows:
 
 `app-name://category/screenX`
 
@@ -50,7 +50,7 @@ On Android:
 
 Clicks on web deep links in a web browser direct users to a specific section within an app or to a web page if the app is not installed.
 
-Web deep link looks like a web link: *`https://www.example.com/products`*
+Web deep link looks like a web link: `https://www.example.com/products`
 
 You need to set up opening your app by tapping on `www.example.com` in your app settings.
 
@@ -68,13 +68,13 @@ They can be used in [email campaigns](https://docs.yespo.io/docs/launching-an-em
 
 ### Android
 
-Guide on the official website: <a rel="nofollow" href="https://developer.android.com/training/app-links/deep-linking#java" target="_blank"> developer.android.com</a>. 
+Guide on the official website: <a rel="nofollow" href="https://developer.android.com/training/app-links/deep-linking#java" target="_blank"> developer.android.com</a>.
 
 1. Create links to certain app pages.
 2. Add intent filters to incoming links.
-3. Add the association file in a JSON format to your domain (app domain or ad tracker domain).
+3. Add the association file in a `JSON` format to your domain (app domain or ad tracker domain).
 
-Test intent (Shell):
+Test intent (**Shell**):
 
 ```Text Shell
 adb shell am start
@@ -87,11 +87,11 @@ adb shell am start
 Guide on the official website: <a rel="nofollow" href="https://developer.android.com/training/app-links/deep-linking#java" target="_blank"> developer.apple.com</a>.
 
 1. In the app settings, create an association between your app and your domain (app domain or ad tracker domain) via XCode.
-2. Create an association file — a page that contains data in the JSON format that is content in the app.
+2. Create an association file — a page that contains data in the `JSON` format that is content in the app.
 3. In app delegate, set up rules for clicks on universal links. A click will redirect to the app if it is installed or to the page in Safari if the app is not installed.
 
 > 📘 Important
 >
 > For proper operation, provide the association file (manifest.json) to our support to be placed on our server.
 >
-> When creating an association, note that all the links in the campaign will look like this: *`your.domain.esclick.me/FA25jGSLGXxg`*. This is a subdomain. When a user clicks such links, they’re redirected to our server. The system registers the link and returns the original link that the user clicks.
+> When creating an association, note that all the links in the campaign will look like this: `your.domain.esclick.me/FA25jGSLGXxg`. This is a subdomain. When a user clicks such links, they’re redirected to our server. The system registers the link and returns the original link that the user clicks.
