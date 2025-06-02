@@ -39,7 +39,7 @@ Use this feature if:
 
 5. In *Start configuration*, select *Event-based* and select the event *Imported new contacts* in *Event*. Set up processing unique events each time. Click *Apply*.
 
-<Image align="center" width="80% " src="https://files.readme.io/4e91f58cec5dd3579b74e0d6000fa672d401275a091f1a8cd6e0f1bd04424ad6-launching-a-workflow-after-a-contact-import-003.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/77c4ae06d3aec726fff38796c4e52369aa71bc30e2e0832a82697a244c548b28-Workflow.png" />
 
 6. Click the *Activate* icon and start the workflow.
 
