@@ -72,7 +72,7 @@ Let’s create the In-App with the announcement about a new social network for c
 
 <Image align="center" width="80% " src="https://files.readme.io/76a625e8c2a6784e509da519cc1a3e1445b1f77f52b8ec3e691cb2f50dcffa67-in-apps-5.webp" />
 
-3. Add the *Text* block above the GIF:
+3. Add the **Text** block above the GIF:
 
 * Size — fixed width (247), by content height.
 * Text style — Title.
