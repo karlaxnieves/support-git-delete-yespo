@@ -30,7 +30,7 @@ Messages in workflow work together to accomplish a particular goal. It can be
 * event invitation;
 * reactivation, etc.
 
-## 1\. Create a Dynamic Segment
+## 1. Create a Dynamic Segment
 
 Dynamic segments can include contacts based on one or more parameters (conditions). The number of contacts in the segment varies depending on how many current contacts match specified conditions.
 
@@ -65,7 +65,7 @@ Let’s create a dynamic segment that includes contacts who opened your messages
 >
 > Contacts in the segment are recalculated daily from 3 a.m. to 4 a.m.
 
-## 2\. Create a Workflow
+## 2. Create a Workflow
 
 > 📘 Note
 >
@@ -88,7 +88,7 @@ Let’s create the following workflow that consists of two emails, timers and co
 
 * **Timer 2/3**. Specify a time gap between the sends. You can also select on what day and at what hour the message should be sent. The timer starts counting down after contacts have been recalculated but not after the workflow has been activated.
 * **Condition Opened/Not opened.** After a specified timer expires, the system checks whether the contact has performed the target action. The workflow continues to run depending on the result:\
-  ✓ *Opened*: The workflow sends a follow-up and ends.\
+  ✓ *Opened*: The workflow sends a follow-up and ends.
   ✓ *Not opened*: The workflow repeatedly sends the 1-st email. Depending on the response, it sends a follow-up message or ends.
 * **End.** The required block that must end every workflow brunch.
 
@@ -98,11 +98,11 @@ The workflow will look like this:
 
 <Image align="center" width="80% " src="https://files.readme.io/5c141f4cc4f7dd38e8ed2782b4b15ffc20280380ec8c36c79b69ca08ddaa7a97-launching-a-regular-workflow-for-a-segment-006.webp" />
 
-## 3\. Configure Trigger
+## 3. Configure Trigger
 
 1. In *Automation* → *Workflows*, choose the created workflow and click Start/Stop *configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/4bbf5298dd270bbf203dc736ac755a30850e40bb2392aeb72a15cad93b3f249f-launching-a-regular-workflow-for-a-segment-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/8bc69787dea0a7fc9157c95708b28c56931e1458b85a9f2ed7395cf3c620bbde-Workflows-06-02-2025_01_15_PM.png" />
 
 2. Activate *Start configuration* switcher
 3. In the *Regular* tab,
@@ -120,12 +120,12 @@ The workflow will look like this:
 * Set the *Start time* and set the *End date* of the workflow;
 * In *Process unique events*, select each time.
 
-<Image align="center" width="80% " src="https://files.readme.io/a6e29cfa6e2caa4ec68b9c98cc034b0542aa85b5c74e90dd873ca7fe0ef210da-launching-a-regular-workflow-for-a-segment-011.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/ded84a36f1751541850e836a2fffbd524805ce71722f65cc6817ab69f956d61f-Workflows-06-02-2025_01_18_PM.png" />
 
 * Click *Apply*.
 
 4. To start a workflow, click *Activate* on the right and confirm the action.
 
-<Image align="center" width="80% " src="https://files.readme.io/db893c7844de7093f99aea9b94771986a4a5b0419b4a10eea33f7567492b9715-launching-a-regular-workflow-for-a-segment-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/797dd7e4d8f7431f6f1c5df44517e8b340efb80ddde6d489024afd03cc94797b-Workflows-06-02-2025_01_24_PM.png" />
 
 The workflow status will change to active. The first message will be sent when all the conditions specified for the segment are met.
