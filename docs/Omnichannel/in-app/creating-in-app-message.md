@@ -18,11 +18,9 @@ In-App messages are messages that are displayed to the user while they are using
 >
 > [Install SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo#1-install-sdk-and-connect-communication-channels) to send In-App messages through Yespo
 
-<br />
-
 To create a new message:
 
-1. Go to the *Messages → Messages → In-App* section. Click the *New In-App* button.
+1. Go to the **Messages** → **Messages** → **In-App** section. Click the **New In-App** button.
 
    <Image align="center" width="600px" src="https://files.readme.io/0a0017e2addd7b78d10c0508353b14dbd57cc226c21922d2305b47092a114f0b-image1.png" />
 2. Select the message type:
@@ -58,9 +56,9 @@ The components for building the message are located in the left-hand side panel.
 
 <Image align="center" width="600px" src="https://files.readme.io/45e46d75d364db4b73fb0ab059d7cf5a9add9574e34766b389e173f948398b93-add_component_en.gif" />
 
-*Columns* and *Container* can contain other components, except for the *Floating image* component.
+**Columns** and **Container** can contain other components, except for the **Floating image** component.
 
-*Floating image* overlays other components. It can be used, for example, to emphasize a specific element.
+**Floating image** overlays other components. It can be used, for example, to emphasize a specific element.
 
 <Image align="center" width="600px" src="https://files.readme.io/70556109b02ca4fdf508484f5d0eb7887925e5dc6bfca4bc23ee539b2b6d3438-floating_comp.png" />
 
@@ -74,11 +72,11 @@ The following settings are available for the components.
 
 ### Action on click
 
-Expand the *+Add Action* menu and choose the action to be performed when clicking on the element:
+Expand the **+Add Action** menu and choose the action to be performed when clicking on the element:
 
-* *Open URL*
-* *Use click tracking*
-* *Close the current message*
+* **Open URL**
+* **Use click tracking**
+* **Close the current message**
 
 You can add one or several actions.
 
@@ -98,25 +96,25 @@ Expand the drop-down lists and select the necessary sizes from the following opt
 
 **For width:**
 
-* *Fixed width*. The minimum value is 20.
-* *By container width*.
-* *By content width*.
+* Fixed width. The minimum value is 20.
+* By container width.
+* By content width.
 
 **For height:**
 
-* *Fixed height*. The minimum value is 20.
-* *By container height*.
-* *By content height*.
+* Fixed height. The minimum value is 20.
+* By container height.
+* By content height.
 
 <Image align="center" width="600px" src="https://files.readme.io/be72af06abaf5a0edeb20ff2752c6eeb31c8f98a45bfb53f94b030d5b9b90554-size_en.png" />
 
 ### Columns
 
-For the \_Columns \_component, you can choose the following settings:
+For the **Columns** component, you can choose the following settings:
 
-* *Equalize width*. This option sets equal width for all columns.
-* *Number of columns*. Select the number of columns from 1 to 8.
-* *Spacing between columns*. Enter a number in the field to set the distance between columns in pixels. The range is from 0 to 40.
+* Equalize width. This option sets equal width for all columns.
+* Number of columns. Select the number of columns from 1 to 8.
+* Spacing between columns. Enter a number in the field to set the distance between columns in pixels. The range is from 0 to 40.
 
 <Image align="center" width="600px" src="https://files.readme.io/797ef59f56f5c99ece63ee06af5fcd1db8e4f5a4efd97dfb970e475f4dc4140a-columns_en.png" />
 
@@ -128,10 +126,10 @@ When this option is enabled, the columns are displayed vertically when the messa
 
 ### Background
 
-To select the background of the component, activate the \_Background \_slide button and choose one of the following options:
+To select the background of the component, activate the **Background** slide button and choose one of the following options:
 
-* \_Image \_to upload your pictures or select from the built-in library.
-* *Color* to choose the desired color from the palette or enter its code manually.
+* Image to upload your pictures or select from the built-in library.
+* Color to choose the desired color from the palette or enter its code manually.
 
 <Image align="center" width="600px" src="https://files.readme.io/ee67cf030fcec6f96ed656e21fb682870aa7f747dde1fd258a8b687b16aa1534-background_en.png" />
 
@@ -143,11 +141,11 @@ The acceptable values for background blur range from 0 to 100.
 
 ### Stroke
 
-Activate *Stroke* to set formatting for the outer contour of the *Container\_and \_Columns* components. You can set the same stroke format for all sides at once or for each individually by choosing:
+Activate **Stroke** to set formatting for the outer contour of the **Container** and **Columns** components. You can set the same stroke format for all sides at once or for each individually by choosing:
 
-* *Stroke Type*: solid, dashed, dotted.
-* *Thickness*: Acceptable values are from 0 to 100.
-* *Color*: Choose it from the palette or specify manually.
+* Stroke Type: solid, dashed, dotted.
+* Thickness: Acceptable values are from 0 to 100.
+* Color: Choose it from the palette or specify manually.
 
 <Image align="center" width="600px" src="https://files.readme.io/d609fd4f43935cdded92b44eb60cad0bad86f722ef1fcbd50c76115776a055b8-stroke_en.png" />
 
@@ -178,7 +176,7 @@ Select the component that contains text to access the formatting menu.
 
 ### Icon
 
-For the \_Button \_component, you can add an icon with the following parameters:
+For the **Button** component, you can add an icon with the following parameters:
 
 * Size
 * Alignment
@@ -194,7 +192,7 @@ Activate the slide button to make the button more interactive when hovered over 
 
 ### Loop Animation
 
-The *Loop animation* option allows you to choose the following parameters for the *Button* component from the drop-down lists:
+The **Loop animation** option allows you to choose the following parameters for the **Button** component from the drop-down lists:
 
 * Animation type.
 * Number of repetitions.
@@ -203,7 +201,7 @@ The *Loop animation* option allows you to choose the following parameters for th
 
 ### Slider
 
-Drag the slider from the left-side panel and drop it into the message template. *Set up slider* and *Manage slides* buttons will appear on the right-side panel.
+Drag the slider from the left-side panel and drop it into the message template. **Set up slider** and **Manage slides** buttons will appear on the right-side panel.
 
 <Image align="center" width="80% " src="https://files.readme.io/9868f77b1dbb7befff1df293994fdae59664e85f82b02f90a8b5c6f0b56920cb-image2.webp" />
 
@@ -211,7 +209,7 @@ Drag the slider from the left-side panel and drop it into the message template. 
 
 <Image align="center" width="80% " src="https://files.readme.io/74aeb9f54faf1f760ccfe7e5e51beea8b7ae7c0350145dad8798126f5e0881f4-image3.webp" />
 
-* Manage slides’ order, add, duplicate, or rename slides after clicking the *Manage slides* button.
+* Manage slides’ order, add, duplicate, or rename slides after clicking the **Manage slides** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/cc81a33ab5b894f5de67954b128fbd3ee06d12fa095215bebb282f675d44a20b-image5.webp" />
 
@@ -233,7 +231,7 @@ Set the action on click:
 
 ### Context Menu
 
-A *Context menu* becomes available upon right-clicking on the message component with the following actions:
+A **Context menu** becomes available upon right-clicking on the message component with the following actions:
 
 <Image align="center" width="80% " src="https://files.readme.io/f1dfd550b03ae77c8770cb9906c7cf704fa8658264cb95a8400b56faab2a024e-creating-in-app-message-16.webp" />
 
@@ -247,7 +245,7 @@ A *Context menu* becomes available upon right-clicking on the message component 
 
 ### Close Icon
 
-The *Close* icon allows the user to close the message.
+The **Close** icon allows the user to close the message.
 
 You can use standard and custom icons with settings for color, size, and positioning on the screen.
 
@@ -255,7 +253,7 @@ You can use standard and custom icons with settings for color, size, and positio
 
 > 📘 Note
 >
-> The position of the *Close* icon is calculated from the top-right or top-left corner of the message.
+> The position of the **Close** icon is calculated from the top-right or top-left corner of the message.
 
 ### Message Orientation
 
@@ -265,25 +263,25 @@ To see how the message will display on the device, click the Orientation icon at
 
 <Image align="center" width="80% " src="https://files.readme.io/b35064f5e9bf54e95cde2ce74440c7816d2512c09a934afe01798a16a006d456-creating-in-app-message-18.gif" />
 
-Press the *Save* button on the top panel of the editor to apply the changes after configuring the In-App message.
+Press the **Save** button on the top panel of the editor to apply the changes after configuring the In-App message.
 
 <Image align="center" width="80% " src="https://files.readme.io/b8841f8f621dd6b1984584d0623c44ee626f9cd49936d16e19c4471ab8a8037b-creating-in-app-message-19.webp" />
 
-Fill in the *New Message* field. This field is available for searching messages in the general list; users will not see it.
+Fill in the **New Message** field. This field is available for searching messages in the general list; users will not see it.
 
 <Image align="center" width="80% " src="https://files.readme.io/8c64b40e7d6c0d7dd72814a09bb1bbd96511dc30284ea012cdf66f825e6ad047-save-in-app-en.webp" />
 
 ## HTML Editor
 
-This method of creating In-App messages is more labor-intensive and requires specific technical skills in working with HTML and CSS; however, it provides a more flexible approach to customizing message content.
+This method of creating In-App messages is more labor-intensive and requires specific technical skills in working with `HTML` and` CSS`; however, it provides a more flexible approach to customizing message content.
 
-Fill in the *In-app name* field.
+Fill in the **In-app name** field.
 
 <Image align="center" width="80% " src="https://files.readme.io/16b1c00ab024d08c13bfafd56eb599a1da90a724f539e497c496b4a43a6e53cb-creating-in-app-message-21.webp" />
 
 ### HTML Settings
 
-Open the HTML tab.
+Open the **HTML** tab.
 
 <Image align="center" width="80% " src="https://files.readme.io/fc9c3a0d5d8eb55a5db37756064829f19fb25a17a20bf09ce376e820ac6fa8cf-creating-in-app-message-22.webp" />
 
@@ -352,10 +350,10 @@ Each clickable element must have the required data attributes.
       </td>
 
       <td>
-        One of action:\
-            • CLOSE\_WIDGET\
-            • CLICK\
-            • OPEN\_URL\
+        One of action:
+        • CLOSE\_WIDGET
+        • CLICK
+        • OPEN\_URL
         CLICK and OPEN\_URL are counted in the statistics as clicks, CLOSE\_WIDGET — no.
       </td>
     </tr>
@@ -382,7 +380,7 @@ Open the CSS tab and add CSS rules in the code window.
 
 Adding CSS code is optional, but custom HTML is usually displayed incorrectly without CSS.
 
-After adding the code, press the *Save and exit* button on the top panel of the editor to apply the changes.
+After adding the code, press the **Save and exit** button on the top panel of the editor to apply the changes.
 
 <Image align="center" width="80% " src="https://files.readme.io/e8cce197276e1a281abc1d873b79e41422f0f271cbf5a4cb1c7e9f737479837e-creating-in-app-message-25.webp" />
 
