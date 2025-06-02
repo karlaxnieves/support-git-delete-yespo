@@ -155,8 +155,6 @@ If the subscribe request specifies a list of segments to which the contact shoul
 
 1. If you have several forms assigned to different confirmation emails, you need to create separate workflows and events for each form.
 
-<Image align="center" width="80% " src="https://files.readme.io/9d863e8ce241c7c904224541c4b9211d0c73d75ce9475b337ae4af9a009712a6-setting-up-double-opt-in-204.webp" />
-
 > ❗️ Important
 >
 > For the event category Click, Key is a required field. The text is optional, but we recommend using Latin without numbers. For example: click, subscription, confirmation, etc.
