@@ -70,7 +70,7 @@ A user is presented with a vast array of products, and this abundance of choices
 
 Create a dynamic segment with conditions that specify the target audience's product interests. Add this segment to the In-App triggering rules and set the display frequency, e.g., once per session.
 
-Your app delivers a “product of the day” message generated based on the user's previous screen views or purchase history, overcoming the decision challenge and increasing the likelihood of a successful purchase.
+Your app delivers a **product of the day** message generated based on the user's previous screen views or purchase history, overcoming the decision challenge and increasing the likelihood of a successful purchase.
 
 <Image align="center" width="40% " src="https://files.readme.io/fba567844fb8c1922081bc04d9c406d1bba73184b93e1fd7d6f618f9745be867-in-app-4.webp" />
 
