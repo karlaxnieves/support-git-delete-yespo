@@ -55,25 +55,25 @@ To address the In-App campaign to a certain segment, specify the appropriate seg
 
 > 📘 Note
 >
-> Combining the *After event* and the *To whom* triggering rules is possible. For instance, limit the In-App triggering after a specific event to certain countries.
+> Combining the **After event** and the **To whom** triggering rules is possible. For instance, limit the In-App triggering after a specific event to certain countries.
 
 ## Using In-App in Omnichannel Workflows
 
-You can use the *Mobile Push* and the *Add to segment* blocks to trigger In-Apps within a workflow.
+You can use the **Mobile Push** and the **Add to segment** blocks to trigger In-Apps within a workflow.
 
 ### Mobile Push
 
-[Link an In-App to tap at a mobile push](https://docs.yespo.io/docs/linking-app-mobile-push), for example, to reveal more details about the offer contained in the push. Specify such a push in the *Mobile Push* block settings, and users will see both messages within the workflow.
+[Link an In-App to tap at a mobile push](https://docs.yespo.io/docs/linking-app-mobile-push), for example, to reveal more details about the offer contained in the push. Specify such a push in the **Mobile Push** block settings, and users will see both messages within the workflow.
 
 <Image align="center" width="80% " src="https://files.readme.io/de921e4c9215af3850c41fd702dc5e9adfa503a702ff99333ae4578ffb092680-in-app-4.webp" />
 
 ### Add to Segment
 
-1. Specify a static segment (*List*) into which users will fall in the *Add to segment* block settings.
+1. Specify a static segment (**List**) into which users will fall in the **Add to segment** block settings.
 
 <Image align="center" width="80% " src="https://files.readme.io/e44b8253addb111c4d038fa0470ce3539c63e66f9f73b188495db27fabd9d8e3-in-app-5.webp" />
 
-Set the corresponding segment in the In-App triggering rules (*To whom*).
+Set the corresponding segment in the In-App triggering rules (**To whom**).
 
 <Image align="center" width="80% " src="https://files.readme.io/d77300e47330c85617c0ac9c6abe1b8b5b23b9a094d82566fe395eb7e51aa221-in-app-6.webp" />
 
