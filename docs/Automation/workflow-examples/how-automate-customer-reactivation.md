@@ -106,7 +106,7 @@ All blocks must be connected to each other.
 4. Click *Save and exit*.
 5. Go to *Automation → Workflows*, select the necessary workflow, and click *Start/Stop configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/320f25429b940f7addfe2e8e09e7fe8c2fb51ef1efa9f69b1a2b023016c74c49-customer-reactivation-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/a3e5f0bcf261c136f6d5840bec920d0abee419431605d545c8d049c9c426fff4-image.png" />
 
 6. Enable the *Start Configuration* slide button, select the *Regular* condition and created segment.
 
@@ -114,10 +114,10 @@ All blocks must be connected to each other.
 
 7. Select *Each time* in *Process unique events* and click *Apply*.
 
-<Image align="center" width="80% " src="https://files.readme.io/e7d35884243d90070063ef5ec7b7fc8fdf93e92dc32b6389f9d46e83810c3343-customer-reactivation-016.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/66e0096c468fd9d9c43e0ad8b56204aade3d6b52585daf0c8f3af295267a8ce8-image.png" />
 
 8. Click the *Activate* button to launch the workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/2a0224fb7648385585d6bf8c2e028caf3b23f27b0e092c78b7eaf266d5824af4-customer-reactivation-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/2fca46d7011e4e1f928efdacd4d3a7e0250e947c676a378fd283b1e9e4a4a38e-image.png" />
 
 All contacts included in the dynamic segment will receive the reactivation campaign at the time specified in the workflow.
