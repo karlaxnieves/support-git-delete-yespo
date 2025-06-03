@@ -65,7 +65,7 @@ The contact ID must be one of the following:
 To substitute parameter values in messages, send the fields with event parameters as an array.
 
 * Required parameters for the order array: `externalOrderId`, `totalCost`, `status`, `date`, `externalCustomerId / email / phone`.
-* Required parameters for the items array: `externalItemId`, `name`, `quantity`, `cost`, `url`, `imageUrl`.
+* Required parameters for the items array: `externalItemId`, `name`, `quantity`, `cost`, `url`, `imageUrl`, `category`.
 
 > 📘 Note
 >
