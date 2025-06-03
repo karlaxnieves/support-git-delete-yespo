@@ -46,7 +46,7 @@ After that, an email with the activation button will be sent to the specified em
 
 <Image align="center" width="80% " src="https://files.readme.io/7fbf4a915dee142f20fef9349441dd39b015f241472c518e9d2cb06c9101beca-how-to-sign-up-003.webp" />
 
-In case you have made a mistake when typing your email address, сlick the icon with the letter “**i**” next to the email address, and then click **Resubmit it here** to return to **Step 2** where you can enter the correct email address.
+In case you have made a mistake when typing your email address, сlick the icon with the letter **i** next to the email address, and then click **Resubmit it here** to return to **Step 2** where you can enter the correct email address.
 
 <Image align="center" width="80% " src="https://files.readme.io/a2976d356faf8249a77d4aa816102461979ac323e397d3dd87f7559a10c27a6d-how-to-sign-up-008.webp" />
 
