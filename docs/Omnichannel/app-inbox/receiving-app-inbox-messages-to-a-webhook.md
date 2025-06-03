@@ -55,13 +55,13 @@ You have to send us the webhook URL, where you want to receive the messages, and
       </td>
 
       <td>
-        \{\
-            "url" : string,\
-            "auth" : \{\
-                "type" : "basic",    // Supported basic type only\
-                "username" : string,\
-                "password" : string\
-            }\
+        \{
+        "url" : string,
+        "auth" : \{
+        "type" : "basic",    // Supported basic type only
+        "username" : string,
+        "password" : string
+        }
         }
       </td>
     </tr>
@@ -74,9 +74,10 @@ The messages you receive have the following format:
 
 ```json
 {
-    "externalCustomerId" : string, 	// Receiver identifier
+    "externalCustomerId" : string, 	  // Receiver identifier
     "id" : UUID,                   		// Interaction ID. Used to set status
-    "createdDate" : long,         	// Timestamp in milliseconds
+    "messageId" : int,                // Message ID
+    "createdDate" : long,         	  // Timestamp in milliseconds
     "title" : text,
     "content" : text,
     "image" : string,              		// URL
@@ -144,8 +145,8 @@ The messages you receive have the following format:
 
     <tr>
       <td>
-        500 Internal Server Error\
-        502 Bad Gateway\
+        500 Internal Server Error
+        502 Bad Gateway
         503 Service Unavailable
       </td>
 
