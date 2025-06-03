@@ -22,7 +22,7 @@ The simplest example is an email with the question: *What kind of clothes are y
 
 Each workflow must be linked to a certain event. You can pass events via API or [create them in our system manually](https://docs.yespo.io/docs/creating-events).
 
-## 1\. Creating an Event Type
+## 1. Creating an Event Type
 
 1. Go to *Automation → Event types* and click *New event type*.
 
@@ -38,14 +38,14 @@ Each workflow must be linked to a certain event. You can pass events via API or�
 
 3. Click *Add*.
 
-## 2\. Linking Event to the Button
+## 2) Linking Event to the Button
 
 1. Open the email with a questionnaire in the editor.
 2. Click on each button with the answer option and link an event to it. Select the corresponding one from the dropdown list.
 
 <Image align="center" width="80% " src="https://files.readme.io/4d3af0376cc60765d9e3c8654b8dbbbabbf654277597e743a5a419c47dc730ec-linking-workflow-to-the-button-003.webp" />
 
-## 3\. Setting Up Workflow
+## 3. Setting Up Workflow
 
 1. Go to *Automation* → *Workflows* and click *New workflow*.
 
@@ -69,12 +69,12 @@ You can add more actions to such a workflow, for example — send a message afte
 4. Click *Save and exit*.
 5. Go to *Start/Stop configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/f9611ba565391541f464fb770cced134972aaac5f70e68ce5770b0ad41cf3c76-linking-workflow-to-the-button-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/de637a7c0b1007b3c4cfd7276242892bb7bcccd49ab65826c6a3b668985b624a-image.png" />
 
 6. In *Start configuration*, select *Event-based* and select the event in *Event* field. Set up processing unique events (in this case, we recommend you the once option).
 7. Click *Apply*.
 
-<Image align="center" width="80% " src="https://files.readme.io/b958d16cb703c0c0df754dd444b6e614b055d44cdf771c913b6df750ccf61ec9-linking-workflow-to-the-button-007a.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/69cb91386c5fb06411ec1989bb44bf51e0454abbe7a296fe55b22342068a4a9a-image.png" />
 
 > 📘 Important
 >
@@ -82,6 +82,6 @@ You can add more actions to such a workflow, for example — send a message afte
 
 8. Click the *Activate* button.
 
-<Image align="center" width="80% " src="https://files.readme.io/f2122891328f6cc571b3334e08b35bdfbd6e6974167462a51e8583eed65b27c2-linking-workflow-to-the-button-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/2a1d267dff9f005b2058b6f44a889c5ddd231e4eca2afa6793cda4e8ff5875d9-image.png" />
 
 Each contact who clicks on the button will be added to the segment specified in the workflow. This way, you will get the target audience segments for emailing campaigns with relevant content. Using the same principles you can generate new events arranging much more complex workflows and adding them to buttons, pics, and even text links in your messages.
