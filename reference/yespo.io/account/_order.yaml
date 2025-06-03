@@ -1,3 +1,6 @@
 - getaccountinfo-1
 - getuserorganisationbalance-1
 - getorganisationbalancehistory
+- getaccountinfo
+- getuserorganisationbalance
+- getorganisationbalancehistory-1
