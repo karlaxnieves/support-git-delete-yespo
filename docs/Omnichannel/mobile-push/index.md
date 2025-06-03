@@ -38,3 +38,7 @@ Integrate the required SDK versions into your mobile app:
 ## Step 3. Create a Mobile Push Message
 
 Use Yespo's editor for easily creating mobile push notifications. [More details >](https://docs.yespo.io/docs/how-to-create-mobile-push-notifications)
+
+> 👍 Recommendation
+>
+> When using Mobile Pushes in workflows, [generate message content](https://docs.yespo.io/docs/mobile-push-generation) using the built-in AI in the **[One from many](https://docs.yespo.io/docs/using-one-many-block)** block. This will save you time and effort and significantly increase your campaigns' effectiveness: AI-generated messages show higher click-through rates (CTR) and conversions than those written by humans.
