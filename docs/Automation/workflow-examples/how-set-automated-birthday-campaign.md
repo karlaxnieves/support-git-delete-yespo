@@ -108,7 +108,7 @@ The saved workflow will be shown in *Automation → Workflows*.
 
 1. Click *Start/Stop configuration.*
 
-<Image align="center" width="80% " src="https://files.readme.io/33eabc0c711556f1a57a773d564e8e90ec0a2566bb2ee731c4b3b9a07dc0572c-birthday-campaign-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/efedb28dea108eb143a7eecd6b99ca9137ce83911f5133a7be118fb669d87b0a-Workflow.png" />
 
 2. Select the *Regular* tab, the segment to send to, and the start schedule.
 
@@ -116,11 +116,11 @@ The saved workflow will be shown in *Automation → Workflows*.
 
 3. In the *Process unique events* select *Each time* and click *Apply*.
 
-<Image align="center" width="80% " src="https://files.readme.io/08f3b90bbc6e85beaf7d39bf4d90ad534dbd2ca2fafda24c7fdab66812e63460-birthday-campaign-16.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/e521870c7aa370f65916de7221ed1c15c84b30c9c259a62819ac9d7df24a7a7e-Workflows.png" />
 
 4. Click *Activate* and launch a workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/5d0f797bb6bf2abd8a2116a24d4357a4633bf84b743beb02fa05ae6ce135c09b-birthday-campaign-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/430f734aaeaf75fa230e9ef70d05b63754c914c102899018e076ac454f486dc3-activate.png" />
 
 ## Workflow Options
 
