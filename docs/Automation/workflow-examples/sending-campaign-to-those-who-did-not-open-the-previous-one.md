@@ -99,7 +99,7 @@ After moderation, the extra campaign will be launched for those contacts who hav
 
 or click *Save and exit*, then select the ellipses (three dots) icon beside the workflow and select *Launch one time*.
 
-<Image align="center" width="80% " src="https://files.readme.io/0c38c1bc8a3b1e2c7ddbde0f3b3e6268920e6e576a4d8140492836ae5d8e1f32-sending-campaign-to-unreaders-001.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/f13545b6d2505fa0f98f951b5f4a93259ab8ea10e78e8eaa2070824cde218424-image.png" />
 
 4. Click the *Start* button.
 
