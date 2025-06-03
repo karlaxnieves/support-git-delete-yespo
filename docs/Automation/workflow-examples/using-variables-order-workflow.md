@@ -59,7 +59,7 @@ Such a differentiation is necessary primarily to understand precisely what stage
 
 Every time you pass order data via the API, corresponding [events](https://docs.yespo.io/docs/creating-events) are created in the system, which you can later use as a condition that launches a triggered workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/2b34604ef7d073f5ab07f426434afbfa574515182d3addb58fa75119a6cfa135-workflow-variables-001.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/75e0395e3d88ee91d821f30fd16045252c94018c33ac6aa56d60509e835ee1c8-image.png" />
 
 The names of transactional events consist of the word order and the status added to it, for example, orderDELIVERED. You can see them in the *Triggers → Event history* section in the Yespo system.
 
