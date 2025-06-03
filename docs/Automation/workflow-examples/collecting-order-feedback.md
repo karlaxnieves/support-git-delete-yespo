@@ -59,15 +59,15 @@ For each answer option, you need to create:
 
 5. Click *Start/Stop configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/822cae4971554f493a1d8ffbee4d3086400e03bf10fb596906dc5ead342b2b8d-collecting-order-feedback-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/7c8d3ea5535c18aacf8bc710b8359e5da619b026bd9ba50953415aaeec8129c0-image.png" />
 
 6. Select the created event in the workflow launch conditions.
 
-<Image align="center" width="80% " src="https://files.readme.io/c9b480efa87e8e34303a5fc3c3f14426e1a9c0f27621e05713967d4aa36a5194-image8.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/3a587e733814bcc57005a536d462a1af19c8995c67586e96bbd3f5eea403b9c8-image.png" />
 
 7. Activate the workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/4a7f939bc7b0e30ebb4f9b2574b6c80ad8ae36bab117399339f7019c8fc03187-collecting-order-feedback-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/a04c21d27adccb8ff222e463d2e763a18f585c569cd3c7b2fd2cebc4d31ee348-image.png" />
 
 Repeat the same actions for each answer option.
 
