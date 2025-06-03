@@ -29,8 +29,8 @@ To sign up for a free account, proceed as follows:  
 
 **B**. Tick the checkboxes to accept:
 
-* Terms of Use.
-* Privacy Policy.
+* [x] Terms of Use
+* [x] Privacy Policy
 
 <Image align="center" width="80% " src="https://files.readme.io/84d6584a8a43b5c729000ce0170885a5707c652551d8c951826ea66bdd377825-how-to-sign-up-0002.webp" />
 
@@ -83,6 +83,7 @@ Enter the preferred name for your account and click the **Next** button.
 1. From the dropdown list, select:
 
 * Country
+* Audience communication language (default language for [multilingual messages](https://docs.yespo.io/docs/multilanguage-overview#/) and publications)
 * Currency
 * Business type
 
@@ -90,7 +91,7 @@ Enter the preferred name for your account and click the **Next** button.
 3. Select the **Total number of contacts** in your base.
 4. Click the **Activate account**.
 
-<Image align="center" width="80% " src="https://files.readme.io/fa97f79de0d92d9e5cd7819b046dbdeb2794920b03edb12faadfdb3800363cd4-how-to-sign-up-007.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/76a3075a54a8baa3b674a0f46ee992043caed2d4bb57ffd0704e321ed0f28b15-image002.webp" />
 
 After activating your account, you can access all the features of the Yespo system.
 
