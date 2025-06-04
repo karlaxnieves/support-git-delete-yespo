@@ -22,7 +22,7 @@ To set up and manage an abandoned browse workflow, you need to:
 5. Test triggered emails.
 6. View reports.
 
-## 1. Create an Abandoned Browse Email
+## 1) Create an Abandoned Browse Email
 
 * Go to *Messages* and click *Create email*. In *Basic*, select the template *Abandoned Browse* and edit it as needed. This template contains all basic variables (product image, name, price) by default. If you need any additional variables (for example, contact name) add them manually (see the below guideline).
 
@@ -85,7 +85,7 @@ For the block *Email*, in *Message*, select the created abandoned browse email. 
 
 * Go to *Automation → Workflows*, select the created abandoned browse workflow and click *Start/Stop configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/0687cfcfd941154337422e4d4a53df42c9059a0224dabce04c30ae4f4e6ca7ad-abandoned-browse-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/1f89d5d7f36fcadb4ffa2895d7098861e7adad5c9bf79ab5540ac96d9df3465a-image.png" />
 
 * Click *Regular* and in *Segment* select the created abandoned browse segment. Leave the default start date (that is the day of configuration).
 * In *Start schedule*, select *once an hour*.
@@ -99,7 +99,7 @@ For the block *Email*, in *Message*, select the created abandoned browse email. 
 
 * Click *Activate* and confirm the action. The workflow status will change to active.
 
-<Image align="center" width="80% " src="https://files.readme.io/0007cc7f61b61018a8cfe82a82b05df4893afc4b4372a0b807a7db3dbeb84032-abandoned-browse-203.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/abb636a1f85357756f3dd27d1ca95748220acf1d10e29329888e0b10a3162cfe-image.png" />
 
 Such configuration launches the workflow once an hour. After the launch, the segment is refreshed and new contacts are added to it. The workflow is launched to the refreshed segment 60-120 minutes after a user visited the site
 
@@ -126,7 +126,7 @@ You can send a test abandoned browse email to your address in 2 ways:
 
 * In the workflow general list, click the menu on the right and select *Launch one time*. In *ContactId*, enter test contact’s ID (go to *Contacts → All contacts* to copy it) and click *Start*.
 
-<Image align="center" width="80% " src="https://files.readme.io/db5e5e173d78fc09a9204196977a2bec55484941a1d5abd4bd821935f2a54c5e-abandoned-browse-204.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/74b7c639b1e76705a1055e4dd36db911122404730f7a3a907451be14888a88ef-image.png" />
 
 ## 6. View Reports
 
