@@ -36,9 +36,9 @@ Steps to set up event’s structure validation:
 
 ## Validating Event Parameters
 
-Validate event parameters and structure using [Generate event](https://docs.yespo.io/reference/registerevent_1) API method. Indicate parameters in the params array.
+Validate event parameters and structure using [Generate event](https://docs.yespo.io/reference/registerevent_1) API method. Indicate parameters in the **BODY PARAMS** array.
 
-<Image align="center" width="80% " src="https://files.readme.io/36294274e84e5530b8dd360927b455ede5d0fa4b78df2491e10b00ae6ce856be-validation_3.webp" />
+![BODY PARAMS](https://files.readme.io/83f4e9446c4d29f5a45a38e8577fe250b7bd4d072643add1e7328ee2fe6d0f98-image.png)
 
 If parameters do not meet the specified structure, you will get the 400 bad request error and the required event structure in the response.
 
@@ -109,13 +109,11 @@ Event types with enabled parameter validation are marked with a check icon.
       </td>
 
       <td>
-        * \*Unique identifier for the event type\*\*, e.g., `PageViewed`. After the first request, it will appear in your account, and you can see it in the *Automation → Event types* section.
+        * *Unique identifier for the event type*\*, e.g., `PageViewed`. After the first request, it will appear in your account, and you can see it in the *Automation → Event types* section.
       </td>
 
       <td>
-        1\. All characters are allowed except \< ; ’ \\ / | " \` ' ^ ? ! , >  
-
-        2. Max. length: 100 characters.
+        1. All characters are allowed except \< ; ’ \ / | " \` ' ^ ? ! , >
       </td>
     </tr>
   </tbody>
@@ -183,7 +181,7 @@ eventParams contain two types of information:
       </td>
 
       <td>
-        `eventParams` **must contain a contact identifier** to determine the event's uniqueness. The priority of the parameters is as follows:  
+        `eventParams` **must contain a contact identifier** to determine the event's uniqueness. The priority of the parameters is as follows:
 
         * contactId (internal contact ID in our system);
         * externalCustomerId (internal contact ID in your system);
@@ -193,7 +191,7 @@ eventParams contain two types of information:
       </td>
 
       <td>
-        1. All characters are allowed except \< ; ’ \\ / | " \` ' ^ ? ! , >
+        1. All characters are allowed except \< ; ’ \ / | " \` ' ^ ? ! , >
         2. Max. length: 300 characters
       </td>
     </tr>
