@@ -23,11 +23,11 @@ In Yespo, two options exist for registering a sender name:
 
 Use this option if you haven't registered a Viber sender before. In this case, you can create it in your Yespo account.
 
-1. Go to the *Pricing plans* tab on the main page of your profile.
+1. Go to the **Pricing plans** tab on the main page of your profile.
 
 <Image align="center" width="80% " src="https://files.readme.io/53ba8a46601d5931023dc2b047e77315d2134776b8e765d9ac9e74971397fadb-adding-a-sender-name-viber-01.webp" />
 
-2. Select the *Viber* tab, expand it, and click *Apply for adding*.
+2. Select the **Viber** tab, expand it, and click **Apply for adding**.
 
 <Image align="center" width="80% " src="https://files.readme.io/5d20487b995ef94799549af809671ca71b3808bede6451a6dbf5523a983cd024-adding-a-sender-name-viber-02.webp" />
 
@@ -41,7 +41,7 @@ You can find out the cost of a monthly subscription in your Yespo account or sen
 
 The money remains in the account and can be used to pay for messages after connection.
 
-Click *Show pricing plans for all countries* to see pricing by country.
+Click **Show pricing plans for all countries** to see pricing by country.
 
 <Image align="center" width="80% " src="https://files.readme.io/763b900ad73613449a6af3484e91387f19205b088cc41ae04227880d5aceb67d-adding-a-sender-name-viber-04.webp" />
 
@@ -57,7 +57,7 @@ Processing allows you to send messages via the service provider you work with. 
 
 You can find out the prices [here](https://yespo.io/viber-prices).
 
-1. In your profile, go to *Settings → Senders → Viber.*
+1. In your profile, go to **Settings → Senders → Viber**.
 
 <Image align="center" width="80% " src="https://files.readme.io/948e906be5f593ab1f080269080ee44e18ee8e66619d2e44c38f4f99ece75627-adding-a-sender-name-viber-05.webp" />
 
@@ -82,15 +82,15 @@ You can find out the prices [here](https://yespo.io/viber-prices).
 
 If you have a different service provider, please contact [support@yespo.io](mailto:support@yespo.io). 
 
-2. Click *New sender*.
+2. Click **New sender**.
 
 <Image align="center" width="80% " src="https://files.readme.io/54ce47f0fca47472edf1e351f5a7280456da57fec50e8d87983ddc42b6c21d3f-adding-a-sender-name-viber-06.webp" />
 
-3. Select the *I’ve already contracted a Viber service provider and have a registered sender* option and specify the provider you work with.
+3. Select the **I’ve already contracted a Viber service provider and have a registered sender** option and specify the provider you work with.
 
 <Image align="center" width="80% " src="https://files.readme.io/d0433446e242d0b1422b8d26b6c46506d441f6910e4338e798e39e691de89e18-adding-a-sender-name-viber-07.webp" />
 
-If you select the *I want to register a new sender* option, the system will offer to do it via Yespo.
+If you select the **I want to register a new sender** option, the system will offer to do it via Yespo.
 
 ## Provider's Technical Settings Parameters
 
@@ -109,15 +109,15 @@ If you select the *I want to register a new sender* option, the system will offe
 
 > 📘 Important
 >
-> Your provider needs to add the IP addresses 52.210.222.17,52.16.166.210 to the IP allow list.
+> Your provider needs to add the IP addresses `52.210.222.17,52.16.166.210` to the IP allow list.
 >
 > Please contact your provider.
 
-2. Click *Done*.
+2. Click **Done**.
 
 > 📘 Advice
 >
-> Use [Yespo tags](https://docs.yespo.io/docs/how-add-tags) so that when uploading reports from GMS Hyber, you can quickly analyze how many messages of a specific type were sent: collecting feedback, installing an application, etc. If you use more than one tag in a message, they are substituted to the report separated by commas: tag=tag1,tag2,tag3.
+> Use [Yespo tags](https://docs.yespo.io/docs/how-add-tags) so that when uploading reports from GMS Hyber, you can quickly analyze how many messages of a specific type were sent: collecting feedback, installing an application, etc. If you use more than one tag in a message, they are substituted to the report separated by commas: `tag=tag1`,`tag2`,`tag3`.
 
 ### 2. Infobip
 
@@ -132,27 +132,27 @@ If you select the *I want to register a new sender* option, the system will offe
 >
 > `https://esputnik.com/dlr/v1/infobip/status`
 
-2. Click *Done*.
+2. Click **Done**.
 
-### 3. TurboSMS
+### 3) TurboSMS
 
 1. Enter the data:
 
 * Sender name.
 * Authorization token: copy it from the API settings in the TurboSMS account. 
 
-2. Click *Done*.
+2. Click **Done**.
 
-### 4. Kyivstar
+### 4) Kyivstar
 
 1. Enter the data:
 
 * Sender name.
 * Login, password, and source are taken from the Kyivstar account.
 
-2. Click *Done*.
+2. Click **Done**.
 
-### 5. Omnicell
+### 5) Omnicell
 
 1. Enter the data:
 
@@ -163,9 +163,9 @@ If you select the *I want to register a new sender* option, the system will offe
 >
 > Add the handler URL in the Omnicell account settings to configure status retrieval. The handler URL to which the statuses will be sent is: `https://esputnik.com/dlr/v1/omnicell/status`.
 
-2. Click *Done*.
+2. Click **Done**.
 
-### 6. Messaggio
+### 6) Messaggio
 
 1. Enter the data:
 
@@ -176,18 +176,18 @@ If you select the *I want to register a new sender* option, the system will offe
 >
 > Add the handler URL in the Omnicell account settings to configure status retrieval. The handler URL to which the statuses will be sent is: `https://esputnik.com/dlr/v1/messaggio/status`.
 
-2. Click *Done*.
+2. Click **Done**.
 
-### 7. SMS Club
+### 7) SMS Club
 
 1. Enter the data:
 
 * Sender name.
 * Login, password, and sender name are taken from the SMS Club account.
 
-2. Click *Done*.
+2. Click **Done**.
 
-### 8. SMSBAT
+### 8) SMSBAT
 
 1. Enter the data:
 
@@ -197,7 +197,7 @@ If you select the *I want to register a new sender* option, the system will offe
 * Alpha name.
 * Timeout.
 
-2. Click *Done*.
+2. Click **Done**.
 
 ### 9. Streamtools
 
@@ -207,7 +207,7 @@ If you select the *I want to register a new sender* option, the system will offe
 * Login.
 * Password.
 
-2. Click *Done*.
+2. Click **Done**.
 
 ### 10. Vodafone
 
@@ -220,15 +220,15 @@ If you select the *I want to register a new sender* option, the system will offe
 
 > 📘 Important
 >
-> Vodafone does not track the *Opened* message status, so the *Clicked* and *Opened* status numbers in reports will be the same.
+> Vodafone does not track the **Opened** message status, so the **Clicked** and **Opened** status numbers in reports will be the same.
 
 ### 11. Intel Telecom
 
 Enter the data:
 
-* Sender name: You can find this name in the `Senders` menu in Intel Telecom.
+* Sender name: You can find this name in the **Senders**menu in Intel Telecom.
 * User name: Your login name to the Intel Telecom account.
-* API key: You can create API keys in Intel Telecom in `Developers → API key`.
+* API key: You can create API keys in Intel Telecom in **Developers → API key**.
 * IM sender: See the Intel Telecom [API documentation](https://sms.intel-tele.com/cabinet/dev/api/viber/http/).
 
 ### 12. Decision Telecom
@@ -236,12 +236,12 @@ Enter the data:
 Parameters for sender setup:
 
 * Sender name
-* Authorization token — key from Decision Telecom account in BASE64 format
+* Authorization token — key from Decision Telecom account in `BASE64` format
 * Alpha-name
 
 To connect Decision Telecom, submit a request at [support@yespo.io](mailto:support@yespo.io).
 
-2. Click *Done*.
+2. Click **Done**.
 
 After registration, you’ll see a confirmation:
 
@@ -251,7 +251,7 @@ After registration, you’ll see a confirmation:
 >
 > The fee for sending one message is current at the time of publication of the article; the data may change.
 
-The added sender will be displayed in the general list with the *Available* status.
+The added sender will be displayed in the general list with the **Available** status.
 
 <Image align="center" width="80% " src="https://files.readme.io/e7081c7477e5829945ad2a313089d3627fb2984a5ac8255c00397daaf067366c-adding-a-sender-name-viber-17.webp" />
 
@@ -263,12 +263,12 @@ The added sender will be displayed in the general list with the *Available* stat
 
 To delete a sender: 
 
-1. Go to your profile  → *Settings → Senders*. 
+1. Go to your profile  → **Settings → Senders**. 
 2. Select the Viber tab and click the trash icon at the right-hand side of the sender name you wish to delete. 
 
 <Image align="center" width="80% " src="https://files.readme.io/d082d0f77bfc6c7cf1df8f33b57728fcba0a31c7f0d9e6c0661de24a6216c969-adding-a-sender-name-viber-18.webp" />
 
-3. Select *Delete* on the dialog window.
+3. Select **Delete** on the dialog window.
 
 <Image align="center" width="80% " src="https://files.readme.io/a8eef5dcc630ca2604e4c65df8e86541a63a9d4c1a79b9b9c619c3f4276e8eed-adding-a-sender-name-viber-19.webp" />
 
@@ -276,11 +276,11 @@ To delete a sender: 
 
 To change a sender in existing Viber messages:
 
-1. Go to *Messages → Messages → Viber* and select Viber message.
+1. Go to **Messages → Messages → Viber** and select Viber message.
 
 <Image align="center" width="80% " src="https://files.readme.io/7cfc65608df4d5c08e9da6e50819f9b9fc449d28f9f0296481992d391be77ab0-adding-a-sender-name-viber-20.webp" />
 
-2. In the *Main settings* section, expand the dropdown list below *Sender* and select another sender for this message from the list.
+2. In the **Main settings** section, expand the dropdown list below **Sender** and select another sender for this message from the list.
 
 <Image align="center" width="80% " src="https://files.readme.io/d38089345c34b4a48225d9bc590c0c5ba70b249524213af8c89c21f92e570317-adding-a-sender-name-viber-21.webp" />
 
@@ -292,4 +292,4 @@ All providers except Kyivstar allow you to automatically send SMS to contacts wh
 
 > 📘 Note
 >
-> If your account does not have the *Send SMS if Viber is not delivered* option, please send a request for activation to [support@yespo.io](mailto:support@yespo.io).
+> If your account does not have the **Send SMS if Viber is not delivered** option, please send a request for activation to [support@yespo.io](mailto:support@yespo.io).
