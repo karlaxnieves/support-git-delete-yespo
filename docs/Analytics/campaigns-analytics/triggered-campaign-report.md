@@ -61,7 +61,7 @@ You can see all the messages participating in a particular workflow and their st
 
 * *Automation → Workflows → View campaign report*.
 
-<Image align="center" width="80% " src="https://files.readme.io/14b0aefdbc3a74cc8d8b2f8f135105dcc47b598f366766688a3823180d7aa136-reports3.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/eb83686a737719f6b3a67d1eff5de081477052ac373c0ea342159544c46bcdc3-image.png" />
 
 Or,
 
