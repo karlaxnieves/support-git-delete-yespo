@@ -20,7 +20,7 @@ A web push notification is a pop-up message in the desktop and mobile browser. W
 
 > 📘 Important
 >
-> Web push token collection is only available for websites that use the https\:// protocol.
+> Web push token collection is only available for websites that use the `HTTPS` protocol.
 
 You need to do a few steps before sending web push notifications through Yespo.
 
