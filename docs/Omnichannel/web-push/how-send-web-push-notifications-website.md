@@ -18,7 +18,7 @@ next:
 
 ## Selecting a Subscription Type
 
-1. Go to your account settings and select the *Web Push* tab.
+1. Go to your account settings and select the **Web Push** tab.
 
 <Image align="center" width="80%" src="https://files.readme.io/68d73681895767aaa85cc303efa13d2bf1735c2a1aafb142aecd6bf966122731-adding-website-to-account-001.webp" />
 
@@ -29,25 +29,25 @@ next:
 
 > ❗️ Note
 >
-> Google Chrome may block [intrusive subscription windows](https://yespo.io/blog/google-chrome-will-now-block-abusive-browser-notifications). To avoid potential limitations, select the *Double Opt-in* subscription.
+> Google Chrome may block [intrusive subscription windows](https://yespo.io/blog/google-chrome-will-now-block-abusive-browser-notifications). To avoid potential limitations, select the **Double Opt-in** subscription.
 
 <Image align="center" width="80%" src="https://files.readme.io/12cbbe1cc3b4e8b6427fe593301977def35a04418b7dabbc3daec3f8661f78b4-adding-website-to-account-002.gif" />
 
-Click the *+Connect website* button, then select the subscription type if your account has existing subscriptions.
+Click the **+Connect website** button, then select the subscription type if your account has existing subscriptions.
 
 <Image align="center" width="80%" src="https://files.readme.io/2b1000461b1f003a87b0d0f9f84ab18bafd9efe44dabe3daef2baa248e705dad-adding-website-to-account-003.webp" />
 
 ## New Website Adding
 
-After selecting the subscription type, fill in the required fields *Website URL* and *Website name*.
+After selecting the subscription type, fill in the required fields **Website URL** and **Website name**.
 
 <Image align="center" width="80%" src="https://files.readme.io/de45eee066b8bbe17a31103977c6de3f5b4526b8694f0c5bbe845b628e2b12d0-adding-website-to-account-004.webp" />
 
 ## Service Worker Setup
 
-*Service Worker* is a script that runs in the background on your device, even when you are not using the website or application.
+**Service Worker** is a script that runs in the background on your device, even when you are not using the website or application.
 
-The *Service Worker* configuration includes three fields (filled in automatically):
+The **Service Worker** configuration includes three fields (filled in automatically):
 
 * **Path to the file** — the path to the directory on the website where the script file should be uploaded.
 * **File name** — the name of the file containing the code (will be generated in the [Web Push Integration](https://docs.yespo.io/docs/how-send-web-push-notifications-website#web-push-integration) step.)
@@ -55,8 +55,8 @@ The *Service Worker* configuration includes three fields (filled in automaticall
 
 > ❗️ Important
 >
-> * When using a ***web push Service Worker*** together with a ***PWA (Progressive Web App) Service Worker***, it is necessary to separate their scopes to avoid conflicts. A typical setup is to place the *PWA Service Worker* in the root directory of the website and the *web push Service Worker* in any other directory.
-> * The scope of the *web push Service Worker* is not limited to the pages where the script is active. It works on all pages of your website, even if they are not within the specified scope.
+> * When using a **web push Service Worker** together with a **PWA (Progressive Web App) Service Worker**, it is necessary to separate their scopes to avoid conflicts. A typical setup is to place the **PWA Service Worker** in the root directory of the website and the **web push Service Worker** in any other directory.
+> * The scope of the **web push Service Worker** is not limited to the pages where the script is active. It works on all pages of your website, even if they are not within the specified scope.
 
 <Image align="center" width="80%" src="https://files.readme.io/25356e2c57f4e57db78e4f5875893d9ed32248ed666c61c52486a84d8f5dd90f-adding-website-to-account-25032025-02-yespo.webp" />
 
@@ -64,7 +64,7 @@ If you need to place the file in a different directory on the website, change th
 
 > 📘 Note
 >
-> The file path and scope must have the same base path, starting and ending with a slash “/”. For example, if the path is `/push/reteno/`, then the scope must also start and end the same way, meaning it should also be `/push/reteno/`.
+> The file path and scope must have the same base path, starting and ending with a slash **/**. For example, if the path is `/push/reteno/`, then the scope must also start and end the same way, meaning it should also be `/push/reteno/`.
 
 ## Web Push Certificates
 
@@ -78,7 +78,7 @@ Follow the [link](https://docs.yespo.io/docs/how-set-web-pushes-safari) to confi
 
 > 📘 Note
 >
-> Sending Web Push notifications in Safari is only available in the *Advanced* plan
+> Sending Web Push notifications in Safari is only available in the **Advanced** plan
 
 <Image align="center" width="80%" src="https://files.readme.io/51c3817518077cc13bca64f5e3cb92b801ac1ea64b02a4d62e4e5cbec4a78852-adding-website-to-account-25032025-04.webp" />
 
@@ -95,7 +95,7 @@ Let's take a closer look at these steps
 
 <Image align="center" width="80%" src="https://files.readme.io/736f9221d17b8853b5076ab6c7cc149ddbf9c5c133e1584a58fd0a51c8d2c12d-adding-website-to-account-25032025-06-yespo.webp" />
 
-Click *Generate script* and follow these steps:
+Click **Generate script** and follow these steps:
 
 1. Download the Service Worker installation file below and copy it to the `/push/yespo/` directory on your website or to the directory specified in the File path field in the Service Worker settings.
 2. Copy the generated code and insert it into the section of your website's HTML pages.
@@ -105,15 +105,15 @@ Click *Generate script* and follow these steps:
 
 ### Checking the Connection Status
 
-After uploading the installation file and adding the code to your website, click the *Check website status* button.
+After uploading the installation file and adding the code to your website, click the **Check website status** button.
 
 <Image align="center" width="80%" src="https://files.readme.io/d009bccf7aea5efa3954b64ed7de2575b5ed797110ed3811c563dc86141476b0-adding-website-to-account-25032025-12-yespo.webp" />
 
-The *Website connected* status should appear in the settings. From this moment on, tokens will start to be collected.
+The **Website connected** status should appear in the settings. From this moment on, tokens will start to be collected.
 
 <Image align="center" width="80%" src="https://files.readme.io/330afc2478238726059f3d820d452800d887a080b4dc9342eaad875bfdf72c05-adding-website-to-account-010.webp" />
 
-Check the settings you’ve made if you see *Script not installed*.
+Check the settings you’ve made if you see **Script not installed**.
 
 <Image align="center" width="80% " src="https://files.readme.io/0e0fe75edb1f11685ba09d3f30832cb120838708e7fb00082ac85c5bae6cc433-adding-website-to-account-011.webp" />
 
@@ -121,15 +121,15 @@ Check the settings you’ve made if you see *Script not installed*.
 >
 > Sometimes, the website status may not be displayed due to the website provider’s security policy. If the script is installed, ignore this status.
 
-To enable Web Push notifications support on iOS/iPadOS devices in PWA (Progressive Web Apps), make sure the manifest file is placed in the root directory of your website.
+To enable Web Push notifications support on iOS/iPadOS devices in **PWA** (Progressive Web Apps), make sure the manifest file is placed in the root directory of your website.
 
 <Image align="center" width="80%" src="https://files.readme.io/74c4bbe1646eacc303563250e07cac7d7b03ea10ee08adc6ff823aea49de2178-adding-website-to-account-2-011.webp" />
 
 > 📘 Note
 >
-> If support is not required, simply ignore the *Manifest not found* status.
+> If support is not required, simply ignore the **Manifest not found** status.
 
-Click *Set up subscription* to go to the appearance settings of the subscription window, or *Back* to return to the general settings tab.
+Click **Set up subscription** to go to the appearance settings of the subscription window, or **Back** to return to the general settings tab.
 
 <Image align="center" width="80%" src="https://files.readme.io/60f52d32504cf96a11499da21f7bf238fbf528cbb6a83db37b55b95092a8a5b5-adding-website-to-account-012.webp" />
 
@@ -143,7 +143,7 @@ Enable the option to automatically delete inactive tokens after 30, 60, or 90 da
 
 ## Editing Web Push Integration
 
-To return to the integration settings, for example, to change the website name, re-upload the installation file, or copy the generated code, click the website link or the three dots icon and select *Web Push integration*.
+To return to the integration settings, for example, to change the website name, re-upload the installation file, or copy the generated code, click the website link or the three dots icon and select **Web Push integration**.
 
 <Image align="center" width="80%" src="https://files.readme.io/b4bb63829093990601475e1e40d5a661eeb2777f35ea91b10c7e16d118e6cf13-adding-website-to-account-014.webp" />
 
