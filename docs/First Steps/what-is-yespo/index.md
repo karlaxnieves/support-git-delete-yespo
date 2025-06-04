@@ -14,7 +14,7 @@ metadata:
 next:
   description: ''
 ---
-Yespo is an Omnichannel Customer Data Platform (CDP) made to embody the toughest ideas of enterprise-level solutions in a very clear and efficient way.
+Yespo is an Omnichannel Customer Data Platform (**CDP**) made to embody the toughest ideas of enterprise-level solutions in a very clear and efficient way.
 
 With advanced tools for **analytics**, **segmentation**, **automation**, and **omnichannel communication**, Yespo is an essential solution for e-commerce success. Our CDP ensures that your customer data remains up-to-date, structured, and actionable, empowering you to make data-driven decisions that maximize engagement and revenue.
 
@@ -26,11 +26,11 @@ By leveraging the core Yespo concepts described below, you can enhance your mark
 
 A **Contact** represents an individual interacting with your business via your website, app, or offline store.
 
-All customer data is stored in [**Contact Cards**](https://docs.yespo.io/docs/user-profile) (profiles),  which include:
+All customer data is stored in [Contact Cards](https://docs.yespo.io/docs/user-profile) (profiles),  which include:
 
-* **[Customer Identifiers](https://docs.yespo.io/docs/customer-identifiers-and-matching)** — external ID, email, phone number, mobile, and push tokens.
-* **[System Fields](https://docs.yespo.io/docs/how-import-and-match-contact-fields-in-the-system)** — time zone, location, language.
-* **[Additional Fields](https://docs.yespo.io/docs/how-add-additional-contact-fields)** — business-specific data such as purchase history, loyalty points, or product preferences.
+* [Customer Identifiers](https://docs.yespo.io/docs/customer-identifiers-and-matching) — external ID, email, phone number, mobile, and push tokens.
+* [System Fields](https://docs.yespo.io/docs/how-import-and-match-contact-fields-in-the-system) — time zone, location, language.
+* [Additional Fields](https://docs.yespo.io/docs/how-add-additional-contact-fields) — business-specific data such as purchase history, loyalty points, or product preferences.
 
 With a **360-degree customer view**, you can track cross-channel interactions and optimize engagement strategies.
 
@@ -44,7 +44,7 @@ Closely related to Contact are three essential concepts:
 
 ### External ID
 
-The **[External ID](https://docs.yespo.io/docs/external-id-creating-and-updating-users)** is a unique identifier that consolidates all customer data (email, tokens, personal details, etc.). It serves as your internal user ID, ensuring that contact profiles remain consistent and free from duplication throughout the customer lifecycle.
+The [External ID](https://docs.yespo.io/docs/external-id-creating-and-updating-users) is a unique identifier that consolidates all customer data (email, tokens, personal details, etc.). It serves as your internal user ID, ensuring that contact profiles remain consistent and free from duplication throughout the customer lifecycle.
 
 <Image align="center" width="80% " src="https://files.readme.io/ef74a6569bb066325ea3cdaf0e6ce4203554a8f3bb0fb9d550bf7a95bd872e46-Yespo_3.png" />
 
@@ -70,30 +70,30 @@ The **Contact activity** tab logs all customer interactions, including:
 
 * **Order history**
 * **Marketing engagement** (email opens, push notification clicks, etc.)
-* **[Events used for segmentation](https://docs.yespo.io/docs/how-to-use-event-segmentation)** 
+* **[Events used for segmentation](https://docs.yespo.io/docs/how-to-use-event-segmentation)**
 
 <Image align="center" width="80% " src="https://files.readme.io/0c0d7843a5f06be8128a97beabe6c34c9b3a5c5a608bf73d8eb38eeafbe9d1c2-Yespo_4.png" />
 
 ## Workflows
 
-A **[workflow](https://docs.yespo.io/docs/introduction-to-workflows)** (also known as a **Customer Journey**) is an automated sequence of actions triggered by predefined events or conditions with a particular marketing purpose. Workflows allow businesses to:
+A [workflow](https://docs.yespo.io/docs/introduction-to-workflows) (also known as a **Customer Journey**) is an automated sequence of actions triggered by predefined events or conditions with a particular marketing purpose. Workflows allow businesses to:
 
 * Automate welcome series and abandoned cart reminders.
 * Personalize post-purchase follow-ups and loyalty campaigns.
 * Implement cross-sell and upsell strategies based on user behavior.
 
-Yespo’s **[drag-and-drop editor](https://docs.yespo.io/docs/workflow-management)** makes workflow creation intuitive, ensuring seamless automation of marketing campaigns.
+Yespo’s [drag-and-drop editor](https://docs.yespo.io/docs/workflow-management) makes workflow creation intuitive, ensuring seamless automation of marketing campaigns.
 
 <Image align="center" width="80% " src="https://files.readme.io/714313739232f3ea6f63f50fae8d9805fe01d5ed0d88298538352475d5711111-Yespo_5.gif" />
 
 ## Events
 
-**[Events](https://docs.yespo.io/docs/events-and-behaviour-tracking)** represent user actions within your website, app, or messages, such as viewing products,  placing orders, and opening emails. You can use system events and [configure sending custom events](https://docs.yespo.io/docs/site-activity-tracking-using-generate-events). For instance, you can transmit the `ReviewAnswered` event every time a customer provides a product review. This event can include details, also known as **parameters**,  such as the review ID, rating, response content, and response time. By tracking this data, you can personalize follow-up messages, encourage further engagement, and measure customer satisfaction effectively.
+[Events](https://docs.yespo.io/docs/events-and-behaviour-tracking) represent user actions within your website, app, or messages, such as viewing products,  placing orders, and opening emails. You can use system events and [configure sending custom events](https://docs.yespo.io/docs/site-activity-tracking-using-generate-events). For instance, you can transmit the `ReviewAnswered` event every time a customer provides a product review. This event can include details, also known as **parameters**,  such as the review ID, rating, response content, and response time. By tracking this data, you can personalize follow-up messages, encourage further engagement, and measure customer satisfaction effectively.
 
 You can send event data to Yespo via:
 
-* **[API resource](https://docs.yespo.io/reference/registerevent_1)** (for websites and backend services).
-* **[SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo)** (for mobile apps).
+* [API resource](https://docs.yespo.io/reference/registerevent_1) (for websites and backend services).
+* [SDK](https://docs.yespo.io/reference/integrating-your-app-with-yespo) (for mobile apps).
 
 Event data is crucial for:
 
@@ -121,7 +121,7 @@ The **List** is a static segment that could be created and updated manually, via
 
 ### Dynamic Segments
 
-**[Dynamic segments](https://docs.yespo.io/docs/how-add-dynamic-segment)** are a flexible tool for defining the target audience for your campaigns. Such segments automatically include contacts that match the rules specified in the segment settings. For example, you can select all customers with average order value  for over 1000 $. The most valuable data for dynamic segment creation is information from events and their parameters.
+[Dynamic segments](https://docs.yespo.io/docs/how-add-dynamic-segment) are a flexible tool for defining the target audience for your campaigns. Such segments automatically include contacts that match the rules specified in the segment settings. For example, you can select all customers with average order value  for over 1000 $. The most valuable data for dynamic segment creation is information from events and their parameters.
 
 <Image align="center" width="80% " src="https://files.readme.io/7f44f116fb94a8ce7b2854bd8bcbc5b4d34e08abc88b167876bef78129e06795-yespo_6.png" />
 
@@ -131,15 +131,15 @@ With Yespo’s segmentation tools, you can refine audiences, apply complex filte
 
 Effective **omnichannel communication** is key to increasing revenue. Yespo supports a variety of messaging channels, including:
 
-* **[Email](https://docs.yespo.io/docs/email-setting-up)**
-* **[Mobile Push Notifications](https://docs.yespo.io/docs/mobile-push)**
-* **[App Inbox](https://docs.yespo.io/docs/app-inbox)**
-* **[In-App Messages](https://docs.yespo.io/docs/in-app)**
-* **[Web Push Notifications](https://docs.yespo.io/docs/web-push)**
-* **[Viber](https://docs.yespo.io/docs/viber)**
-* **[SMS](https://docs.yespo.io/docs/sms)**
-* **[Widgets](https://docs.yespo.io/docs/widgets)**
-* **[Telegram](https://docs.yespo.io/docs/telegram)**
+* [Email](https://docs.yespo.io/docs/email-setting-up)
+* [Mobile Push Notifications](https://docs.yespo.io/docs/mobile-push)
+* [App Inbox](https://docs.yespo.io/docs/app-inbox)
+* [In-App Messages](https://docs.yespo.io/docs/in-app)
+* [Web Push Notifications](https://docs.yespo.io/docs/web-push)
+* [Viber](https://docs.yespo.io/docs/viber)
+* [SMS](https://docs.yespo.io/docs/sms)
+* [Widgets](https://docs.yespo.io/docs/widgets)
+* [Telegram](https://docs.yespo.io/docs/telegram)
 
 Manage these channels within a single platform and choose the most suitable tool for each situation. The more relevant channels you use in your omnichannel strategy, the more effective each channel will perform.
 
@@ -165,9 +165,9 @@ Once configured, Web Tracking seamlessly integrates with your marketing automati
 
 Yespo’s **AI-driven Product Recommendations** increase customer engagement by automatically suggesting relevant products based on user behavior. Recommendations can be displayed on:
 
-* **[Website pages](https://docs.yespo.io/docs/recommendations-overview)**
-* **[Mobile apps](https://docs.yespo.io/docs/recommendations-in-mobile-app)**
-* **[Marketing channels](https://docs.yespo.io/docs/recommendations-in-media-channels)**
+* [Website pages](https://docs.yespo.io/docs/recommendations-overview)
+* [Mobile apps](https://docs.yespo.io/docs/recommendations-in-mobile-app)
+* [Marketing channels](https://docs.yespo.io/docs/recommendations-in-media-channels)
 
 ### Behavior Triggers
 
@@ -187,7 +187,7 @@ You can find a complete list and detailed descriptions of behavioral triggers [a
 
 ## Tags
 
-**[Tags](https://docs.yespo.io/docs/how-add-tags)** help organize messages, segments, reports, and workflows under common marketing objectives. Tagging makes it easier to filter and search different objects in your account. Tags are also used in the *[One from many](https://docs.yespo.io/docs/using-one-many-block)* workflow block, which automates A/B testing, diversifies triggered communication, and defines the most effective message from the pool of options.
+[Tags](https://docs.yespo.io/docs/how-add-tags) help organize messages, segments, reports, and workflows under common marketing objectives. Tagging makes it easier to filter and search different objects in your account. Tags are also used in the [One from many](https://docs.yespo.io/docs/using-one-many-block) workflow block, which automates A/B testing, diversifies triggered communication, and defines the most effective message from the pool of options.
 
 <Image align="center" width="80% " src="https://files.readme.io/7b62ab2df05aee8833d43f5fd4b93bf86cf6f3225d7ef1afb37542bb53f8d523-Yespo_9.png" />
 
