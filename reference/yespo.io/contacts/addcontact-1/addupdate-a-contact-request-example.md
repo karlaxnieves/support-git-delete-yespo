@@ -13,5 +13,3 @@ metadata:
 next:
   description: ''
 ---
-We recommend regularly updating contacts by Backend API (server-to-server). Request example:
-
