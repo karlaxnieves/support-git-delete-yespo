@@ -15,53 +15,6 @@ next:
 ---
 We recommend regularly updating contacts by Backend API (server-to-server). Request example:
 
-```json
-{  
-  "firstName": "John",  
-  "lastName": "Smith",  
-  "channels": [  
-    {  
-      "type": "email",  
-      "value": "john.smith@example.com"  
-    },  
-    {  
-      "type": "sms",  
-      "value": "+1234567890"  
-    },  
-    {  
-      "type": "webPush",  
-      "value": "subscription-id-12345"  
-    }  
-  ],  
-  "address": {  
-    "city": "New York",  
-    "region": "NY",  
-    "country": "US",  
-    "postalCode": "10001",  
-    "addressLine": "123 Main Street"  
-  },  
-  "fields": [  
-    {  
-      "name": "birthDate",  
-      "value": "1990-01-01"  
-    },  
-    {  
-      "name": "loyaltyLevel",  
-      "value": "Gold"  
-    }  
-  ],  
-  "externalCustomerId": "EM12790",  
-  "groups": [  
-    {  
-      "id": 1001,  
-      "name": "Newsletter Subscribers"  
-    }  
-  ],  
-  "languageCode": "en",  
-  "timeZone": "America/New_York"  
-}
-```
-
 ## Explanation of Fields:
 
 1. `firstName`:
