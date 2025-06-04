@@ -13,19 +13,19 @@ metadata:
 next:
   description: ''
 ---
-In your account, go to *Settings* → *Web Push*, select the site, and click *Edit*.
+In your account, go to **Settings** → **Web Push**, select the site, and click **Edit**.
 
 <Image align="center" width="80% " src="https://files.readme.io/e27ed57ee54d0a7e36312ebc30b741929c0956a852f000eb249058374742abf9-set-up-request-prompt-001.webp" />
 
 ## Permission Settings
 
-In the *Permission settings* window, the active tab will correspond to the [type of subscription](https://docs.yespo.io/docs/how-send-web-push-notifications-website#selecting-a-subscription-type) you selected when adding the website to your Yespo account. If you select *Double Opt-in*, the *Custom dialog* window type will be active by default.
+In the **Permission settings** window, the active tab will correspond to the [type of subscription](https://docs.yespo.io/docs/how-send-web-push-notifications-website#selecting-a-subscription-type) you selected when adding the website to your Yespo account. If you select **Double Opt-in**, the **Custom dialog** window type will be active by default.
 
 If necessary, select another type and proceed to the settings.
 
 <Image align="center" width="80% " src="https://files.readme.io/8df3b6850a48397cb867159c52765cdfb3d3df68fd716e72fcb7f730e9d30fba-set-up-request-prompt-002.webp" />
 
-Activate the *Show prompt sample* to preview how the request will look.
+Activate the **Show prompt sample** to preview how the request will look.
 
 <Image align="center" width="80% " src="https://files.readme.io/fa3ba75c737b08d5ada9265ded2d92d1171898f11bab1fa6a567cc42967def60-set-up-request-prompt-003.webp" />
 
@@ -61,7 +61,7 @@ The following settings are available for the widget:
 
 <Image align="center" width="80% " src="https://files.readme.io/209333a40f6155d835fb0e141d7bd4de5dcb42252ac9ef4786fe77a4aeadb8ab-set-up-request-prompt-008.webp" />
 
-2. **Icon**: Click *Change image* and select an icon for the widget in JPEG or PNG format, up to 200 KB in size.
+2. **Icon**: Click **Change image** and select an icon for the widget in `JPEG` or `PNG` format, up to **200 KB** in size.
 
 <Image align="center" width="80% " src="https://files.readme.io/810027fbe007729c97651c90d15058a49b955d088192994e1db54639548c3a0a-set-up-request-prompt-009.webp" />
 
@@ -93,7 +93,7 @@ The following settings are available for this option:
 
 <Image align="center" width="80% " src="https://files.readme.io/b68e6bc33b54e0a098912729da14e736e1e6aee513ba452cced177982b0c886b-set-up-request-prompt-015.webp" />
 
-Activate the *Preview* switch to see how the reminder will look.
+Activate the **Preview** switch to see how the reminder will look.
 
 <Image align="center" width="80% " src="https://files.readme.io/e2b1ca8a3d53089230e22207799784f23c2979a24ef498e7093871ee8bb67aaa-set-up-request-prompt-016.gif" />
 
@@ -111,7 +111,7 @@ Set the parameters:
 
 * Show upon: page load or click.
 
-If you set Show upon click, the request window will appear after the user clicks on a specific element on the website (banner, button, etc.). Add class="es-push-prompt-init" to this element in the website’s code;
+If you set Show upon click, the request window will appear after the user clicks on a specific element on the website (banner, button, etc.). Add `class="es-push-prompt-init"` to this element in the website’s code;
 
 * Time delay after entering the website before prompt display. The maximum value is 1000 seconds.
 
@@ -125,19 +125,19 @@ Use the multilingual option in widgets to automatically address users in their l
 
 #### Custom dialog/Panel
 
-They have similar settings, with one difference — for the *Panel* window type, you can select the placement of the permission prompt: top or bottom
+They have similar settings, with one difference — for the **Panel** window type, you can select the placement of the permission prompt: top or bottom
 
 <Image align="center" width="80% " src="https://files.readme.io/a41240e0941700e3b4785157f1ab7a059b46561fbf44169c16f520199d70d09a-set-up-request-prompt-021.webp" />
 
-The method of changing the settings is similar to that of the *Widget*.
+The method of changing the settings is similar to that of the **Widget**.
 
 ### Single Opt-in
 
-The default browser window, where you can only configure the *Permission Display* option.
+The default browser window, where you can only configure the **Permission Display** option.
 
 <Image align="center" width="80% " src="https://files.readme.io/dd1ba7c8b0f1d640d97fa99969f3e85f1e5332c99ef8d72a5a96466868d956ed-set-up-request-prompt-022.webp" />
 
-Click the *Save* button in the top menu to save the subscription request settings.
+Click the **Save** button in the top menu to save the subscription request settings.
 
 <Image align="center" width="80% " src="https://files.readme.io/28fb4e384a58dfac0e2dde5c8df73f74d2668cbcdd318ededb12660ad92311cd-set-up-request-prompt-023.webp" />
 
@@ -145,6 +145,6 @@ Click the *Save* button in the top menu to save the subscription request setting
 
 In the general subscription request settings window, you can also add your custom brand logo, which will be displayed for Safari users on macOS. For subscribers using other browsers, you can set any other image while [creating the messages](https://docs.yespo.io/docs/how-create-and-manage-web-push-notifications).
 
-Click *Change image* and select a logo for Web Push in JPEG or PNG format, with a size of up to 200 KB. The image must be square-shaped with a minimum resolution of 256x256 px.
+Click **Change image** and select a logo for Web Push in `JPEG` or `PNG` format, with a size of up to **200 KB**. The image must be square-shaped with a minimum resolution of 256x256 px.
 
 <Image align="center" width="80% " src="https://cdn.yespo.io/photos/shares/Support/Images/Set-up-request-prompt/set-up-request-prompt-024.webp" />
