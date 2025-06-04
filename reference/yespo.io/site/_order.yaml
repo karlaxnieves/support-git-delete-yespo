@@ -1,1 +1,7 @@
-[]
+- getdomains
+- createdomain
+- getscript
+- getwebpushdomains
+- addwebpushdomain
+- deletewebpushdomain
+- getwebpushscript
