@@ -73,7 +73,7 @@ After launching the workflow, the system will randomly distribute contacts betw
 
 1. Go to *Triggers → Workflows* and click *Start/Stop configuration* in the field of the created workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/5db0064fb95b358a721e41377ade37705d80198d92fef4634c1c10c1c7935de9-a-b-test-en-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/285f2f3a0ee6697887112542b4b9a540834c03d08e8892fb93ef674e834c39dc-image.png" />
 
 2. Enable the *Start Configuration* slide button, select *Regular*, and a dynamic segment for the campaign.
 
@@ -82,7 +82,7 @@ After launching the workflow, the system will randomly distribute contacts betw
 3. Configure launch conditions and click *Apply*.
 4. Activate the workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/be0c401aea37ab20df606ee179d3f43731b1abb187684105dc0c510f72089a74-a-b-test-en-202.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/3c8376455b3d1367f620d48d8daa0e127e6e66731be8daae08af8629a5eb6974-image.png" />
 
 Later, you will be able to check and compare the test results.
 
@@ -90,7 +90,7 @@ To do this:
 
 1. Click three dots in the field of the created workflow and select *View campaign report*.
 
-<Image align="center" width="80% " src="https://files.readme.io/9d66c7eab46b2b119d40744a0096e2f8bc5da1264ed331371dbcbf34e1655c3f-a-b-test-en-203.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/22ae9437a741e26c5b40d482ff2c3b81e07e59a49f2bef613cbf88ca4d14a7bc-image.png" />
 
 2. Choose a period and compare the indicators for each message.
 
