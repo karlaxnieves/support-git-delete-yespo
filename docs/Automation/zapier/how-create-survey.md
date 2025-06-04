@@ -53,7 +53,7 @@ The event should transfer the parameters that will be used to identify the user 
 
 ## 3. Create a workflow.
 
-Go to Au*tomation → Workflows* and click *New workflow*. [Create a workflow](https://docs.yespo.io/docs/workflow-management) and set the launch conditions.
+Go to Au\_tomation → Workflows\_ and click *New workflow*. [Create a workflow](https://docs.yespo.io/docs/workflow-management) and set the launch conditions.
 
 You can create a basic workflow with a message block only.
 
@@ -154,7 +154,7 @@ When the survey form is filled, the zap will send to your account an event with 
 
 Create a workflow that will be triggered by the event sent to the system upon survey completion.
 
-<Image align="center" width="80% " src="https://files.readme.io/ee2ff3ee682c7914b74c0eafeee6232d2df6657a3e4038f1cc5d379bc7971ad9-building-customer-loyalty-survey-005.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/6e173153911e758f755c0730a45c86aa43f81376fcb908396cac19f4cd470c7f-image.png" />
 
 You can check the variable that corresponds to the answer that is of particular interest to you. For example, take the question "Did we help solve your problem?” the answer to which is transferred in the *Solved parameter*.
 
