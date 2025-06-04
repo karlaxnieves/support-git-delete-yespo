@@ -21,11 +21,11 @@ Setting reminders based on users' time preferences is essential for improving us
 
 An [additional contact field](https://docs.yespo.io/docs/how-add-additional-contact-fields) stores any users’ information; in our case, we need a storage for user time. If you already have such a field, skip this section.
 
-1\. Go to your account settings → *Additional fields* tab and click *New field*.
+1. Go to your account settings → *Additional fields* tab and click *New field*.
 
 <Image align="center" width="80% " src="https://files.readme.io/0173bc0f627d1132946f152a07f810076d2b7d7b794d7e209d33498f207779c8-reminders-2.webp" />
 
-2\. Configure the field parameters:
+2. Configure the field parameters:
 
 * **List of fields** — select the existing one from the drop-down list.
 * **Name**, based on which personalization key will be generated.
@@ -42,11 +42,11 @@ As the system waits until the specified time in the user's time zone, configure 
 
 ## Setting Up Workflow with Timer Block to Automate Reminders
 
-1\. Go to the *Automation → Workflows* section and open or create a workflow.
+1. Go to the *Automation → Workflows* section and open or create a workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/053e26b7cfd834df85da44c070a415ff46c22a6c16eb2a70eb24c0061a7eb7dc-reminders-4.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/b65c5280d54e2452869cc421de443a4014a113308c8f8c9d0363a291a982571b-image.png" />
 
-2\. Drag the *Timer* block from the left sidebar into the workflow.
+2. Drag the *Timer* block from the left sidebar into the workflow.
 
 <Image align="center" width="80% " src="https://files.readme.io/a852eb6173ba00885715d7b64badefe4ff9a7f0c22b80a2238a4b4f9e0b04361-reminders-5.gif" />
 
@@ -54,7 +54,7 @@ As the system waits until the specified time in the user's time zone, configure 
 >
 > The *[Timer](https://docs.yespo.io/docs/time-blocks#timer)*  block sets a time gap before the following in the workflow action.
 
-3\. Configure the block parameters:
+3. Configure the block parameters:
 
 * Disable the *Wait time* switcher and enable the *Wait until* switcher to send reminders as soon as the specified time comes
 * Select the *From the contact field* option from the drop-down list
@@ -66,15 +66,15 @@ As the system waits until the specified time in the user's time zone, configure 
 >
 > Use the [*One from many*](https://docs.yespo.io/docs/using-one-many-block) message block to improve retention with diverse content for training or lesson reminders.
 
-4\. Save the workflow.
+4. Save the workflow.
 
 ## Workflow’s Start Configuration
 
-1\. In *Automation → Workflows*, select the created workflow and click *Trigger configuration*.
+1. In *Automation → Workflows*, select the created workflow and click *Trigger configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/521220239dfc0c7adccdc370cdbfcf73ff17a6f0c9b8b52e8c7ee204159f2daa-reminders-7.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/38f5cc1ba0ba0eab5d30ae9747ac99fdcd1895ab9cbfc5c13abf0fb87ec93993-image.png" />
 
-2\. Activate *Start configuration* switcher.
+2. Activate *Start configuration* switcher.
 
 <Image align="center" width="80% " src="https://files.readme.io/e8ca606025efbb367d1982d64157ea4e3bb0c7d2315cf79a3be0c563b967d0ed-reminders-8.webp" />
 
@@ -91,9 +91,8 @@ Select *Event-based* in *Start configuration*, and then
 
 ### Regular Workflow
 
-1\. Create a [dynamic segment](https://docs.yespo.io/docs/how-add-dynamic-segment) with users subscribed for reminders.
-
-2\. Select *Regular*, and then
+1. Create a [dynamic segment](https://docs.yespo.io/docs/how-add-dynamic-segment) with users subscribed for reminders.
+2. Select *Regular*, and then
 
 * In *Segment*, select the created segment
 * Select the workflow’s *Start date*
@@ -112,13 +111,13 @@ Select *Event-based* in *Start configuration*, and then
 
 ## Launching Workflow
 
-1\. Click *Apply* in *Start/Stop configuration*.
+1. Click *Apply* in *Start/Stop configuration*.
 
 <Image align="center" width="80% " src="https://files.readme.io/7665f71b1d1722acd286fdc419ad0bc4d2b37affd6d03d42cd476da092e23596-reminders-13.webp" />
 
-2\. To start the workflow, click *Activate* on the right and confirm the action.
+2. To start the workflow, click *Activate* on the right and confirm the action.
 
-<Image align="center" width="80% " src="https://files.readme.io/715f41c091b0d110b946e1baa7742acb01a5820c9cd35aaa309a89290b2fd40b-reminders-14.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/7123479817d7b70b0e77a1d54e9a920285f9fb596b5fc4840afe546cd539ff9e-image.png" />
 
 The system will wait for the designated time in the user's time zone and perform the action specified in the workflow after the *Timer* block.
 
