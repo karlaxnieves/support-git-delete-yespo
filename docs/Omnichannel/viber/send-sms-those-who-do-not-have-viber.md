@@ -22,11 +22,11 @@ To notify such a subscriber of important information, for example, about an orde
 * [Delivered?](https://docs.yespo.io/docs/blocks-description-conditions-group#delivered);
 * [SMS](https://docs.yespo.io/docs/message-blocks).
 
-End each of the branches with the *End* block.
+End each of the branches with the **End** block.
 
 <Image align="center" width="80% " src="https://files.readme.io/7067a04a406497e6dc32832e51aae69af90ad6a47fb1f531a555d5c74ff3a201-automatically-sending-sms-to-contacts-without-viber.webp" />
 
-In the timer, specify a time interval longer than the message time to live (TTL) set in the message editor.
+In the timer, specify a time interval longer than the message time to live (**TTL**) set in the message editor.
 
 <Image align="center" width="80% " src="https://files.readme.io/196aa13bcec9d879263e9ee089fd984ed259bb72e8a8cfee58830c01e26ef6d7-image1.webp" />
 
