@@ -58,7 +58,7 @@ Supported currencies: USD, EUR, UAH.
 ## Data charset
 
 The default charset is UTF-8.\
-If you want to send or receive data in another charset use the following HTTP header:
+If you want to send or receive data in another charset, use the following HTTP header:
 
 **Content-Type: application/json; charset=UTF-8**
 
