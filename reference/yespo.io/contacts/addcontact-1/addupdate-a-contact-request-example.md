@@ -91,7 +91,7 @@ We recommend regularly updating contacts by Backend API (server-to-server). Requ
    * Your system's unique identifier for the contact.
 
 7. `groups`:
-   * An array of static segments (groups) the contact belongs to. 
+   * An array of static segments (groups) the contact belongs to.
    * Example: `"Newsletter Subscribers"`.
 
 8. `languageCode`:
