@@ -70,7 +70,7 @@ The **Contact activity** tab logs all customer interactions, including:
 
 * **Order history**
 * **Marketing engagement** (email opens, push notification clicks, etc.)
-* **[Events used for segmentation](https://docs.yespo.io/docs/how-to-use-event-segmentation)**
+* [Events used for segmentation](https://docs.yespo.io/docs/how-to-use-event-segmentation)
 
 <Image align="center" width="80% " src="https://files.readme.io/0c0d7843a5f06be8128a97beabe6c34c9b3a5c5a608bf73d8eb38eeafbe9d1c2-Yespo_4.png" />
 
