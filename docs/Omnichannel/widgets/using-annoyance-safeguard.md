@@ -15,7 +15,7 @@ next:
 ---
 When you show floating widgets on your site, they may show simultaneously or immediately one after the other. This may cause annoyance to the site visitors, and they may leave your site in a short time.
 
-You can use our Annoyance Safeguard to avoid such situations when setting the displaying rules for the following floating widgets:
+You can use our **Annoyance Safeguard** to avoid such situations when setting the displaying rules for the following floating widgets:
 
 * Floating box
 * Floating bar
@@ -25,11 +25,11 @@ You can use our Annoyance Safeguard to avoid such situations when setting the di
 
 To set the value of the silence interval for all widgets:
 
-1. Expand your account menu and select *Settings* from the dropdown list.
+1. Expand your account menu and select **Settings** from the dropdown list.
 
 <Image align="center" width="80% " src="https://files.readme.io/35374a2cbd127089e997103c54fe60cadfc320f6d9a3e4bb777673d7c183228a-account_settings.webp" />
 
-2. Select *Web Widgets*, and enter the *Silent Interval* value into the field.
+2. Select **Web Widgets**, and enter the **Silent Interval** value into the field.
 3. Click the down arrow beside the silent interval value, and select one of the following units from the list:
 
 * pageviews
@@ -40,21 +40,21 @@ To set the value of the silence interval for all widgets:
 
 > 📘 Note
 >
-> The default value of *Silent Interval* in *Annoyance Safeguard* is 3 minutes.
+> The default value of **Silent Interval** in **Annoyance Safeguard** is 3 minutes.
 
 ## Setting Annoyance Safeguard
 
 To set Annoyance Safeguard for your widgets:
 
-1. Go to *Site* → *Widgets* and create a new floating widget or select a floating widget from the list.
+1. Go to **Site** → **Widgets** and create a new floating widget or select a floating widget from the list.
 
 <Image align="center" width="80% " src="https://files.readme.io/ff393bb537aea5154502482719aa40610ae7bc2900e746997670b647aafd375c-site_widgets_menu.webp" />
 
-2. Select the *Parameters* tab and click the *Edit* button in the *Widget calling* section.
+2. Select the **Parameters** tab and click the **Edit** button in the **Widget calling** section.
 
 <Image align="center" width="80% " src="https://files.readme.io/b1d1525b61a21d4ae08718ac7302cabd18859e34273bef1f6d0d3bc571f69e90-widget_calling.webp" />
 
-3. Select one of the rules in the *Annoyance Safeguard* section, then click *Save* on the top panel.
+3. Select one of the rules in the **Annoyance Safeguard** section, then click **Save** on the top panel.
 
 <Image align="center" width="80% " src="https://files.readme.io/f6b99039721128051df321699627fe758c54f2dcdfc48a4e93eac6b7746e6834-asg_settings2.webp" />
 
@@ -66,6 +66,6 @@ There are 3 rules for displaying floating widgets you can select from:
 
 > 📘 Note
 >
-> * By default, the *Show in sequence using Silent interval* rule applies to all new and unpublished widgets.
-> * When the *Show in sequence using Silent interval* rule is applied, the widgets with more precise settings are shown earlier.
-> * The *Show* rule applies if you have 2 or more published widgets.
+> * By default, the **Show in sequence using Silent interval** rule applies to all new and unpublished widgets.
+> * When the **Show in sequence using Silent interval** rule is applied, the widgets with more precise settings are shown earlier.
+> * The **Show** rule applies if you have 2 or more published widgets.
