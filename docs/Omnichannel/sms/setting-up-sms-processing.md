@@ -18,12 +18,12 @@ You can send SMS messages through your service provider using processing in our 
 
 To configure SMS processing for registered senders:
 
-1. Go to your *profile → Settings → Senders*.
-2. Select the *SMS* tab and click the *New sender* button.
+1. Go to your profile → **Settings → Senders**.
+2. Select the **SMS** tab and click the **New sender** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/26b693af0c056b29023ff25733a8b4ba4d40bff17e34fca5bf65ad647f8d38d1-senders.webp" />
 
-3. In the slide-out window, select the *I’ve already contracted an SMS service provider and have a registered sender* option and select your service provider from the list:
+3. In the slide-out window, select the **I’ve already contracted an SMS service provider and have a registered sender** option and select your service provider from the list:
 
 * GMS Hyber
 * Infobip
@@ -52,11 +52,11 @@ To configure SMS processing for registered senders:
 * URL
 * Timeout
 
-Use [Yespo tags](https://docs.yespo.io/docs/how-transfer-utm-parameter) so that when uploading reports from GMS Hyber, you can quickly analyze how many messages of a specific type were sent: collecting feedback, installing an application, etc. If you use more than one tag in a message, they are substituted in the report separated by commas: tag=tag1,tag2,tag3.
+Use [Yespo tags](https://docs.yespo.io/docs/how-transfer-utm-parameter) so that when uploading reports from GMS Hyber, you can quickly analyze how many messages of a specific type were sent: collecting feedback, installing an application, etc. If you use more than one tag in a message, they are substituted in the report separated by commas: `tag=tag1`,`tag2`,`tag3`.
 
 > 📘 Note
 >
-> Ask GMS Hyber to add the 52.210.222.17 and 52.16.166.210 IP addresses to the allowed list.
+> Ask GMS Hyber to add the `52.210.222.17` and `52.16.166.210` **IP addresses** to the allowed list.
 
 ### **Infobip**
 
@@ -109,8 +109,8 @@ Note
 
 To receive the message status, add the next parameters in your Textlocal cabinet:
 
-* *https\://* filed: esputnik.com/dlr/v1/textlocal/status
-* *Port* field: 443
+* **https\://** filed: `esputnik.com/dlr/v1/textlocal/status`
+* **Port** field: 443
 
 ### **Acemount Media**
 
@@ -119,7 +119,7 @@ To receive the message status, add the next parameters in your Textlocal cabinet
 
 > 📘 Note
 >
-> To receive the message status, add the next parameter for *Sms URL report* field in Acemount Media user account:
+> To receive the message status, add the next parameter for **Sms URL report** field in Acemount Media user account:
 >
 > * `https://esputnik.com/dlr/v1/acemount/status`
 
@@ -159,9 +159,9 @@ To receive the message status, add the next parameters in your Textlocal cabinet
 
 ### Intel Telecom
 
-* `Sender name`: You can find this name in the *Senders* menu in Intel Telecom.
+* `Sender name`: You can find this name in the **Senders** menu in Intel Telecom.
 * `User name`: Your login name to the Intel Telecom account.
-* `API key`: You can create API keys in Intel Telecom in *Developers → API key*.
+* `API key`: You can create API keys in Intel Telecom in **Developers → API key**.
 
 ### PROCONTEXT
 
@@ -188,7 +188,7 @@ Parameters for sender setup:
 
 To connect Decision Telecom, submit a request at [support@yespo.io](mailto:support@yespo.io).
 
-5. Click *Done*.
+5. Click **Done**.
 
 Now, you can proceed with creating and sending SMS messages. Read [this article](https://docs.yespo.io/docs/creation-sms) to learn more about it.
 
@@ -196,12 +196,12 @@ Now, you can proceed with creating and sending SMS messages. Read [this article]
 
 To delete a sender: 
 
-1. Go to your *profile → Settings → Senders*. 
-2. Select the *SMS* tab and click the *Delete* icon at the right-hand side of the sender name you wish to delete. 
+1. Go to your profile → **Settings → Senders**. 
+2. Select the **SMS** tab and click the **Delete** icon at the right-hand side of the sender name you wish to delete. 
 
 <Image align="center" width="80% " src="https://files.readme.io/04f93bd35adfca7cb8e49dd821f793d94639e2890ab94d801c719b6b1a99ba22-delete.webp" />
 
-3. On the dialog window, select *Delete*. The confirmation message appears for a short while.
+3. On the dialog window, select **Delete**. The confirmation message appears for a short while.
 
 Important
 
@@ -211,10 +211,10 @@ Before deleting a sender, you need to create or select another one, otherwise, y
 
 To change a sender in existing SMS messages:
 
-1. Go to *Messages → Messages → SMS* and select an *SMS*.
+1. Go to **Messages → Messages → SMS** and select an **SMS**.
 
 <Image align="center" width="80% " src="https://files.readme.io/34cd454d659ec947fc64a24921da5337747afbb52fe0a70452f5324aa4792874-message.webp" />
 
-2. In the *Main settings* section, expand the *dropdown list* below *Sender* and select another sender for this message from the list.
+2. In the **Main settings** section, expand the **dropdown list** below **Sender** and select another sender for this message from the list.
 
 <Image align="center" width="80% " src="https://files.readme.io/19d864450cc89e797921fb64d0a2734d28872dee6d1819c7ff6776d66df634c2-change.webp" />
