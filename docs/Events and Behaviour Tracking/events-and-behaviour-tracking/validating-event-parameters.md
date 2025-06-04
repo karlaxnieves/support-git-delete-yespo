@@ -38,7 +38,7 @@ Steps to set up event’s structure validation:
 
 Validate event parameters and structure using [Generate event](https://docs.yespo.io/reference/registerevent_1) API method. Indicate parameters in the **BODY PARAMS** array.
 
-![BODY PARAMS](https://files.readme.io/83f4e9446c4d29f5a45a38e8577fe250b7bd4d072643add1e7328ee2fe6d0f98-image.png)
+<Image align="center" width="80% " src="https://files.readme.io/83f4e9446c4d29f5a45a38e8577fe250b7bd4d072643add1e7328ee2fe6d0f98-image.png" />
 
 If parameters do not meet the specified structure, you will get the 400 bad request error and the required event structure in the response.
 
