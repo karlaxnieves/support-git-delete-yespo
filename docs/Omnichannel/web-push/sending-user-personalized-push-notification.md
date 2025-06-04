@@ -44,10 +44,10 @@ es('getPushToken', sendEventForToken);
 ```
 
 where\
-**eventTypeKey** – the name of the event;\
-**keyValue** - here we specify the value of push-token;\
-**param\_1, param\_2 … param\_n** – the of the event parameters we shall need in the system;\
-**value\_1, value\_2 … value\_n** – corresponding parameters value.
+`eventTypeKey` – the name of the event;
+`keyValue` - here we specify the value of push-token;
+`param_1, param_2 … param_n` – the of the event parameters we shall need in the system;
+`value_1, value_2 … value_n` – corresponding parameters value.
 
 ## How to Create Your Own Push Notification
 
@@ -55,7 +55,7 @@ To create a Push notification, go to **Messages menu** → **Notifications secti
 
 ## Creating and Running a Script (on example of "Abandoned cart" script)
 
-To initialize [script in the system](https://docs.yespo.io/docs/how-to-launch-workflow-upon-import), you have to transmit the **abandoned\_cart** event to the system when user added goods to his cart. To do this, add the following code line up to closing tag to the addresses collecting script (push-token) of your clients:
+To initialize [script in the system](https://docs.yespo.io/docs/how-to-launch-workflow-upon-import), you have to transmit the `abandoned_cart` event to the system when user added goods to his cart. To do this, add the following code line up to closing tag to the addresses collecting script (push-token) of your clients:
 
 ```javascript
 function sendEventForToken(pushToken) {
@@ -75,7 +75,7 @@ es('sendEvent', 'sold', pushToken);
 es('getPushToken', sendEventForToken);
 ```
 
-Now build a workflow which will trigger with the *Abandoned Cart* event and will include the following blocks:
+Now build a workflow which will trigger with the `Abandoned Cart` event and will include the following blocks:
 
 * Start
 * Timer (purchase event waiting time)
