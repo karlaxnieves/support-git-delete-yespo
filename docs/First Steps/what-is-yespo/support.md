@@ -157,7 +157,7 @@ Organize communications to increase sales and expand your audience — create ca
 >
 > Is very convenient and familiar to most of your audience. Telegram tokens are associated to other contact information, allowing you to integrate a Telegram bot into your omnichannel strategy.
 
-<Image align="center" width="80% " src="https://files.readme.io/c624138cdc2cf9a98ae1a1c04e247639e20a783897454656661049bf47dbd835-scheme.png" />
+<Image align="center" width="80% " src="https://files.readme.io/9e62457e0dba53d5a04cbb96e50b1b7659e2774515d8615522d3783f1d5b641f-scheme2.png" />
 
 Manage all these channels within one platform and choose the most appropriate tool for each specific situation. The more relevant channels you use in your omnichannel strategy, the more effective each one will be.
 
