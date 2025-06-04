@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-Widgets gamification uses gaming elements in *Subscription* and *Request* *forms* to increase user engagement and motivation. 
+Widgets gamification uses gaming elements in **Subscription** and **Request** forms to increase user engagement and motivation. 
 
 Yespo offers three gaming mechanics available to subscribers after providing their email addresses (or other contact information):
 
@@ -40,7 +40,7 @@ The user scratches the protective field, like lottery cards, to reveal their pri
 
 ## Creating a Gamified Widget
 
-1. Go to the *Site → Widgets* tab and create a new subscription form or request form.
+1. Go to the **Site → Widgets** tab and create a new subscription form or request form.
 
 <Image align="center" width="80% " src="https://files.readme.io/cf793586d1f20848873c945a10883831f01ae3ef238f97ba3a5b1db920478c8e-widgets-gamification-006.webp" />
 
@@ -48,7 +48,7 @@ The user scratches the protective field, like lottery cards, to reveal their pri
 
 <Image align="center" width="80% " src="https://files.readme.io/89df2d809db38aa18d7e80c7016fe55bc22b04676970d873bce1cfcbae7c5a0e-widgets-gamification-007.webp" />
 
-You can use a ready-made option with gamification or add elements yourself, located on the *Games* tab in the editor's [left panel](https://docs.yespo.io/docs/setting-up-widgets-for-your-site#left-panel).
+You can use a ready-made option with gamification or add elements yourself, located on the **Games** tab in the editor's [left panel](https://docs.yespo.io/docs/setting-up-widgets-for-your-site#left-panel).
 
 <Image align="center" width="80% " src="https://files.readme.io/9db6a59bdd81ff857f2403412f40bb7b8e26722452a00f9cd9f86b68c72cee41-widgets-gamification-008.webp" />
 
@@ -56,7 +56,7 @@ You can use a ready-made option with gamification or add elements yourself, loca
 
 ## Gaming Elements Settings 
 
-Drag the element into the widget and click *Done*.
+Drag the element into the widget and click **Done**.
 
 <Image align="center" width="80% " src="https://files.readme.io/46b5cf642f72d2d52fded7eac8308a470974b17c9914e6053e13e37022865716-widgets-gamification-004.gif" />
 
@@ -64,7 +64,7 @@ If you are editing a ready-made gamified widget, click on the element in the edi
 
 <Image align="center" width="80% " src="https://files.readme.io/0e96628e390321fed3b369de024e806bb3bd6f037c8a524bd38dad5ffa636706-widgets-gamification-005.gif" />
 
-A settings panel with the *Style* and *General* tabs will appear on the right.
+A settings panel with the **Style** and **General** tabs will appear on the right.
 
 <Image align="center" width="80% " src="https://files.readme.io/93d56b6dd754197e80d93e7fb22b4508d32047c060ea50e9f679b22a490824c5-widgets-gamification-009.webp" />
 
@@ -98,7 +98,7 @@ Specify the appearance parameters on this tab:
 
 Set the rewards parameters for all gamified elements on this tab:
 
-1. Click the *Edit rewards* button.
+1. Click the **Edit rewards** button.
 
 <Image align="center" width="80% " src="https://files.readme.io/296d2083eede7480d293b3fe8660e3ea8fda406a2cac2f627e8440b8380fe072-widgets-gamification-013.webp" />
 
@@ -111,7 +111,7 @@ Set the rewards parameters for all gamified elements on this tab:
 
 <Image align="center" width="80% " src="https://files.readme.io/beeecb0900e5f9896ffa7e836fc95cc8f48a775d0a44b44297c5cc1af290169b-widgets-gamification-014.webp" />
 
-3. If needed, add the number of rewards in the widget — click the *Add reward* button and select the reward type from the dropdown menu:
+3. If needed, add the number of rewards in the widget — click the **Add reward** button and select the reward type from the dropdown menu:
 
 * **Percentage discount** – in the form of a specific percentage, such as 10%, 20%, or 50%.
 * **Custom** – a unique gift, such as a product, certificate, bonus points, or another reward.
@@ -124,11 +124,11 @@ For the percentage discount, the description is displayed as numbers, while for 
 
 > 📘 Note
 >
-> You can enrich [post-subscription events](https://docs.yespo.io/docs/collecting-contact-information-using-request-forms#generating-events-to-start-automation) with data from the *promoCode* and *promoCodeLabel* (promocode details) parameters to use in reminder messages and segmentation by event parameters.
+> You can enrich [post-subscription events](https://docs.yespo.io/docs/collecting-contact-information-using-request-forms#generating-events-to-start-automation) with data from the **promoCode** and **promoCodeLabel** (promocode details) parameters to use in reminder messages and segmentation by event parameters.
 
 Click the trash can icon in the right field to delete the reward.
 
-4. Click *Done*.
+4. Click **Done**.
 
 #### Equalize
 
