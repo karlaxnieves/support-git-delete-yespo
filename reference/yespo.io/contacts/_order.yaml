@@ -1,1 +1,23 @@
-[]
+- addcontact
+- deletecontact
+- subscribecontact
+- searchcontacts
+- contactsbulkupdate
+- filecontactsbulkupdate
+- getimportsessionstatus
+- getcontactemails
+- addtounsubscribed
+- deletefromunsubscribed
+- getgroupcontacts
+- detachcontactsfromgroup
+- attachcontactstogroup
+- searchgroups
+- searchworkflows
+- getcontactidbytoken
+- getcontactsubscriptioncategories
+- changecontactsubscriptioncategories
+- getcontact
+- updatecontact
+- deletecontact_1
+- contactrecoms
+- getaddressbooks
