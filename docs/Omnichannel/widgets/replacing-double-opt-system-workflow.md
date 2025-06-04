@@ -39,18 +39,18 @@ The button with the confirmation link in the email for widgets should have the f
 
 **Link:**
 
-* Type: *Subscription confirmation*,
+* Type: **Subscription confirmation**,
 * Link: `$data.get('redirectUrl')`
 
 <Image align="center" width="80% " src="https://files.readme.io/7f1bb1c8186b254641b46c85095af22843e5046b27b01cfd788949f8ce0f0eea-DOI_3.webp" />
 
-**Event type:** *SysContactConfirmed*
+**Event type:** `SysContactConfirmed`
 
 <Image align="center" width="80% " src="https://files.readme.io/a4b821a50438a25ef8d38a51235f437bafe433ed698d383789ee6a0f36242610-Actions_After_Form_Submission_5.webp" />
 
 ## Creating Workflow
 
-Create a new workflow. It will be triggered by the *SysContactConfirmationRequest* system event, which is sent to Yespo when a user submits data from a widget on the site.
+Create a new workflow. It will be triggered by the `SysContactConfirmationRequest` system event, which is sent to Yespo when a user submits data from a widget on the site.
 
 For example, if you want to remind about subscription confirmation three times with an interval of an hour, the workflow will be as follows:
 
@@ -59,10 +59,10 @@ For example, if you want to remind about subscription confirmation three times w
 Workflow blocks:
 
 1. Start.
-2. The *Send obligatory (transactional) email* task with the following settings:
+2. The **Send obligatory (transactional) email** task with the following settings:
 
-* **Contact’s email:** specify the ***$\{email}*** variable — the system will substitute from the event the email of the user who filled out the form.
-* **Message:** specify the ***$\{messageId}*** variable — the system will substitute from the event the message specified in the settings of the widget that the user filled out.
+* **Contact’s email:** specify the `${email}` variable — the system will substitute from the event the email of the user who filled out the form.
+* **Message:** specify the `${messageId}` variable — the system will substitute from the event the message specified in the settings of the widget that the user filled out.
 
 <Image align="center" width="80% " src="https://files.readme.io/0c2124f0cf3b9d8c9b11297ca8d2b66870dee008b1b44a7b7137123988de09f4-replacing-double-opt-in-system-workflow-03.webp" />
 
@@ -70,7 +70,7 @@ Workflow blocks:
 
 <Image align="center" width="80% " src="https://files.readme.io/23981df5401777a51ba405efc8b98342e7906cee2625856a0d323f4eba619bd0-replacing-double-opt-in-system-workflow-04.webp" />
 
-4. The *Contact confirmed* condition checks if the user has confirmed their email: if yes, the workflow ends; if not, sends the message again.
+4. The **Contact confirmed** condition checks if the user has confirmed their email: if yes, the workflow ends; if not, sends the message again.
 
 <Image align="center" width="80% " src="https://files.readme.io/2ce294b5647d4bef1b1e7511918b827160cc569eb9be2fbc5b13637fda029b7f-replacing-double-opt-in-system-workflow-05.webp" />
 
@@ -80,17 +80,17 @@ After making the settings in the workflow blocks, save it and go to the launch s
 
 ## Configuring Trigger
 
-1. Click *Trigger configuration* in the list of workflows.
-2. Activate the *Start configuration* switcher.
-3. In the *Start configuration*, select:
+1. Click **Trigger configuration** in the list of workflows.
+2. Activate the **Start configuration** switcher.
+3. In the **Start configuration**, select:
 
 * Event-based;
-* ***SysContactConfirmationRequest*** event;
+* `SysContactConfirmationRequest` event;
 * arbitrary conditions for processing unique events.
 
 <Image align="center" width="80% " src="https://files.readme.io/725a0b002ea9dc8d9450caf9251590c506e1876e9f2809ec85bb9fe259a70aa5-replacing-double-opt-in-system-workflow-06.webp" />
 
-4. Click *Apply*.
+4. Click **Apply**.
 
 [Learn more about events >](https://docs.yespo.io/docs/creating-events)
 
