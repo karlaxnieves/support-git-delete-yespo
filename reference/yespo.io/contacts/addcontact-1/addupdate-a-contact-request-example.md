@@ -101,7 +101,3 @@ We recommend regularly updating contacts by Backend API (server-to-server). Requ
 9. `timeZone`:
    * Value: `"America/New_York"`
    * The contact's time zone.
-
-> 📘 Note
->
-> We strongly recommend [using your External ID](https://docs.yespo.io/docs/external-id-creating-and-updating-users) as the main identifier to match the contact data in our system.
