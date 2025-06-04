@@ -22,7 +22,7 @@ To set up and manage an abandoned cart workflow, you need to:
 5. Test triggered emails.
 6. View reports.
 
-## 1. Create an Abandoned Cart Email
+## 1) Create an Abandoned Cart Email
 
 * Go to *Messages* and click *Create email*. In *Basic*, select the template *Abandoned Cart* and edit it as needed.
 
@@ -77,7 +77,7 @@ For the block *Email*, in *Message*, select the created abandoned cart email. In
 
 * Go to *Automation → Workflows*, select the created abandoned cart workflow and click *Start/Stop configuration*.
 
-<Image align="center" width="80% " src="https://files.readme.io/e9e6cdfe9de492a8deeb10dddffb6e0eb0428c0f912682fab42fe8def9ca52ae-abandoned-cart-201.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/0b76bc6110793ab9630d62529ec3a960c8f19e366e9b75120496a343c872b515-image.png" />
 
 * Click *Regular* and in *Segment* select the created abandoned cart segment. Leave the default start date (that is the day of configuration).
 * In *Start schedule*, select once an hour.
@@ -91,7 +91,7 @@ For the block *Email*, in *Message*, select the created abandoned cart email. In
 
 * Click *Activate* and confirm the action. The workflow status will change to active.
 
-<Image align="center" width="80% " src="https://files.readme.io/9d2d0a9dc9ad6fe0e53cff1b6eb7a46cdbf92bf482dbe2d0a83ee0adb2ddb4d8-abandoned-cart-203.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/637cf0053841fb568f6c491b988c529bbb0956f4d2f5e59f7992798d990b5745-image.png" />
 
 Such configuration launches the workflow once an hour. After the launch, the segment is refreshed and new contacts are added to it.
 
@@ -116,9 +116,9 @@ You can send a test abandoned cart email to your address in 2 ways:
 
 <Image align="center" width="80% " src="https://files.readme.io/ce8967d7ca4d3649b49ce8c1603cc0cdeee95368b343542a664ad4fde01782ae-setting-up-an-abandoned-cart-workflow-04.webp" />
 
-* In the workflow general list, click the menu on the right and select *Launch one time*. In *ContactId*, enter test contact’s ID (go to C*ontacts → All contacts* to copy it) and click *Start*.
+* In the workflow general list, click the menu on the right and select *Launch one time* (or *Launch test*). Specify a test contact or event parameters and lunch the workflow.
 
-<Image align="center" width="80% " src="https://files.readme.io/177044d84b798a21e6688edb3b285aa3cfa7df05f5a0cb6ef74abcbd4125a408-abandoned-cart-204.webp" />
+<Image align="center" width="80% " src="https://files.readme.io/bc117f1a3a51612706c4b30330dc5c7222eb41436c0fd1a1aaff53e285038394-image.png" />
 
 ## 6. View Reports
 
