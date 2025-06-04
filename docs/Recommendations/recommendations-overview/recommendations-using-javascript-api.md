@@ -263,7 +263,7 @@ Upon successful submission of the request, you will receive a response similar t
       </td>
 
       <td>
-        List<object>
+        `List<object>`
       </td>
 
       <td>
