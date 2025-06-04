@@ -124,7 +124,7 @@ You can send a test abandoned browse email to your address in 2 ways:
 
 <Image align="center" width="80% " src="https://files.readme.io/672e2204e6bc3b0891d6654180857fb203dd62c623a909f983d276a1cd342a55-setting-up-an-abandoned-browse-04.webp" />
 
-* In the workflow general list, click the menu on the right and select *Launch one time*. In *ContactId*, enter test contact’s ID (go to *Contacts → All contacts* to copy it) and click *Start*.
+* In the workflow general list, click the menu on the right and select *Launch one time* (or *Launch test*). Specify a test contact or event parameters and lunch the workflow.
 
 <Image align="center" width="80% " src="https://files.readme.io/74b7c639b1e76705a1055e4dd36db911122404730f7a3a907451be14888a88ef-image.png" />
 
